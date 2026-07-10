@@ -205,6 +205,7 @@ export function cordToReceiptGt(groundTruth: string): CordGt {
  *  content tokens (the PubTabNet convention: cell text slots into each
  *  <td>…</td> in document order). */
 export function fintabnetToHtml(structureTokens: string[], cells: { tokens: string[] }[]): string {
+  const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   const out: string[] = ["<table>"];
   let cellIdx = 0;
   for (let i = 0; i < structureTokens.length; i++) {
@@ -214,8 +215,9 @@ export function fintabnetToHtml(structureTokens: string[], cells: { tokens: stri
     if (tok === "<td>" || tok === ">") {
       // "<td>" opens+closes immediately in the token stream ("<td>","</td>");
       // spanned cells appear as "<td", ' colspan="2"', ">", "</td>".
+      // Cell content tokens are per-character in FinTabNet_OTSL.
       const content = cells[cellIdx]?.tokens?.join("") ?? "";
-      out.push(content);
+      out.push(esc(content));
       cellIdx++;
     }
   }

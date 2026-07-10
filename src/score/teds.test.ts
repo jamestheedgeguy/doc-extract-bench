@@ -25,7 +25,10 @@ const fixtures: Fixture[] = JSON.parse(
   readFileSync(new URL('./teds-fixtures/fixtures.json', import.meta.url), 'utf8'),
 );
 
-const TOLERANCE = 1e-6; // expected values are rounded to 6 decimals (±5e-7)
+// Expected values are the Python reference outputs rounded to 6 decimals, so
+// ±5e-7 is the tightest defensible bound. (Against the unrounded reference the
+// TS port's measured deviation is exactly 0 on every fixture.)
+const TOLERANCE = 5e-7;
 
 test('fixtures are present', () => {
   assert.ok(fixtures.length >= 20, `expected >= 20 fixtures, got ${fixtures.length}`);

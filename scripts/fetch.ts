@@ -195,7 +195,9 @@ async function materializeFintabnet(): Promise<void> {
     if (expected !== w.id) throw new Error(`fintabnet row identity mismatch: ${expected} != ${w.id}`);
     const img = row.image as { bytes: Uint8Array };
     writeFileSync(imgOut, Buffer.from(img.bytes));
-    const html = fintabnetToHtml(row.html as string[], row.cells as { tokens: string[] }[]);
+    // `cells` is nested one level ([[cell,…]]) in the parquet encoding.
+    const cellList = (row.cells as { tokens: string[] }[][])[0] ?? [];
+    const html = fintabnetToHtml(row.html as string[], cellList);
     mkdirSync(resolve(GT_DIR, "fintabnet"), { recursive: true });
     writeFileSync(gtOut, html);
   }
