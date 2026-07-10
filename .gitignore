@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# downloaded dataset payloads (fetched + sha256-verified by scripts/fetch.ts;
+# never committed — SROIE images in particular must not be vendored)
+.cache/
+datasets/files/
+
+# local secrets
+.env
+.env.*
+
+# OS noise
+.DS_Store
