@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "note": "Every dataset is pinned to an immutable revision. scripts/fetch.ts downloads and sha256-verifies everything listed here; datasets/select.ts derives the pre-registered subsets in datasets/subsets/ deterministically from the committed seeds. Downloaded payloads live in datasets/files/ and are never committed.",
+  "seed": 20260710,
+  "datasets": {
+    "fatura": {
+      "docType": "invoice",
+      "name": "FATURA (synthetic invoices, 50 layouts)",
+      "source": "https://zenodo.org/records/8261508",
+      "doi": "10.5281/zenodo.8261508",
+      "license": "CC-BY-4.0",
+      "files": {
+        "FATURA.zip": {
+          "url": "https://zenodo.org/records/8261508/files/FATURA.zip?download=1",
+          "sha256": "c8bf2ee6ba1b7a678954b7b89b31f9387100dc6b9e990c076aff5a232a9f53d7"
+        }
+      },
+      "universe": "invoices_dataset_final/strat1_test.csv (the official strat1 test split)",
+      "selection": "for each of the 50 templates, seeded shuffle of that template's test-split instances, take 2 → 100 docs",
+      "subset": "subsets/invoice-fatura.json",
+      "groundTruth": "Annotations/Original_Format/<id>.json, mapped to the canonical invoice schema by datasets/select.ts (mapping rules in docs/methodology.md); derived GT committed under datasets/gt/fatura/"
+    },
+    "sroie": {
+      "docType": "receipt",
+      "name": "SROIE (ICDAR 2019 scanned receipts, key information task)",
+      "source": "https://huggingface.co/datasets/Voxel51/scanned_receipts",
+      "revision": "3ddf1beda2f4d1cd56efa11503c0ab87edb2de80",
+      "license": "SROIE competition terms — images are script-downloaded only and NEVER committed to this repo; derived ground truth is also kept out of the repo and re-derived by scripts/fetch.ts",
+      "files": {
+        "samples.json": {
+          "url": "https://huggingface.co/datasets/Voxel51/scanned_receipts/resolve/3ddf1beda2f4d1cd56efa11503c0ab87edb2de80/samples.json",
+          "sha256": "9d1a9a5e6c95dff15eef3e9482f2e58c831b246393ead051a3cd1f4d38774111"
+        }
+      },
+      "universe": "all annotated samples in samples.json (712 receipts)",
+      "selection": "seeded shuffle of the sorted filename list, take 100",
+      "subset": "subsets/receipt-sroie.json",
+      "groundTruth": "{company, date, address, total} per sample from samples.json (NOT committed; re-derived at fetch time)"
+    },
+    "cord": {
+      "docType": "receipt",
+      "name": "CORD-v2 (Indonesian retail receipts)",
+      "source": "https://huggingface.co/datasets/naver-clova-ix/cord-v2",
+      "revision": "7f0115a4b758a71d6473b8d085751692da2fef98",
+      "license": "CC-BY-4.0",
+      "files": {
+        "cord-test.parquet": {
+          "url": "https://huggingface.co/datasets/naver-clova-ix/cord-v2/resolve/7f0115a4b758a71d6473b8d085751692da2fef98/data/test-00000-of-00001-9c204eb3f4e11791.parquet",
+          "sha256": "51c65f1788faff392abe2a0b55b023eb23e9be551c509138eaa3a832514224e7"
+        }
+      },
+      "universe": "the full official test split (100 receipts) — no sampling",
+      "selection": "all 100, ids = row index in the official test parquet",
+      "subset": "subsets/receipt-cord.json",
+      "groundTruth": "gt_parse from the ground_truth column, mapped to items + totals (merchant/date are blurred in CORD-v2 and never scored); derived GT committed under datasets/gt/cord/"
+    },
+    "fintabnet": {
+      "docType": "tables",
+      "name": "FinTabNet (financial report tables), OTSL/HTML conversion by the IBM Docling team",
+      "source": "https://huggingface.co/datasets/docling-project/FinTabNet_OTSL",
+      "revision": "1fe37f0f9478b4c571c51c5c4d11e3ef357e75c4",
+      "license": "Derived from IBM FinTabNet (CDLA-Permissive-1.0); conversion published by the Docling project",
+      "files": {
+        "fintabnet-test-0.parquet": {
+          "url": "https://huggingface.co/datasets/docling-project/FinTabNet_OTSL/resolve/1fe37f0f9478b4c571c51c5c4d11e3ef357e75c4/data/test-00000-of-00002-7d6f82c6161b0377.parquet",
+          "sha256": "fa4e457e3abe55eb6f41ea3b9ebb3bb2731e933f09d3dc28c9edbf882d79e734"
+        },
+        "fintabnet-test-1.parquet": {
+          "url": "https://huggingface.co/datasets/docling-project/FinTabNet_OTSL/resolve/1fe37f0f9478b4c571c51c5c4d11e3ef357e75c4/data/test-00001-of-00002-7104c7ad37a00357.parquet",
+          "sha256": "edcc356f75f8613cae806dea32d1ab7a1b95553ff81bcffa0d080e6ef9f94e41"
+        }
+      },
+      "universe": "the official test split (10,397 tables)",
+      "selection": "seeded shuffle of the sorted (filename, imgid) list, take 100",
+      "subset": "subsets/tables-fintabnet.json",
+      "groundTruth": "the dataset's original FinTabNet HTML structure tokens + cell content, materialized as ground-truth HTML; committed under datasets/gt/fintabnet/"
+    },
+    "bankstatemently": {
+      "docType": "statement",
+      "name": "Bankstatemently Open Benchmark (synthetic bank/credit-card statements)",
+      "source": "https://github.com/bankstatemently/bank-statement-parsing-benchmark",
+      "revision": "f7c989bc06ac5b3c34445bd0885a0c2c717ac50c",
+      "license": "MIT",
+      "files": {
+        "bsb-001-statement.pdf": {
+          "url": "https://raw.githubusercontent.com/bankstatemently/bank-statement-parsing-benchmark/f7c989bc06ac5b3c34445bd0885a0c2c717ac50c/datasets/basic/bsb-001/bsb-001-statement.pdf",
+          "sha256": "7f96da7316b2b540f2f8ecfc4151cd242a501be3ed84204a15bfbbe3c355531b"
+        },
+        "bsb-002-statement.pdf": {
+          "url": "https://raw.githubusercontent.com/bankstatemently/bank-statement-parsing-benchmark/f7c989bc06ac5b3c34445bd0885a0c2c717ac50c/datasets/basic/bsb-002/bsb-002-statement.pdf",
+          "sha256": "f9947911a399ff0ccb7e8afde6e3380e3f7a1f61a5809b68022ce0b9ba449b06"
+        },
+        "bsb-003-statement.pdf": {
+          "url": "https://raw.githubusercontent.com/bankstatemently/bank-statement-parsing-benchmark/f7c989bc06ac5b3c34445bd0885a0c2c717ac50c/datasets/basic/bsb-003/bsb-003-statement.pdf",
+          "sha256": "d605ff5e2c803f531c18d295354f135017c56082538f41e53d6c37452604a566"
+        },
+        "bsb-004-statement.pdf": {
+          "url": "https://raw.githubusercontent.com/bankstatemently/bank-statement-parsing-benchmark/f7c989bc06ac5b3c34445bd0885a0c2c717ac50c/datasets/basic/bsb-004/bsb-004-statement.pdf",
+          "sha256": "e93cacdb23195adefdf13ef4ba9528f55454c6fb2dc83624fe9c5077c5bc6455"
+        },
+        "bsb-005-statement.pdf": {
+          "url": "https://raw.githubusercontent.com/bankstatemently/bank-statement-parsing-benchmark/f7c989bc06ac5b3c34445bd0885a0c2c717ac50c/datasets/basic/bsb-005/bsb-005-statement.pdf",
+          "sha256": "01a26c767b9488e45b358b329e2c9ea3d9fba05878a1963da06fde899827debb"
+        }
+      },
+      "universe": "the 5 statements published so far (bsb-001..bsb-005; bsb-006..bsb-015 are 'coming soon' upstream)",
+      "selection": "all published statements — n=5",
+      "subset": "subsets/statement-bankstatemently.json",
+      "groundTruth": "held server-side by Bankstatemently; scored via POST https://api.bankstatemently.com/v1/benchmark/evaluate (their responses cached verbatim in results/raw/)"
+    }
+  }
+}

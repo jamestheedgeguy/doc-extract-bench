@@ -1,0 +1,200 @@
+[
+  {
+    "name": "identical-2x3",
+    "pred": "<table><tr><td>Name</td><td>Qty</td><td>Price</td></tr><tr><td>Widget</td><td>4</td><td>9.99</td></tr></table>",
+    "gt": "<table><tr><td>Name</td><td>Qty</td><td>Price</td></tr><tr><td>Widget</td><td>4</td><td>9.99</td></tr></table>",
+    "expected": {
+      "teds": 1.0,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "single-cell-typo",
+    "pred": "<table><tr><td>Name</td><td>Qty</td></tr><tr><td>Widgat</td><td>4</td></tr></table>",
+    "gt": "<table><tr><td>Name</td><td>Qty</td></tr><tr><td>Widget</td><td>4</td></tr></table>",
+    "expected": {
+      "teds": 0.972222,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "missing-row",
+    "pred": "<table><tr><td>A</td><td>B</td></tr><tr><td>C</td><td>D</td></tr><tr><td>E</td><td>F</td></tr></table>",
+    "gt": "<table><tr><td>A</td><td>B</td></tr><tr><td>C</td><td>D</td></tr><tr><td>E</td><td>F</td></tr><tr><td>G</td><td>H</td></tr></table>",
+    "expected": {
+      "teds": 0.75,
+      "steds": 0.75
+    }
+  },
+  {
+    "name": "extra-column",
+    "pred": "<table><tr><td>A</td><td>B</td><td>X1</td></tr><tr><td>C</td><td>D</td><td>X2</td></tr><tr><td>E</td><td>F</td><td>X3</td></tr></table>",
+    "gt": "<table><tr><td>A</td><td>B</td></tr><tr><td>C</td><td>D</td></tr><tr><td>E</td><td>F</td></tr></table>",
+    "expected": {
+      "teds": 0.75,
+      "steds": 0.75
+    }
+  },
+  {
+    "name": "colspan-merge-vs-flat",
+    "pred": "<table><tr><td colspan=\"2\">Header</td></tr><tr><td>a</td><td>b</td></tr></table>",
+    "gt": "<table><tr><td>Header</td><td></td></tr><tr><td>a</td><td>b</td></tr></table>",
+    "expected": {
+      "teds": 0.666667,
+      "steds": 0.666667
+    }
+  },
+  {
+    "name": "rowspan-merge-vs-flat",
+    "pred": "<table><tr><td rowspan=\"2\">Group</td><td>r1</td></tr><tr><td>r2</td></tr></table>",
+    "gt": "<table><tr><td>Group</td><td>r1</td></tr><tr><td></td><td>r2</td></tr></table>",
+    "expected": {
+      "teds": 0.666667,
+      "steds": 0.666667
+    }
+  },
+  {
+    "name": "rowspan-colspan-2x2-merge",
+    "pred": "<table><tr><td rowspan=\"2\" colspan=\"2\">Block</td><td>c1</td></tr><tr><td>c2</td></tr><tr><td>x</td><td>y</td><td>z</td></tr></table>",
+    "gt": "<table><tr><td>Block</td><td></td><td>c1</td></tr><tr><td></td><td></td><td>c2</td></tr><tr><td>x</td><td>y</td><td>z</td></tr></table>",
+    "expected": {
+      "teds": 0.666667,
+      "steds": 0.666667
+    }
+  },
+  {
+    "name": "colspan-value-differs",
+    "pred": "<table><tr><td colspan=\"2\">Span</td><td>e</td></tr><tr><td>a</td><td>b</td><td>c</td></tr></table>",
+    "gt": "<table><tr><td colspan=\"3\">Span</td></tr><tr><td>a</td><td>b</td><td>c</td></tr></table>",
+    "expected": {
+      "teds": 0.714286,
+      "steds": 0.714286
+    }
+  },
+  {
+    "name": "rowspan-value-differs",
+    "pred": "<table><tr><td rowspan=\"2\">S</td><td>a</td></tr><tr><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>",
+    "gt": "<table><tr><td rowspan=\"3\">S</td><td>a</td></tr><tr><td>b</td></tr><tr><td>d</td></tr></table>",
+    "expected": {
+      "teds": 0.75,
+      "steds": 0.75
+    }
+  },
+  {
+    "name": "thead-vs-no-thead",
+    "pred": "<table><tr><td>H1</td><td>H2</td></tr><tr><td>a</td><td>b</td></tr></table>",
+    "gt": "<table><thead><tr><td>H1</td><td>H2</td></tr></thead><tbody><tr><td>a</td><td>b</td></tr></tbody></table>",
+    "expected": {
+      "teds": 0.75,
+      "steds": 0.75
+    }
+  },
+  {
+    "name": "identical-thead-th",
+    "pred": "<table><thead><tr><th>Col A</th><th>Col B</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></tbody></table>",
+    "gt": "<table><thead><tr><th>Col A</th><th>Col B</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>3</td><td>4</td></tr></tbody></table>",
+    "expected": {
+      "teds": 1.0,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "empty-cells-identical",
+    "pred": "<table><tr><td></td><td>x</td></tr><tr><td>y</td><td></td></tr></table>",
+    "gt": "<table><tr><td></td><td>x</td></tr><tr><td>y</td><td></td></tr></table>",
+    "expected": {
+      "teds": 1.0,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "empty-vs-filled-cell",
+    "pred": "<table><tr><td>a</td><td></td></tr><tr><td>c</td><td>d</td></tr></table>",
+    "gt": "<table><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>",
+    "expected": {
+      "teds": 0.833333,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "inline-tags-in-pred",
+    "pred": "<table><tr><td><b>Revenue</b></td><td><i>2024</i></td></tr><tr><td>Total <b>net</b> income</td><td>1,204</td></tr></table>",
+    "gt": "<table><tr><td>Revenue</td><td>2024</td></tr><tr><td>Total net income</td><td>1,204</td></tr></table>",
+    "expected": {
+      "teds": 1.0,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "inline-tags-both-with-edit",
+    "pred": "<table><tr><td>H<sub>2</sub>O</td><td><b>Bold</b> text</td></tr></table>",
+    "gt": "<table><tr><td>H<sub>2</sub>O</td><td><em>Bold</em> tekst</td></tr></table>",
+    "expected": {
+      "teds": 0.933333,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "dims-2x2-vs-5x5",
+    "pred": "<table><tr><td>a</td><td>b</td></tr><tr><td>c</td><td>d</td></tr></table>",
+    "gt": "<table><tr><td>r0c0</td><td>r0c1</td><td>r0c2</td><td>r0c3</td><td>r0c4</td></tr><tr><td>r1c0</td><td>r1c1</td><td>r1c2</td><td>r1c3</td><td>r1c4</td></tr><tr><td>r2c0</td><td>r2c1</td><td>r2c2</td><td>r2c3</td><td>r2c4</td></tr><tr><td>r3c0</td><td>r3c1</td><td>r3c2</td><td>r3c3</td><td>r3c4</td></tr><tr><td>r4c0</td><td>r4c1</td><td>r4c2</td><td>r4c3</td><td>r4c4</td></tr></table>",
+    "expected": {
+      "teds": 0.075,
+      "steds": 0.2
+    }
+  },
+  {
+    "name": "entities",
+    "pred": "<table><tr><td>R&amp;D</td><td>&lt;5%</td></tr><tr><td>&quot;Net&quot;</td><td>&#8364;100</td></tr></table>",
+    "gt": "<table><tr><td>R&amp;D</td><td>&gt;5%</td></tr><tr><td>&quot;Net&quot;</td><td>&#8364;150</td></tr></table>",
+    "expected": {
+      "teds": 0.902778,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "whitespace-formatting-only",
+    "pred": "<table>\n  <thead>\n    <tr><td>A</td><td>B</td></tr>\n  </thead>\n  <tbody>\n    <tr><td>1</td><td>2</td></tr>\n  </tbody>\n</table>",
+    "gt": "<table><thead><tr><td>A</td><td>B</td></tr></thead><tbody><tr><td>1</td><td>2</td></tr></tbody></table>",
+    "expected": {
+      "teds": 1.0,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "financial-10x6-cell-edits",
+    "pred": "<table><thead><tr><th>Line item</th><th>Q1 2026</th><th>Q2 2026</th><th>Q3 2026</th><th>Q4 2026</th><th>FY 2026</th></tr></thead><tbody><tr><td>Revenue</td><td>12,405</td><td>13,118</td><td>14,002</td><td>15,411</td><td>54,966</td></tr><tr><td>Cost of revenue</td><td>(4,211)</td><td>(4,377)</td><td>(4,590)</td><td>(4,988)</td><td>(18,166)</td></tr><tr><td>Gross profit</td><td>8,194</td><td>8,741</td><td>9,412</td><td>10,453</td><td>36,890</td></tr><tr><td>R&amp;D expense</td><td>(2,145)</td><td>(2,233)</td><td>(2,410)</td><td>(2,551)</td><td>(9,339)</td></tr><tr><td>Sales and marketing</td><td>(1,876)</td><td>(1,904)</td><td>(2,015)</td><td>(2,188)</td><td>(7,983)</td></tr><tr><td>General &amp; admin</td><td>(933)</td><td>(945)</td><td>(1,002)</td><td>(1,077)</td><td>(3,957)</td></tr><tr><td>Operating income</td><td>3,240</td><td>3,659</td><td>3,985</td><td>4,637</td><td>15,521</td></tr><tr><td>Interest expense</td><td>(112)</td><td>(108)</td><td>(1O4)</td><td>(99)</td><td>(423)</td></tr><tr><td>Income before tax</td><td>3,128</td><td>3,551</td><td>3,881</td><td>4,538</td><td>15,098</td></tr><tr><td>Net income</td><td>2,471</td><td>2,806</td><td>3,066</td><td>3,585</td><td>11,927</td></tr></tbody></table>",
+    "gt": "<table><thead><tr><th>Line item</th><th>Q1 2026</th><th>Q2 2026</th><th>Q3 2026</th><th>Q4 2026</th><th>FY 2026</th></tr></thead><tbody><tr><td>Revenue</td><td>12,405</td><td>13,118</td><td>14,002</td><td>15,441</td><td>54,966</td></tr><tr><td>Cost of revenue</td><td>(4,211)</td><td>(4,377)</td><td>(4,590)</td><td>(4,988)</td><td>(18,166)</td></tr><tr><td>Gross profit</td><td>8,194</td><td>8,741</td><td>9,412</td><td>10,453</td><td>36,800</td></tr><tr><td>R&amp;D expense</td><td>(2,145)</td><td>(2,233)</td><td>(2,410)</td><td>(2,551)</td><td>(9,339)</td></tr><tr><td>Sales &amp; marketing</td><td>(1,876)</td><td>(1,904)</td><td>(2,015)</td><td>(2,188)</td><td>(7,983)</td></tr><tr><td>General &amp; admin</td><td>(933)</td><td>(945)</td><td>(1,002)</td><td>(1,077)</td><td>(3,957)</td></tr><tr><td>Operating income</td><td>3,240</td><td>3,659</td><td>3,985</td><td>4,637</td><td>15,521</td></tr><tr><td>Interest expense</td><td>(112)</td><td>(108)</td><td>(104)</td><td>(99)</td><td>(423)</td></tr><tr><td>Income before tax</td><td>3,128</td><td>3,551</td><td>3,881</td><td>4,538</td><td>15,098</td></tr><tr><td>Net income</td><td>2,471</td><td>2,805</td><td>3,066</td><td>3,585</td><td>11,927</td></tr></tbody></table>",
+    "expected": {
+      "teds": 0.988719,
+      "steds": 1.0
+    }
+  },
+  {
+    "name": "pred-empty-string",
+    "pred": "",
+    "gt": "<table><tr><td>Name</td><td>Qty</td><td>Price</td></tr><tr><td>Widget</td><td>4</td><td>9.99</td></tr></table>",
+    "expected": {
+      "teds": 0.0,
+      "steds": 0.0
+    }
+  },
+  {
+    "name": "pred-not-a-table",
+    "pred": "<p>No table detected on this page.</p>",
+    "gt": "<table><tr><td>Name</td><td>Qty</td><td>Price</td></tr><tr><td>Widget</td><td>4</td><td>9.99</td></tr></table>",
+    "expected": {
+      "teds": 0.0,
+      "steds": 0.0
+    }
+  },
+  {
+    "name": "structure-same-content-different",
+    "pred": "<table><tr><td>alpha</td><td>beta</td></tr><tr><td>gamma</td><td>delta</td></tr></table>",
+    "gt": "<table><tr><td>one</td><td>two</td></tr><tr><td>three</td><td>four</td></tr></table>",
+    "expected": {
+      "teds": 0.333333,
+      "steds": 1.0
+    }
+  }
+]
