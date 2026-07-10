@@ -1,0 +1,921 @@
+{
+  "vendor": "docai",
+  "dataset": "fatura",
+  "docId": "Template7_Instance188",
+  "at": "2026-07-10T10:27:52.545Z",
+  "latencyMs": 3344,
+  "raw": {
+    "document": {
+      "text": "White and Sons\nEmail:cpetersen@example.com\nwww.WhiteandSons.org\nCOMMERCIAL INVOICE\nBuyer Abigail Marsh\n64797 Ferrell Extension Suite 975\nSouth Stephanie, CA 14922 US\nTel:+(347)120-0576\nEmail:ccline@example.org\nSite:http://stark.org/\nINVOICE ID INV/72-73/134\nInvoice Date: 14-Jan-2006\nDue Date: 18-Nov-1998\nITEMS\nExpert college boy.\nQUANTITY\nPRICE\n2.00\n$78.58\nDream issue.\n6.00\n$40.89\nSUB TOTAL: 402.50 EUR\nGST(9%): 36.23\nTOTAL: 404.58 EUR\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "294",
+                "endIndex": "305"
+              }
+            ],
+            "content": "18-Nov-1998"
+          },
+          "type": "due_date",
+          "mentionText": "18-Nov-1998",
+          "confidence": 0.99123186,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8,
+                      "y": 0.37336504
+                    },
+                    {
+                      "x": 0.9159664,
+                      "y": 0.37336504
+                    },
+                    {
+                      "x": 0.9159664,
+                      "y": 0.38525563
+                    },
+                    {
+                      "x": 0.8,
+                      "y": 0.38525563
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "1998-11-18",
+            "dateValue": {
+              "year": 1998,
+              "month": 11,
+              "day": 18
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "272",
+                "endIndex": "283"
+              }
+            ],
+            "content": "14-Jan-2006"
+          },
+          "type": "invoice_date",
+          "mentionText": "14-Jan-2006",
+          "confidence": 0.96237797,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.81680673,
+                      "y": 0.34601665
+                    },
+                    {
+                      "x": 0.92941177,
+                      "y": 0.34601665
+                    },
+                    {
+                      "x": 0.92941177,
+                      "y": 0.35909632
+                    },
+                    {
+                      "x": 0.81680673,
+                      "y": 0.35909632
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2006-01-14",
+            "dateValue": {
+              "year": 2006,
+              "month": 1,
+              "day": 14
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "428",
+                "endIndex": "434"
+              }
+            ],
+            "content": "404.58"
+          },
+          "type": "total_amount",
+          "mentionText": "404.58",
+          "confidence": 0.955594,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.57310927,
+                      "y": 0.93222356
+                    },
+                    {
+                      "x": 0.63529414,
+                      "y": 0.93222356
+                    },
+                    {
+                      "x": 0.63529414,
+                      "y": 0.94411415
+                    },
+                    {
+                      "x": 0.57310927,
+                      "y": 0.94411415
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "404.58",
+            "floatValue": 404.58
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "435",
+                "endIndex": "438"
+              }
+            ],
+            "content": "EUR"
+          },
+          "type": "currency",
+          "mentionText": "EUR",
+          "confidence": 0.947067,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.64033616,
+                      "y": 0.93222356
+                    },
+                    {
+                      "x": 0.68403363,
+                      "y": 0.93222356
+                    },
+                    {
+                      "x": 0.68403363,
+                      "y": 0.94411415
+                    },
+                    {
+                      "x": 0.64033616,
+                      "y": 0.94411415
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "EUR"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "244",
+                "endIndex": "257"
+              }
+            ],
+            "content": "INV/72-73/134"
+          },
+          "type": "invoice_id",
+          "mentionText": "INV/72-73/134",
+          "confidence": 0.92666847,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8084034,
+                      "y": 0.313912
+                    },
+                    {
+                      "x": 0.9394958,
+                      "y": 0.313912
+                    },
+                    {
+                      "x": 0.9394958,
+                      "y": 0.32580262
+                    },
+                    {
+                      "x": 0.8084034,
+                      "y": 0.32580262
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "395",
+                "endIndex": "401"
+              }
+            ],
+            "content": "402.50"
+          },
+          "type": "net_amount",
+          "mentionText": "402.50",
+          "confidence": 0.8732685,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.62184876,
+                      "y": 0.7348395
+                    },
+                    {
+                      "x": 0.6857143,
+                      "y": 0.7348395
+                    },
+                    {
+                      "x": 0.6857143,
+                      "y": 0.74791914
+                    },
+                    {
+                      "x": 0.62184876,
+                      "y": 0.74791914
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "402.5",
+            "floatValue": 402.5
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "83",
+                "endIndex": "102"
+              }
+            ],
+            "content": "Buyer Abigail Marsh"
+          },
+          "type": "supplier_name",
+          "mentionText": "Buyer Abigail Marsh",
+          "confidence": 0.84873307,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.023529412,
+                      "y": 0.313912
+                    },
+                    {
+                      "x": 0.22184874,
+                      "y": 0.313912
+                    },
+                    {
+                      "x": 0.22184874,
+                      "y": 0.33055887
+                    },
+                    {
+                      "x": 0.023529412,
+                      "y": 0.33055887
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "415",
+                "endIndex": "420"
+              }
+            ],
+            "content": "36.23"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "36.23",
+          "confidence": 0.7832466,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5882353,
+                      "y": 0.8370987
+                    },
+                    {
+                      "x": 0.64033616,
+                      "y": 0.8370987
+                    },
+                    {
+                      "x": 0.64033616,
+                      "y": 0.85017836
+                    },
+                    {
+                      "x": 0.5882353,
+                      "y": 0.85017836
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "36.23",
+            "floatValue": 36.23
+          }
+        },
+        {
+          "type": "invoice_type",
+          "confidence": 0.662696,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "confidence": 0.86830044
+              }
+            ]
+          },
+          "id": "8",
+          "normalizedValue": {
+            "text": "invoice_statement"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "103",
+                "endIndex": "165"
+              }
+            ],
+            "content": "64797 Ferrell Extension Suite 975\nSouth Stephanie, CA 14922 US"
+          },
+          "type": "supplier_address",
+          "mentionText": "64797 Ferrell Extension Suite 975\nSouth Stephanie, CA 14922 US",
+          "confidence": 0.56580144,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.02184874,
+                      "y": 0.33412606
+                    },
+                    {
+                      "x": 0.34453782,
+                      "y": 0.33412606
+                    },
+                    {
+                      "x": 0.34453782,
+                      "y": 0.36385256
+                    },
+                    {
+                      "x": 0.02184874,
+                      "y": 0.36385256
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "43",
+                "endIndex": "63"
+              }
+            ],
+            "content": "www.WhiteandSons.org"
+          },
+          "type": "supplier_website",
+          "mentionText": "www.WhiteandSons.org",
+          "confidence": 0.47949672,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.040336136,
+                      "y": 0.116527945
+                    },
+                    {
+                      "x": 0.2672269,
+                      "y": 0.116527945
+                    },
+                    {
+                      "x": 0.2672269,
+                      "y": 0.13317479
+                    },
+                    {
+                      "x": 0.040336136,
+                      "y": 0.13317479
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "21",
+                "endIndex": "42"
+              }
+            ],
+            "content": "cpetersen@example.com"
+          },
+          "type": "supplier_email",
+          "mentionText": "cpetersen@example.com",
+          "confidence": 0.42177188,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.10084034,
+                      "y": 0.089179546
+                    },
+                    {
+                      "x": 0.3394958,
+                      "y": 0.089179546
+                    },
+                    {
+                      "x": 0.3394958,
+                      "y": 0.10344828
+                    },
+                    {
+                      "x": 0.10084034,
+                      "y": 0.10344828
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "170",
+                "endIndex": "184"
+              }
+            ],
+            "content": "+(347)120-0576"
+          },
+          "type": "supplier_phone",
+          "mentionText": "+(347)120-0576",
+          "confidence": 0.32567507,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.0605042,
+                      "y": 0.3686088
+                    },
+                    {
+                      "x": 0.20336135,
+                      "y": 0.3686088
+                    },
+                    {
+                      "x": 0.20336135,
+                      "y": 0.3804994
+                    },
+                    {
+                      "x": 0.0605042,
+                      "y": 0.3804994
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "312",
+                "endIndex": "331"
+              },
+              {
+                "startIndex": "347",
+                "endIndex": "351"
+              },
+              {
+                "startIndex": "353",
+                "endIndex": "358"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Expert college boy. 2.00 78.58",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14453782,
+                      "y": 0.6444709
+                    },
+                    {
+                      "x": 0.82857144,
+                      "y": 0.6444709
+                    },
+                    {
+                      "x": 0.82857144,
+                      "y": 0.6551724
+                    },
+                    {
+                      "x": 0.14453782,
+                      "y": 0.6551724
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "312",
+                    "endIndex": "331"
+                  }
+                ],
+                "content": "Expert college boy."
+              },
+              "type": "line_item/description",
+              "mentionText": "Expert college boy.",
+              "confidence": 0.59381336,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.14453782,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.2857143,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.2857143,
+                          "y": 0.6551724
+                        },
+                        {
+                          "x": 0.14453782,
+                          "y": 0.6551724
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "347",
+                    "endIndex": "351"
+                  }
+                ],
+                "content": "2.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2.00",
+              "confidence": 0.9790476,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.53277314,
+                          "y": 0.6456599
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6456599
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.65398335
+                        },
+                        {
+                          "x": 0.53277314,
+                          "y": 0.65398335
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "2",
+                "floatValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "353",
+                    "endIndex": "358"
+                  }
+                ],
+                "content": "78.58"
+              },
+              "type": "line_item/amount",
+              "mentionText": "78.58",
+              "confidence": 0.6607184,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.78655463,
+                          "y": 0.6456599
+                        },
+                        {
+                          "x": 0.82857144,
+                          "y": 0.6456599
+                        },
+                        {
+                          "x": 0.82857144,
+                          "y": 0.65398335
+                        },
+                        {
+                          "x": 0.78655463,
+                          "y": 0.65398335
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16",
+              "normalizedValue": {
+                "text": "78.58",
+                "floatValue": 78.58
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "359",
+                "endIndex": "371"
+              },
+              {
+                "startIndex": "372",
+                "endIndex": "376"
+              },
+              {
+                "startIndex": "378",
+                "endIndex": "383"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Dream issue. 6.00 40.89",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.16470589,
+                      "y": 0.667063
+                    },
+                    {
+                      "x": 0.8252101,
+                      "y": 0.667063
+                    },
+                    {
+                      "x": 0.8252101,
+                      "y": 0.6753864
+                    },
+                    {
+                      "x": 0.16470589,
+                      "y": 0.6753864
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "17",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "359",
+                    "endIndex": "371"
+                  }
+                ],
+                "content": "Dream issue."
+              },
+              "type": "line_item/description",
+              "mentionText": "Dream issue.",
+              "confidence": 0.59587836,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.16470589,
+                          "y": 0.667063
+                        },
+                        {
+                          "x": 0.2621849,
+                          "y": 0.667063
+                        },
+                        {
+                          "x": 0.2621849,
+                          "y": 0.6753864
+                        },
+                        {
+                          "x": 0.16470589,
+                          "y": 0.6753864
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "18"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "372",
+                    "endIndex": "376"
+                  }
+                ],
+                "content": "6.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "6.00",
+              "confidence": 0.97252935,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5344538,
+                          "y": 0.667063
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.667063
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6741974
+                        },
+                        {
+                          "x": 0.5344538,
+                          "y": 0.6741974
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "6",
+                "floatValue": 6
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "378",
+                    "endIndex": "383"
+                  }
+                ],
+                "content": "40.89"
+              },
+              "type": "line_item/amount",
+              "mentionText": "40.89",
+              "confidence": 0.775893,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7831933,
+                          "y": 0.667063
+                        },
+                        {
+                          "x": 0.8252101,
+                          "y": 0.667063
+                        },
+                        {
+                          "x": 0.8252101,
+                          "y": 0.6753864
+                        },
+                        {
+                          "x": 0.7831933,
+                          "y": 0.6753864
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20",
+              "normalizedValue": {
+                "text": "40.89",
+                "floatValue": 40.89
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

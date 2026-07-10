@@ -55,6 +55,7 @@ export const veryfi: Adapter = {
         authorization: `apikey ${process.env.VERYFI_USERNAME}:${process.env.VERYFI_API_KEY}`,
       },
       body: JSON.stringify({ file_name: `doc.${ext}`, file_data: doc.toString("base64") }),
+      signal: AbortSignal.timeout(180_000),
     });
     const raw = (await res.json()) as Record<string, unknown>;
     const latencyMs = Math.round(now() - t0);

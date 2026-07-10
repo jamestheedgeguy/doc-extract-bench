@@ -1,0 +1,823 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51008142062",
+  "at": "2026-07-10T10:44:58.056Z",
+  "latencyMs": 2110,
+  "raw": {
+    "document": {
+      "text": "Bill To:\nKEDAI PAPAN YEW CHUAN\n(0005583085-K)\nLOT 276 JALAN BANTING\n43800 DENGKIL, SELANGOR.\nTEL: 03-87686092\nFAX: 03-87686092\nGST ID: 000781500416\nTAX INVOICE\nSUCI ALAM JAYA TRANSPORT\nNO 1 JALAN AMAN 2\nTAMAN DESA 43800\nDENGKIL SELANGOR\n017-6057770\nDoc No.\nCS00012389\nDate: 02/05/2018\nCashier\n: USER\nTime: 14.17:00\nSalesperson:\nRef.:\n(GST)\n(GST)\nItem\n100211\nQty S/Price S/Price\n1,200 0.23\nAmount Tax\n0.24\n292.56 SR\nBATU SIMEN\n101870\n1\n65 00\n68.90 SR\nPASIR HALUS (D)\nTotal Qty: 1,201\n361.46\nTotal Sales (Excluding GST):\n341.00\nDiscount :\n0.00\nTotal GST:\n20.46\nRounding:\n0.00\nTotal Sales (Inclusive of GST):\n361.46\nCASH:\n361.46\nChange:\n0.00\nGST SUMMARY\nTax Code\n%\nAmt (RM\nTax (RM)\nSR\n6\n341.00\n20.46\nTotal:\n341.00\n20.46\nGOODS SOLD ARE NOT RETURNABLE, THANK YOU.\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "704",
+                "endIndex": "710"
+              }
+            ],
+            "content": "341.00"
+          },
+          "type": "total_amount",
+          "mentionText": "341.00",
+          "confidence": 0.8778314,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5549569,
+                      "y": 0.9109806
+                    },
+                    {
+                      "x": 0.6648707,
+                      "y": 0.9109806
+                    },
+                    {
+                      "x": 0.6648707,
+                      "y": 0.9213737
+                    },
+                    {
+                      "x": 0.5549569,
+                      "y": 0.9213737
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "341",
+            "moneyValue": {
+              "units": "341"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "274",
+                "endIndex": "284"
+              }
+            ],
+            "content": "02/05/2018"
+          },
+          "type": "receipt_date",
+          "mentionText": "02/05/2018",
+          "confidence": 0.8288857,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7553879,
+                      "y": 0.41075462
+                    },
+                    {
+                      "x": 0.9407328,
+                      "y": 0.41075462
+                    },
+                    {
+                      "x": 0.9407328,
+                      "y": 0.42250338
+                    },
+                    {
+                      "x": 0.7553879,
+                      "y": 0.42250338
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2018-02-05",
+            "dateValue": {
+              "year": 2018,
+              "month": 2,
+              "day": 5
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "98",
+                "endIndex": "109"
+              }
+            ],
+            "content": "03-87686092"
+          },
+          "type": "supplier_phone",
+          "mentionText": "03-87686092",
+          "confidence": 0.79483235,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.24784483,
+                      "y": 0.21464077
+                    },
+                    {
+                      "x": 0.46875,
+                      "y": 0.21464077
+                    },
+                    {
+                      "x": 0.46875,
+                      "y": 0.22638951
+                    },
+                    {
+                      "x": 0.24784483,
+                      "y": 0.22638951
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "9",
+                "endIndex": "30"
+              }
+            ],
+            "content": "KEDAI PAPAN YEW CHUAN"
+          },
+          "type": "supplier_name",
+          "mentionText": "KEDAI PAPAN YEW CHUAN",
+          "confidence": 0.6233097,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1724138,
+                      "y": 0.11613195
+                    },
+                    {
+                      "x": 0.8092672,
+                      "y": 0.11613195
+                    },
+                    {
+                      "x": 0.8092672,
+                      "y": 0.13420697
+                    },
+                    {
+                      "x": 0.1724138,
+                      "y": 0.13420697
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "Kedai Papan Yew Chuan"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "46",
+                "endIndex": "92"
+              }
+            ],
+            "content": "LOT 276 JALAN BANTING\n43800 DENGKIL, SELANGOR."
+          },
+          "type": "supplier_address",
+          "mentionText": "LOT 276 JALAN BANTING\n43800 DENGKIL, SELANGOR.",
+          "confidence": 0.50620455,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.24353448,
+                      "y": 0.1590601
+                    },
+                    {
+                      "x": 0.7510776,
+                      "y": 0.1590601
+                    },
+                    {
+                      "x": 0.7510776,
+                      "y": 0.19430637
+                    },
+                    {
+                      "x": 0.24353448,
+                      "y": 0.19430637
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "Lot 276, Jalan Banting Pekan Dengkil 43800 Dengkil Selangor Malaysia"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "483",
+                "endIndex": "489"
+              }
+            ],
+            "content": "361.46"
+          },
+          "type": "net_amount",
+          "mentionText": "361.46",
+          "confidence": 0.22120593,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.73706895,
+                      "y": 0.6104835
+                    },
+                    {
+                      "x": 0.8469828,
+                      "y": 0.6104835
+                    },
+                    {
+                      "x": 0.8469828,
+                      "y": 0.6217804
+                    },
+                    {
+                      "x": 0.73706895,
+                      "y": 0.6217804
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "361.46",
+            "moneyValue": {
+              "units": "361",
+              "nanos": 460000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "351",
+                "endIndex": "357"
+              },
+              {
+                "startIndex": "378",
+                "endIndex": "383"
+              },
+              {
+                "startIndex": "405",
+                "endIndex": "411"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "100211 1,200 292.56",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.047413792,
+                      "y": 0.52010846
+                    },
+                    {
+                      "x": 0.8426724,
+                      "y": 0.52010846
+                    },
+                    {
+                      "x": 0.8426724,
+                      "y": 0.53230906
+                    },
+                    {
+                      "x": 0.047413792,
+                      "y": 0.53230906
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "351",
+                    "endIndex": "357"
+                  }
+                ],
+                "content": "100211"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "100211",
+              "confidence": 0.9406106,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.047413792,
+                          "y": 0.52010846
+                        },
+                        {
+                          "x": 0.14655173,
+                          "y": 0.52010846
+                        },
+                        {
+                          "x": 0.14655173,
+                          "y": 0.53095347
+                        },
+                        {
+                          "x": 0.047413792,
+                          "y": 0.53095347
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "378",
+                    "endIndex": "383"
+                  }
+                ],
+                "content": "1,200"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1,200",
+              "confidence": 0.71014094,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.29418105,
+                          "y": 0.52010846
+                        },
+                        {
+                          "x": 0.37176725,
+                          "y": 0.52010846
+                        },
+                        {
+                          "x": 0.37176725,
+                          "y": 0.53230906
+                        },
+                        {
+                          "x": 0.29418105,
+                          "y": 0.53230906
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "405",
+                    "endIndex": "411"
+                  }
+                ],
+                "content": "292.56"
+              },
+              "type": "line_item/amount",
+              "mentionText": "292.56",
+              "confidence": 0.8927507,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7478448,
+                          "y": 0.5228197
+                        },
+                        {
+                          "x": 0.8426724,
+                          "y": 0.5228197
+                        },
+                        {
+                          "x": 0.8426724,
+                          "y": 0.53230906
+                        },
+                        {
+                          "x": 0.7478448,
+                          "y": 0.53230906
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9",
+              "normalizedValue": {
+                "text": "292.56",
+                "moneyValue": {
+                  "units": "292",
+                  "nanos": 560000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "415",
+                "endIndex": "425"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "BATU SIMEN",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.047413792,
+                      "y": 0.5417985
+                    },
+                    {
+                      "x": 0.23275863,
+                      "y": 0.5417985
+                    },
+                    {
+                      "x": 0.23275863,
+                      "y": 0.55309534
+                    },
+                    {
+                      "x": 0.047413792,
+                      "y": 0.55309534
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "415",
+                    "endIndex": "425"
+                  }
+                ],
+                "content": "BATU SIMEN"
+              },
+              "type": "line_item/description",
+              "mentionText": "BATU SIMEN",
+              "confidence": 0.68921626,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.047413792,
+                          "y": 0.5417985
+                        },
+                        {
+                          "x": 0.23275863,
+                          "y": 0.5417985
+                        },
+                        {
+                          "x": 0.23275863,
+                          "y": 0.55309534
+                        },
+                        {
+                          "x": 0.047413792,
+                          "y": 0.55309534
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "426",
+                "endIndex": "432"
+              },
+              {
+                "startIndex": "433",
+                "endIndex": "434"
+              },
+              {
+                "startIndex": "441",
+                "endIndex": "446"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "101870 1 68.90",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.046336208,
+                      "y": 0.56574786
+                    },
+                    {
+                      "x": 0.8415948,
+                      "y": 0.56574786
+                    },
+                    {
+                      "x": 0.8415948,
+                      "y": 0.5774966
+                    },
+                    {
+                      "x": 0.046336208,
+                      "y": 0.5774966
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "426",
+                    "endIndex": "432"
+                  }
+                ],
+                "content": "101870"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "101870",
+              "confidence": 0.9582739,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.046336208,
+                          "y": 0.56574786
+                        },
+                        {
+                          "x": 0.15086207,
+                          "y": 0.56574786
+                        },
+                        {
+                          "x": 0.15086207,
+                          "y": 0.576141
+                        },
+                        {
+                          "x": 0.046336208,
+                          "y": 0.576141
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "433",
+                    "endIndex": "434"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8763834,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3265086,
+                          "y": 0.56755537
+                        },
+                        {
+                          "x": 0.33728448,
+                          "y": 0.56755537
+                        },
+                        {
+                          "x": 0.33728448,
+                          "y": 0.576141
+                        },
+                        {
+                          "x": 0.3265086,
+                          "y": 0.576141
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "441",
+                    "endIndex": "446"
+                  }
+                ],
+                "content": "68.90"
+              },
+              "type": "line_item/amount",
+              "mentionText": "68.90",
+              "confidence": 0.9496736,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.76508623,
+                          "y": 0.56755537
+                        },
+                        {
+                          "x": 0.8415948,
+                          "y": 0.56755537
+                        },
+                        {
+                          "x": 0.8415948,
+                          "y": 0.5774966
+                        },
+                        {
+                          "x": 0.76508623,
+                          "y": 0.5774966
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "68.9",
+                "moneyValue": {
+                  "units": "68",
+                  "nanos": 900000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "450",
+                "endIndex": "465"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "PASIR HALUS (D)",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.047413792,
+                      "y": 0.58563036
+                    },
+                    {
+                      "x": 0.30387932,
+                      "y": 0.58563036
+                    },
+                    {
+                      "x": 0.30387932,
+                      "y": 0.5996385
+                    },
+                    {
+                      "x": 0.047413792,
+                      "y": 0.5996385
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "16",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "450",
+                    "endIndex": "465"
+                  }
+                ],
+                "content": "PASIR HALUS (D)"
+              },
+              "type": "line_item/description",
+              "mentionText": "PASIR HALUS (D)",
+              "confidence": 0.59655315,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.047413792,
+                          "y": 0.58563036
+                        },
+                        {
+                          "x": 0.30387932,
+                          "y": 0.58563036
+                        },
+                        {
+                          "x": 0.30387932,
+                          "y": 0.5996385
+                        },
+                        {
+                          "x": 0.047413792,
+                          "y": 0.5996385
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

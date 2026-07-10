@@ -1,0 +1,618 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51006393376",
+  "at": "2026-07-10T10:43:08.122Z",
+  "latencyMs": 2150,
+  "raw": {
+    "document": {
+      "text": "31705509\n99 SPEED WART S/B (519537-X)\nLOT P.T. 2811, JALAN ANGSA,\nTAMAN BERKELEY\n41150 KLANG, SELANGOR\n1214-JINJANG UTARA\nGST ID, NO : 000181747712\nINVOICE NO: 1802B/103/T0269\n02:31PM\n565497\n10-05-17\n355 CRISPI ROLL 12 GRAIN SE\nRM6.85 s\n9413 CS 1002 A5 H/COVER NOT\nRM4.65 s\nTotal Sales (Inclusive GST) RM\n11.50\nCASH RM\n52.00\nCHANGE RM\n40.50\nGST Sussary\nAmount(RM)\nTax(RM)\n$ = 6%\n10.85\n.65\nThank You, Please come again\nKeep the invoice for applicable returns\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "305",
+                "endIndex": "310"
+              }
+            ],
+            "content": "11.50"
+          },
+          "type": "total_amount",
+          "mentionText": "11.50",
+          "confidence": 0.8060559,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7255892,
+                      "y": 0.62624437
+                    },
+                    {
+                      "x": 0.8265993,
+                      "y": 0.62624437
+                    },
+                    {
+                      "x": 0.8265993,
+                      "y": 0.64343894
+                    },
+                    {
+                      "x": 0.7255892,
+                      "y": 0.64343894
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "11.5",
+            "moneyValue": {
+              "units": "11",
+              "nanos": 500000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "176",
+                "endIndex": "183"
+              }
+            ],
+            "content": "02:31PM"
+          },
+          "type": "purchase_time",
+          "mentionText": "02:31PM",
+          "confidence": 0.74094385,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07912458,
+                      "y": 0.47511312
+                    },
+                    {
+                      "x": 0.21717171,
+                      "y": 0.47511312
+                    },
+                    {
+                      "x": 0.21717171,
+                      "y": 0.49502262
+                    },
+                    {
+                      "x": 0.07912458,
+                      "y": 0.49502262
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 14,
+              "minutes": 31
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "191",
+                "endIndex": "199"
+              }
+            ],
+            "content": "10-05-17"
+          },
+          "type": "receipt_date",
+          "mentionText": "10-05-17",
+          "confidence": 0.6357248,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7121212,
+                      "y": 0.47692308
+                    },
+                    {
+                      "x": 0.87205386,
+                      "y": 0.47692308
+                    },
+                    {
+                      "x": 0.87205386,
+                      "y": 0.4959276
+                    },
+                    {
+                      "x": 0.7121212,
+                      "y": 0.4959276
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "2017-10-05",
+            "dateValue": {
+              "year": 2017,
+              "month": 10,
+              "day": 5
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "9",
+                "endIndex": "121"
+              }
+            ],
+            "content": "99 SPEED WART S/B (519537-X)\nLOT P.T. 2811, JALAN ANGSA,\nTAMAN BERKELEY\n41150 KLANG, SELANGOR\n1214-JINJANG UTARA"
+          },
+          "type": "supplier_address",
+          "mentionText": "99 SPEED WART S/B (519537-X)\nLOT P.T. 2811, JALAN ANGSA,\nTAMAN BERKELEY\n41150 KLANG, SELANGOR\n1214-JINJANG UTARA",
+          "confidence": 0.597589,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17508417,
+                      "y": 0.20723982
+                    },
+                    {
+                      "x": 0.7323232,
+                      "y": 0.20723982
+                    },
+                    {
+                      "x": 0.7323232,
+                      "y": 0.34660634
+                    },
+                    {
+                      "x": 0.17508417,
+                      "y": 0.34660634
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "385",
+                "endIndex": "388"
+              }
+            ],
+            "content": ".65"
+          },
+          "type": "total_tax_amount",
+          "mentionText": ".65",
+          "confidence": 0.38738143,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.79461277,
+                      "y": 0.77466065
+                    },
+                    {
+                      "x": 0.84680134,
+                      "y": 0.77466065
+                    },
+                    {
+                      "x": 0.84680134,
+                      "y": 0.79004526
+                    },
+                    {
+                      "x": 0.79461277,
+                      "y": 0.79004526
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "0.65",
+            "moneyValue": {
+              "nanos": 650000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "379",
+                "endIndex": "384"
+              }
+            ],
+            "content": "10.85"
+          },
+          "type": "net_amount",
+          "mentionText": "10.85",
+          "confidence": 0.16218053,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.49158248,
+                      "y": 0.7719457
+                    },
+                    {
+                      "x": 0.5892256,
+                      "y": 0.7719457
+                    },
+                    {
+                      "x": 0.5892256,
+                      "y": 0.79095024
+                    },
+                    {
+                      "x": 0.49158248,
+                      "y": 0.79095024
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "10.85",
+            "moneyValue": {
+              "units": "10",
+              "nanos": 850000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "204",
+                "endIndex": "227"
+              },
+              {
+                "startIndex": "228",
+                "endIndex": "234"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "CRISPI ROLL 12 GRAIN SE RM6.85",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15824915,
+                      "y": 0.5339367
+                    },
+                    {
+                      "x": 0.8333333,
+                      "y": 0.5339367
+                    },
+                    {
+                      "x": 0.8333333,
+                      "y": 0.55565614
+                    },
+                    {
+                      "x": 0.15824915,
+                      "y": 0.55565614
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "204",
+                    "endIndex": "227"
+                  }
+                ],
+                "content": "CRISPI ROLL 12 GRAIN SE"
+              },
+              "type": "line_item/description",
+              "mentionText": "CRISPI ROLL 12 GRAIN SE",
+              "confidence": 0.7480587,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15824915,
+                          "y": 0.5339367
+                        },
+                        {
+                          "x": 0.61616164,
+                          "y": 0.5339367
+                        },
+                        {
+                          "x": 0.61616164,
+                          "y": 0.55475116
+                        },
+                        {
+                          "x": 0.15824915,
+                          "y": 0.55475116
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "228",
+                    "endIndex": "234"
+                  }
+                ],
+                "content": "RM6.85"
+              },
+              "type": "line_item/amount",
+              "mentionText": "RM6.85",
+              "confidence": 0.9289199,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7104377,
+                          "y": 0.53484166
+                        },
+                        {
+                          "x": 0.8333333,
+                          "y": 0.53484166
+                        },
+                        {
+                          "x": 0.8333333,
+                          "y": 0.55565614
+                        },
+                        {
+                          "x": 0.7104377,
+                          "y": 0.55565614
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "6.85",
+                "moneyValue": {
+                  "currencyCode": "MYR",
+                  "units": "6",
+                  "nanos": 850000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "242",
+                "endIndex": "249"
+              },
+              {
+                "startIndex": "250",
+                "endIndex": "264"
+              },
+              {
+                "startIndex": "265",
+                "endIndex": "271"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "CS 1002 A5 H/COVER NOT RM4.65",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17340067,
+                      "y": 0.5647059
+                    },
+                    {
+                      "x": 0.82828283,
+                      "y": 0.5647059
+                    },
+                    {
+                      "x": 0.82828283,
+                      "y": 0.5855204
+                    },
+                    {
+                      "x": 0.17340067,
+                      "y": 0.5855204
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "242",
+                    "endIndex": "249"
+                  }
+                ],
+                "content": "CS 1002"
+              },
+              "type": "line_item/description",
+              "mentionText": "CS 1002",
+              "confidence": 0.5953105,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17340067,
+                          "y": 0.5647059
+                        },
+                        {
+                          "x": 0.3097643,
+                          "y": 0.5647059
+                        },
+                        {
+                          "x": 0.3097643,
+                          "y": 0.58371043
+                        },
+                        {
+                          "x": 0.17340067,
+                          "y": 0.58371043
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "250",
+                    "endIndex": "264"
+                  }
+                ],
+                "content": "A5 H/COVER NOT"
+              },
+              "type": "line_item/description",
+              "mentionText": "A5 H/COVER NOT",
+              "confidence": 0.6712429,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.33164984,
+                          "y": 0.5647059
+                        },
+                        {
+                          "x": 0.6043771,
+                          "y": 0.5647059
+                        },
+                        {
+                          "x": 0.6043771,
+                          "y": 0.5846154
+                        },
+                        {
+                          "x": 0.33164984,
+                          "y": 0.5846154
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "265",
+                    "endIndex": "271"
+                  }
+                ],
+                "content": "RM4.65"
+              },
+              "type": "line_item/amount",
+              "mentionText": "RM4.65",
+              "confidence": 0.8857038,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7070707,
+                          "y": 0.5647059
+                        },
+                        {
+                          "x": 0.82828283,
+                          "y": 0.5647059
+                        },
+                        {
+                          "x": 0.82828283,
+                          "y": 0.5855204
+                        },
+                        {
+                          "x": 0.7070707,
+                          "y": 0.5855204
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "4.65",
+                "moneyValue": {
+                  "currencyCode": "MYR",
+                  "units": "4",
+                  "nanos": 650000000
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

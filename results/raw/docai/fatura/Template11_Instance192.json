@@ -1,0 +1,1355 @@
+{
+  "vendor": "docai",
+  "dataset": "fatura",
+  "docId": "Template11_Instance192",
+  "at": "2026-07-10T10:28:17.407Z",
+  "latencyMs": 2202,
+  "raw": {
+    "document": {
+      "text": "INVOICE\nINVOICE # 1Y5M4d-802\nInvoice Date: 29-May-2012\nDue Date: 05-Mar-2019\nItem\nStage evening.\nMaybe order.\nPrice\nQty\nAmount\n$23.36\n6.00\n$140.16\n$58.84\n3.00\n$176.52\nAnswer none boy able.\nMaterial.\n$65.18\n6.00\n$391.08\n$99.52\n3.00\n$298.56\nDISCOUNT(4.94%): (-) 49.71\nSUB TOTAL: 1006.32 USD\nTAX:VAT (6.57%): 66.08 USD\nTerms & Conditions\nTOTAL: 1028.32 USD\n1. Please send payment within 8 days of receiving this invoice.\nThere will be a 2.5% interest charge per month on late invoices.\n2. Please include the Invoice number in your payment notes.\nNote: All payments to be made in cash.\nContact us for queries on these quotations.\nEmail:lisa97@example.org\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "65",
+                "endIndex": "76"
+              }
+            ],
+            "content": "05-Mar-2019"
+          },
+          "type": "due_date",
+          "mentionText": "05-Mar-2019",
+          "confidence": 0.9894101,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4857143,
+                      "y": 0.17835909
+                    },
+                    {
+                      "x": 0.6016807,
+                      "y": 0.17835909
+                    },
+                    {
+                      "x": 0.6016807,
+                      "y": 0.18906064
+                    },
+                    {
+                      "x": 0.4857143,
+                      "y": 0.18906064
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2019-03-05",
+            "dateValue": {
+              "year": 2019,
+              "month": 3,
+              "day": 5
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "43",
+                "endIndex": "54"
+              }
+            ],
+            "content": "29-May-2012"
+          },
+          "type": "invoice_date",
+          "mentionText": "29-May-2012",
+          "confidence": 0.9798663,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.49915966,
+                      "y": 0.15814507
+                    },
+                    {
+                      "x": 0.6201681,
+                      "y": 0.15814507
+                    },
+                    {
+                      "x": 0.6201681,
+                      "y": 0.17122473
+                    },
+                    {
+                      "x": 0.49915966,
+                      "y": 0.17122473
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2012-05-29",
+            "dateValue": {
+              "year": 2012,
+              "month": 5,
+              "day": 29
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "342",
+                "endIndex": "349"
+              }
+            ],
+            "content": "1028.32"
+          },
+          "type": "total_amount",
+          "mentionText": "1028.32",
+          "confidence": 0.965289,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5663866,
+                      "y": 0.7348395
+                    },
+                    {
+                      "x": 0.6386555,
+                      "y": 0.7348395
+                    },
+                    {
+                      "x": 0.6386555,
+                      "y": 0.7467301
+                    },
+                    {
+                      "x": 0.5663866,
+                      "y": 0.7467301
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "1028.32",
+            "floatValue": 1028.32
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "277",
+                "endIndex": "284"
+              }
+            ],
+            "content": "1006.32"
+          },
+          "type": "net_amount",
+          "mentionText": "1006.32",
+          "confidence": 0.93744844,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.62184876,
+                      "y": 0.65160525
+                    },
+                    {
+                      "x": 0.692437,
+                      "y": 0.65160525
+                    },
+                    {
+                      "x": 0.692437,
+                      "y": 0.66587394
+                    },
+                    {
+                      "x": 0.62184876,
+                      "y": 0.66587394
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "1006.32",
+            "floatValue": 1006.32
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "350",
+                "endIndex": "353"
+              }
+            ],
+            "content": "USD"
+          },
+          "type": "currency",
+          "mentionText": "USD",
+          "confidence": 0.92228913,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6453782,
+                      "y": 0.7348395
+                    },
+                    {
+                      "x": 0.687395,
+                      "y": 0.7348395
+                    },
+                    {
+                      "x": 0.687395,
+                      "y": 0.7467301
+                    },
+                    {
+                      "x": 0.6453782,
+                      "y": 0.7467301
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "USD"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "18",
+                "endIndex": "28"
+              }
+            ],
+            "content": "1Y5M4d-802"
+          },
+          "type": "invoice_id",
+          "mentionText": "1Y5M4d-802",
+          "confidence": 0.9101373,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4840336,
+                      "y": 0.13793103
+                    },
+                    {
+                      "x": 0.59831935,
+                      "y": 0.13793103
+                    },
+                    {
+                      "x": 0.59831935,
+                      "y": 0.14982164
+                    },
+                    {
+                      "x": 0.4840336,
+                      "y": 0.14982164
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "306",
+                "endIndex": "311"
+              }
+            ],
+            "content": "66.08"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "66.08",
+          "confidence": 0.8947086,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6605042,
+                      "y": 0.6765755
+                    },
+                    {
+                      "x": 0.71428573,
+                      "y": 0.6765755
+                    },
+                    {
+                      "x": 0.71428573,
+                      "y": 0.6896552
+                    },
+                    {
+                      "x": 0.6605042,
+                      "y": 0.6896552
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {
+            "text": "66.08",
+            "floatValue": 66.08
+          }
+        },
+        {
+          "type": "invoice_type",
+          "confidence": 0.5921165,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "confidence": 0.7492347
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "invoice_statement"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "632",
+                "endIndex": "650"
+              }
+            ],
+            "content": "lisa97@example.org"
+          },
+          "type": "supplier_email",
+          "mentionText": "lisa97@example.org",
+          "confidence": 0.35653988,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.56134456,
+                      "y": 0.95600474
+                    },
+                    {
+                      "x": 0.75462186,
+                      "y": 0.95600474
+                    },
+                    {
+                      "x": 0.75462186,
+                      "y": 0.97146255
+                    },
+                    {
+                      "x": 0.56134456,
+                      "y": 0.97146255
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "354",
+                "endIndex": "417"
+              }
+            ],
+            "content": "1. Please send payment within 8 days of receiving this invoice."
+          },
+          "type": "payment_terms",
+          "mentionText": "1. Please send payment within 8 days of receiving this invoice.",
+          "confidence": 0.14417154,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.011764706,
+                      "y": 0.77526754
+                    },
+                    {
+                      "x": 0.51428574,
+                      "y": 0.77526754
+                    },
+                    {
+                      "x": 0.51428574,
+                      "y": 0.78715813
+                    },
+                    {
+                      "x": 0.011764706,
+                      "y": 0.78715813
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "82",
+                "endIndex": "96"
+              },
+              {
+                "startIndex": "128",
+                "endIndex": "133"
+              },
+              {
+                "startIndex": "134",
+                "endIndex": "138"
+              },
+              {
+                "startIndex": "140",
+                "endIndex": "146"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Stage evening. 23.36 6.00 140.16",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.020168068,
+                      "y": 0.5160523
+                    },
+                    {
+                      "x": 0.8201681,
+                      "y": 0.5160523
+                    },
+                    {
+                      "x": 0.8201681,
+                      "y": 0.5315101
+                    },
+                    {
+                      "x": 0.020168068,
+                      "y": 0.5315101
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "82",
+                    "endIndex": "96"
+                  }
+                ],
+                "content": "Stage evening."
+              },
+              "type": "line_item/description",
+              "mentionText": "Stage evening.",
+              "confidence": 0.6701476,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.020168068,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.18151261,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.18151261,
+                          "y": 0.5315101
+                        },
+                        {
+                          "x": 0.020168068,
+                          "y": 0.5315101
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "128",
+                    "endIndex": "133"
+                  }
+                ],
+                "content": "23.36"
+              },
+              "type": "line_item/unit_price",
+              "mentionText": "23.36",
+              "confidence": 0.979705,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4554622,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.51428574,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.51428574,
+                          "y": 0.529132
+                        },
+                        {
+                          "x": 0.4554622,
+                          "y": 0.529132
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "23.36",
+                "floatValue": 23.36
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "134",
+                    "endIndex": "138"
+                  }
+                ],
+                "content": "6.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "6.00",
+              "confidence": 0.9648161,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60336137,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.6487395,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.6487395,
+                          "y": 0.529132
+                        },
+                        {
+                          "x": 0.60336137,
+                          "y": 0.529132
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13",
+              "normalizedValue": {
+                "text": "6",
+                "floatValue": 6
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "140",
+                    "endIndex": "146"
+                  }
+                ],
+                "content": "140.16"
+              },
+              "type": "line_item/amount",
+              "mentionText": "140.16",
+              "confidence": 0.9607577,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7478992,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.8201681,
+                          "y": 0.5160523
+                        },
+                        {
+                          "x": 0.8201681,
+                          "y": 0.529132
+                        },
+                        {
+                          "x": 0.7478992,
+                          "y": 0.529132
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14",
+              "normalizedValue": {
+                "text": "140.16",
+                "floatValue": 140.16
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "97",
+                "endIndex": "109"
+              },
+              {
+                "startIndex": "148",
+                "endIndex": "153"
+              },
+              {
+                "startIndex": "154",
+                "endIndex": "158"
+              },
+              {
+                "startIndex": "160",
+                "endIndex": "166"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Maybe order. 58.84 3.00 176.52",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.02184874,
+                      "y": 0.53745544
+                    },
+                    {
+                      "x": 0.81680673,
+                      "y": 0.53745544
+                    },
+                    {
+                      "x": 0.81680673,
+                      "y": 0.55172414
+                    },
+                    {
+                      "x": 0.02184874,
+                      "y": 0.55172414
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "97",
+                    "endIndex": "109"
+                  }
+                ],
+                "content": "Maybe order."
+              },
+              "type": "line_item/description",
+              "mentionText": "Maybe order.",
+              "confidence": 0.63944054,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.02184874,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.15966387,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.15966387,
+                          "y": 0.55172414
+                        },
+                        {
+                          "x": 0.02184874,
+                          "y": 0.55172414
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "148",
+                    "endIndex": "153"
+                  }
+                ],
+                "content": "58.84"
+              },
+              "type": "line_item/unit_price",
+              "mentionText": "58.84",
+              "confidence": 0.97611815,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4554622,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.5159664,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.5159664,
+                          "y": 0.5505351
+                        },
+                        {
+                          "x": 0.4554622,
+                          "y": 0.5505351
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17",
+              "normalizedValue": {
+                "text": "58.84",
+                "floatValue": 58.84
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "154",
+                    "endIndex": "158"
+                  }
+                ],
+                "content": "3.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "3.00",
+              "confidence": 0.9707379,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60336137,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.64705884,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.64705884,
+                          "y": 0.5505351
+                        },
+                        {
+                          "x": 0.60336137,
+                          "y": 0.5505351
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "18",
+              "normalizedValue": {
+                "text": "3",
+                "floatValue": 3
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "160",
+                    "endIndex": "166"
+                  }
+                ],
+                "content": "176.52"
+              },
+              "type": "line_item/amount",
+              "mentionText": "176.52",
+              "confidence": 0.96541154,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7462185,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.81680673,
+                          "y": 0.53745544
+                        },
+                        {
+                          "x": 0.81680673,
+                          "y": 0.549346
+                        },
+                        {
+                          "x": 0.7462185,
+                          "y": 0.549346
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "176.52",
+                "floatValue": 176.52
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "167",
+                "endIndex": "188"
+              },
+              {
+                "startIndex": "200",
+                "endIndex": "205"
+              },
+              {
+                "startIndex": "206",
+                "endIndex": "210"
+              },
+              {
+                "startIndex": "212",
+                "endIndex": "218"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Answer none boy able. 65.18 6.00 391.08",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.020168068,
+                      "y": 0.5588585
+                    },
+                    {
+                      "x": 0.8184874,
+                      "y": 0.5588585
+                    },
+                    {
+                      "x": 0.8184874,
+                      "y": 0.5731272
+                    },
+                    {
+                      "x": 0.020168068,
+                      "y": 0.5731272
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "20",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "167",
+                    "endIndex": "188"
+                  }
+                ],
+                "content": "Answer none boy able."
+              },
+              "type": "line_item/description",
+              "mentionText": "Answer none boy able.",
+              "confidence": 0.7697207,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.020168068,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.2621849,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.2621849,
+                          "y": 0.5731272
+                        },
+                        {
+                          "x": 0.020168068,
+                          "y": 0.5731272
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "21"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "200",
+                    "endIndex": "205"
+                  }
+                ],
+                "content": "65.18"
+              },
+              "type": "line_item/unit_price",
+              "mentionText": "65.18",
+              "confidence": 0.980892,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4554622,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.51428574,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.51428574,
+                          "y": 0.57193816
+                        },
+                        {
+                          "x": 0.4554622,
+                          "y": 0.57193816
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "22",
+              "normalizedValue": {
+                "text": "65.18",
+                "floatValue": 65.18
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "206",
+                    "endIndex": "210"
+                  }
+                ],
+                "content": "6.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "6.00",
+              "confidence": 0.96942097,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60336137,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.64705884,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.64705884,
+                          "y": 0.5707491
+                        },
+                        {
+                          "x": 0.60336137,
+                          "y": 0.5707491
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "23",
+              "normalizedValue": {
+                "text": "6",
+                "floatValue": 6
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "212",
+                    "endIndex": "218"
+                  }
+                ],
+                "content": "391.08"
+              },
+              "type": "line_item/amount",
+              "mentionText": "391.08",
+              "confidence": 0.9622602,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7478992,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.5588585
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.57193816
+                        },
+                        {
+                          "x": 0.7478992,
+                          "y": 0.57193816
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "24",
+              "normalizedValue": {
+                "text": "391.08",
+                "floatValue": 391.08
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "189",
+                "endIndex": "198"
+              },
+              {
+                "startIndex": "220",
+                "endIndex": "225"
+              },
+              {
+                "startIndex": "226",
+                "endIndex": "230"
+              },
+              {
+                "startIndex": "232",
+                "endIndex": "238"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Material. 99.52 3.00 298.56",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.023529412,
+                      "y": 0.5802616
+                    },
+                    {
+                      "x": 0.8184874,
+                      "y": 0.5802616
+                    },
+                    {
+                      "x": 0.8184874,
+                      "y": 0.59334123
+                    },
+                    {
+                      "x": 0.023529412,
+                      "y": 0.59334123
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "25",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "189",
+                    "endIndex": "198"
+                  }
+                ],
+                "content": "Material."
+              },
+              "type": "line_item/description",
+              "mentionText": "Material.",
+              "confidence": 0.30785677,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.023529412,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.11260504,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.11260504,
+                          "y": 0.59334123
+                        },
+                        {
+                          "x": 0.023529412,
+                          "y": 0.59334123
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "26"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "220",
+                    "endIndex": "225"
+                  }
+                ],
+                "content": "99.52"
+              },
+              "type": "line_item/unit_price",
+              "mentionText": "99.52",
+              "confidence": 0.9700413,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4554622,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.5126051,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.5126051,
+                          "y": 0.5921522
+                        },
+                        {
+                          "x": 0.4554622,
+                          "y": 0.5921522
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "27",
+              "normalizedValue": {
+                "text": "99.52",
+                "floatValue": 99.52
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "226",
+                    "endIndex": "230"
+                  }
+                ],
+                "content": "3.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "3.00",
+              "confidence": 0.9602837,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60336137,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.6453782,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.6453782,
+                          "y": 0.5921522
+                        },
+                        {
+                          "x": 0.60336137,
+                          "y": 0.5921522
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "28",
+              "normalizedValue": {
+                "text": "3",
+                "floatValue": 3
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "232",
+                    "endIndex": "238"
+                  }
+                ],
+                "content": "298.56"
+              },
+              "type": "line_item/amount",
+              "mentionText": "298.56",
+              "confidence": 0.95727265,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7478992,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.5921522
+                        },
+                        {
+                          "x": 0.7478992,
+                          "y": 0.5921522
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "29",
+              "normalizedValue": {
+                "text": "298.56",
+                "floatValue": 298.56
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

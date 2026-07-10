@@ -1,0 +1,912 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51006554833",
+  "at": "2026-07-10T10:41:56.807Z",
+  "latencyMs": 2328,
+  "raw": {
+    "document": {
+      "text": "SIMPLIFIED TAX INVOICE\nAA PHARMACY\nSUBANG HEALTHCARE SDN BHD\n1118258-K\nGST NO: 001536708608\nB-8, JALAN SS15/4D,\n47500 SUBANG JAYA, SELANGOR\nTEL: 03-56127718\nCASH\nRECEIPT #: CS00251915 DATE: 29/10/2017\nSALESPERSON : C3\nTIME: 20:18:00\nCASHIER : C3\nITEM\nQTY\nU/P AMOUNT\n(GST)\n(GST)\n030249\n14.90\n14.90 S\n(BOX 100S) SUPER SAFE POWDER FREE NITRIL\n03022\n1 14.00 14.00 S\n(S SIZE) SUPER SAFE LATEX GLOVE POWDER F\nTOTAL QUANTITY\n2\nSUB-TOTAL\n27.27\nDISC\n0.00\nGST\n1.64\nROUNDING\n-0.01\nTOTAL\n28.90\nCASH\n28.90\nCHANGE\n0.00\nGOODS SOLD ARE NOT RETURNABLE,\nTHANK YOU.\nS-STANDARD RATED, Z-ZERO RATED\nGST SUMMARY\nCODE\nAMOUNT\nTAX/AMT\nSR\n27.27\nb\n1.64\nTAX TOTAL:\n1.64\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "476",
+                "endIndex": "481"
+              }
+            ],
+            "content": "28.90"
+          },
+          "type": "total_amount",
+          "mentionText": "28.90",
+          "confidence": 0.8986879,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.71428573,
+                      "y": 0.635929
+                    },
+                    {
+                      "x": 0.9183673,
+                      "y": 0.635929
+                    },
+                    {
+                      "x": 0.9183673,
+                      "y": 0.6502732
+                    },
+                    {
+                      "x": 0.71428573,
+                      "y": 0.6502732
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "28.9",
+            "moneyValue": {
+              "units": "28",
+              "nanos": 900000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "190",
+                "endIndex": "200"
+              }
+            ],
+            "content": "29/10/2017"
+          },
+          "type": "receipt_date",
+          "mentionText": "29/10/2017",
+          "confidence": 0.8059738,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.670068,
+                      "y": 0.3080601
+                    },
+                    {
+                      "x": 0.88435376,
+                      "y": 0.3080601
+                    },
+                    {
+                      "x": 0.88435376,
+                      "y": 0.32240438
+                    },
+                    {
+                      "x": 0.670068,
+                      "y": 0.32240438
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2017-10-29",
+            "dateValue": {
+              "year": 2017,
+              "month": 10,
+              "day": 29
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "224",
+                "endIndex": "232"
+              }
+            ],
+            "content": "20:18:00"
+          },
+          "type": "purchase_time",
+          "mentionText": "20:18:00",
+          "confidence": 0.78011954,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.670068,
+                      "y": 0.3251366
+                    },
+                    {
+                      "x": 0.8435374,
+                      "y": 0.3251366
+                    },
+                    {
+                      "x": 0.8435374,
+                      "y": 0.34016395
+                    },
+                    {
+                      "x": 0.670068,
+                      "y": 0.34016395
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 20,
+              "minutes": 18
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "145",
+                "endIndex": "156"
+              }
+            ],
+            "content": "03-56127718"
+          },
+          "type": "supplier_phone",
+          "mentionText": "03-56127718",
+          "confidence": 0.7294898,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18197279,
+                      "y": 0.23838797
+                    },
+                    {
+                      "x": 0.41836736,
+                      "y": 0.23838797
+                    },
+                    {
+                      "x": 0.41836736,
+                      "y": 0.25478142
+                    },
+                    {
+                      "x": 0.18197279,
+                      "y": 0.25478142
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "482",
+                "endIndex": "486"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.70525956,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.11734694,
+                      "y": 0.6523224
+                    },
+                    {
+                      "x": 0.28231293,
+                      "y": 0.6523224
+                    },
+                    {
+                      "x": 0.28231293,
+                      "y": 0.6666667
+                    },
+                    {
+                      "x": 0.11734694,
+                      "y": 0.6666667
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "430",
+                "endIndex": "435"
+              }
+            ],
+            "content": "27.27"
+          },
+          "type": "net_amount",
+          "mentionText": "27.27",
+          "confidence": 0.57998794,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8197279,
+                      "y": 0.5669399
+                    },
+                    {
+                      "x": 0.92346936,
+                      "y": 0.5669399
+                    },
+                    {
+                      "x": 0.92346936,
+                      "y": 0.579918
+                    },
+                    {
+                      "x": 0.8197279,
+                      "y": 0.579918
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "27.27",
+            "moneyValue": {
+              "units": "27",
+              "nanos": 270000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "92",
+                "endIndex": "139"
+              }
+            ],
+            "content": "B-8, JALAN SS15/4D,\n47500 SUBANG JAYA, SELANGOR"
+          },
+          "type": "supplier_address",
+          "mentionText": "B-8, JALAN SS15/4D,\n47500 SUBANG JAYA, SELANGOR",
+          "confidence": 0.56951797,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07482993,
+                      "y": 0.2056011
+                    },
+                    {
+                      "x": 0.6513606,
+                      "y": 0.2056011
+                    },
+                    {
+                      "x": 0.6513606,
+                      "y": 0.23770492
+                    },
+                    {
+                      "x": 0.07482993,
+                      "y": 0.23770492
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "23",
+                "endIndex": "34"
+              }
+            ],
+            "content": "AA PHARMACY"
+          },
+          "type": "supplier_name",
+          "mentionText": "AA PHARMACY",
+          "confidence": 0.5703362,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07653061,
+                      "y": 0.13729508
+                    },
+                    {
+                      "x": 0.53741497,
+                      "y": 0.13729508
+                    },
+                    {
+                      "x": 0.53741497,
+                      "y": 0.15163934
+                    },
+                    {
+                      "x": 0.07653061,
+                      "y": 0.15163934
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "AA Pharmacy"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "637",
+                "endIndex": "641"
+              }
+            ],
+            "content": "1.64"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "1.64",
+          "confidence": 0.41033688,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8180272,
+                      "y": 0.96516395
+                    },
+                    {
+                      "x": 0.9030612,
+                      "y": 0.96516395
+                    },
+                    {
+                      "x": 0.9030612,
+                      "y": 0.97882515
+                    },
+                    {
+                      "x": 0.8180272,
+                      "y": 0.97882515
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "normalizedValue": {
+            "text": "1.64",
+            "moneyValue": {
+              "units": "1",
+              "nanos": 640000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "278",
+                "endIndex": "284"
+              },
+              {
+                "startIndex": "291",
+                "endIndex": "296"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "030249 14.90",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07653061,
+                      "y": 0.42759562
+                    },
+                    {
+                      "x": 0.88435376,
+                      "y": 0.42759562
+                    },
+                    {
+                      "x": 0.88435376,
+                      "y": 0.44262296
+                    },
+                    {
+                      "x": 0.07653061,
+                      "y": 0.44262296
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "278",
+                    "endIndex": "284"
+                  }
+                ],
+                "content": "030249"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "030249",
+              "confidence": 0.94694954,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07653061,
+                          "y": 0.42896175
+                        },
+                        {
+                          "x": 0.19897959,
+                          "y": 0.42896175
+                        },
+                        {
+                          "x": 0.19897959,
+                          "y": 0.44125682
+                        },
+                        {
+                          "x": 0.07653061,
+                          "y": 0.44125682
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "291",
+                    "endIndex": "296"
+                  }
+                ],
+                "content": "14.90"
+              },
+              "type": "line_item/amount",
+              "mentionText": "14.90",
+              "confidence": 0.9657512,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7772109,
+                          "y": 0.42759562
+                        },
+                        {
+                          "x": 0.88435376,
+                          "y": 0.42759562
+                        },
+                        {
+                          "x": 0.88435376,
+                          "y": 0.44262296
+                        },
+                        {
+                          "x": 0.7772109,
+                          "y": 0.44262296
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "14.9",
+                "moneyValue": {
+                  "units": "14",
+                  "nanos": 900000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "299",
+                "endIndex": "339"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "(BOX 100S) SUPER SAFE POWDER FREE NITRIL",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07482993,
+                      "y": 0.44467214
+                    },
+                    {
+                      "x": 0.92517006,
+                      "y": 0.44467214
+                    },
+                    {
+                      "x": 0.92517006,
+                      "y": 0.46311477
+                    },
+                    {
+                      "x": 0.07482993,
+                      "y": 0.46311477
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "299",
+                    "endIndex": "339"
+                  }
+                ],
+                "content": "(BOX 100S) SUPER SAFE POWDER FREE NITRIL"
+              },
+              "type": "line_item/description",
+              "mentionText": "(BOX 100S) SUPER SAFE POWDER FREE NITRIL",
+              "confidence": 0.5457312,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07482993,
+                          "y": 0.44467214
+                        },
+                        {
+                          "x": 0.92517006,
+                          "y": 0.44467214
+                        },
+                        {
+                          "x": 0.92517006,
+                          "y": 0.46311477
+                        },
+                        {
+                          "x": 0.07482993,
+                          "y": 0.46311477
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "340",
+                "endIndex": "345"
+              },
+              {
+                "startIndex": "346",
+                "endIndex": "347"
+              },
+              {
+                "startIndex": "354",
+                "endIndex": "359"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "03022 1 14.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07653061,
+                      "y": 0.46106556
+                    },
+                    {
+                      "x": 0.8877551,
+                      "y": 0.46106556
+                    },
+                    {
+                      "x": 0.8877551,
+                      "y": 0.47882512
+                    },
+                    {
+                      "x": 0.07653061,
+                      "y": 0.47882512
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "340",
+                    "endIndex": "345"
+                  }
+                ],
+                "content": "03022"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "03022",
+              "confidence": 0.93960154,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07653061,
+                          "y": 0.46106556
+                        },
+                        {
+                          "x": 0.18197279,
+                          "y": 0.46106556
+                        },
+                        {
+                          "x": 0.18197279,
+                          "y": 0.4760929
+                        },
+                        {
+                          "x": 0.07653061,
+                          "y": 0.4760929
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "346",
+                    "endIndex": "347"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.92295724,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.46088436,
+                          "y": 0.4637978
+                        },
+                        {
+                          "x": 0.47619048,
+                          "y": 0.4637978
+                        },
+                        {
+                          "x": 0.47619048,
+                          "y": 0.4760929
+                        },
+                        {
+                          "x": 0.46088436,
+                          "y": 0.4760929
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "354",
+                    "endIndex": "359"
+                  }
+                ],
+                "content": "14.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "14.00",
+              "confidence": 0.98359865,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7772109,
+                          "y": 0.46311477
+                        },
+                        {
+                          "x": 0.8877551,
+                          "y": 0.46311477
+                        },
+                        {
+                          "x": 0.8877551,
+                          "y": 0.47882512
+                        },
+                        {
+                          "x": 0.7772109,
+                          "y": 0.47882512
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17",
+              "normalizedValue": {
+                "text": "14",
+                "moneyValue": {
+                  "units": "14"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "362",
+                "endIndex": "402"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "(S SIZE) SUPER SAFE LATEX GLOVE POWDER F",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07823129,
+                      "y": 0.48019126
+                    },
+                    {
+                      "x": 0.92687076,
+                      "y": 0.48019126
+                    },
+                    {
+                      "x": 0.92687076,
+                      "y": 0.4986339
+                    },
+                    {
+                      "x": 0.07823129,
+                      "y": 0.4986339
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "362",
+                    "endIndex": "402"
+                  }
+                ],
+                "content": "(S SIZE) SUPER SAFE LATEX GLOVE POWDER F"
+              },
+              "type": "line_item/description",
+              "mentionText": "(S SIZE) SUPER SAFE LATEX GLOVE POWDER F",
+              "confidence": 0.50088745,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07823129,
+                          "y": 0.48019126
+                        },
+                        {
+                          "x": 0.92687076,
+                          "y": 0.48019126
+                        },
+                        {
+                          "x": 0.92687076,
+                          "y": 0.4986339
+                        },
+                        {
+                          "x": 0.07823129,
+                          "y": 0.4986339
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

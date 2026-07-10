@@ -270,6 +270,7 @@ async function submitStatementEvals(): Promise<void> {
         method: "POST",
         headers: { "content-type": "application/json", "x-api-key": key },
         body: JSON.stringify({ contentHash, transactions }),
+        signal: AbortSignal.timeout(60_000),
       });
       const body = (await res.json().catch(() => ({}))) as Record<string, unknown>;
       if (!res.ok) {

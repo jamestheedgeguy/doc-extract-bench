@@ -131,6 +131,7 @@ export const docai: Adapter = {
         authorization: `Bearer ${accessToken()}`,
         "content-type": "application/json",
       },
+      signal: AbortSignal.timeout(120_000),
       body: JSON.stringify({
         rawDocument: { content: doc.toString("base64"), mimeType },
         // keep responses committable: skip full-page image/layout payloads

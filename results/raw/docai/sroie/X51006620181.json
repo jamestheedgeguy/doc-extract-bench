@@ -1,0 +1,958 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51006620181",
+  "at": "2026-07-10T10:42:19.759Z",
+  "latencyMs": 1993,
+  "raw": {
+    "document": {
+      "text": "NADEJE PLATINUM SDN BHD\nGK101,GND FLR, ONE UTAMA SHOPPING CENTRE\nNO.1, LEBUH\nBANDAR UTAMA,\n47800 PETALING JAYA, SELANGOR.\nTel:03-7710 0302\nGST ID:001151160320\nBill No.: 000-049909\nTake Out\nDate: 2016/05/01 14:11:20\nDoubleCoco Slice\n1 RM12.60\nMother's Slices\nTiramisu Slice\nCheese Slice\n1 RM13.50\n1 RM12.60\n1 RM12.60\nRM51.30\nGrand Total RM\n(Bill Inclusive of 6% GST : RM2.90)\nCash\nRM51.30\n002-2016/05/01 14:13:10 Elin (1) 000-049909 [1]\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "195",
+                "endIndex": "205"
+              }
+            ],
+            "content": "2016/05/01"
+          },
+          "type": "receipt_date",
+          "mentionText": "2016/05/01",
+          "confidence": 0.870268,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17094018,
+                      "y": 0.4693414
+                    },
+                    {
+                      "x": 0.37179488,
+                      "y": 0.4693414
+                    },
+                    {
+                      "x": 0.37179488,
+                      "y": 0.4928085
+                    },
+                    {
+                      "x": 0.17094018,
+                      "y": 0.4928085
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2016-05-01",
+            "dateValue": {
+              "year": 2016,
+              "month": 5,
+              "day": 1
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "316",
+                "endIndex": "323"
+              }
+            ],
+            "content": "RM51.30"
+          },
+          "type": "total_amount",
+          "mentionText": "RM51.30",
+          "confidence": 0.85204935,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.62072647,
+                      "y": 0.70476913
+                    },
+                    {
+                      "x": 0.8611111,
+                      "y": 0.70476913
+                    },
+                    {
+                      "x": 0.8611111,
+                      "y": 0.74791825
+                    },
+                    {
+                      "x": 0.62072647,
+                      "y": 0.74791825
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "51.3",
+            "moneyValue": {
+              "currencyCode": "MYR",
+              "units": "51",
+              "nanos": 300000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "336",
+                "endIndex": "338"
+              }
+            ],
+            "content": "RM"
+          },
+          "type": "currency",
+          "mentionText": "RM",
+          "confidence": 0.80219024,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6196581,
+                      "y": 0.72369415
+                    },
+                    {
+                      "x": 0.6581197,
+                      "y": 0.72369415
+                    },
+                    {
+                      "x": 0.6581197,
+                      "y": 0.74640423
+                    },
+                    {
+                      "x": 0.6196581,
+                      "y": 0.74640423
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "MYR"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "126",
+                "endIndex": "138"
+              }
+            ],
+            "content": "03-7710 0302"
+          },
+          "type": "supplier_phone",
+          "mentionText": "03-7710 0302",
+          "confidence": 0.7680711,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.37713677,
+                      "y": 0.2672218
+                    },
+                    {
+                      "x": 0.6196581,
+                      "y": 0.2672218
+                    },
+                    {
+                      "x": 0.6196581,
+                      "y": 0.29144588
+                    },
+                    {
+                      "x": 0.37713677,
+                      "y": 0.29144588
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "403",
+                "endIndex": "411"
+              }
+            ],
+            "content": "14:13:10"
+          },
+          "type": "purchase_time",
+          "mentionText": "14:13:10",
+          "confidence": 0.731334,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2628205,
+                      "y": 0.9220288
+                    },
+                    {
+                      "x": 0.37606838,
+                      "y": 0.9220288
+                    },
+                    {
+                      "x": 0.37606838,
+                      "y": 0.9401968
+                    },
+                    {
+                      "x": 0.2628205,
+                      "y": 0.9401968
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 14,
+              "minutes": 13,
+              "seconds": 10
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "375",
+                "endIndex": "379"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.6972718,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5192308,
+                      "y": 0.85692656
+                    },
+                    {
+                      "x": 0.6025641,
+                      "y": 0.85692656
+                    },
+                    {
+                      "x": 0.6025641,
+                      "y": 0.8781226
+                    },
+                    {
+                      "x": 0.5192308,
+                      "y": 0.8781226
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "23"
+              }
+            ],
+            "content": "NADEJE PLATINUM SDN BHD"
+          },
+          "type": "supplier_name",
+          "mentionText": "NADEJE PLATINUM SDN BHD",
+          "confidence": 0.6497639,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.21260683,
+                      "y": 0.1317184
+                    },
+                    {
+                      "x": 0.6826923,
+                      "y": 0.1317184
+                    },
+                    {
+                      "x": 0.6826923,
+                      "y": 0.15442847
+                    },
+                    {
+                      "x": 0.21260683,
+                      "y": 0.15442847
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {
+            "text": "Nadeje"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "24",
+                "endIndex": "121"
+              }
+            ],
+            "content": "GK101,GND FLR, ONE UTAMA SHOPPING CENTRE\nNO.1, LEBUH\nBANDAR UTAMA,\n47800 PETALING JAYA, SELANGOR."
+          },
+          "type": "supplier_address",
+          "mentionText": "GK101,GND FLR, ONE UTAMA SHOPPING CENTRE\nNO.1, LEBUH\nBANDAR UTAMA,\n47800 PETALING JAYA, SELANGOR.",
+          "confidence": 0.56440246,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.048076924,
+                      "y": 0.1657835
+                    },
+                    {
+                      "x": 0.84615386,
+                      "y": 0.1657835
+                    },
+                    {
+                      "x": 0.84615386,
+                      "y": 0.25889477
+                    },
+                    {
+                      "x": 0.048076924,
+                      "y": 0.25889477
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "215",
+                "endIndex": "231"
+              },
+              {
+                "startIndex": "232",
+                "endIndex": "233"
+              },
+              {
+                "startIndex": "234",
+                "endIndex": "241"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "DoubleCoco Slice 1 RM12.60",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.048076924,
+                      "y": 0.5352006
+                    },
+                    {
+                      "x": 0.86752135,
+                      "y": 0.5352006
+                    },
+                    {
+                      "x": 0.86752135,
+                      "y": 0.55866766
+                    },
+                    {
+                      "x": 0.048076924,
+                      "y": 0.55866766
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "215",
+                    "endIndex": "231"
+                  }
+                ],
+                "content": "DoubleCoco Slice"
+              },
+              "type": "line_item/description",
+              "mentionText": "DoubleCoco Slice",
+              "confidence": 0.66101855,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.048076924,
+                          "y": 0.5352006
+                        },
+                        {
+                          "x": 0.37820512,
+                          "y": 0.5352006
+                        },
+                        {
+                          "x": 0.37820512,
+                          "y": 0.55866766
+                        },
+                        {
+                          "x": 0.048076924,
+                          "y": 0.55866766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "232",
+                    "endIndex": "233"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8623709,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.64529914,
+                          "y": 0.5374716
+                        },
+                        {
+                          "x": 0.6602564,
+                          "y": 0.5374716
+                        },
+                        {
+                          "x": 0.6602564,
+                          "y": 0.55866766
+                        },
+                        {
+                          "x": 0.64529914,
+                          "y": 0.55866766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "234",
+                    "endIndex": "241"
+                  }
+                ],
+                "content": "RM12.60"
+              },
+              "type": "line_item/amount",
+              "mentionText": "RM12.60",
+              "confidence": 0.5067729,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.724359,
+                          "y": 0.5374716
+                        },
+                        {
+                          "x": 0.86752135,
+                          "y": 0.5374716
+                        },
+                        {
+                          "x": 0.86752135,
+                          "y": 0.55866766
+                        },
+                        {
+                          "x": 0.724359,
+                          "y": 0.55866766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "12.6",
+                "moneyValue": {
+                  "currencyCode": "MYR",
+                  "units": "12",
+                  "nanos": 600000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "242",
+                "endIndex": "257"
+              },
+              {
+                "startIndex": "286",
+                "endIndex": "287"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Mother's Slices 1",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.047008548,
+                      "y": 0.5685087
+                    },
+                    {
+                      "x": 0.65918803,
+                      "y": 0.5685087
+                    },
+                    {
+                      "x": 0.65918803,
+                      "y": 0.59197575
+                    },
+                    {
+                      "x": 0.047008548,
+                      "y": 0.59197575
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "242",
+                    "endIndex": "257"
+                  }
+                ],
+                "content": "Mother's Slices"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mother's Slices",
+              "confidence": 0.68143463,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.047008548,
+                          "y": 0.5685087
+                        },
+                        {
+                          "x": 0.3525641,
+                          "y": 0.5685087
+                        },
+                        {
+                          "x": 0.3525641,
+                          "y": 0.59121877
+                        },
+                        {
+                          "x": 0.047008548,
+                          "y": 0.59121877
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "286",
+                    "endIndex": "287"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8154287,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.64529914,
+                          "y": 0.5692657
+                        },
+                        {
+                          "x": 0.65918803,
+                          "y": 0.5692657
+                        },
+                        {
+                          "x": 0.65918803,
+                          "y": 0.59197575
+                        },
+                        {
+                          "x": 0.64529914,
+                          "y": 0.59197575
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "258",
+                "endIndex": "272"
+              },
+              {
+                "startIndex": "296",
+                "endIndex": "297"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Tiramisu Slice 1",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.047008548,
+                      "y": 0.5995458
+                    },
+                    {
+                      "x": 0.6602564,
+                      "y": 0.5995458
+                    },
+                    {
+                      "x": 0.6602564,
+                      "y": 0.6260409
+                    },
+                    {
+                      "x": 0.047008548,
+                      "y": 0.6260409
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "258",
+                    "endIndex": "272"
+                  }
+                ],
+                "content": "Tiramisu Slice"
+              },
+              "type": "line_item/description",
+              "mentionText": "Tiramisu Slice",
+              "confidence": 0.625556,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.047008548,
+                          "y": 0.5995458
+                        },
+                        {
+                          "x": 0.3344017,
+                          "y": 0.5995458
+                        },
+                        {
+                          "x": 0.3344017,
+                          "y": 0.6260409
+                        },
+                        {
+                          "x": 0.047008548,
+                          "y": 0.6260409
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "296",
+                    "endIndex": "297"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8112686,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.64529914,
+                          "y": 0.6033308
+                        },
+                        {
+                          "x": 0.6602564,
+                          "y": 0.6033308
+                        },
+                        {
+                          "x": 0.6602564,
+                          "y": 0.6252839
+                        },
+                        {
+                          "x": 0.64529914,
+                          "y": 0.6252839
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "273",
+                "endIndex": "285"
+              },
+              {
+                "startIndex": "306",
+                "endIndex": "307"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Cheese Slice 1",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.045940172,
+                      "y": 0.6351249
+                    },
+                    {
+                      "x": 0.6602564,
+                      "y": 0.6351249
+                    },
+                    {
+                      "x": 0.6602564,
+                      "y": 0.65783495
+                    },
+                    {
+                      "x": 0.045940172,
+                      "y": 0.65783495
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "273",
+                    "endIndex": "285"
+                  }
+                ],
+                "content": "Cheese Slice"
+              },
+              "type": "line_item/description",
+              "mentionText": "Cheese Slice",
+              "confidence": 0.4893251,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.045940172,
+                          "y": 0.6351249
+                        },
+                        {
+                          "x": 0.29273504,
+                          "y": 0.6351249
+                        },
+                        {
+                          "x": 0.29273504,
+                          "y": 0.65707797
+                        },
+                        {
+                          "x": 0.045940172,
+                          "y": 0.65707797
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "306",
+                    "endIndex": "307"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.70807505,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.64529914,
+                          "y": 0.6373959
+                        },
+                        {
+                          "x": 0.6602564,
+                          "y": 0.6373959
+                        },
+                        {
+                          "x": 0.6602564,
+                          "y": 0.65783495
+                        },
+                        {
+                          "x": 0.64529914,
+                          "y": 0.65783495
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

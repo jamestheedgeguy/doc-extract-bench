@@ -1,0 +1,1043 @@
+{
+  "vendor": "docai",
+  "dataset": "fatura",
+  "docId": "Template33_Instance185",
+  "at": "2026-07-10T10:30:14.500Z",
+  "latencyMs": 2951,
+  "raw": {
+    "document": {
+      "text": "Duran, Morgan and Lopez\nAddress:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US\nGSTIN 336SPTNO37LG120\nBill to: Ryan Mcdonald\n6250 Patrick Terrace\nAlejandromouth, NM 77869 US\nTel:+(941)644-6253\nEmail:wrichmond@example.com\nSite:http://www.hicks.com/\nGSTIN 22AAAAAD000A125,\nDate: 02-Mar-1994\nTAX INVOICE\nInvoice number INV/79-42/775\nDue Date: 23-Mar-2015\nITEMS\nQUANTITY\nPRICE\nSpecific might professor.\n5.00\n$12.84\nBillion.\n4.00\n$90.12\nSUB TOTAL: 424.68 EUR\nGST(18%): 76.44\nBALANCE DUE : 440.58 EUR\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "341",
+                "endIndex": "352"
+              }
+            ],
+            "content": "23-Mar-2015"
+          },
+          "type": "due_date",
+          "mentionText": "23-Mar-2015",
+          "confidence": 0.9907888,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.76638657,
+                      "y": 0.42687276
+                    },
+                    {
+                      "x": 0.88235295,
+                      "y": 0.42687276
+                    },
+                    {
+                      "x": 0.88235295,
+                      "y": 0.43638524
+                    },
+                    {
+                      "x": 0.76638657,
+                      "y": 0.43638524
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2015-03-23",
+            "dateValue": {
+              "year": 2015,
+              "month": 3,
+              "day": 23
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "278",
+                "endIndex": "289"
+              }
+            ],
+            "content": "02-Mar-1994"
+          },
+          "type": "invoice_date",
+          "mentionText": "02-Mar-1994",
+          "confidence": 0.9768717,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.10252101,
+                      "y": 0.4256837
+                    },
+                    {
+                      "x": 0.21680672,
+                      "y": 0.4256837
+                    },
+                    {
+                      "x": 0.21680672,
+                      "y": 0.43757433
+                    },
+                    {
+                      "x": 0.10252101,
+                      "y": 0.43757433
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "1994-03-02",
+            "dateValue": {
+              "year": 1994,
+              "month": 3,
+              "day": 2
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "317",
+                "endIndex": "330"
+              }
+            ],
+            "content": "INV/79-42/775"
+          },
+          "type": "invoice_id",
+          "mentionText": "INV/79-42/775",
+          "confidence": 0.9581784,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8420168,
+                      "y": 0.13674198
+                    },
+                    {
+                      "x": 0.9714286,
+                      "y": 0.13674198
+                    },
+                    {
+                      "x": 0.9714286,
+                      "y": 0.14982164
+                    },
+                    {
+                      "x": 0.8420168,
+                      "y": 0.14982164
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "492",
+                "endIndex": "495"
+              }
+            ],
+            "content": "EUR"
+          },
+          "type": "currency",
+          "mentionText": "EUR",
+          "confidence": 0.92603433,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.89411765,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.9445378,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.9445378,
+                      "y": 0.87990487
+                    },
+                    {
+                      "x": 0.89411765,
+                      "y": 0.87990487
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "EUR"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "444",
+                "endIndex": "450"
+              }
+            ],
+            "content": "424.68"
+          },
+          "type": "net_amount",
+          "mentionText": "424.68",
+          "confidence": 0.87280124,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8117647,
+                      "y": 0.7562426
+                    },
+                    {
+                      "x": 0.87563026,
+                      "y": 0.7562426
+                    },
+                    {
+                      "x": 0.87563026,
+                      "y": 0.7693222
+                    },
+                    {
+                      "x": 0.8117647,
+                      "y": 0.7693222
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "424.68",
+            "floatValue": 424.68
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "87",
+                "endIndex": "102"
+              }
+            ],
+            "content": "336SPTNO37LG120"
+          },
+          "type": "supplier_tax_id",
+          "mentionText": "336SPTNO37LG120",
+          "confidence": 0.8547961,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.099159665,
+                      "y": 0.14982164
+                    },
+                    {
+                      "x": 0.2857143,
+                      "y": 0.14982164
+                    },
+                    {
+                      "x": 0.2857143,
+                      "y": 0.16052319
+                    },
+                    {
+                      "x": 0.099159665,
+                      "y": 0.16052319
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "112",
+                "endIndex": "125"
+              }
+            ],
+            "content": "Ryan Mcdonald"
+          },
+          "type": "receiver_name",
+          "mentionText": "Ryan Mcdonald",
+          "confidence": 0.76286507,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.09579832,
+                      "y": 0.24375743
+                    },
+                    {
+                      "x": 0.24369748,
+                      "y": 0.24375743
+                    },
+                    {
+                      "x": 0.24369748,
+                      "y": 0.2568371
+                    },
+                    {
+                      "x": 0.09579832,
+                      "y": 0.2568371
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "465",
+                "endIndex": "470"
+              }
+            ],
+            "content": "76.44"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "76.44",
+          "confidence": 0.75726587,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7831933,
+                      "y": 0.8133175
+                    },
+                    {
+                      "x": 0.8352941,
+                      "y": 0.8133175
+                    },
+                    {
+                      "x": 0.8352941,
+                      "y": 0.82758623
+                    },
+                    {
+                      "x": 0.7831933,
+                      "y": 0.82758623
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "76.44",
+            "floatValue": 76.44
+          }
+        },
+        {
+          "type": "invoice_type",
+          "confidence": 0.5814876,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "confidence": 0.7270832
+              }
+            ]
+          },
+          "id": "8",
+          "normalizedValue": {
+            "text": "invoice_statement"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "23"
+              }
+            ],
+            "content": "Duran, Morgan and Lopez"
+          },
+          "type": "supplier_name",
+          "mentionText": "Duran, Morgan and Lopez",
+          "confidence": 0.51979357,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.033613447,
+                      "y": 0.03686088
+                    },
+                    {
+                      "x": 0.2789916,
+                      "y": 0.03686088
+                    },
+                    {
+                      "x": 0.2789916,
+                      "y": 0.049940545
+                    },
+                    {
+                      "x": 0.033613447,
+                      "y": 0.049940545
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "24",
+                "endIndex": "80"
+              }
+            ],
+            "content": "Address:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US"
+          },
+          "type": "supplier_address",
+          "mentionText": "Address:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US",
+          "confidence": 0.40935907,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.031932775,
+                      "y": 0.063020214
+                    },
+                    {
+                      "x": 0.3512605,
+                      "y": 0.063020214
+                    },
+                    {
+                      "x": 0.3512605,
+                      "y": 0.09274673
+                    },
+                    {
+                      "x": 0.031932775,
+                      "y": 0.09274673
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "126",
+                "endIndex": "174"
+              }
+            ],
+            "content": "6250 Patrick Terrace\nAlejandromouth, NM 77869 US"
+          },
+          "type": "receiver_address",
+          "mentionText": "6250 Patrick Terrace\nAlejandromouth, NM 77869 US",
+          "confidence": 0.3857865,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.033613447,
+                      "y": 0.26159334
+                    },
+                    {
+                      "x": 0.32436976,
+                      "y": 0.26159334
+                    },
+                    {
+                      "x": 0.32436976,
+                      "y": 0.29250893
+                    },
+                    {
+                      "x": 0.033613447,
+                      "y": 0.29250893
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "485",
+                "endIndex": "491"
+              }
+            ],
+            "content": "440.58"
+          },
+          "type": "total_amount",
+          "mentionText": "440.58",
+          "confidence": 0.36851543,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8134454,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.8857143,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.8857143,
+                      "y": 0.87990487
+                    },
+                    {
+                      "x": 0.8134454,
+                      "y": 0.87990487
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "normalizedValue": {
+            "text": "440.58",
+            "floatValue": 440.58
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "227",
+                "endIndex": "248"
+              }
+            ],
+            "content": "http://www.hicks.com/"
+          },
+          "type": "supplier_website",
+          "mentionText": "http://www.hicks.com/",
+          "confidence": 0.26531613,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07731093,
+                      "y": 0.32818073
+                    },
+                    {
+                      "x": 0.29075631,
+                      "y": 0.32818073
+                    },
+                    {
+                      "x": 0.29075631,
+                      "y": 0.34363854
+                    },
+                    {
+                      "x": 0.07731093,
+                      "y": 0.34363854
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "179",
+                "endIndex": "193"
+              }
+            ],
+            "content": "+(941)644-6253"
+          },
+          "type": "receiver_phone",
+          "mentionText": "+(941)644-6253",
+          "confidence": 0.15158463,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07058824,
+                      "y": 0.2960761
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.2960761
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.3079667
+                    },
+                    {
+                      "x": 0.07058824,
+                      "y": 0.3079667
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "200",
+                "endIndex": "221"
+              }
+            ],
+            "content": "wrichmond@example.com"
+          },
+          "type": "supplier_email",
+          "mentionText": "wrichmond@example.com",
+          "confidence": 0.14596078,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.09579832,
+                      "y": 0.31272295
+                    },
+                    {
+                      "x": 0.34957984,
+                      "y": 0.31272295
+                    },
+                    {
+                      "x": 0.34957984,
+                      "y": 0.32699168
+                    },
+                    {
+                      "x": 0.09579832,
+                      "y": 0.32699168
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "374",
+                "endIndex": "399"
+              },
+              {
+                "startIndex": "400",
+                "endIndex": "404"
+              },
+              {
+                "startIndex": "406",
+                "endIndex": "411"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Specific might professor. 5.00 12.84",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15294118,
+                      "y": 0.6230678
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.6230678
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.6325803
+                    },
+                    {
+                      "x": 0.15294118,
+                      "y": 0.6325803
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "16",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "374",
+                    "endIndex": "399"
+                  }
+                ],
+                "content": "Specific might professor."
+              },
+              "type": "line_item/description",
+              "mentionText": "Specific might professor.",
+              "confidence": 0.64642763,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15294118,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.33781514,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.33781514,
+                          "y": 0.6325803
+                        },
+                        {
+                          "x": 0.15294118,
+                          "y": 0.6325803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "400",
+                    "endIndex": "404"
+                  }
+                ],
+                "content": "5.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "5.00",
+              "confidence": 0.97449046,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.59831935,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.59831935,
+                          "y": 0.6313912
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6313912
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "18",
+              "normalizedValue": {
+                "text": "5",
+                "floatValue": 5
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "406",
+                    "endIndex": "411"
+                  }
+                ],
+                "content": "12.84"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12.84",
+              "confidence": 0.9120892,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8184874,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.6313912
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.6313912
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "12.84",
+                "floatValue": 12.84
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "412",
+                "endIndex": "420"
+              },
+              {
+                "startIndex": "421",
+                "endIndex": "425"
+              },
+              {
+                "startIndex": "427",
+                "endIndex": "432"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Billion. 4.00 90.12",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.22184874,
+                      "y": 0.6432818
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.6432818
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.6527943
+                    },
+                    {
+                      "x": 0.22184874,
+                      "y": 0.6527943
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "20",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "412",
+                    "endIndex": "420"
+                  }
+                ],
+                "content": "Billion."
+              },
+              "type": "line_item/description",
+              "mentionText": "Billion.",
+              "confidence": 0.28253403,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22184874,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.27226892,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.27226892,
+                          "y": 0.6527943
+                        },
+                        {
+                          "x": 0.22184874,
+                          "y": 0.6527943
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "21"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "421",
+                    "endIndex": "425"
+                  }
+                ],
+                "content": "4.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "4.00",
+              "confidence": 0.97577953,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6432818
+                        },
+                        {
+                          "x": 0.594958,
+                          "y": 0.6432818
+                        },
+                        {
+                          "x": 0.594958,
+                          "y": 0.6527943
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6527943
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "22",
+              "normalizedValue": {
+                "text": "4",
+                "floatValue": 4
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "427",
+                    "endIndex": "432"
+                  }
+                ],
+                "content": "90.12"
+              },
+              "type": "line_item/amount",
+              "mentionText": "90.12",
+              "confidence": 0.9199456,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8184874,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.6527943
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.6527943
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "23",
+              "normalizedValue": {
+                "text": "90.12",
+                "floatValue": 90.12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

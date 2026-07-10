@@ -66,6 +66,7 @@ export const kynth: Adapter = {
         file: { data: doc.toString("base64"), mimeType },
         ...(useAsync ? { async: true } : {}),
       }),
+      signal: AbortSignal.timeout(120_000),
     });
     const text = await res.text();
     let raw: Record<string, unknown>;
@@ -80,7 +81,7 @@ export const kynth: Adapter = {
       const deadline = Date.now() + 300_000;
       for (;;) {
         await new Promise((r) => setTimeout(r, 3000));
-        const jr = await fetch(`${BASE}/v1/jobs/${raw.jobId}`, { headers });
+        const jr = await fetch(`${BASE}/v1/jobs/${raw.jobId}`, { headers, signal: AbortSignal.timeout(30_000) });
         const job = (await jr.json()) as Record<string, unknown>;
         if (job.status === "succeeded") {
           raw = (job.result ?? {}) as Record<string, unknown>;

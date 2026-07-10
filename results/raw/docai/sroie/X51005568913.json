@@ -1,0 +1,606 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51005568913",
+  "at": "2026-07-10T10:42:49.701Z",
+  "latencyMs": 2043,
+  "raw": {
+    "document": {
+      "text": "IKANO HANDEL SDN BHD\n(1074617K)\nIKEA Cheras\nNo 2A Jalan Cochrane\nTaman Maluri\n55100 KUALA LUMPUR\nGST No.: 000115154944\nTAX INVOICE\nSlip: 0000000011000136498\nTrans: 311136194\nDescription\nDate: 27/07/17\nTime: 1:12\nStaff:\n95837\nAmount TX\n50346155 BOSTRAK WRD 80X50X18\n2 pc @ 269.00\n538.00 SRS\nTotal RM Including GST 6% 538.00\nRounding Adj.\n0.00\nTotal Rounded\n538.00\nVisa\n-538.00\nGST SR\n6% 538.00 30.45\nAmt. Excl. GST\n507.55\nNo. of Items\n2\nThank you. Please come again.\n*T3620000011000136498*\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "363",
+                "endIndex": "367"
+              }
+            ],
+            "content": "Visa"
+          },
+          "type": "payment_type",
+          "mentionText": "Visa",
+          "confidence": 0.87153167,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.13197425,
+                      "y": 0.5987085
+                    },
+                    {
+                      "x": 0.21137339,
+                      "y": 0.5987085
+                    },
+                    {
+                      "x": 0.21137339,
+                      "y": 0.61392987
+                    },
+                    {
+                      "x": 0.13197425,
+                      "y": 0.61392987
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "192",
+                "endIndex": "200"
+              }
+            ],
+            "content": "27/07/17"
+          },
+          "type": "receipt_date",
+          "mentionText": "27/07/17",
+          "confidence": 0.79198736,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6630901,
+                      "y": 0.3201107
+                    },
+                    {
+                      "x": 0.81545067,
+                      "y": 0.3201107
+                    },
+                    {
+                      "x": 0.81545067,
+                      "y": 0.33763838
+                    },
+                    {
+                      "x": 0.6630901,
+                      "y": 0.33763838
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2017-07-27",
+            "dateValue": {
+              "year": 2017,
+              "month": 7,
+              "day": 27
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "207",
+                "endIndex": "211"
+              }
+            ],
+            "content": "1:12"
+          },
+          "type": "purchase_time",
+          "mentionText": "1:12",
+          "confidence": 0.7896018,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.68454933,
+                      "y": 0.33856088
+                    },
+                    {
+                      "x": 0.76502144,
+                      "y": 0.33856088
+                    },
+                    {
+                      "x": 0.76502144,
+                      "y": 0.35654983
+                    },
+                    {
+                      "x": 0.68454933,
+                      "y": 0.35654983
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 1,
+              "minutes": 12
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "356",
+                "endIndex": "362"
+              }
+            ],
+            "content": "538.00"
+          },
+          "type": "total_amount",
+          "mentionText": "538.00",
+          "confidence": 0.663752,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.68240345,
+                      "y": 0.5618081
+                    },
+                    {
+                      "x": 0.7972103,
+                      "y": 0.5618081
+                    },
+                    {
+                      "x": 0.7972103,
+                      "y": 0.5770295
+                    },
+                    {
+                      "x": 0.68240345,
+                      "y": 0.5770295
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "538",
+            "moneyValue": {
+              "units": "538"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "32",
+                "endIndex": "43"
+              }
+            ],
+            "content": "IKEA Cheras"
+          },
+          "type": "supplier_name",
+          "mentionText": "IKEA Cheras",
+          "confidence": 0.65935624,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2918455,
+                      "y": 0.13422509
+                    },
+                    {
+                      "x": 0.69635195,
+                      "y": 0.13422509
+                    },
+                    {
+                      "x": 0.69635195,
+                      "y": 0.15129152
+                    },
+                    {
+                      "x": 0.2918455,
+                      "y": 0.15129152
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "IKEA Cheras"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "44",
+                "endIndex": "96"
+              }
+            ],
+            "content": "No 2A Jalan Cochrane\nTaman Maluri\n55100 KUALA LUMPUR"
+          },
+          "type": "supplier_address",
+          "mentionText": "No 2A Jalan Cochrane\nTaman Maluri\n55100 KUALA LUMPUR",
+          "confidence": 0.52490735,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.30472103,
+                      "y": 0.15221402
+                    },
+                    {
+                      "x": 0.68454933,
+                      "y": 0.15221402
+                    },
+                    {
+                      "x": 0.68454933,
+                      "y": 0.20710333
+                    },
+                    {
+                      "x": 0.30472103,
+                      "y": 0.20710333
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "2A, Jalan Cochrane Maluri 55100 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur Malaysia"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "414",
+                "endIndex": "420"
+              }
+            ],
+            "content": "507.55"
+          },
+          "type": "net_amount",
+          "mentionText": "507.55",
+          "confidence": 0.22510585,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.68240345,
+                      "y": 0.6729705
+                    },
+                    {
+                      "x": 0.79613733,
+                      "y": 0.6729705
+                    },
+                    {
+                      "x": 0.79613733,
+                      "y": 0.6881919
+                    },
+                    {
+                      "x": 0.68240345,
+                      "y": 0.6881919
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {
+            "text": "507.55",
+            "moneyValue": {
+              "units": "507",
+              "nanos": 550000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "235",
+                "endIndex": "243"
+              },
+              {
+                "startIndex": "244",
+                "endIndex": "264"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "50346155 BOSTRAK WRD 80X50X18",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.13412017,
+                      "y": 0.449262
+                    },
+                    {
+                      "x": 0.68133044,
+                      "y": 0.449262
+                    },
+                    {
+                      "x": 0.68133044,
+                      "y": 0.46678966
+                    },
+                    {
+                      "x": 0.13412017,
+                      "y": 0.46678966
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "235",
+                    "endIndex": "243"
+                  }
+                ],
+                "content": "50346155"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "50346155",
+              "confidence": 0.86237276,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.13412017,
+                          "y": 0.449262
+                        },
+                        {
+                          "x": 0.28540772,
+                          "y": 0.449262
+                        },
+                        {
+                          "x": 0.28540772,
+                          "y": 0.46586716
+                        },
+                        {
+                          "x": 0.13412017,
+                          "y": 0.46586716
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "244",
+                    "endIndex": "264"
+                  }
+                ],
+                "content": "BOSTRAK WRD 80X50X18"
+              },
+              "type": "line_item/description",
+              "mentionText": "BOSTRAK WRD 80X50X18",
+              "confidence": 0.7147999,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.30364805,
+                          "y": 0.44972324
+                        },
+                        {
+                          "x": 0.68133044,
+                          "y": 0.44972324
+                        },
+                        {
+                          "x": 0.68133044,
+                          "y": 0.46678966
+                        },
+                        {
+                          "x": 0.30364805,
+                          "y": 0.46678966
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "265",
+                "endIndex": "266"
+              },
+              {
+                "startIndex": "279",
+                "endIndex": "285"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 538.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18884121,
+                      "y": 0.4686347
+                    },
+                    {
+                      "x": 0.7982833,
+                      "y": 0.4686347
+                    },
+                    {
+                      "x": 0.7982833,
+                      "y": 0.48754612
+                    },
+                    {
+                      "x": 0.18884121,
+                      "y": 0.48754612
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "265",
+                    "endIndex": "266"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.8533045,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.18884121,
+                          "y": 0.4686347
+                        },
+                        {
+                          "x": 0.21244635,
+                          "y": 0.4686347
+                        },
+                        {
+                          "x": 0.21244635,
+                          "y": 0.48754612
+                        },
+                        {
+                          "x": 0.18884121,
+                          "y": 0.48754612
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "279",
+                    "endIndex": "285"
+                  }
+                ],
+                "content": "538.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "538.00",
+              "confidence": 0.89688516,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68240345,
+                          "y": 0.46909595
+                        },
+                        {
+                          "x": 0.7982833,
+                          "y": 0.46909595
+                        },
+                        {
+                          "x": 0.7982833,
+                          "y": 0.48477858
+                        },
+                        {
+                          "x": 0.68240345,
+                          "y": 0.48477858
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "538",
+                "moneyValue": {
+                  "units": "538"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

@@ -1,0 +1,1231 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51007231374",
+  "at": "2026-07-10T10:41:09.402Z",
+  "latencyMs": 3865,
+  "raw": {
+    "document": {
+      "text": "A05129\nWARAKUYA PERMAS CITY SDN BHD\nReg No: 1203194-W\nJALAN PERMAS UTARA 1,\nPERMAS JAYA 81750 MASAI JOHOR\nTel: 0111-558 0000\nGST ID: 0016 6993 5104\nTAX INVOICE NO\n47\n66346\nDate: 07/05/2018 5:42:46 PM\nCashier: c002\nPAX NO: 1\nWaiter: ALICE\nQty Code/Desc\n1 BUTA SHOGA YAKI SET\n1\nICED GREEN TEA\nServ Charge 10%\nGST @ 6%\nRounding Adj:\nTotal Amount :\nTotal RM\n19.90\n1.00\n2.09\n138\n003\n24.10\nTOTAL:\nRM 24.40\nType 2\nQty: 2\nCASH\n30.40\nChange RM: 6.00-\nGST Summary\nSR 6%\nAmount RM\n22.99\nTAX RM\n1.38\nThank You ! Please Come Again !\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "394",
+                "endIndex": "399"
+              }
+            ],
+            "content": "24.40"
+          },
+          "type": "total_amount",
+          "mentionText": "24.40",
+          "confidence": 0.8660104,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5584416,
+                      "y": 0.5278237
+                    },
+                    {
+                      "x": 0.6085714,
+                      "y": 0.5278237
+                    },
+                    {
+                      "x": 0.6085714,
+                      "y": 0.5390266
+                    },
+                    {
+                      "x": 0.5584416,
+                      "y": 0.5390266
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "24.4",
+            "moneyValue": {
+              "units": "24",
+              "nanos": 400000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "111",
+                "endIndex": "124"
+              }
+            ],
+            "content": "0111-558 0000"
+          },
+          "type": "supplier_phone",
+          "mentionText": "0111-558 0000",
+          "confidence": 0.8398644,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.42337662,
+                      "y": 0.24352618
+                    },
+                    {
+                      "x": 0.51688313,
+                      "y": 0.24352618
+                    },
+                    {
+                      "x": 0.51688313,
+                      "y": 0.25325987
+                    },
+                    {
+                      "x": 0.42337662,
+                      "y": 0.25325987
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "178",
+                "endIndex": "188"
+              }
+            ],
+            "content": "07/05/2018"
+          },
+          "type": "receipt_date",
+          "mentionText": "07/05/2018",
+          "confidence": 0.8293188,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.34857142,
+                      "y": 0.34416896
+                    },
+                    {
+                      "x": 0.42233765,
+                      "y": 0.34416896
+                    },
+                    {
+                      "x": 0.42233765,
+                      "y": 0.3540863
+                    },
+                    {
+                      "x": 0.34857142,
+                      "y": 0.3540863
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "2018-07-05",
+            "dateValue": {
+              "year": 2018,
+              "month": 7,
+              "day": 5
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "391",
+                "endIndex": "393"
+              }
+            ],
+            "content": "RM"
+          },
+          "type": "currency",
+          "mentionText": "RM",
+          "confidence": 0.74244916,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.52259743,
+                      "y": 0.52929294
+                    },
+                    {
+                      "x": 0.5516883,
+                      "y": 0.52929294
+                    },
+                    {
+                      "x": 0.5516883,
+                      "y": 0.5399449
+                    },
+                    {
+                      "x": 0.52259743,
+                      "y": 0.5399449
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "MYR"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "189",
+                "endIndex": "199"
+              }
+            ],
+            "content": "5:42:46 PM"
+          },
+          "type": "purchase_time",
+          "mentionText": "5:42:46 PM",
+          "confidence": 0.70673525,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4264935,
+                      "y": 0.34214875
+                    },
+                    {
+                      "x": 0.5033766,
+                      "y": 0.34214875
+                    },
+                    {
+                      "x": 0.5033766,
+                      "y": 0.35206613
+                    },
+                    {
+                      "x": 0.4264935,
+                      "y": 0.35206613
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 17,
+              "minutes": 42,
+              "seconds": 46
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "414",
+                "endIndex": "418"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.69768745,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.32181817,
+                      "y": 0.58732784
+                    },
+                    {
+                      "x": 0.37662336,
+                      "y": 0.58732784
+                    },
+                    {
+                      "x": 0.37662336,
+                      "y": 0.59889805
+                    },
+                    {
+                      "x": 0.32181817,
+                      "y": 0.59889805
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "54",
+                "endIndex": "105"
+              }
+            ],
+            "content": "JALAN PERMAS UTARA 1,\nPERMAS JAYA 81750 MASAI JOHOR"
+          },
+          "type": "supplier_address",
+          "mentionText": "JALAN PERMAS UTARA 1,\nPERMAS JAYA 81750 MASAI JOHOR",
+          "confidence": 0.6557821,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.33688313,
+                      "y": 0.20679523
+                    },
+                    {
+                      "x": 0.5690909,
+                      "y": 0.20679523
+                    },
+                    {
+                      "x": 0.5690909,
+                      "y": 0.23195592
+                    },
+                    {
+                      "x": 0.33688313,
+                      "y": 0.23195592
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {
+            "text": "Lot 205912 1, Jalan Permas Utara Bandar Baru Permas Jaya 81750 Masai Johor Darul Ta'zim Malaysia"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "7",
+                "endIndex": "35"
+              }
+            ],
+            "content": "WARAKUYA PERMAS CITY SDN BHD"
+          },
+          "type": "supplier_name",
+          "mentionText": "WARAKUYA PERMAS CITY SDN BHD",
+          "confidence": 0.64714235,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3212987,
+                      "y": 0.1671258
+                    },
+                    {
+                      "x": 0.58415586,
+                      "y": 0.1671258
+                    },
+                    {
+                      "x": 0.58415586,
+                      "y": 0.18273646
+                    },
+                    {
+                      "x": 0.3212987,
+                      "y": 0.18273646
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "Warakuya Japanese Restaurant"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "483",
+                "endIndex": "487"
+              }
+            ],
+            "content": "1.38"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "1.38",
+          "confidence": 0.48166212,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.59012985,
+                      "y": 0.6479339
+                    },
+                    {
+                      "x": 0.6181818,
+                      "y": 0.6479339
+                    },
+                    {
+                      "x": 0.6181818,
+                      "y": 0.65583104
+                    },
+                    {
+                      "x": 0.59012985,
+                      "y": 0.65583104
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "normalizedValue": {
+            "text": "1.38",
+            "moneyValue": {
+              "units": "1",
+              "nanos": 380000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "378",
+                "endIndex": "383"
+              }
+            ],
+            "content": "24.10"
+          },
+          "type": "net_amount",
+          "mentionText": "24.10",
+          "confidence": 0.39067584,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5664935,
+                      "y": 0.49348027
+                    },
+                    {
+                      "x": 0.60467535,
+                      "y": 0.49348027
+                    },
+                    {
+                      "x": 0.60467535,
+                      "y": 0.50119376
+                    },
+                    {
+                      "x": 0.5664935,
+                      "y": 0.50119376
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "normalizedValue": {
+            "text": "24.1",
+            "moneyValue": {
+              "units": "24",
+              "nanos": 100000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "252",
+                "endIndex": "253"
+              },
+              {
+                "startIndex": "254",
+                "endIndex": "273"
+              },
+              {
+                "startIndex": "354",
+                "endIndex": "359"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 BUTA SHOGA YAKI SET 19.90",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.31428573,
+                      "y": 0.410101
+                    },
+                    {
+                      "x": 0.59974027,
+                      "y": 0.410101
+                    },
+                    {
+                      "x": 0.59974027,
+                      "y": 0.4251607
+                    },
+                    {
+                      "x": 0.31428573,
+                      "y": 0.4251607
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "252",
+                    "endIndex": "253"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.79091936,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.31428573,
+                          "y": 0.41763085
+                        },
+                        {
+                          "x": 0.32077923,
+                          "y": 0.41763085
+                        },
+                        {
+                          "x": 0.32077923,
+                          "y": 0.4251607
+                        },
+                        {
+                          "x": 0.31428573,
+                          "y": 0.4251607
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "254",
+                    "endIndex": "273"
+                  }
+                ],
+                "content": "BUTA SHOGA YAKI SET"
+              },
+              "type": "line_item/description",
+              "mentionText": "BUTA SHOGA YAKI SET",
+              "confidence": 0.7031411,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.34753248,
+                          "y": 0.41267216
+                        },
+                        {
+                          "x": 0.49844155,
+                          "y": 0.41267216
+                        },
+                        {
+                          "x": 0.49844155,
+                          "y": 0.42424244
+                        },
+                        {
+                          "x": 0.34753248,
+                          "y": 0.42424244
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "354",
+                    "endIndex": "359"
+                  }
+                ],
+                "content": "19.90"
+              },
+              "type": "line_item/amount",
+              "mentionText": "19.90",
+              "confidence": 0.8822052,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.56285715,
+                          "y": 0.410101
+                        },
+                        {
+                          "x": 0.59974027,
+                          "y": 0.410101
+                        },
+                        {
+                          "x": 0.59974027,
+                          "y": 0.4191001
+                        },
+                        {
+                          "x": 0.56285715,
+                          "y": 0.4191001
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13",
+              "normalizedValue": {
+                "text": "19.9",
+                "moneyValue": {
+                  "units": "19",
+                  "nanos": 900000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "274",
+                "endIndex": "275"
+              },
+              {
+                "startIndex": "276",
+                "endIndex": "290"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 ICED GREEN TEA",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.31532466,
+                      "y": 0.43103763
+                    },
+                    {
+                      "x": 0.46207792,
+                      "y": 0.43103763
+                    },
+                    {
+                      "x": 0.46207792,
+                      "y": 0.44205692
+                    },
+                    {
+                      "x": 0.31532466,
+                      "y": 0.44205692
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "274",
+                    "endIndex": "275"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8251976,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.31532466,
+                          "y": 0.43544537
+                        },
+                        {
+                          "x": 0.32,
+                          "y": 0.43544537
+                        },
+                        {
+                          "x": 0.32,
+                          "y": 0.44113865
+                        },
+                        {
+                          "x": 0.31532466,
+                          "y": 0.44113865
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "276",
+                    "endIndex": "290"
+                  }
+                ],
+                "content": "ICED GREEN TEA"
+              },
+              "type": "line_item/description",
+              "mentionText": "ICED GREEN TEA",
+              "confidence": 0.71965075,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3483117,
+                          "y": 0.43103763
+                        },
+                        {
+                          "x": 0.46207792,
+                          "y": 0.43103763
+                        },
+                        {
+                          "x": 0.46207792,
+                          "y": 0.44205692
+                        },
+                        {
+                          "x": 0.3483117,
+                          "y": 0.44205692
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "291",
+                "endIndex": "306"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Serv Charge 10%",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.31324676,
+                      "y": 0.44977042
+                    },
+                    {
+                      "x": 0.42805195,
+                      "y": 0.44977042
+                    },
+                    {
+                      "x": 0.42805195,
+                      "y": 0.46134067
+                    },
+                    {
+                      "x": 0.31324676,
+                      "y": 0.46134067
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "17",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "291",
+                    "endIndex": "306"
+                  }
+                ],
+                "content": "Serv Charge 10%"
+              },
+              "type": "line_item/description",
+              "mentionText": "Serv Charge 10%",
+              "confidence": 0.60556674,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.31324676,
+                          "y": 0.44977042
+                        },
+                        {
+                          "x": 0.42805195,
+                          "y": 0.44977042
+                        },
+                        {
+                          "x": 0.42805195,
+                          "y": 0.46134067
+                        },
+                        {
+                          "x": 0.31324676,
+                          "y": 0.46134067
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "18"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "360",
+                "endIndex": "364"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.57194805,
+                      "y": 0.42736456
+                    },
+                    {
+                      "x": 0.5994805,
+                      "y": 0.42736456
+                    },
+                    {
+                      "x": 0.5994805,
+                      "y": 0.43618
+                    },
+                    {
+                      "x": 0.57194805,
+                      "y": 0.43618
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "19",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "360",
+                    "endIndex": "364"
+                  }
+                ],
+                "content": "1.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "1.00",
+              "confidence": 0.7789223,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.57194805,
+                          "y": 0.42736456
+                        },
+                        {
+                          "x": 0.5994805,
+                          "y": 0.42736456
+                        },
+                        {
+                          "x": 0.5994805,
+                          "y": 0.43618
+                        },
+                        {
+                          "x": 0.57194805,
+                          "y": 0.43618
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20",
+              "normalizedValue": {
+                "text": "1",
+                "moneyValue": {
+                  "units": "1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "365",
+                "endIndex": "369"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2.09",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5742857,
+                      "y": 0.4449954
+                    },
+                    {
+                      "x": 0.6018182,
+                      "y": 0.4449954
+                    },
+                    {
+                      "x": 0.6018182,
+                      "y": 0.45289257
+                    },
+                    {
+                      "x": 0.5742857,
+                      "y": 0.45289257
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "21",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "365",
+                    "endIndex": "369"
+                  }
+                ],
+                "content": "2.09"
+              },
+              "type": "line_item/amount",
+              "mentionText": "2.09",
+              "confidence": 0.7374763,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5742857,
+                          "y": 0.4449954
+                        },
+                        {
+                          "x": 0.6018182,
+                          "y": 0.4449954
+                        },
+                        {
+                          "x": 0.6018182,
+                          "y": 0.45289257
+                        },
+                        {
+                          "x": 0.5742857,
+                          "y": 0.45289257
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "22",
+              "normalizedValue": {
+                "text": "2.09",
+                "moneyValue": {
+                  "units": "2",
+                  "nanos": 90000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "370",
+                "endIndex": "373"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "138",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5748052,
+                      "y": 0.4591368
+                    },
+                    {
+                      "x": 0.6028572,
+                      "y": 0.4591368
+                    },
+                    {
+                      "x": 0.6028572,
+                      "y": 0.4674013
+                    },
+                    {
+                      "x": 0.5748052,
+                      "y": 0.4674013
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "23",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "370",
+                    "endIndex": "373"
+                  }
+                ],
+                "content": "138"
+              },
+              "type": "line_item/amount",
+              "mentionText": "138",
+              "confidence": 0.66297275,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5748052,
+                          "y": 0.4591368
+                        },
+                        {
+                          "x": 0.6028572,
+                          "y": 0.4591368
+                        },
+                        {
+                          "x": 0.6028572,
+                          "y": 0.4674013
+                        },
+                        {
+                          "x": 0.5748052,
+                          "y": 0.4674013
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "24",
+              "normalizedValue": {
+                "text": "138",
+                "moneyValue": {
+                  "units": "138"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "374",
+                "endIndex": "377"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "003",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5761039,
+                      "y": 0.47493112
+                    },
+                    {
+                      "x": 0.6038961,
+                      "y": 0.47493112
+                    },
+                    {
+                      "x": 0.6038961,
+                      "y": 0.48301193
+                    },
+                    {
+                      "x": 0.5761039,
+                      "y": 0.48301193
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "25",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "374",
+                    "endIndex": "377"
+                  }
+                ],
+                "content": "003"
+              },
+              "type": "line_item/amount",
+              "mentionText": "003",
+              "confidence": 0.8544405,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5761039,
+                          "y": 0.47493112
+                        },
+                        {
+                          "x": 0.6038961,
+                          "y": 0.47493112
+                        },
+                        {
+                          "x": 0.6038961,
+                          "y": 0.48301193
+                        },
+                        {
+                          "x": 0.5761039,
+                          "y": 0.48301193
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "26",
+              "normalizedValue": {
+                "text": "3",
+                "moneyValue": {
+                  "units": "3"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

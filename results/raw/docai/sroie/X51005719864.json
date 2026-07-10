@@ -1,0 +1,653 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51005719864",
+  "at": "2026-07-10T10:41:05.535Z",
+  "latencyMs": 2235,
+  "raw": {
+    "document": {
+      "text": "FUN N CHEER (MALURI)\nLOT 37636,JALAN 6/37A,\nTAMAN BUKIT MALURI,\n52100 KUALA LUMPUR\nTel: 03-62612536\nTAX INVOICE\n(GST ID No. : 001439154176)\n05/01/2018\nCashier: CS01\n11:44:44 S/P:MAL\nNo:0200419363\nItem/Desc. Qty\nPrice\nAmt.\nKAIN BEBOLA(S)SHA BU\nSR\n0412638\n2 14.90\n29.80\nTotal Qty 2\nTOTAL EXCL.GST\n28.11\nADD: GST 6% On\n1.69\n29.80\nCASH\n50.00\nCHANGE\n20.20\nGST summary\nAmount RM\nTax RM\nSR = 6%\n28.11\n1.69\n0.00\n0.00\nGOODS SOLD ARE NOT RETURNABLE\nTHANK YOU! PLEASE COME AGAIN !\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "140",
+                "endIndex": "150"
+              }
+            ],
+            "content": "05/01/2018"
+          },
+          "type": "receipt_date",
+          "mentionText": "05/01/2018",
+          "confidence": 0.8366683,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.08936652,
+                      "y": 0.39172888
+                    },
+                    {
+                      "x": 0.34502262,
+                      "y": 0.39172888
+                    },
+                    {
+                      "x": 0.34502262,
+                      "y": 0.41183227
+                    },
+                    {
+                      "x": 0.08936652,
+                      "y": 0.41183227
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2018-05-01",
+            "dateValue": {
+              "year": 2018,
+              "month": 5,
+              "day": 1
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "165",
+                "endIndex": "173"
+              }
+            ],
+            "content": "11:44:44"
+          },
+          "type": "purchase_time",
+          "mentionText": "11:44:44",
+          "confidence": 0.8053158,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.093891405,
+                      "y": 0.42389432
+                    },
+                    {
+                      "x": 0.29298642,
+                      "y": 0.42389432
+                    },
+                    {
+                      "x": 0.29298642,
+                      "y": 0.44227454
+                    },
+                    {
+                      "x": 0.093891405,
+                      "y": 0.44227454
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 11,
+              "minutes": 44,
+              "seconds": 44
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "88",
+                "endIndex": "99"
+              }
+            ],
+            "content": "03-62612536"
+          },
+          "type": "supplier_phone",
+          "mentionText": "03-62612536",
+          "confidence": 0.76454693,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.45022625,
+                      "y": 0.29063755
+                    },
+                    {
+                      "x": 0.729638,
+                      "y": 0.29063755
+                    },
+                    {
+                      "x": 0.729638,
+                      "y": 0.3095922
+                    },
+                    {
+                      "x": 0.45022625,
+                      "y": 0.3095922
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "321",
+                "endIndex": "326"
+              }
+            ],
+            "content": "29.80"
+          },
+          "type": "total_amount",
+          "mentionText": "29.80",
+          "confidence": 0.71660686,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8054299,
+                      "y": 0.692131
+                    },
+                    {
+                      "x": 0.93325794,
+                      "y": 0.692131
+                    },
+                    {
+                      "x": 0.93325794,
+                      "y": 0.7070649
+                    },
+                    {
+                      "x": 0.8054299,
+                      "y": 0.7070649
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "29.8",
+            "moneyValue": {
+              "units": "29",
+              "nanos": 800000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "20"
+              }
+            ],
+            "content": "FUN N CHEER (MALURI)"
+          },
+          "type": "supplier_name",
+          "mentionText": "FUN N CHEER (MALURI)",
+          "confidence": 0.70397395,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.20927602,
+                      "y": 0.17231476
+                    },
+                    {
+                      "x": 0.82918555,
+                      "y": 0.17231476
+                    },
+                    {
+                      "x": 0.82918555,
+                      "y": 0.19701321
+                    },
+                    {
+                      "x": 0.20927602,
+                      "y": 0.19701321
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "Fun N Cheer"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "21",
+                "endIndex": "82"
+              }
+            ],
+            "content": "LOT 37636,JALAN 6/37A,\nTAMAN BUKIT MALURI,\n52100 KUALA LUMPUR"
+          },
+          "type": "supplier_address",
+          "mentionText": "LOT 37636,JALAN 6/37A,\nTAMAN BUKIT MALURI,\n52100 KUALA LUMPUR",
+          "confidence": 0.6416532,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.23303168,
+                      "y": 0.20275703
+                    },
+                    {
+                      "x": 0.7861991,
+                      "y": 0.20275703
+                    },
+                    {
+                      "x": 0.7861991,
+                      "y": 0.27685237
+                    },
+                    {
+                      "x": 0.23303168,
+                      "y": 0.27685237
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "Lot 37636 Jalan 6/37a Taman Bukit Maluri 52100 Kuala Lumpur Wilayah Persekutuan Kuala Lumpur Malaysia"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "404",
+                "endIndex": "408"
+              }
+            ],
+            "content": "0.00"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "0.00",
+          "confidence": 0.5055709,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8303167,
+                      "y": 0.88225156
+                    },
+                    {
+                      "x": 0.93325794,
+                      "y": 0.88225156
+                    },
+                    {
+                      "x": 0.93325794,
+                      "y": 0.89833426
+                    },
+                    {
+                      "x": 0.8303167,
+                      "y": 0.89833426
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {
+            "text": "0",
+            "moneyValue": {}
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "388",
+                "endIndex": "393"
+              }
+            ],
+            "content": "28.11"
+          },
+          "type": "net_amount",
+          "mentionText": "28.11",
+          "confidence": 0.4573738,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.53846157,
+                      "y": 0.8489374
+                    },
+                    {
+                      "x": 0.6628959,
+                      "y": 0.8489374
+                    },
+                    {
+                      "x": 0.6628959,
+                      "y": 0.86674327
+                    },
+                    {
+                      "x": 0.53846157,
+                      "y": 0.86674327
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "28.11",
+            "moneyValue": {
+              "units": "28",
+              "nanos": 110000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "222",
+                "endIndex": "242"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "KAIN BEBOLA(S)SHA BU",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.09728507,
+                      "y": 0.5008616
+                    },
+                    {
+                      "x": 0.6052036,
+                      "y": 0.5008616
+                    },
+                    {
+                      "x": 0.6052036,
+                      "y": 0.52153933
+                    },
+                    {
+                      "x": 0.09728507,
+                      "y": 0.52153933
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "222",
+                    "endIndex": "242"
+                  }
+                ],
+                "content": "KAIN BEBOLA(S)SHA BU"
+              },
+              "type": "line_item/description",
+              "mentionText": "KAIN BEBOLA(S)SHA BU",
+              "confidence": 0.62549704,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.09728507,
+                          "y": 0.5008616
+                        },
+                        {
+                          "x": 0.6052036,
+                          "y": 0.5008616
+                        },
+                        {
+                          "x": 0.6052036,
+                          "y": 0.52153933
+                        },
+                        {
+                          "x": 0.09728507,
+                          "y": 0.52153933
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "246",
+                "endIndex": "253"
+              },
+              {
+                "startIndex": "254",
+                "endIndex": "255"
+              },
+              {
+                "startIndex": "262",
+                "endIndex": "267"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "0412638 2 29.80",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.093891405,
+                      "y": 0.5336014
+                    },
+                    {
+                      "x": 0.9343891,
+                      "y": 0.5336014
+                    },
+                    {
+                      "x": 0.9343891,
+                      "y": 0.5514072
+                    },
+                    {
+                      "x": 0.093891405,
+                      "y": 0.5514072
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "246",
+                    "endIndex": "253"
+                  }
+                ],
+                "content": "0412638"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "0412638",
+              "confidence": 0.9540282,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.093891405,
+                          "y": 0.53475016
+                        },
+                        {
+                          "x": 0.270362,
+                          "y": 0.53475016
+                        },
+                        {
+                          "x": 0.270362,
+                          "y": 0.5514072
+                        },
+                        {
+                          "x": 0.093891405,
+                          "y": 0.5514072
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "254",
+                    "endIndex": "255"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.916002,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5022625,
+                          "y": 0.5358989
+                        },
+                        {
+                          "x": 0.5271493,
+                          "y": 0.5358989
+                        },
+                        {
+                          "x": 0.5271493,
+                          "y": 0.55025846
+                        },
+                        {
+                          "x": 0.5022625,
+                          "y": 0.55025846
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "262",
+                    "endIndex": "267"
+                  }
+                ],
+                "content": "29.80"
+              },
+              "type": "line_item/amount",
+              "mentionText": "29.80",
+              "confidence": 0.93777686,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8076923,
+                          "y": 0.5336014
+                        },
+                        {
+                          "x": 0.9343891,
+                          "y": 0.5336014
+                        },
+                        {
+                          "x": 0.9343891,
+                          "y": 0.55083287
+                        },
+                        {
+                          "x": 0.8076923,
+                          "y": 0.55083287
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13",
+              "normalizedValue": {
+                "text": "29.8",
+                "moneyValue": {
+                  "units": "29",
+                  "nanos": 800000000
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

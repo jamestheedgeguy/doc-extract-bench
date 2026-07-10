@@ -1,0 +1,380 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51008099071",
+  "at": "2026-07-10T10:41:36.046Z",
+  "latencyMs": 2356,
+  "raw": {
+    "document": {
+      "text": "LEONG HENG SHELL SERVICE STATION\nCompany No :256628-W\nLOT 26151 BANDAR SG LONG,\n11 1/4 MILES CHERAS,\n43000 KAJANG, SELANGOR\nSite: 2188\nTelephone: 03-90805318\nGST No : 001934041088\nInvoice number: 01000339450\nPre auth code A01A1529424173\n22.73 litre Pump # 06\nFuelSave 95\nRM\n50.00 C\n2.200 RM / litre\nTotal\nRM\n50.00\nCash\nRM\n50.00\nRelief GST C\nRM\n0.00\nTotal Gross C\nRM\n50.00\nCashier:\nKKHALEK\nDate Time Num POS CNo Shift\n20/06/18 00:05 90554 01 4145 331\nDiesel & Petrol RON95 given relief\nunder Section 56(3) (b) GST Act 2014\nThank You and Please Come Again\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "308",
+                "endIndex": "313"
+              }
+            ],
+            "content": "50.00"
+          },
+          "type": "total_amount",
+          "mentionText": "50.00",
+          "confidence": 0.9075355,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.80150217,
+                      "y": 0.56635624
+                    },
+                    {
+                      "x": 0.90665233,
+                      "y": 0.56635624
+                    },
+                    {
+                      "x": 0.90665233,
+                      "y": 0.58323634
+                    },
+                    {
+                      "x": 0.80150217,
+                      "y": 0.58323634
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "50",
+            "moneyValue": {
+              "units": "50"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "305",
+                "endIndex": "307"
+              }
+            ],
+            "content": "RM"
+          },
+          "type": "currency",
+          "mentionText": "RM",
+          "confidence": 0.86566854,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.638412,
+                      "y": 0.5675204
+                    },
+                    {
+                      "x": 0.68133044,
+                      "y": 0.5675204
+                    },
+                    {
+                      "x": 0.68133044,
+                      "y": 0.58265424
+                    },
+                    {
+                      "x": 0.638412,
+                      "y": 0.58265424
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "MYR"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "417",
+                "endIndex": "425"
+              }
+            ],
+            "content": "20/06/18"
+          },
+          "type": "receipt_date",
+          "mentionText": "20/06/18",
+          "confidence": 0.7500607,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.123390555,
+                      "y": 0.80791616
+                    },
+                    {
+                      "x": 0.2864807,
+                      "y": 0.80791616
+                    },
+                    {
+                      "x": 0.2864807,
+                      "y": 0.82712454
+                    },
+                    {
+                      "x": 0.123390555,
+                      "y": 0.82712454
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "2018-06-20",
+            "dateValue": {
+              "year": 2018,
+              "month": 6,
+              "day": 20
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "426",
+                "endIndex": "431"
+              }
+            ],
+            "content": "00:05"
+          },
+          "type": "purchase_time",
+          "mentionText": "00:05",
+          "confidence": 0.7286251,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.30793992,
+                      "y": 0.80849826
+                    },
+                    {
+                      "x": 0.41309014,
+                      "y": 0.80849826
+                    },
+                    {
+                      "x": 0.41309014,
+                      "y": 0.8265425
+                    },
+                    {
+                      "x": 0.30793992,
+                      "y": 0.8265425
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "datetimeValue": {
+              "minutes": 5
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "32"
+              }
+            ],
+            "content": "LEONG HENG SHELL SERVICE STATION"
+          },
+          "type": "supplier_name",
+          "mentionText": "LEONG HENG SHELL SERVICE STATION",
+          "confidence": 0.60388005,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.12553649,
+                      "y": 0.14318976
+                    },
+                    {
+                      "x": 0.7832618,
+                      "y": 0.14318976
+                    },
+                    {
+                      "x": 0.7832618,
+                      "y": 0.16065192
+                    },
+                    {
+                      "x": 0.12553649,
+                      "y": 0.16065192
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "Shell"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "33",
+                "endIndex": "123"
+              }
+            ],
+            "content": "Company No :256628-W\nLOT 26151 BANDAR SG LONG,\n11 1/4 MILES CHERAS,\n43000 KAJANG, SELANGOR"
+          },
+          "type": "supplier_address",
+          "mentionText": "Company No :256628-W\nLOT 26151 BANDAR SG LONG,\n11 1/4 MILES CHERAS,\n43000 KAJANG, SELANGOR",
+          "confidence": 0.36507997,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1223176,
+                      "y": 0.16414435
+                    },
+                    {
+                      "x": 0.63412017,
+                      "y": 0.16414435
+                    },
+                    {
+                      "x": 0.63412017,
+                      "y": 0.25087312
+                    },
+                    {
+                      "x": 0.1223176,
+                      "y": 0.25087312
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "274",
+                "endIndex": "279"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "50.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8025751,
+                      "y": 0.50174624
+                    },
+                    {
+                      "x": 0.90772533,
+                      "y": 0.50174624
+                    },
+                    {
+                      "x": 0.90772533,
+                      "y": 0.51804423
+                    },
+                    {
+                      "x": 0.8025751,
+                      "y": 0.51804423
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "274",
+                    "endIndex": "279"
+                  }
+                ],
+                "content": "50.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "50.00",
+              "confidence": 0.85565424,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8025751,
+                          "y": 0.50174624
+                        },
+                        {
+                          "x": 0.90772533,
+                          "y": 0.50174624
+                        },
+                        {
+                          "x": 0.90772533,
+                          "y": 0.51804423
+                        },
+                        {
+                          "x": 0.8025751,
+                          "y": 0.51804423
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "50",
+                "moneyValue": {
+                  "units": "50"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

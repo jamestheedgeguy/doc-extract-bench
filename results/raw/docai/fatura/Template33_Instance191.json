@@ -1,0 +1,1364 @@
+{
+  "vendor": "docai",
+  "dataset": "fatura",
+  "docId": "Template33_Instance191",
+  "at": "2026-07-10T10:30:16.705Z",
+  "latencyMs": 2204,
+  "raw": {
+    "document": {
+      "text": "Duran, Morgan and Lopez\nAddress:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US\nGSTIN 336SPTNO37LG120\nBill to:Jeanette Mendez\n0506 Holmes Camp\nKevinside, MP 96426 US\nTel:+(624)021-5396\nEmail:uhess@example.com\nSite:http://welch-matthews.com/\nGSTIN 22AAAAAD000A125,\nInvoice Date: 12-Feb-2019\nINVOICE\nINVOICE #INV74575236\nDue Date: 06-May-2003\nITEMS\nQUANTITY\nPRICE\nAlready.\n4.00\n$27.26\nLocal prove develop.\n3.00\n$82.39\nExactly system structure.\n4.00\n$98.83\nHotel we recognize.\n4.00\n$77.84\nSUB TOTAL: 1062.89 EUR\nGST (18%): 191.32\nBALANCE DUE: 1084.40 EUR\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "330",
+                "endIndex": "341"
+              }
+            ],
+            "content": "06-May-2003"
+          },
+          "type": "due_date",
+          "mentionText": "06-May-2003",
+          "confidence": 0.988819,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.76806724,
+                      "y": 0.42449465
+                    },
+                    {
+                      "x": 0.88739496,
+                      "y": 0.42449465
+                    },
+                    {
+                      "x": 0.88739496,
+                      "y": 0.43995243
+                    },
+                    {
+                      "x": 0.76806724,
+                      "y": 0.43995243
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2003-05-06",
+            "dateValue": {
+              "year": 2003,
+              "month": 5,
+              "day": 6
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "279",
+                "endIndex": "290"
+              }
+            ],
+            "content": "12-Feb-2019"
+          },
+          "type": "invoice_date",
+          "mentionText": "12-Feb-2019",
+          "confidence": 0.9669571,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17142858,
+                      "y": 0.4256837
+                    },
+                    {
+                      "x": 0.2857143,
+                      "y": 0.4256837
+                    },
+                    {
+                      "x": 0.2857143,
+                      "y": 0.43757433
+                    },
+                    {
+                      "x": 0.17142858,
+                      "y": 0.43757433
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2019-02-12",
+            "dateValue": {
+              "year": 2019,
+              "month": 2,
+              "day": 12
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "549",
+                "endIndex": "552"
+              }
+            ],
+            "content": "EUR"
+          },
+          "type": "currency",
+          "mentionText": "EUR",
+          "confidence": 0.899556,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.90588236,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.9563025,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.9563025,
+                      "y": 0.8787158
+                    },
+                    {
+                      "x": 0.90588236,
+                      "y": 0.8787158
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "EUR"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "498",
+                "endIndex": "505"
+              }
+            ],
+            "content": "1062.89"
+          },
+          "type": "net_amount",
+          "mentionText": "1062.89",
+          "confidence": 0.8731066,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8134454,
+                      "y": 0.7550535
+                    },
+                    {
+                      "x": 0.8857143,
+                      "y": 0.7550535
+                    },
+                    {
+                      "x": 0.8857143,
+                      "y": 0.7693222
+                    },
+                    {
+                      "x": 0.8134454,
+                      "y": 0.7693222
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "1062.89",
+            "floatValue": 1062.89
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "87",
+                "endIndex": "102"
+              }
+            ],
+            "content": "336SPTNO37LG120"
+          },
+          "type": "supplier_tax_id",
+          "mentionText": "336SPTNO37LG120",
+          "confidence": 0.85575485,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.099159665,
+                      "y": 0.14982164
+                    },
+                    {
+                      "x": 0.2857143,
+                      "y": 0.14982164
+                    },
+                    {
+                      "x": 0.2857143,
+                      "y": 0.16052319
+                    },
+                    {
+                      "x": 0.099159665,
+                      "y": 0.16052319
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "308",
+                "endIndex": "319"
+              }
+            ],
+            "content": "INV74575236"
+          },
+          "type": "invoice_id",
+          "mentionText": "INV74575236",
+          "confidence": 0.8426212,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.805042,
+                      "y": 0.13674198
+                    },
+                    {
+                      "x": 0.9277311,
+                      "y": 0.13674198
+                    },
+                    {
+                      "x": 0.9277311,
+                      "y": 0.14863259
+                    },
+                    {
+                      "x": 0.805042,
+                      "y": 0.14863259
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "521",
+                "endIndex": "527"
+              }
+            ],
+            "content": "191.32"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "191.32",
+          "confidence": 0.8184405,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.78655463,
+                      "y": 0.81450653
+                    },
+                    {
+                      "x": 0.8487395,
+                      "y": 0.81450653
+                    },
+                    {
+                      "x": 0.8487395,
+                      "y": 0.82758623
+                    },
+                    {
+                      "x": 0.78655463,
+                      "y": 0.82758623
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "normalizedValue": {
+            "text": "191.32",
+            "floatValue": 191.32
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "111",
+                "endIndex": "126"
+              }
+            ],
+            "content": "Jeanette Mendez"
+          },
+          "type": "receiver_name",
+          "mentionText": "Jeanette Mendez",
+          "confidence": 0.64368665,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.09747899,
+                      "y": 0.2449465
+                    },
+                    {
+                      "x": 0.25882354,
+                      "y": 0.2449465
+                    },
+                    {
+                      "x": 0.25882354,
+                      "y": 0.25564805
+                    },
+                    {
+                      "x": 0.09747899,
+                      "y": 0.25564805
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7"
+        },
+        {
+          "type": "invoice_type",
+          "confidence": 0.61252004,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "confidence": 0.788743
+              }
+            ]
+          },
+          "id": "8",
+          "normalizedValue": {
+            "text": "invoice_statement"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "23"
+              }
+            ],
+            "content": "Duran, Morgan and Lopez"
+          },
+          "type": "supplier_name",
+          "mentionText": "Duran, Morgan and Lopez",
+          "confidence": 0.48271796,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.033613447,
+                      "y": 0.03686088
+                    },
+                    {
+                      "x": 0.2789916,
+                      "y": 0.03686088
+                    },
+                    {
+                      "x": 0.2789916,
+                      "y": 0.049940545
+                    },
+                    {
+                      "x": 0.033613447,
+                      "y": 0.049940545
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "24",
+                "endIndex": "80"
+              }
+            ],
+            "content": "Address:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US"
+          },
+          "type": "supplier_address",
+          "mentionText": "Address:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US",
+          "confidence": 0.4241205,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.031932775,
+                      "y": 0.063020214
+                    },
+                    {
+                      "x": 0.3512605,
+                      "y": 0.063020214
+                    },
+                    {
+                      "x": 0.3512605,
+                      "y": 0.09274673
+                    },
+                    {
+                      "x": 0.031932775,
+                      "y": 0.09274673
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "127",
+                "endIndex": "166"
+              }
+            ],
+            "content": "0506 Holmes Camp\nKevinside, MP 96426 US"
+          },
+          "type": "receiver_address",
+          "mentionText": "0506 Holmes Camp\nKevinside, MP 96426 US",
+          "confidence": 0.38543758,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.033613447,
+                      "y": 0.2604043
+                    },
+                    {
+                      "x": 0.26386556,
+                      "y": 0.2604043
+                    },
+                    {
+                      "x": 0.26386556,
+                      "y": 0.29131985
+                    },
+                    {
+                      "x": 0.033613447,
+                      "y": 0.29131985
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "541",
+                "endIndex": "548"
+              }
+            ],
+            "content": "1084.40"
+          },
+          "type": "total_amount",
+          "mentionText": "1084.40",
+          "confidence": 0.3056398,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.81512606,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.90084034,
+                      "y": 0.8668252
+                    },
+                    {
+                      "x": 0.90084034,
+                      "y": 0.8787158
+                    },
+                    {
+                      "x": 0.81512606,
+                      "y": 0.8787158
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "normalizedValue": {
+            "text": "1084.4",
+            "floatValue": 1084.4
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "192",
+                "endIndex": "209"
+              }
+            ],
+            "content": "uhess@example.com"
+          },
+          "type": "supplier_email",
+          "mentionText": "uhess@example.com",
+          "confidence": 0.12839475,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.09579832,
+                      "y": 0.31272295
+                    },
+                    {
+                      "x": 0.29915968,
+                      "y": 0.31272295
+                    },
+                    {
+                      "x": 0.29915968,
+                      "y": 0.32699168
+                    },
+                    {
+                      "x": 0.09579832,
+                      "y": 0.32699168
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "171",
+                "endIndex": "185"
+              }
+            ],
+            "content": "+(624)021-5396"
+          },
+          "type": "supplier_phone",
+          "mentionText": "+(624)021-5396",
+          "confidence": 0.06534015,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07058824,
+                      "y": 0.2960761
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.2960761
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.30915576
+                    },
+                    {
+                      "x": 0.07058824,
+                      "y": 0.30915576
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "363",
+                "endIndex": "371"
+              },
+              {
+                "startIndex": "372",
+                "endIndex": "376"
+              },
+              {
+                "startIndex": "378",
+                "endIndex": "383"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Already. 4.00 27.26",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.21512605,
+                      "y": 0.5802616
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.5802616
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.5909631
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.5909631
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "363",
+                    "endIndex": "371"
+                  }
+                ],
+                "content": "Already."
+              },
+              "type": "line_item/description",
+              "mentionText": "Already.",
+              "confidence": 0.2948347,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.21512605,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.27731094,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.27731094,
+                          "y": 0.5909631
+                        },
+                        {
+                          "x": 0.21512605,
+                          "y": 0.5909631
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "372",
+                    "endIndex": "376"
+                  }
+                ],
+                "content": "4.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "4.00",
+              "confidence": 0.97574323,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5647059,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.5966387,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.5966387,
+                          "y": 0.58739597
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.58739597
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17",
+              "normalizedValue": {
+                "text": "4",
+                "floatValue": 4
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "378",
+                    "endIndex": "383"
+                  }
+                ],
+                "content": "27.26"
+              },
+              "type": "line_item/amount",
+              "mentionText": "27.26",
+              "confidence": 0.75616914,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8184874,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.5802616
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.588585
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.588585
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "18",
+              "normalizedValue": {
+                "text": "27.26",
+                "floatValue": 27.26
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "384",
+                "endIndex": "404"
+              },
+              {
+                "startIndex": "405",
+                "endIndex": "409"
+              },
+              {
+                "startIndex": "411",
+                "endIndex": "416"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Local prove develop. 3.00 82.39",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.16806723,
+                      "y": 0.60166466
+                    },
+                    {
+                      "x": 0.85714287,
+                      "y": 0.60166466
+                    },
+                    {
+                      "x": 0.85714287,
+                      "y": 0.61236626
+                    },
+                    {
+                      "x": 0.16806723,
+                      "y": 0.61236626
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "19",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "384",
+                    "endIndex": "404"
+                  }
+                ],
+                "content": "Local prove develop."
+              },
+              "type": "line_item/description",
+              "mentionText": "Local prove develop.",
+              "confidence": 0.69073707,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.16806723,
+                          "y": 0.60166466
+                        },
+                        {
+                          "x": 0.3226891,
+                          "y": 0.60166466
+                        },
+                        {
+                          "x": 0.3226891,
+                          "y": 0.61236626
+                        },
+                        {
+                          "x": 0.16806723,
+                          "y": 0.61236626
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "405",
+                    "endIndex": "409"
+                  }
+                ],
+                "content": "3.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "3.00",
+              "confidence": 0.97320914,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5663866,
+                          "y": 0.60166466
+                        },
+                        {
+                          "x": 0.594958,
+                          "y": 0.60166466
+                        },
+                        {
+                          "x": 0.594958,
+                          "y": 0.60879904
+                        },
+                        {
+                          "x": 0.5663866,
+                          "y": 0.60879904
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "21",
+              "normalizedValue": {
+                "text": "3",
+                "floatValue": 3
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "411",
+                    "endIndex": "416"
+                  }
+                ],
+                "content": "82.39"
+              },
+              "type": "line_item/amount",
+              "mentionText": "82.39",
+              "confidence": 0.759736,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.81680673,
+                          "y": 0.60166466
+                        },
+                        {
+                          "x": 0.85714287,
+                          "y": 0.60166466
+                        },
+                        {
+                          "x": 0.85714287,
+                          "y": 0.6099881
+                        },
+                        {
+                          "x": 0.81680673,
+                          "y": 0.6099881
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "22",
+              "normalizedValue": {
+                "text": "82.39",
+                "floatValue": 82.39
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "417",
+                "endIndex": "442"
+              },
+              {
+                "startIndex": "443",
+                "endIndex": "447"
+              },
+              {
+                "startIndex": "449",
+                "endIndex": "454"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Exactly system structure. 4.00 98.83",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15294118,
+                      "y": 0.6230678
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.6230678
+                    },
+                    {
+                      "x": 0.8605042,
+                      "y": 0.6325803
+                    },
+                    {
+                      "x": 0.15294118,
+                      "y": 0.6325803
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "23",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "417",
+                    "endIndex": "442"
+                  }
+                ],
+                "content": "Exactly system structure."
+              },
+              "type": "line_item/description",
+              "mentionText": "Exactly system structure.",
+              "confidence": 0.65662515,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15294118,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.34117648,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.34117648,
+                          "y": 0.6325803
+                        },
+                        {
+                          "x": 0.15294118,
+                          "y": 0.6325803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "24"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "443",
+                    "endIndex": "447"
+                  }
+                ],
+                "content": "4.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "4.00",
+              "confidence": 0.97508925,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.594958,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.594958,
+                          "y": 0.6302021
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6302021
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "25",
+              "normalizedValue": {
+                "text": "4",
+                "floatValue": 4
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "449",
+                    "endIndex": "454"
+                  }
+                ],
+                "content": "98.83"
+              },
+              "type": "line_item/amount",
+              "mentionText": "98.83",
+              "confidence": 0.78555006,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8184874,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.6230678
+                        },
+                        {
+                          "x": 0.8605042,
+                          "y": 0.6313912
+                        },
+                        {
+                          "x": 0.8184874,
+                          "y": 0.6313912
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "26",
+              "normalizedValue": {
+                "text": "98.83",
+                "floatValue": 98.83
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "455",
+                "endIndex": "474"
+              },
+              {
+                "startIndex": "475",
+                "endIndex": "479"
+              },
+              {
+                "startIndex": "481",
+                "endIndex": "486"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Hotel we recognize. 4.00 77.84",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17310925,
+                      "y": 0.6432818
+                    },
+                    {
+                      "x": 0.85882354,
+                      "y": 0.6432818
+                    },
+                    {
+                      "x": 0.85882354,
+                      "y": 0.65636146
+                    },
+                    {
+                      "x": 0.17310925,
+                      "y": 0.65636146
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "27",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "455",
+                    "endIndex": "474"
+                  }
+                ],
+                "content": "Hotel we recognize."
+              },
+              "type": "line_item/description",
+              "mentionText": "Hotel we recognize.",
+              "confidence": 0.66343486,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17310925,
+                          "y": 0.6432818
+                        },
+                        {
+                          "x": 0.3210084,
+                          "y": 0.6432818
+                        },
+                        {
+                          "x": 0.3210084,
+                          "y": 0.65636146
+                        },
+                        {
+                          "x": 0.17310925,
+                          "y": 0.65636146
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "28"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "475",
+                    "endIndex": "479"
+                  }
+                ],
+                "content": "4.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "4.00",
+              "confidence": 0.9699284,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5647059,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.59831935,
+                          "y": 0.6444709
+                        },
+                        {
+                          "x": 0.59831935,
+                          "y": 0.65160525
+                        },
+                        {
+                          "x": 0.5647059,
+                          "y": 0.65160525
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "29",
+              "normalizedValue": {
+                "text": "4",
+                "floatValue": 4
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "481",
+                    "endIndex": "486"
+                  }
+                ],
+                "content": "77.84"
+              },
+              "type": "line_item/amount",
+              "mentionText": "77.84",
+              "confidence": 0.7407514,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.81680673,
+                          "y": 0.6432818
+                        },
+                        {
+                          "x": 0.85882354,
+                          "y": 0.6432818
+                        },
+                        {
+                          "x": 0.85882354,
+                          "y": 0.65160525
+                        },
+                        {
+                          "x": 0.81680673,
+                          "y": 0.65160525
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "30",
+              "normalizedValue": {
+                "text": "77.84",
+                "floatValue": 77.84
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

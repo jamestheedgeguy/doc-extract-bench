@@ -1,0 +1,470 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X00016469669",
+  "at": "2026-07-10T10:44:00.020Z",
+  "latencyMs": 2031,
+  "raw": {
+    "document": {
+      "text": "tan chay yee\nABC HO TRADING\nNo.2&4, JALAN HARMONI 3/2,\nTAMAN DESA HARMONI.\n81100 JOHOR BAHRU JOHOR\n07-355 2616\nCash Bill\n01-143008\nDate\n09/01/2019 8:01:11 PM\nCashier:\n01\nDescription\nQty Price\nAmount\nRM\nRM\nPlastic\n2 15.50\n31.00\nTotal:\n31.00\nTotal Amount:\nCash Received:\nChange:\n*Goods Sold are non-refundable\n***Thank You***\n***Please Come Again***\n31.00\n101.00\n70.00\n31.00,\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "234",
+                "endIndex": "239"
+              }
+            ],
+            "content": "31.00"
+          },
+          "type": "total_amount",
+          "mentionText": "31.00",
+          "confidence": 0.9122086,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.79697627,
+                      "y": 0.6578512
+                    },
+                    {
+                      "x": 0.88552916,
+                      "y": 0.6578512
+                    },
+                    {
+                      "x": 0.88552916,
+                      "y": 0.677686
+                    },
+                    {
+                      "x": 0.79697627,
+                      "y": 0.677686
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "31",
+            "moneyValue": {
+              "units": "31"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "136",
+                "endIndex": "146"
+              }
+            ],
+            "content": "09/01/2019"
+          },
+          "type": "receipt_date",
+          "mentionText": "09/01/2019",
+          "confidence": 0.8656028,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.26565874,
+                      "y": 0.4446281
+                    },
+                    {
+                      "x": 0.44924405,
+                      "y": 0.4446281
+                    },
+                    {
+                      "x": 0.44924405,
+                      "y": 0.46942148
+                    },
+                    {
+                      "x": 0.26565874,
+                      "y": 0.46942148
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2019-09-01",
+            "dateValue": {
+              "year": 2019,
+              "month": 9,
+              "day": 1
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "147",
+                "endIndex": "157"
+              }
+            ],
+            "content": "8:01:11 PM"
+          },
+          "type": "purchase_time",
+          "mentionText": "8:01:11 PM",
+          "confidence": 0.73501736,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.46220303,
+                      "y": 0.4446281
+                    },
+                    {
+                      "x": 0.6414687,
+                      "y": 0.4446281
+                    },
+                    {
+                      "x": 0.6414687,
+                      "y": 0.46942148
+                    },
+                    {
+                      "x": 0.46220303,
+                      "y": 0.46942148
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 20,
+              "minutes": 1,
+              "seconds": 11
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "99",
+                "endIndex": "110"
+              }
+            ],
+            "content": "07-355 2616"
+          },
+          "type": "supplier_phone",
+          "mentionText": "07-355 2616",
+          "confidence": 0.60156953,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3736501,
+                      "y": 0.30743802
+                    },
+                    {
+                      "x": 0.5723542,
+                      "y": 0.30743802
+                    },
+                    {
+                      "x": 0.5723542,
+                      "y": 0.3305785
+                    },
+                    {
+                      "x": 0.3736501,
+                      "y": 0.3305785
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "28",
+                "endIndex": "98"
+              }
+            ],
+            "content": "No.2&4, JALAN HARMONI 3/2,\nTAMAN DESA HARMONI.\n81100 JOHOR BAHRU JOHOR"
+          },
+          "type": "supplier_address",
+          "mentionText": "No.2&4, JALAN HARMONI 3/2,\nTAMAN DESA HARMONI.\n81100 JOHOR BAHRU JOHOR",
+          "confidence": 0.55018675,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.23974082,
+                      "y": 0.19338843
+                    },
+                    {
+                      "x": 0.7062635,
+                      "y": 0.19338843
+                    },
+                    {
+                      "x": 0.7062635,
+                      "y": 0.29421487
+                    },
+                    {
+                      "x": 0.23974082,
+                      "y": 0.29421487
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "12"
+              }
+            ],
+            "content": "tan chay yee"
+          },
+          "type": "supplier_name",
+          "mentionText": "tan chay yee",
+          "confidence": 0.5209632,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3261339,
+                      "y": 0.07272727
+                    },
+                    {
+                      "x": 0.7775378,
+                      "y": 0.07272727
+                    },
+                    {
+                      "x": 0.7775378,
+                      "y": 0.13884297
+                    },
+                    {
+                      "x": 0.3261339,
+                      "y": 0.13884297
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "205",
+                "endIndex": "212"
+              },
+              {
+                "startIndex": "213",
+                "endIndex": "214"
+              },
+              {
+                "startIndex": "221",
+                "endIndex": "226"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Plastic 2 31.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.056155507,
+                      "y": 0.59504133
+                    },
+                    {
+                      "x": 0.8185745,
+                      "y": 0.59504133
+                    },
+                    {
+                      "x": 0.8185745,
+                      "y": 0.6280992
+                    },
+                    {
+                      "x": 0.056155507,
+                      "y": 0.6280992
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "205",
+                    "endIndex": "212"
+                  }
+                ],
+                "content": "Plastic"
+              },
+              "type": "line_item/description",
+              "mentionText": "Plastic",
+              "confidence": 0.95767665,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.056155507,
+                          "y": 0.5983471
+                        },
+                        {
+                          "x": 0.16846652,
+                          "y": 0.5983471
+                        },
+                        {
+                          "x": 0.16846652,
+                          "y": 0.6231405
+                        },
+                        {
+                          "x": 0.056155507,
+                          "y": 0.6231405
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "213",
+                    "endIndex": "214"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.87436146,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5053996,
+                          "y": 0.59504133
+                        },
+                        {
+                          "x": 0.52699786,
+                          "y": 0.59504133
+                        },
+                        {
+                          "x": 0.52699786,
+                          "y": 0.6231405
+                        },
+                        {
+                          "x": 0.5053996,
+                          "y": 0.6231405
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "221",
+                    "endIndex": "226"
+                  }
+                ],
+                "content": "31.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "31.00",
+              "confidence": 0.95053256,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.71706265,
+                          "y": 0.59669423
+                        },
+                        {
+                          "x": 0.8185745,
+                          "y": 0.59669423
+                        },
+                        {
+                          "x": 0.8185745,
+                          "y": 0.6280992
+                        },
+                        {
+                          "x": 0.71706265,
+                          "y": 0.6280992
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9",
+              "normalizedValue": {
+                "text": "31",
+                "moneyValue": {
+                  "units": "31"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

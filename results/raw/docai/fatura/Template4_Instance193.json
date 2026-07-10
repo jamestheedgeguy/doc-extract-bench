@@ -1,0 +1,917 @@
+{
+  "vendor": "docai",
+  "dataset": "fatura",
+  "docId": "Template4_Instance193",
+  "at": "2026-07-10T10:27:36.363Z",
+  "latencyMs": 3264,
+  "raw": {
+    "document": {
+      "text": "INVOICE\nBILL_TO:\nDawn Lynch\n143 Harris Corners Suite 491\nPort Heather, NY 26093 US\nTel:+(563)113-8216\nEmail:jane50@example.net\nSite:https://ayala.com/\nHuff-Bryan\nAddress:2180 Michael Ridges Apt. 385\nPort Lindsey, MP 98258 US\nD\nTOTAL: 121.78 $\nDue Date: 10-Jan-2015\nDate: 09-Mar-2019\nDescription\nQUANTITY\nPRICE\nPresent partner.\n1.00\n$81.74\nStyle.\n2.00\n$19.11\nSUB TOTAL: 119.96 $\nDISCOUNT (4.43%): (-) 5.31\nNote: All payments to be made in cash.\nContact us for queries on these quotations.\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "253",
+                "endIndex": "264"
+              }
+            ],
+            "content": "10-Jan-2015"
+          },
+          "type": "due_date",
+          "mentionText": "10-Jan-2015",
+          "confidence": 0.98738325,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.76806724,
+                      "y": 0.2175981
+                    },
+                    {
+                      "x": 0.88235295,
+                      "y": 0.2175981
+                    },
+                    {
+                      "x": 0.88235295,
+                      "y": 0.23067777
+                    },
+                    {
+                      "x": 0.76806724,
+                      "y": 0.23067777
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2015-01-10",
+            "dateValue": {
+              "year": 2015,
+              "month": 1,
+              "day": 10
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "271",
+                "endIndex": "282"
+              }
+            ],
+            "content": "09-Mar-2019"
+          },
+          "type": "invoice_date",
+          "mentionText": "09-Mar-2019",
+          "confidence": 0.9683439,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7176471,
+                      "y": 0.2604043
+                    },
+                    {
+                      "x": 0.8352941,
+                      "y": 0.2604043
+                    },
+                    {
+                      "x": 0.8352941,
+                      "y": 0.27348396
+                    },
+                    {
+                      "x": 0.7176471,
+                      "y": 0.27348396
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "2019-03-09",
+            "dateValue": {
+              "year": 2019,
+              "month": 3,
+              "day": 9
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "234",
+                "endIndex": "240"
+              }
+            ],
+            "content": "121.78"
+          },
+          "type": "total_amount",
+          "mentionText": "121.78",
+          "confidence": 0.9233957,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.74957985,
+                      "y": 0.15933412
+                    },
+                    {
+                      "x": 0.8134454,
+                      "y": 0.15933412
+                    },
+                    {
+                      "x": 0.8134454,
+                      "y": 0.1724138
+                    },
+                    {
+                      "x": 0.74957985,
+                      "y": 0.1724138
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "121.78",
+            "floatValue": 121.78
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "369",
+                "endIndex": "375"
+              }
+            ],
+            "content": "119.96"
+          },
+          "type": "net_amount",
+          "mentionText": "119.96",
+          "confidence": 0.88165134,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7647059,
+                      "y": 0.58739597
+                    },
+                    {
+                      "x": 0.82689077,
+                      "y": 0.58739597
+                    },
+                    {
+                      "x": 0.82689077,
+                      "y": 0.60166466
+                    },
+                    {
+                      "x": 0.7647059,
+                      "y": 0.60166466
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "119.96",
+            "floatValue": 119.96
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "17",
+                "endIndex": "27"
+              }
+            ],
+            "content": "Dawn Lynch"
+          },
+          "type": "receiver_name",
+          "mentionText": "Dawn Lynch",
+          "confidence": 0.8024675,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.016806724,
+                      "y": 0.20570749
+                    },
+                    {
+                      "x": 0.12436975,
+                      "y": 0.20570749
+                    },
+                    {
+                      "x": 0.12436975,
+                      "y": 0.21640904
+                    },
+                    {
+                      "x": 0.016806724,
+                      "y": 0.21640904
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4"
+        },
+        {
+          "type": "invoice_type",
+          "confidence": 0.71297085,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "confidence": 0.92410094
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {
+            "text": "invoice_statement"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "151",
+                "endIndex": "161"
+              }
+            ],
+            "content": "Huff-Bryan"
+          },
+          "type": "supplier_name",
+          "mentionText": "Huff-Bryan",
+          "confidence": 0.70067865,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.26386556,
+                      "y": 0.021403091
+                    },
+                    {
+                      "x": 0.3697479,
+                      "y": 0.021403091
+                    },
+                    {
+                      "x": 0.3697479,
+                      "y": 0.03448276
+                    },
+                    {
+                      "x": 0.26386556,
+                      "y": 0.03448276
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "376",
+                "endIndex": "377"
+              }
+            ],
+            "content": "$"
+          },
+          "type": "currency",
+          "mentionText": "$",
+          "confidence": 0.5005877,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8369748,
+                      "y": 0.58739597
+                    },
+                    {
+                      "x": 0.8487395,
+                      "y": 0.58739597
+                    },
+                    {
+                      "x": 0.8487395,
+                      "y": 0.6004756
+                    },
+                    {
+                      "x": 0.8369748,
+                      "y": 0.6004756
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "normalizedValue": {
+            "text": "USD"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "28",
+                "endIndex": "82"
+              }
+            ],
+            "content": "143 Harris Corners Suite 491\nPort Heather, NY 26093 US"
+          },
+          "type": "receiver_address",
+          "mentionText": "143 Harris Corners Suite 491\nPort Heather, NY 26093 US",
+          "confidence": 0.38578382,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.01512605,
+                      "y": 0.22116528
+                    },
+                    {
+                      "x": 0.2672269,
+                      "y": 0.22116528
+                    },
+                    {
+                      "x": 0.2672269,
+                      "y": 0.24851367
+                    },
+                    {
+                      "x": 0.01512605,
+                      "y": 0.24851367
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "162",
+                "endIndex": "224"
+              }
+            ],
+            "content": "Address:2180 Michael Ridges Apt. 385\nPort Lindsey, MP 98258 US"
+          },
+          "type": "supplier_address",
+          "mentionText": "Address:2180 Michael Ridges Apt. 385\nPort Lindsey, MP 98258 US",
+          "confidence": 0.37611237,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2621849,
+                      "y": 0.05112961
+                    },
+                    {
+                      "x": 0.6302521,
+                      "y": 0.05112961
+                    },
+                    {
+                      "x": 0.6302521,
+                      "y": 0.08323424
+                    },
+                    {
+                      "x": 0.2621849,
+                      "y": 0.08323424
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "87",
+                "endIndex": "101"
+              }
+            ],
+            "content": "+(563)113-8216"
+          },
+          "type": "receiver_phone",
+          "mentionText": "+(563)113-8216",
+          "confidence": 0.18234889,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.048739497,
+                      "y": 0.25208086
+                    },
+                    {
+                      "x": 0.18319328,
+                      "y": 0.25208086
+                    },
+                    {
+                      "x": 0.18319328,
+                      "y": 0.26397145
+                    },
+                    {
+                      "x": 0.048739497,
+                      "y": 0.26397145
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "132",
+                "endIndex": "150"
+              }
+            ],
+            "content": "https://ayala.com/"
+          },
+          "type": "supplier_website",
+          "mentionText": "https://ayala.com/",
+          "confidence": 0.13199939,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.057142857,
+                      "y": 0.2841855
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.2841855
+                    },
+                    {
+                      "x": 0.21512605,
+                      "y": 0.2960761
+                    },
+                    {
+                      "x": 0.057142857,
+                      "y": 0.2960761
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "108",
+                "endIndex": "126"
+              }
+            ],
+            "content": "jane50@example.net"
+          },
+          "type": "supplier_email",
+          "mentionText": "jane50@example.net",
+          "confidence": 0.1016824,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07058824,
+                      "y": 0.26753864
+                    },
+                    {
+                      "x": 0.2554622,
+                      "y": 0.26753864
+                    },
+                    {
+                      "x": 0.2554622,
+                      "y": 0.27942926
+                    },
+                    {
+                      "x": 0.07058824,
+                      "y": 0.27942926
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "310",
+                "endIndex": "326"
+              },
+              {
+                "startIndex": "327",
+                "endIndex": "331"
+              },
+              {
+                "startIndex": "333",
+                "endIndex": "338"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Present partner. 1.00 81.74",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.0605042,
+                      "y": 0.49821642
+                    },
+                    {
+                      "x": 0.7831933,
+                      "y": 0.49821642
+                    },
+                    {
+                      "x": 0.7831933,
+                      "y": 0.51248515
+                    },
+                    {
+                      "x": 0.0605042,
+                      "y": 0.51248515
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "310",
+                    "endIndex": "326"
+                  }
+                ],
+                "content": "Present partner."
+              },
+              "type": "line_item/description",
+              "mentionText": "Present partner.",
+              "confidence": 0.73686713,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.0605042,
+                          "y": 0.49821642
+                        },
+                        {
+                          "x": 0.18319328,
+                          "y": 0.49821642
+                        },
+                        {
+                          "x": 0.18319328,
+                          "y": 0.51248515
+                        },
+                        {
+                          "x": 0.0605042,
+                          "y": 0.51248515
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "327",
+                    "endIndex": "331"
+                  }
+                ],
+                "content": "1.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1.00",
+              "confidence": 0.9770101,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.48067227,
+                          "y": 0.49940547
+                        },
+                        {
+                          "x": 0.5109244,
+                          "y": 0.49940547
+                        },
+                        {
+                          "x": 0.5109244,
+                          "y": 0.5089179
+                        },
+                        {
+                          "x": 0.48067227,
+                          "y": 0.5089179
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "1",
+                "floatValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "333",
+                    "endIndex": "338"
+                  }
+                ],
+                "content": "81.74"
+              },
+              "type": "line_item/amount",
+              "mentionText": "81.74",
+              "confidence": 0.6216197,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7411765,
+                          "y": 0.50059456
+                        },
+                        {
+                          "x": 0.7831933,
+                          "y": 0.50059456
+                        },
+                        {
+                          "x": 0.7831933,
+                          "y": 0.5089179
+                        },
+                        {
+                          "x": 0.7411765,
+                          "y": 0.5089179
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16",
+              "normalizedValue": {
+                "text": "81.74",
+                "floatValue": 81.74
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "339",
+                "endIndex": "345"
+              },
+              {
+                "startIndex": "346",
+                "endIndex": "350"
+              },
+              {
+                "startIndex": "352",
+                "endIndex": "357"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Style. 2.00 19.11",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.062184874,
+                      "y": 0.5208086
+                    },
+                    {
+                      "x": 0.7815126,
+                      "y": 0.5208086
+                    },
+                    {
+                      "x": 0.7815126,
+                      "y": 0.53269917
+                    },
+                    {
+                      "x": 0.062184874,
+                      "y": 0.53269917
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "17",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "339",
+                    "endIndex": "345"
+                  }
+                ],
+                "content": "Style."
+              },
+              "type": "line_item/description",
+              "mentionText": "Style.",
+              "confidence": 0.3092988,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.062184874,
+                          "y": 0.52199763
+                        },
+                        {
+                          "x": 0.10420168,
+                          "y": 0.52199763
+                        },
+                        {
+                          "x": 0.10420168,
+                          "y": 0.53269917
+                        },
+                        {
+                          "x": 0.062184874,
+                          "y": 0.53269917
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "18"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "346",
+                    "endIndex": "350"
+                  }
+                ],
+                "content": "2.00"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2.00",
+              "confidence": 0.97349507,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.48067227,
+                          "y": 0.52199763
+                        },
+                        {
+                          "x": 0.51428574,
+                          "y": 0.52199763
+                        },
+                        {
+                          "x": 0.51428574,
+                          "y": 0.5315101
+                        },
+                        {
+                          "x": 0.48067227,
+                          "y": 0.5315101
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "2",
+                "floatValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "352",
+                    "endIndex": "357"
+                  }
+                ],
+                "content": "19.11"
+              },
+              "type": "line_item/amount",
+              "mentionText": "19.11",
+              "confidence": 0.6370027,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7411765,
+                          "y": 0.5208086
+                        },
+                        {
+                          "x": 0.7815126,
+                          "y": 0.5208086
+                        },
+                        {
+                          "x": 0.7815126,
+                          "y": 0.529132
+                        },
+                        {
+                          "x": 0.7411765,
+                          "y": 0.529132
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20",
+              "normalizedValue": {
+                "text": "19.11",
+                "floatValue": 19.11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}
