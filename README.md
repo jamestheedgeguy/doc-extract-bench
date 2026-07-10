@@ -15,7 +15,49 @@ anyone, with zero API keys.
 ## Results
 
 <!-- RESULTS_START -->
-_Run `pnpm run bench` then `pnpm report` to generate._
+_Last generated 2026-07-10 — every number below is recomputable offline from the committed raw responses via `pnpm replay && pnpm report`._
+
+### Invoices — FATURA, n=100 (2 per each of 50 layouts)
+
+| Vendor | Field accuracy | ANLS (diagnostic) | Median latency | Failures |
+|---|---|---|---|---|
+| Kynth Core | **99.4%** | 99.4% | 12.8s | 0/100 |
+| AWS Textract | **92.2%** | 92.2% | 1.8s | 0/100 |
+| Google Document AI | **93.1%** | 93.8% | 2.9s | 0/100 |
+
+### Receipts — SROIE test subset, n=100 (merchant / date / address / total)
+
+| Vendor | Field accuracy | ANLS (diagnostic) | Median latency | Failures |
+|---|---|---|---|---|
+| Kynth Core | **88.8%** | 93.9% | 3.1s | 0/100 |
+| AWS Textract | **68.8%** | 83.1% | 2.1s | 0/100 |
+| Google Document AI | **52.8%** | 66.2% | 2.3s | 0/100 |
+
+### Receipts — CORD-v2 full official test split, n=100 (line items + totals)
+
+| Vendor | Line-item F1 | Precision | Recall | Totals accuracy | Median latency |
+|---|---|---|---|---|---|
+| Kynth Core | **41.9%** | 38.9% | 45.4% | 67.1% | 3.9s |
+| AWS Textract | **77.1%** | 73.8% | 80.6% | 95.5% | 2.5s |
+| Google Document AI | **36.6%** | 30.8% | 45.0% | 82.2% | 3.0s |
+
+### Tables — FinTabNet test subset, n=100 (TEDS against ground-truth HTML)
+
+| Vendor | TEDS | S-TEDS (structure only) | Median latency | Failures |
+|---|---|---|---|---|
+| Kynth Core | **0.791** | 0.819 | 23.4s | 14/100 |
+| AWS Textract | **0.836** | 0.891 | 2.5s | 0/100 |
+| Google Document AI | **0.365** | 0.423 | 2.6s | 0/100 |
+
+### Bank statements — Bankstatemently Open Benchmark, n=5 (all published statements)
+
+| Vendor | Parses cached | Status |
+|---|---|---|
+| Kynth Core | 5/5 | evaluation pending (upstream) |
+| Google Document AI | 5/5 | evaluation pending (upstream) |
+
+_Statements are scored exclusively by the [Bankstatemently evaluation API](https://github.com/bankstatemently/bank-statement-parsing-benchmark) (server-side ground truth). At the time of this run their evaluator returned an internal ground-truth error (`parsed ground truth transaction 0 is missing account.kind`) for every published statement PDF, so scores are pending an upstream fix. Our parses are committed under `results/raw/*/bankstatemently/` and will be submitted unchanged once the evaluator is fixed. AWS Textract has no bank-statement product._
+
 <!-- RESULTS_END -->
 
 Vendors that are missing from a table were skipped for that run — never silently:
@@ -58,6 +100,29 @@ credentials are skipped, not failed.
 | `LLAMA_CLOUD_API_KEY` | LlamaParse / LlamaExtract | |
 | `BANKSTATEMENTLY_API_KEY` | statement scoring | free — [bankstatemently.com/developers](https://bankstatemently.com/developers) |
 | `MAX_RUN_USD` | cost cap | default 60 |
+
+### One-time Google Document AI setup
+
+Document AI has no default processors — create the four pretrained processors
+once in your GCP project, then export their resource names:
+
+```bash
+gcloud services enable documentai.googleapis.com --project <your-project>
+
+TOKEN=$(gcloud auth print-access-token)
+for T in INVOICE_PROCESSOR EXPENSE_PROCESSOR BANK_STATEMENT_PROCESSOR FORM_PARSER_PROCESSOR; do
+  curl -s -X POST -H "Authorization: Bearer $TOKEN" -H "content-type: application/json" \
+    "https://us-documentai.googleapis.com/v1/projects/<your-project>/locations/us/processors" \
+    -d "{\"type\":\"$T\",\"displayName\":\"bench-$T\"}"
+done
+# each response's "name" is the processor resource name →
+#   export DOCAI_PROCESSOR_INVOICE="projects/<num>/locations/us/processors/<id>"
+#   and likewise _EXPENSE, _BANK_STATEMENT, _FORM
+```
+
+All four processor types are GA with `allowCreation: true` — no allowlist
+required. The adapter authenticates with `GOOGLE_ACCESS_TOKEN` if set,
+otherwise it shells out to `gcloud auth print-access-token`.
 
 ## Design (why you can trust these numbers)
 

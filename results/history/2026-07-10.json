@@ -1,0 +1,353 @@
+{
+  "generatedAt": "2026-07-10T13:37:49.489Z",
+  "runUrl": null,
+  "results": [
+    {
+      "vendor": "docai",
+      "dataset": "bankstatemently",
+      "docType": "statement",
+      "n": 5,
+      "failures": 0,
+      "latencyMsP50": 3737,
+      "evaluated": 0,
+      "normalizedOverall": null,
+      "normalizedFields": {
+        "date": null,
+        "description": null,
+        "amount": null,
+        "balance": null
+      }
+    },
+    {
+      "vendor": "docai",
+      "dataset": "cord",
+      "docType": "receipt",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 2969,
+      "items": {
+        "precision": 0.3079019073569482,
+        "recall": 0.450199203187251,
+        "f1": 0.3656957928802589,
+        "gtItems": 251,
+        "predItems": 367,
+        "correct": 113
+      },
+      "totalsAccuracy": 0.8215962441314554
+    },
+    {
+      "vendor": "docai",
+      "dataset": "fatura",
+      "docType": "invoice",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 2884,
+      "fieldAccuracy": 0.9309815950920245,
+      "fieldsScored": 652,
+      "anls": 0.9376019685835638,
+      "perField": {
+        "customerName": {
+          "accuracy": 0.6451612903225806,
+          "n": 62
+        },
+        "issueDate": {
+          "accuracy": 1,
+          "n": 98
+        },
+        "dueDate": {
+          "accuracy": 1,
+          "n": 58
+        },
+        "currency": {
+          "accuracy": 1,
+          "n": 92
+        },
+        "subtotal": {
+          "accuracy": 1,
+          "n": 68
+        },
+        "tax": {
+          "accuracy": 0.9736842105263158,
+          "n": 38
+        },
+        "total": {
+          "accuracy": 0.9125,
+          "n": 80
+        },
+        "vendorName": {
+          "accuracy": 0.7794117647058824,
+          "n": 68
+        },
+        "invoiceNumber": {
+          "accuracy": 1,
+          "n": 88
+        }
+      }
+    },
+    {
+      "vendor": "docai",
+      "dataset": "fintabnet",
+      "docType": "tables",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 2622,
+      "teds": 0.3649189984215049,
+      "steds": 0.42323292930392137
+    },
+    {
+      "vendor": "docai",
+      "dataset": "sroie",
+      "docType": "receipt",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 2328,
+      "fieldAccuracy": 0.5275,
+      "fieldsScored": 400,
+      "anls": 0.6620101276692425,
+      "perField": {
+        "merchant": {
+          "accuracy": 0.38,
+          "n": 100
+        },
+        "date": {
+          "accuracy": 0.61,
+          "n": 100
+        },
+        "address": {
+          "accuracy": 0.36,
+          "n": 100
+        },
+        "total": {
+          "accuracy": 0.76,
+          "n": 100
+        }
+      }
+    },
+    {
+      "vendor": "kynth",
+      "dataset": "bankstatemently",
+      "docType": "statement",
+      "n": 5,
+      "failures": 0,
+      "latencyMsP50": 36054,
+      "evaluated": 0,
+      "normalizedOverall": null,
+      "normalizedFields": {
+        "date": null,
+        "description": null,
+        "amount": null,
+        "balance": null
+      }
+    },
+    {
+      "vendor": "kynth",
+      "dataset": "cord",
+      "docType": "receipt",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 3900,
+      "items": {
+        "precision": 0.3890784982935154,
+        "recall": 0.4541832669322709,
+        "f1": 0.4191176470588235,
+        "gtItems": 251,
+        "predItems": 293,
+        "correct": 114
+      },
+      "totalsAccuracy": 0.6713615023474179
+    },
+    {
+      "vendor": "kynth",
+      "dataset": "fatura",
+      "docType": "invoice",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 12848,
+      "fieldAccuracy": 0.9938650306748467,
+      "fieldsScored": 652,
+      "anls": 0.9938650306748467,
+      "perField": {
+        "customerName": {
+          "accuracy": 0.9838709677419355,
+          "n": 62
+        },
+        "issueDate": {
+          "accuracy": 1,
+          "n": 98
+        },
+        "dueDate": {
+          "accuracy": 1,
+          "n": 58
+        },
+        "currency": {
+          "accuracy": 0.9891304347826086,
+          "n": 92
+        },
+        "subtotal": {
+          "accuracy": 1,
+          "n": 68
+        },
+        "tax": {
+          "accuracy": 0.9473684210526315,
+          "n": 38
+        },
+        "total": {
+          "accuracy": 1,
+          "n": 80
+        },
+        "vendorName": {
+          "accuracy": 1,
+          "n": 68
+        },
+        "invoiceNumber": {
+          "accuracy": 1,
+          "n": 88
+        }
+      }
+    },
+    {
+      "vendor": "kynth",
+      "dataset": "fintabnet",
+      "docType": "tables",
+      "n": 100,
+      "failures": 14,
+      "latencyMsP50": 23448,
+      "teds": 0.7912710446662822,
+      "steds": 0.8190572886774939
+    },
+    {
+      "vendor": "kynth",
+      "dataset": "sroie",
+      "docType": "receipt",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 3130,
+      "fieldAccuracy": 0.8875,
+      "fieldsScored": 400,
+      "anls": 0.9387130585797183,
+      "perField": {
+        "merchant": {
+          "accuracy": 0.81,
+          "n": 100
+        },
+        "date": {
+          "accuracy": 0.97,
+          "n": 100
+        },
+        "address": {
+          "accuracy": 0.79,
+          "n": 100
+        },
+        "total": {
+          "accuracy": 0.98,
+          "n": 100
+        }
+      }
+    },
+    {
+      "vendor": "textract",
+      "dataset": "cord",
+      "docType": "receipt",
+      "n": 100,
+      "failures": 4,
+      "latencyMsP50": 2526,
+      "items": {
+        "precision": 0.7379032258064516,
+        "recall": 0.8061674008810573,
+        "f1": 0.7705263157894737,
+        "gtItems": 227,
+        "predItems": 248,
+        "correct": 183
+      },
+      "totalsAccuracy": 0.9545454545454546
+    },
+    {
+      "vendor": "textract",
+      "dataset": "fatura",
+      "docType": "invoice",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 1792,
+      "fieldAccuracy": 0.9217791411042945,
+      "fieldsScored": 652,
+      "anls": 0.9217791411042945,
+      "perField": {
+        "customerName": {
+          "accuracy": 0.8548387096774194,
+          "n": 62
+        },
+        "issueDate": {
+          "accuracy": 1,
+          "n": 98
+        },
+        "dueDate": {
+          "accuracy": 1,
+          "n": 58
+        },
+        "currency": {
+          "accuracy": 0.9891304347826086,
+          "n": 92
+        },
+        "subtotal": {
+          "accuracy": 0.8970588235294118,
+          "n": 68
+        },
+        "tax": {
+          "accuracy": 0.9473684210526315,
+          "n": 38
+        },
+        "total": {
+          "accuracy": 0.875,
+          "n": 80
+        },
+        "vendorName": {
+          "accuracy": 0.6764705882352942,
+          "n": 68
+        },
+        "invoiceNumber": {
+          "accuracy": 1,
+          "n": 88
+        }
+      }
+    },
+    {
+      "vendor": "textract",
+      "dataset": "fintabnet",
+      "docType": "tables",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 2457,
+      "teds": 0.8364195677742853,
+      "steds": 0.8910186803972542
+    },
+    {
+      "vendor": "textract",
+      "dataset": "sroie",
+      "docType": "receipt",
+      "n": 100,
+      "failures": 0,
+      "latencyMsP50": 2074,
+      "fieldAccuracy": 0.6875,
+      "fieldsScored": 400,
+      "anls": 0.8307924188885697,
+      "perField": {
+        "merchant": {
+          "accuracy": 0.74,
+          "n": 100
+        },
+        "date": {
+          "accuracy": 0.97,
+          "n": 100
+        },
+        "address": {
+          "accuracy": 0.08,
+          "n": 100
+        },
+        "total": {
+          "accuracy": 0.96,
+          "n": 100
+        }
+      }
+    }
+  ]
+}

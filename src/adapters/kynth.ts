@@ -55,9 +55,18 @@ export const kynth: Adapter = {
       "content-type": "application/json",
       authorization: `Bearer ${process.env.KYNTH_API_KEY}`,
     };
-    // Dense multi-page statements can exceed the synchronous 60s window —
-    // use the async job flow for them (billed identically).
-    const useAsync = docType === "statement";
+    // Dense multi-page statements and dense tables can exceed the
+    // synchronous 60s window — use the async job flow (billed identically).
+    const useAsync = docType === "statement" || docType === "tables";
+    // The API accepts request bodies up to ~4.5 MB. A handful of CORD photos
+    // exceed that as base64 JSON, so oversized images are re-encoded as
+    // JPEG q90 for transport ONLY for this vendor (documented in
+    // docs/methodology.md — pixel content identical, lossless layouts).
+    if (doc.length > 3_000_000 && mimeType.startsWith("image/")) {
+      const sharp = (await import("sharp")).default;
+      doc = await sharp(doc).jpeg({ quality: 90 }).toBuffer();
+      mimeType = "image/jpeg";
+    }
     const t0 = now();
     const res = await fetch(`${BASE}/v1/${ENDPOINT[docType]}`, {
       method: "POST",
