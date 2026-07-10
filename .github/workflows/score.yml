@@ -1,0 +1,39 @@
+name: score
+
+# Keyless PR verification: TEDS fixtures, manifest hash check on the light
+# sources, and a full offline re-score of the committed raw responses.
+# Plain `pull_request` (never pull_request_target) — no secrets exposed.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: TEDS fixture tests (vs Python-reference expected values)
+        run: pnpm test
+
+      - name: SROIE ground truth (sha256-verified keyless fetch)
+        run: pnpm fetch --gt-sroie
+
+      - name: Replay — re-score all committed raw responses offline
+        run: pnpm replay
+
+      - name: Regenerate report
+        run: pnpm report

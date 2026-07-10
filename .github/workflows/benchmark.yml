@@ -1,0 +1,66 @@
+name: benchmark
+
+# Full paid benchmark run — manual dispatch + monthly. Uses repo secrets;
+# never runs on forks (repository guard on every job).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 3 * *" # 06:17 UTC on the 3rd of each month
+
+permissions:
+  contents: write
+
+jobs:
+  bench:
+    if: github.repository == 'kyisaiah47/doc-extract-bench'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Fetch + verify datasets
+        run: pnpm fetch
+
+      - name: Verify pre-registered subsets
+        run: pnpm select --check
+
+      - name: Run benchmark (cost-gated)
+        env:
+          KYNTH_API_KEY: ${{ secrets.KYNTH_API_KEY }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: us-east-1
+          GOOGLE_ACCESS_TOKEN: ${{ secrets.GOOGLE_ACCESS_TOKEN }}
+          DOCAI_PROCESSOR_INVOICE: ${{ secrets.DOCAI_PROCESSOR_INVOICE }}
+          DOCAI_PROCESSOR_EXPENSE: ${{ secrets.DOCAI_PROCESSOR_EXPENSE }}
+          DOCAI_PROCESSOR_BANK_STATEMENT: ${{ secrets.DOCAI_PROCESSOR_BANK_STATEMENT }}
+          DOCAI_PROCESSOR_FORM: ${{ secrets.DOCAI_PROCESSOR_FORM }}
+          VERYFI_CLIENT_ID: ${{ secrets.VERYFI_CLIENT_ID }}
+          VERYFI_API_KEY: ${{ secrets.VERYFI_API_KEY }}
+          VERYFI_USERNAME: ${{ secrets.VERYFI_USERNAME }}
+          LLAMA_CLOUD_API_KEY: ${{ secrets.LLAMA_CLOUD_API_KEY }}
+          BANKSTATEMENTLY_API_KEY: ${{ secrets.BANKSTATEMENTLY_API_KEY }}
+          MAX_RUN_USD: "60"
+        run: pnpm bench
+
+      - name: Report
+        env:
+          BENCHMARK_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: pnpm report
+
+      - name: Commit results
+        run: |
+          git config user.name "benchmark-bot"
+          git config user.email "kyisaiah47@gmail.com"
+          git add results README.md
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "Benchmark run $(date -u +%F) (${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+          git push
