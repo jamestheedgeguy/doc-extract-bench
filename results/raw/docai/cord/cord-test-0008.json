@@ -1,0 +1,748 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0008",
+  "at": "2026-07-10T11:06:24.938Z",
+  "latencyMs": 3222,
+  "raw": {
+    "document": {
+      "text": "1 [REG] BLACK SAKURA\n1 COOKIE DOH SAUCES\n1 NATA DE COCO\nSub Total\n45,455\n0\nPB1 (10%)\nRounding\nTotal\nCard Payment\n***\n45,455\n4.545\n0\n50,000\n50,000\n***\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "117",
+                "endIndex": "123"
+              }
+            ],
+            "content": "45,455"
+          },
+          "type": "net_amount",
+          "mentionText": "45,455",
+          "confidence": 0.9192512,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8391204,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.9826389,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.9826389,
+                      "y": 0.6180556
+                    },
+                    {
+                      "x": 0.8391204,
+                      "y": 0.6180556
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "132",
+                "endIndex": "138"
+              }
+            ],
+            "content": "50,000"
+          },
+          "type": "total_amount",
+          "mentionText": "50,000",
+          "confidence": 0.8828448,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8310185,
+                      "y": 0.7021605
+                    },
+                    {
+                      "x": 0.9907407,
+                      "y": 0.7021605
+                    },
+                    {
+                      "x": 0.9907407,
+                      "y": 0.7291667
+                    },
+                    {
+                      "x": 0.8310185,
+                      "y": 0.7291667
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "124",
+                "endIndex": "129"
+              }
+            ],
+            "content": "4.545"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "4.545",
+          "confidence": 0.54671615,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8657407,
+                      "y": 0.6273148
+                    },
+                    {
+                      "x": 0.9837963,
+                      "y": 0.6273148
+                    },
+                    {
+                      "x": 0.9837963,
+                      "y": 0.65123457
+                    },
+                    {
+                      "x": 0.8657407,
+                      "y": 0.65123457
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "20"
+              },
+              {
+                "startIndex": "66",
+                "endIndex": "72"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 [REG] BLACK SAKURA 45,455",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.06365741,
+                      "y": 0.45679012
+                    },
+                    {
+                      "x": 0.9699074,
+                      "y": 0.45679012
+                    },
+                    {
+                      "x": 0.9699074,
+                      "y": 0.48842594
+                    },
+                    {
+                      "x": 0.06365741,
+                      "y": 0.48842594
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7727807,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.06365741,
+                          "y": 0.46373457
+                        },
+                        {
+                          "x": 0.07986111,
+                          "y": 0.46373457
+                        },
+                        {
+                          "x": 0.07986111,
+                          "y": 0.48842594
+                        },
+                        {
+                          "x": 0.06365741,
+                          "y": 0.48842594
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "20"
+                  }
+                ],
+                "content": "[REG] BLACK SAKURA"
+              },
+              "type": "line_item/description",
+              "mentionText": "[REG] BLACK SAKURA",
+              "confidence": 0.55683404,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.09837963,
+                          "y": 0.46141976
+                        },
+                        {
+                          "x": 0.5555556,
+                          "y": 0.46141976
+                        },
+                        {
+                          "x": 0.5555556,
+                          "y": 0.48765433
+                        },
+                        {
+                          "x": 0.09837963,
+                          "y": 0.48765433
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "66",
+                    "endIndex": "72"
+                  }
+                ],
+                "content": "45,455"
+              },
+              "type": "line_item/amount",
+              "mentionText": "45,455",
+              "confidence": 0.81433153,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8298611,
+                          "y": 0.45679012
+                        },
+                        {
+                          "x": 0.9699074,
+                          "y": 0.45679012
+                        },
+                        {
+                          "x": 0.9699074,
+                          "y": 0.4830247
+                        },
+                        {
+                          "x": 0.8298611,
+                          "y": 0.4830247
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "21",
+                "endIndex": "22"
+              },
+              {
+                "startIndex": "23",
+                "endIndex": "40"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 COOKIE DOH SAUCES",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.060185187,
+                      "y": 0.49691358
+                    },
+                    {
+                      "x": 0.5601852,
+                      "y": 0.49691358
+                    },
+                    {
+                      "x": 0.5601852,
+                      "y": 0.5177469
+                    },
+                    {
+                      "x": 0.060185187,
+                      "y": 0.5177469
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "21",
+                    "endIndex": "22"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7482098,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.060185187,
+                          "y": 0.49691358
+                        },
+                        {
+                          "x": 0.0787037,
+                          "y": 0.49691358
+                        },
+                        {
+                          "x": 0.0787037,
+                          "y": 0.5177469
+                        },
+                        {
+                          "x": 0.060185187,
+                          "y": 0.5177469
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "23",
+                    "endIndex": "40"
+                  }
+                ],
+                "content": "COOKIE DOH SAUCES"
+              },
+              "type": "line_item/description",
+              "mentionText": "COOKIE DOH SAUCES",
+              "confidence": 0.5696925,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.09606481,
+                          "y": 0.49691358
+                        },
+                        {
+                          "x": 0.5601852,
+                          "y": 0.49691358
+                        },
+                        {
+                          "x": 0.5601852,
+                          "y": 0.5177469
+                        },
+                        {
+                          "x": 0.09606481,
+                          "y": 0.5177469
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "41",
+                "endIndex": "42"
+              },
+              {
+                "startIndex": "43",
+                "endIndex": "55"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 NATA DE COCO",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.059027776,
+                      "y": 0.5300926
+                    },
+                    {
+                      "x": 0.42708334,
+                      "y": 0.5300926
+                    },
+                    {
+                      "x": 0.42708334,
+                      "y": 0.55246913
+                    },
+                    {
+                      "x": 0.059027776,
+                      "y": 0.55246913
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "41",
+                    "endIndex": "42"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7798852,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.059027776,
+                          "y": 0.5300926
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.5300926
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.5509259
+                        },
+                        {
+                          "x": 0.059027776,
+                          "y": 0.5509259
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "43",
+                    "endIndex": "55"
+                  }
+                ],
+                "content": "NATA DE COCO"
+              },
+              "type": "line_item/description",
+              "mentionText": "NATA DE COCO",
+              "confidence": 0.4485541,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.09606481,
+                          "y": 0.5300926
+                        },
+                        {
+                          "x": 0.42708334,
+                          "y": 0.5300926
+                        },
+                        {
+                          "x": 0.42708334,
+                          "y": 0.55246913
+                        },
+                        {
+                          "x": 0.09606481,
+                          "y": 0.55246913
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "117",
+                "endIndex": "123"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "45,455",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8391204,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.9826389,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.9826389,
+                      "y": 0.6180556
+                    },
+                    {
+                      "x": 0.8391204,
+                      "y": 0.6180556
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "117",
+                    "endIndex": "123"
+                  }
+                ],
+                "content": "45,455"
+              },
+              "type": "line_item/amount",
+              "mentionText": "45,455",
+              "confidence": 0.58597964,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8391204,
+                          "y": 0.5925926
+                        },
+                        {
+                          "x": 0.9826389,
+                          "y": 0.5925926
+                        },
+                        {
+                          "x": 0.9826389,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.8391204,
+                          "y": 0.6180556
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "124",
+                "endIndex": "129"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "4.545",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8657407,
+                      "y": 0.6273148
+                    },
+                    {
+                      "x": 0.9837963,
+                      "y": 0.6273148
+                    },
+                    {
+                      "x": 0.9837963,
+                      "y": 0.65123457
+                    },
+                    {
+                      "x": 0.8657407,
+                      "y": 0.65123457
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "124",
+                    "endIndex": "129"
+                  }
+                ],
+                "content": "4.545"
+              },
+              "type": "line_item/amount",
+              "mentionText": "4.545",
+              "confidence": 0.764685,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8657407,
+                          "y": 0.6273148
+                        },
+                        {
+                          "x": 0.9837963,
+                          "y": 0.6273148
+                        },
+                        {
+                          "x": 0.9837963,
+                          "y": 0.65123457
+                        },
+                        {
+                          "x": 0.8657407,
+                          "y": 0.65123457
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

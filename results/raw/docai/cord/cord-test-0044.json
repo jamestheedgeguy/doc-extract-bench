@@ -1,0 +1,322 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0044",
+  "at": "2026-07-10T11:08:39.471Z",
+  "latencyMs": 3379,
+  "raw": {
+    "document": {
+      "text": "XXI\ncafe\n1\nCombo 1\n30.000\nTOTAL\n30.000\nCASH\nCHANGED\n50.000\n20.000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "32",
+                "endIndex": "38"
+              }
+            ],
+            "content": "30.000"
+          },
+          "type": "total_amount",
+          "mentionText": "30.000",
+          "confidence": 0.961903,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7395833,
+                      "y": 0.6118827
+                    },
+                    {
+                      "x": 0.8518519,
+                      "y": 0.6118827
+                    },
+                    {
+                      "x": 0.8518519,
+                      "y": 0.64969134
+                    },
+                    {
+                      "x": 0.7395833,
+                      "y": 0.64969134
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "39",
+                "endIndex": "43"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.67170864,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.11689815,
+                      "y": 0.6944444
+                    },
+                    {
+                      "x": 0.18981482,
+                      "y": 0.6944444
+                    },
+                    {
+                      "x": 0.18981482,
+                      "y": 0.7175926
+                    },
+                    {
+                      "x": 0.11689815,
+                      "y": 0.7175926
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "8"
+              }
+            ],
+            "content": "XXI\ncafe"
+          },
+          "type": "supplier_name",
+          "mentionText": "XXI\ncafe",
+          "confidence": 0.60879,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.35416666,
+                      "y": 0.15432099
+                    },
+                    {
+                      "x": 0.5775463,
+                      "y": 0.15432099
+                    },
+                    {
+                      "x": 0.5775463,
+                      "y": 0.27237654
+                    },
+                    {
+                      "x": 0.35416666,
+                      "y": 0.27237654
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "Cinema XXI"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "9",
+                "endIndex": "10"
+              },
+              {
+                "startIndex": "11",
+                "endIndex": "18"
+              },
+              {
+                "startIndex": "19",
+                "endIndex": "25"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Combo 1 30.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.11921296,
+                      "y": 0.5501543
+                    },
+                    {
+                      "x": 0.8425926,
+                      "y": 0.5501543
+                    },
+                    {
+                      "x": 0.8425926,
+                      "y": 0.57330245
+                    },
+                    {
+                      "x": 0.11921296,
+                      "y": 0.57330245
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "9",
+                    "endIndex": "10"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.75243264,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.11921296,
+                          "y": 0.5532407
+                        },
+                        {
+                          "x": 0.13310185,
+                          "y": 0.5532407
+                        },
+                        {
+                          "x": 0.13310185,
+                          "y": 0.57253087
+                        },
+                        {
+                          "x": 0.11921296,
+                          "y": 0.57253087
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "11",
+                    "endIndex": "18"
+                  }
+                ],
+                "content": "Combo 1"
+              },
+              "type": "line_item/description",
+              "mentionText": "Combo 1",
+              "confidence": 0.51822144,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1886574,
+                          "y": 0.55246913
+                        },
+                        {
+                          "x": 0.3159722,
+                          "y": 0.55246913
+                        },
+                        {
+                          "x": 0.3159722,
+                          "y": 0.57330245
+                        },
+                        {
+                          "x": 0.1886574,
+                          "y": 0.57330245
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "19",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "30.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "30.000",
+              "confidence": 0.7079828,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7384259,
+                          "y": 0.5501543
+                        },
+                        {
+                          "x": 0.8425926,
+                          "y": 0.5501543
+                        },
+                        {
+                          "x": 0.8425926,
+                          "y": 0.57021606
+                        },
+                        {
+                          "x": 0.7384259,
+                          "y": 0.57021606
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

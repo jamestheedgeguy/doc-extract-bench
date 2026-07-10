@@ -1,0 +1,520 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51008114260",
+  "at": "2026-07-10T10:45:23.884Z",
+  "latencyMs": 1861,
+  "raw": {
+    "document": {
+      "text": "99 SPEED MART 5/8 (519537-X)\nLOT P.T. 2811, JALAN ANGSA,\nTAMAN BERKELEY\n41150 KLANG, SELANGOR\n1237-TMN INDAH PERDANA\nGST ID. NO: 000181747712\nINVOICE NO : 18385/103/T0148\n05:03PM\n570668\n02-05-18\n8402 MSM PRAI GULA PASIR 1K\nRM23.60 z\n@8 X RM 2.95\nTotal Sales (Inclusive GST) RM\n23.60\nCASH RM\n24.00\nCHANGE RM\n.40\nGST Summary\nAmount (RM)\nTax(RM)\nz = 0%\n23.60\n.00\nThank You. Please come again\nKeep the invoice for applicable returns\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "277",
+                "endIndex": "282"
+              }
+            ],
+            "content": "23.60"
+          },
+          "type": "total_amount",
+          "mentionText": "23.60",
+          "confidence": 0.79059076,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7296938,
+                      "y": 0.62990934
+                    },
+                    {
+                      "x": 0.8322237,
+                      "y": 0.62990934
+                    },
+                    {
+                      "x": 0.8322237,
+                      "y": 0.6503021
+                    },
+                    {
+                      "x": 0.7296938,
+                      "y": 0.6503021
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "23.6",
+            "moneyValue": {
+              "units": "23",
+              "nanos": 600000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "171",
+                "endIndex": "178"
+              }
+            ],
+            "content": "05:03PM"
+          },
+          "type": "purchase_time",
+          "mentionText": "05:03PM",
+          "confidence": 0.75076514,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07323568,
+                      "y": 0.4720544
+                    },
+                    {
+                      "x": 0.21704394,
+                      "y": 0.4720544
+                    },
+                    {
+                      "x": 0.21704394,
+                      "y": 0.49244714
+                    },
+                    {
+                      "x": 0.07323568,
+                      "y": 0.49244714
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 17,
+              "minutes": 3
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "13"
+              }
+            ],
+            "content": "99 SPEED MART"
+          },
+          "type": "supplier_name",
+          "mentionText": "99 SPEED MART",
+          "confidence": 0.68671423,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17842875,
+                      "y": 0.21223564
+                    },
+                    {
+                      "x": 0.436751,
+                      "y": 0.21223564
+                    },
+                    {
+                      "x": 0.436751,
+                      "y": 0.24169184
+                    },
+                    {
+                      "x": 0.17842875,
+                      "y": 0.24169184
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "99 Speedmart"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "186",
+                "endIndex": "194"
+              }
+            ],
+            "content": "02-05-18"
+          },
+          "type": "receipt_date",
+          "mentionText": "02-05-18",
+          "confidence": 0.6431267,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7097204,
+                      "y": 0.47432023
+                    },
+                    {
+                      "x": 0.873502,
+                      "y": 0.47432023
+                    },
+                    {
+                      "x": 0.873502,
+                      "y": 0.49471298
+                    },
+                    {
+                      "x": 0.7097204,
+                      "y": 0.49471298
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "2018-02-05",
+            "dateValue": {
+              "year": 2018,
+              "month": 2,
+              "day": 5
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "356",
+                "endIndex": "359"
+              }
+            ],
+            "content": ".00"
+          },
+          "type": "total_tax_amount",
+          "mentionText": ".00",
+          "confidence": 0.3687365,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.792277,
+                      "y": 0.78625375
+                    },
+                    {
+                      "x": 0.8508655,
+                      "y": 0.78625375
+                    },
+                    {
+                      "x": 0.8508655,
+                      "y": 0.8058912
+                    },
+                    {
+                      "x": 0.792277,
+                      "y": 0.8058912
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "0",
+            "moneyValue": {}
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "195",
+                "endIndex": "199"
+              },
+              {
+                "startIndex": "200",
+                "endIndex": "222"
+              },
+              {
+                "startIndex": "223",
+                "endIndex": "230"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "8402 MSM PRAI GULA PASIR 1K RM23.60",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07323568,
+                      "y": 0.5347432
+                    },
+                    {
+                      "x": 0.83089215,
+                      "y": 0.5347432
+                    },
+                    {
+                      "x": 0.83089215,
+                      "y": 0.5566465
+                    },
+                    {
+                      "x": 0.07323568,
+                      "y": 0.5566465
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "195",
+                    "endIndex": "199"
+                  }
+                ],
+                "content": "8402"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "8402",
+              "confidence": 0.296295,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07323568,
+                          "y": 0.5347432
+                        },
+                        {
+                          "x": 0.15312916,
+                          "y": 0.5347432
+                        },
+                        {
+                          "x": 0.15312916,
+                          "y": 0.5558912
+                        },
+                        {
+                          "x": 0.07323568,
+                          "y": 0.5558912
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "200",
+                    "endIndex": "222"
+                  }
+                ],
+                "content": "MSM PRAI GULA PASIR 1K"
+              },
+              "type": "line_item/description",
+              "mentionText": "MSM PRAI GULA PASIR 1K",
+              "confidence": 0.7810757,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17310253,
+                          "y": 0.5347432
+                        },
+                        {
+                          "x": 0.6111851,
+                          "y": 0.5347432
+                        },
+                        {
+                          "x": 0.6111851,
+                          "y": 0.5566465
+                        },
+                        {
+                          "x": 0.17310253,
+                          "y": 0.5566465
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "223",
+                    "endIndex": "230"
+                  }
+                ],
+                "content": "RM23.60"
+              },
+              "type": "line_item/amount",
+              "mentionText": "RM23.60",
+              "confidence": 0.7069962,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.689747,
+                          "y": 0.53700906
+                        },
+                        {
+                          "x": 0.83089215,
+                          "y": 0.53700906
+                        },
+                        {
+                          "x": 0.83089215,
+                          "y": 0.5558912
+                        },
+                        {
+                          "x": 0.689747,
+                          "y": 0.5558912
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "23.6",
+                "moneyValue": {
+                  "currencyCode": "MYR",
+                  "units": "23",
+                  "nanos": 600000000
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "234",
+                "endIndex": "235"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "8",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.13182424,
+                      "y": 0.56722057
+                    },
+                    {
+                      "x": 0.15446071,
+                      "y": 0.56722057
+                    },
+                    {
+                      "x": 0.15446071,
+                      "y": 0.58685803
+                    },
+                    {
+                      "x": 0.13182424,
+                      "y": 0.58685803
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "234",
+                    "endIndex": "235"
+                  }
+                ],
+                "content": "8"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "8",
+              "confidence": 0.8008294,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.13182424,
+                          "y": 0.56722057
+                        },
+                        {
+                          "x": 0.15446071,
+                          "y": 0.56722057
+                        },
+                        {
+                          "x": 0.15446071,
+                          "y": 0.58685803
+                        },
+                        {
+                          "x": 0.13182424,
+                          "y": 0.58685803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10",
+              "normalizedValue": {
+                "text": "8",
+                "integerValue": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

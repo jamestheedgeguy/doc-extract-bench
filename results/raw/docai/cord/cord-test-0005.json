@@ -1,0 +1,184 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0005",
+  "at": "2026-07-10T11:06:15.715Z",
+  "latencyMs": 8624,
+  "raw": {
+    "document": {
+      "text": "TRAD KY TOAST CARTE\n28.182\nITEMS 1.00\nSUBTTL\n28.182\nPB-1 10%\n2.818\nTOTAL\n31.000\nCASH\n31.000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "73",
+                "endIndex": "79"
+              }
+            ],
+            "content": "31.000"
+          },
+          "type": "total_amount",
+          "mentionText": "31.000",
+          "confidence": 0.9718118,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.61935765,
+                      "y": 0.53100586
+                    },
+                    {
+                      "x": 0.79123265,
+                      "y": 0.53100586
+                    },
+                    {
+                      "x": 0.79123265,
+                      "y": 0.54541016
+                    },
+                    {
+                      "x": 0.61935765,
+                      "y": 0.54541016
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "45",
+                "endIndex": "51"
+              }
+            ],
+            "content": "28.182"
+          },
+          "type": "net_amount",
+          "mentionText": "28.182",
+          "confidence": 0.8574918,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7074653,
+                      "y": 0.4946289
+                    },
+                    {
+                      "x": 0.79470485,
+                      "y": 0.4946289
+                    },
+                    {
+                      "x": 0.79470485,
+                      "y": 0.5070801
+                    },
+                    {
+                      "x": 0.7074653,
+                      "y": 0.5070801
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "80",
+                "endIndex": "84"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.76949644,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.30078125,
+                      "y": 0.54956055
+                    },
+                    {
+                      "x": 0.4127604,
+                      "y": 0.54956055
+                    },
+                    {
+                      "x": 0.4127604,
+                      "y": 0.5620117
+                    },
+                    {
+                      "x": 0.30078125,
+                      "y": 0.5620117
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "61",
+                "endIndex": "66"
+              }
+            ],
+            "content": "2.818"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "2.818",
+          "confidence": 0.6533496,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.72092015,
+                      "y": 0.5131836
+                    },
+                    {
+                      "x": 0.79383683,
+                      "y": 0.5131836
+                    },
+                    {
+                      "x": 0.79383683,
+                      "y": 0.52563477
+                    },
+                    {
+                      "x": 0.72092015,
+                      "y": 0.52563477
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

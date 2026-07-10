@@ -1,0 +1,733 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0088",
+  "at": "2026-07-10T11:11:27.963Z",
+  "latencyMs": 3492,
+  "raw": {
+    "document": {
+      "text": "Auntie Anne's\nSTIX ECLAIRS\n1 x 19,000\n19,000\nALMOND CREAM CHEESE\n1 x 28,000\n28,000\nSUB TOTAL\n47,000\nGRAND TOTAL\n47,000\nVISA 8945\n47,000\nCHANGE DUE\n0\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "124",
+                "endIndex": "128"
+              }
+            ],
+            "content": "8945"
+          },
+          "type": "credit_card_last_four_digits",
+          "mentionText": "8945",
+          "confidence": 0.8721989,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.16782407,
+                      "y": 0.6720679
+                    },
+                    {
+                      "x": 0.25,
+                      "y": 0.6720679
+                    },
+                    {
+                      "x": 0.25,
+                      "y": 0.69290125
+                    },
+                    {
+                      "x": 0.16782407,
+                      "y": 0.69290125
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "93",
+                "endIndex": "99"
+              }
+            ],
+            "content": "47,000"
+          },
+          "type": "net_amount",
+          "mentionText": "47,000",
+          "confidence": 0.82836694,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.755787,
+                      "y": 0.537037
+                    },
+                    {
+                      "x": 0.8657407,
+                      "y": 0.537037
+                    },
+                    {
+                      "x": 0.8657407,
+                      "y": 0.55941355
+                    },
+                    {
+                      "x": 0.755787,
+                      "y": 0.55941355
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "112",
+                "endIndex": "118"
+              }
+            ],
+            "content": "47,000"
+          },
+          "type": "total_amount",
+          "mentionText": "47,000",
+          "confidence": 0.7454656,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7627315,
+                      "y": 0.6087963
+                    },
+                    {
+                      "x": 0.875,
+                      "y": 0.6087963
+                    },
+                    {
+                      "x": 0.875,
+                      "y": 0.6296296
+                    },
+                    {
+                      "x": 0.7627315,
+                      "y": 0.6296296
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "119",
+                "endIndex": "123"
+              }
+            ],
+            "content": "VISA"
+          },
+          "type": "payment_type",
+          "mentionText": "VISA",
+          "confidence": 0.66606206,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.0787037,
+                      "y": 0.6728395
+                    },
+                    {
+                      "x": 0.15856482,
+                      "y": 0.6728395
+                    },
+                    {
+                      "x": 0.15856482,
+                      "y": 0.69367284
+                    },
+                    {
+                      "x": 0.0787037,
+                      "y": 0.69367284
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "13"
+              }
+            ],
+            "content": "Auntie Anne's"
+          },
+          "type": "supplier_name",
+          "mentionText": "Auntie Anne's",
+          "confidence": 0.40816,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17708333,
+                      "y": 0.10493827
+                    },
+                    {
+                      "x": 0.8912037,
+                      "y": 0.10493827
+                    },
+                    {
+                      "x": 0.8912037,
+                      "y": 0.16435185
+                    },
+                    {
+                      "x": 0.17708333,
+                      "y": 0.16435185
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "Auntie Anne's"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "14",
+                "endIndex": "26"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "STIX ECLAIRS",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.13541667,
+                      "y": 0.40354937
+                    },
+                    {
+                      "x": 0.3576389,
+                      "y": 0.40354937
+                    },
+                    {
+                      "x": 0.3576389,
+                      "y": 0.42592594
+                    },
+                    {
+                      "x": 0.13541667,
+                      "y": 0.42592594
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "14",
+                    "endIndex": "26"
+                  }
+                ],
+                "content": "STIX ECLAIRS"
+              },
+              "type": "line_item/description",
+              "mentionText": "STIX ECLAIRS",
+              "confidence": 0.47893822,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.13541667,
+                          "y": 0.40354937
+                        },
+                        {
+                          "x": 0.3576389,
+                          "y": 0.40354937
+                        },
+                        {
+                          "x": 0.3576389,
+                          "y": 0.42592594
+                        },
+                        {
+                          "x": 0.13541667,
+                          "y": 0.42592594
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "27",
+                "endIndex": "28"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1400463,
+                      "y": 0.44135803
+                    },
+                    {
+                      "x": 0.15625,
+                      "y": 0.44135803
+                    },
+                    {
+                      "x": 0.15625,
+                      "y": 0.45987654
+                    },
+                    {
+                      "x": 0.1400463,
+                      "y": 0.45987654
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "27",
+                    "endIndex": "28"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.86030704,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1400463,
+                          "y": 0.44135803
+                        },
+                        {
+                          "x": 0.15625,
+                          "y": 0.44135803
+                        },
+                        {
+                          "x": 0.15625,
+                          "y": 0.45987654
+                        },
+                        {
+                          "x": 0.1400463,
+                          "y": 0.45987654
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "38",
+                "endIndex": "44"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "19,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7511574,
+                      "y": 0.42515433
+                    },
+                    {
+                      "x": 0.8553241,
+                      "y": 0.42515433
+                    },
+                    {
+                      "x": 0.8553241,
+                      "y": 0.44598764
+                    },
+                    {
+                      "x": 0.7511574,
+                      "y": 0.44598764
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "38",
+                    "endIndex": "44"
+                  }
+                ],
+                "content": "19,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "19,000",
+              "confidence": 0.8498964,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7511574,
+                          "y": 0.42515433
+                        },
+                        {
+                          "x": 0.8553241,
+                          "y": 0.42515433
+                        },
+                        {
+                          "x": 0.8553241,
+                          "y": 0.44598764
+                        },
+                        {
+                          "x": 0.7511574,
+                          "y": 0.44598764
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "45",
+                "endIndex": "64"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "ALMOND CREAM CHEESE",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1388889,
+                      "y": 0.46296296
+                    },
+                    {
+                      "x": 0.5555556,
+                      "y": 0.46296296
+                    },
+                    {
+                      "x": 0.5555556,
+                      "y": 0.48996913
+                    },
+                    {
+                      "x": 0.1388889,
+                      "y": 0.48996913
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "45",
+                    "endIndex": "64"
+                  }
+                ],
+                "content": "ALMOND CREAM CHEESE"
+              },
+              "type": "line_item/description",
+              "mentionText": "ALMOND CREAM CHEESE",
+              "confidence": 0.4074508,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1388889,
+                          "y": 0.46296296
+                        },
+                        {
+                          "x": 0.5555556,
+                          "y": 0.46296296
+                        },
+                        {
+                          "x": 0.5555556,
+                          "y": 0.48996913
+                        },
+                        {
+                          "x": 0.1388889,
+                          "y": 0.48996913
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "65",
+                "endIndex": "66"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14351852,
+                      "y": 0.50540125
+                    },
+                    {
+                      "x": 0.1550926,
+                      "y": 0.50540125
+                    },
+                    {
+                      "x": 0.1550926,
+                      "y": 0.51929015
+                    },
+                    {
+                      "x": 0.14351852,
+                      "y": 0.51929015
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "65",
+                    "endIndex": "66"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.84013706,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.14351852,
+                          "y": 0.50540125
+                        },
+                        {
+                          "x": 0.1550926,
+                          "y": 0.50540125
+                        },
+                        {
+                          "x": 0.1550926,
+                          "y": 0.51929015
+                        },
+                        {
+                          "x": 0.14351852,
+                          "y": 0.51929015
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "76",
+                "endIndex": "82"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "28,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7523148,
+                      "y": 0.49074075
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.49074075
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.51003087
+                    },
+                    {
+                      "x": 0.7523148,
+                      "y": 0.51003087
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "76",
+                    "endIndex": "82"
+                  }
+                ],
+                "content": "28,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "28,000",
+              "confidence": 0.8219911,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7523148,
+                          "y": 0.49074075
+                        },
+                        {
+                          "x": 0.8576389,
+                          "y": 0.49074075
+                        },
+                        {
+                          "x": 0.8576389,
+                          "y": 0.51003087
+                        },
+                        {
+                          "x": 0.7523148,
+                          "y": 0.51003087
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

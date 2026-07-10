@@ -1,0 +1,230 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0056",
+  "at": "2026-07-10T11:09:16.017Z",
+  "latencyMs": 3952,
+  "raw": {
+    "document": {
+      "text": "AIR MINERAL.\nSUBTOTAL\nTAX\nTL\n.8, 181\n.8, 181\n• 818\nCASH\nCG\n.8.999\n• 10,000\n.1.001\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "68",
+                "endIndex": "74"
+              }
+            ],
+            "content": "10,000"
+          },
+          "type": "total_amount",
+          "mentionText": "10,000",
+          "confidence": 0.7653918,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6657986,
+                      "y": 0.7123843
+                    },
+                    {
+                      "x": 0.8055556,
+                      "y": 0.7123843
+                    },
+                    {
+                      "x": 0.8055556,
+                      "y": 0.7326389
+                    },
+                    {
+                      "x": 0.6657986,
+                      "y": 0.7326389
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "47",
+                "endIndex": "50"
+              }
+            ],
+            "content": "818"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "818",
+          "confidence": 0.7235914,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7326389,
+                      "y": 0.6597222
+                    },
+                    {
+                      "x": 0.8020833,
+                      "y": 0.6597222
+                    },
+                    {
+                      "x": 0.8020833,
+                      "y": 0.6765046
+                    },
+                    {
+                      "x": 0.7326389,
+                      "y": 0.6765046
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "818",
+            "moneyValue": {
+              "units": "818"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "37",
+                "endIndex": "44"
+              }
+            ],
+            "content": ".8, 181"
+          },
+          "type": "net_amount",
+          "mentionText": ".8, 181",
+          "confidence": 0.28761223,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6657986,
+                      "y": 0.6331019
+                    },
+                    {
+                      "x": 0.8020833,
+                      "y": 0.6331019
+                    },
+                    {
+                      "x": 0.8020833,
+                      "y": 0.650463
+                    },
+                    {
+                      "x": 0.6657986,
+                      "y": 0.650463
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "12"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "AIR MINERAL.",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.21875,
+                      "y": 0.6076389
+                    },
+                    {
+                      "x": 0.48697916,
+                      "y": 0.6076389
+                    },
+                    {
+                      "x": 0.48697916,
+                      "y": 0.630787
+                    },
+                    {
+                      "x": 0.21875,
+                      "y": 0.630787
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "12"
+                  }
+                ],
+                "content": "AIR MINERAL."
+              },
+              "type": "line_item/description",
+              "mentionText": "AIR MINERAL.",
+              "confidence": 0.66618806,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.21875,
+                          "y": 0.6076389
+                        },
+                        {
+                          "x": 0.48697916,
+                          "y": 0.6076389
+                        },
+                        {
+                          "x": 0.48697916,
+                          "y": 0.630787
+                        },
+                        {
+                          "x": 0.21875,
+                          "y": 0.630787
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

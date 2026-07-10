@@ -1,0 +1,895 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0047",
+  "at": "2026-07-10T11:08:49.716Z",
+  "latencyMs": 3705,
+  "raw": {
+    "document": {
+      "text": "COPIA 1 /GB\n2100252000358\n1 45,000.00\n45,000.00\nPLASTIC BAG RED CENTRAL SI 1 0.00\n9100544260074\nCOPIA 1 /GB\n2100252000358\nTotal\nTotal discount\n0.00\n1 18,000.00\n18,000.00\n63,000.00\n0.00\n3\nTotal quantity\nCard Payment DEBIT CARD\n63,000.00\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "226",
+                "endIndex": "235"
+              }
+            ],
+            "content": "63,000.00"
+          },
+          "type": "total_amount",
+          "mentionText": "63,000.00",
+          "confidence": 0.86821854,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.775463,
+                      "y": 0.9205247
+                    },
+                    {
+                      "x": 0.9166667,
+                      "y": 0.9205247
+                    },
+                    {
+                      "x": 0.9166667,
+                      "y": 0.94290125
+                    },
+                    {
+                      "x": 0.775463,
+                      "y": 0.94290125
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "63000",
+            "moneyValue": {
+              "units": "63000"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "82",
+                "endIndex": "95"
+              }
+            ],
+            "content": "9100544260074"
+          },
+          "type": "payment_authorization_id",
+          "mentionText": "9100544260074",
+          "confidence": 0.5473329,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.06944445,
+                      "y": 0.5949074
+                    },
+                    {
+                      "x": 0.26041666,
+                      "y": 0.5949074
+                    },
+                    {
+                      "x": 0.26041666,
+                      "y": 0.61728394
+                    },
+                    {
+                      "x": 0.06944445,
+                      "y": 0.61728394
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "215",
+                "endIndex": "225"
+              }
+            ],
+            "content": "DEBIT CARD"
+          },
+          "type": "payment_type",
+          "mentionText": "DEBIT CARD",
+          "confidence": 0.52755547,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.24652778,
+                      "y": 0.89429015
+                    },
+                    {
+                      "x": 0.4074074,
+                      "y": 0.89429015
+                    },
+                    {
+                      "x": 0.4074074,
+                      "y": 0.9205247
+                    },
+                    {
+                      "x": 0.24652778,
+                      "y": 0.9205247
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "180",
+                "endIndex": "184"
+              }
+            ],
+            "content": "0.00"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "0.00",
+          "confidence": 0.47637197,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8530093,
+                      "y": 0.80169755
+                    },
+                    {
+                      "x": 0.9143519,
+                      "y": 0.80169755
+                    },
+                    {
+                      "x": 0.9143519,
+                      "y": 0.8217593
+                    },
+                    {
+                      "x": 0.8530093,
+                      "y": 0.8217593
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "0",
+            "moneyValue": {}
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "25"
+              },
+              {
+                "startIndex": "26",
+                "endIndex": "27"
+              },
+              {
+                "startIndex": "28",
+                "endIndex": "37"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "COPIA 1 /GB\n2100252000358 2100252000358 1 45,000.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.06944445,
+                      "y": 0.47916666
+                    },
+                    {
+                      "x": 0.7326389,
+                      "y": 0.47916666
+                    },
+                    {
+                      "x": 0.7326389,
+                      "y": 0.5308642
+                    },
+                    {
+                      "x": 0.06944445,
+                      "y": 0.5308642
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "COPIA 1 /GB\n2100252000358"
+              },
+              "type": "line_item/description",
+              "mentionText": "COPIA 1 /GB\n2100252000358",
+              "confidence": 0.49557388,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.06944445,
+                          "y": 0.48225307
+                        },
+                        {
+                          "x": 0.26157406,
+                          "y": 0.48225307
+                        },
+                        {
+                          "x": 0.26157406,
+                          "y": 0.5308642
+                        },
+                        {
+                          "x": 0.06944445,
+                          "y": 0.5308642
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "12",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "2100252000358"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "2100252000358",
+              "confidence": 0.95251995,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.06944445,
+                          "y": 0.5092593
+                        },
+                        {
+                          "x": 0.26157406,
+                          "y": 0.5092593
+                        },
+                        {
+                          "x": 0.26157406,
+                          "y": 0.5308642
+                        },
+                        {
+                          "x": 0.06944445,
+                          "y": 0.5308642
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "26",
+                    "endIndex": "27"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.741905,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.49537036,
+                          "y": 0.47993827
+                        },
+                        {
+                          "x": 0.5115741,
+                          "y": 0.47993827
+                        },
+                        {
+                          "x": 0.5115741,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.49537036,
+                          "y": 0.4992284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "28",
+                    "endIndex": "37"
+                  }
+                ],
+                "content": "45,000.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "45,000.00",
+              "confidence": 0.5478532,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.59375,
+                          "y": 0.47916666
+                        },
+                        {
+                          "x": 0.7326389,
+                          "y": 0.47916666
+                        },
+                        {
+                          "x": 0.7326389,
+                          "y": 0.5
+                        },
+                        {
+                          "x": 0.59375,
+                          "y": 0.5
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "45000",
+                "moneyValue": {
+                  "units": "45000"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "48",
+                "endIndex": "74"
+              },
+              {
+                "startIndex": "75",
+                "endIndex": "76"
+              },
+              {
+                "startIndex": "77",
+                "endIndex": "81"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "PLASTIC BAG RED CENTRAL SI 1 0.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07060185,
+                      "y": 0.5648148
+                    },
+                    {
+                      "x": 0.7361111,
+                      "y": 0.5648148
+                    },
+                    {
+                      "x": 0.7361111,
+                      "y": 0.58873457
+                    },
+                    {
+                      "x": 0.07060185,
+                      "y": 0.58873457
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "48",
+                    "endIndex": "74"
+                  }
+                ],
+                "content": "PLASTIC BAG RED CENTRAL SI"
+              },
+              "type": "line_item/description",
+              "mentionText": "PLASTIC BAG RED CENTRAL SI",
+              "confidence": 0.64358777,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07060185,
+                          "y": 0.56635803
+                        },
+                        {
+                          "x": 0.44791666,
+                          "y": 0.56635803
+                        },
+                        {
+                          "x": 0.44791666,
+                          "y": 0.58873457
+                        },
+                        {
+                          "x": 0.07060185,
+                          "y": 0.58873457
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "75",
+                    "endIndex": "76"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8000162,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.49537036,
+                          "y": 0.56558645
+                        },
+                        {
+                          "x": 0.5127315,
+                          "y": 0.56558645
+                        },
+                        {
+                          "x": 0.5127315,
+                          "y": 0.58641976
+                        },
+                        {
+                          "x": 0.49537036,
+                          "y": 0.58641976
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "77",
+                    "endIndex": "81"
+                  }
+                ],
+                "content": "0.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "0.00",
+              "confidence": 0.88343346,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6724537,
+                          "y": 0.5648148
+                        },
+                        {
+                          "x": 0.7361111,
+                          "y": 0.5648148
+                        },
+                        {
+                          "x": 0.7361111,
+                          "y": 0.58641976
+                        },
+                        {
+                          "x": 0.6724537,
+                          "y": 0.58641976
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "0",
+                "moneyValue": {}
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "82",
+                "endIndex": "95"
+              },
+              {
+                "startIndex": "143",
+                "endIndex": "147"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "9100544260074 0.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.06944445,
+                      "y": 0.5941358
+                    },
+                    {
+                      "x": 0.90625,
+                      "y": 0.5941358
+                    },
+                    {
+                      "x": 0.90625,
+                      "y": 0.61728394
+                    },
+                    {
+                      "x": 0.06944445,
+                      "y": 0.61728394
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "82",
+                    "endIndex": "95"
+                  }
+                ],
+                "content": "9100544260074"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "9100544260074",
+              "confidence": 0.9573229,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.06944445,
+                          "y": 0.5949074
+                        },
+                        {
+                          "x": 0.26041666,
+                          "y": 0.5949074
+                        },
+                        {
+                          "x": 0.26041666,
+                          "y": 0.61728394
+                        },
+                        {
+                          "x": 0.06944445,
+                          "y": 0.61728394
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "143",
+                    "endIndex": "147"
+                  }
+                ],
+                "content": "0.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "0.00",
+              "confidence": 0.8682067,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8425926,
+                          "y": 0.5941358
+                        },
+                        {
+                          "x": 0.90625,
+                          "y": 0.5941358
+                        },
+                        {
+                          "x": 0.90625,
+                          "y": 0.6157407
+                        },
+                        {
+                          "x": 0.8425926,
+                          "y": 0.6157407
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "0",
+                "moneyValue": {}
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "96",
+                "endIndex": "107"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "COPIA 1 /GB",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.06365741,
+                      "y": 0.654321
+                    },
+                    {
+                      "x": 0.22916667,
+                      "y": 0.654321
+                    },
+                    {
+                      "x": 0.22916667,
+                      "y": 0.6751543
+                    },
+                    {
+                      "x": 0.06365741,
+                      "y": 0.6751543
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "16",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "96",
+                    "endIndex": "107"
+                  }
+                ],
+                "content": "COPIA 1 /GB"
+              },
+              "type": "line_item/description",
+              "mentionText": "COPIA 1 /GB",
+              "confidence": 0.4592684,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.06365741,
+                          "y": 0.654321
+                        },
+                        {
+                          "x": 0.22916667,
+                          "y": 0.654321
+                        },
+                        {
+                          "x": 0.22916667,
+                          "y": 0.6751543
+                        },
+                        {
+                          "x": 0.06365741,
+                          "y": 0.6751543
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "108",
+                "endIndex": "121"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2100252000358",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.060185187,
+                      "y": 0.6828704
+                    },
+                    {
+                      "x": 0.2534722,
+                      "y": 0.6828704
+                    },
+                    {
+                      "x": 0.2534722,
+                      "y": 0.7052469
+                    },
+                    {
+                      "x": 0.060185187,
+                      "y": 0.7052469
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "108",
+                    "endIndex": "121"
+                  }
+                ],
+                "content": "2100252000358"
+              },
+              "type": "line_item/product_code",
+              "mentionText": "2100252000358",
+              "confidence": 0.9628028,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.060185187,
+                          "y": 0.6828704
+                        },
+                        {
+                          "x": 0.2534722,
+                          "y": 0.6828704
+                        },
+                        {
+                          "x": 0.2534722,
+                          "y": 0.7052469
+                        },
+                        {
+                          "x": 0.060185187,
+                          "y": 0.7052469
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

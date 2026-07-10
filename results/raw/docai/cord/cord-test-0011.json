@@ -1,0 +1,61 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0011",
+  "at": "2026-07-10T11:06:32.140Z",
+  "latencyMs": 2620,
+  "raw": {
+    "document": {
+      "text": "1 BANABERRY FRESH CREAM CAK 230,000\nTOTAL\nCASH\nCHANGE\n230,000\n230,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "54",
+                "endIndex": "61"
+              }
+            ],
+            "content": "230,000"
+          },
+          "type": "total_amount",
+          "mentionText": "230,000",
+          "confidence": 0.88725156,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5034722,
+                      "y": 0.47800925
+                    },
+                    {
+                      "x": 0.6944444,
+                      "y": 0.47800925
+                    },
+                    {
+                      "x": 0.6944444,
+                      "y": 0.5127315
+                    },
+                    {
+                      "x": 0.5034722,
+                      "y": 0.5127315
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

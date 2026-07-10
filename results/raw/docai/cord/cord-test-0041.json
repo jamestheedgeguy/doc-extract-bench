@@ -1,0 +1,1604 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0041",
+  "at": "2026-07-10T11:08:21.645Z",
+  "latencyMs": 2433,
+  "raw": {
+    "document": {
+      "text": "Chicken Maryland\n47619.00\nCappucino (Hot/Iced)\n30303.00\nNaga Lychee Juice\n34632.00\nCafe Latte\n30303.00\nHot Chocolate Marshmallo\n30303.00\nChicken Cesar Salad\n43290.00\nMineral Water\n12987.00\nMineral Water\nLychee/Peach/Lemon/Mango\nChicken Maryland\n12987.00\n25974.00\n47619.00\nSubtotal\n316017.00\nService Charge 5% +\n48982.68\nTOTAL\n365000.00\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "326",
+                "endIndex": "335"
+              }
+            ],
+            "content": "365000.00"
+          },
+          "type": "total_amount",
+          "mentionText": "365000.00",
+          "confidence": 0.87829363,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5941358,
+                      "y": 0.6310764
+                    },
+                    {
+                      "x": 0.72839504,
+                      "y": 0.6310764
+                    },
+                    {
+                      "x": 0.72839504,
+                      "y": 0.6571181
+                    },
+                    {
+                      "x": 0.5941358,
+                      "y": 0.6571181
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "365000",
+            "moneyValue": {
+              "units": "365000"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "281",
+                "endIndex": "290"
+              }
+            ],
+            "content": "316017.00"
+          },
+          "type": "net_amount",
+          "mentionText": "316017.00",
+          "confidence": 0.5915198,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5925926,
+                      "y": 0.5798611
+                    },
+                    {
+                      "x": 0.712963,
+                      "y": 0.5798611
+                    },
+                    {
+                      "x": 0.712963,
+                      "y": 0.5954861
+                    },
+                    {
+                      "x": 0.5925926,
+                      "y": 0.5954861
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "316017",
+            "moneyValue": {
+              "units": "316017"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "16"
+              },
+              {
+                "startIndex": "17",
+                "endIndex": "25"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Chicken Maryland 47619.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19135803,
+                      "y": 0.390625
+                    },
+                    {
+                      "x": 0.6898148,
+                      "y": 0.390625
+                    },
+                    {
+                      "x": 0.6898148,
+                      "y": 0.4105903
+                    },
+                    {
+                      "x": 0.19135803,
+                      "y": 0.4105903
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "16"
+                  }
+                ],
+                "content": "Chicken Maryland"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chicken Maryland",
+              "confidence": 0.75103414,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19135803,
+                          "y": 0.3949653
+                        },
+                        {
+                          "x": 0.39969134,
+                          "y": 0.3949653
+                        },
+                        {
+                          "x": 0.39969134,
+                          "y": 0.4105903
+                        },
+                        {
+                          "x": 0.19135803,
+                          "y": 0.4105903
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "17",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "47619.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "47619.00",
+              "confidence": 0.8266375,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.58950615,
+                          "y": 0.390625
+                        },
+                        {
+                          "x": 0.6898148,
+                          "y": 0.390625
+                        },
+                        {
+                          "x": 0.6898148,
+                          "y": 0.40538195
+                        },
+                        {
+                          "x": 0.58950615,
+                          "y": 0.40538195
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "47619",
+                "moneyValue": {
+                  "units": "47619"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "26",
+                "endIndex": "46"
+              },
+              {
+                "startIndex": "47",
+                "endIndex": "55"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Cappucino (Hot/Iced) 30303.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19290124,
+                      "y": 0.4079861
+                    },
+                    {
+                      "x": 0.69290125,
+                      "y": 0.4079861
+                    },
+                    {
+                      "x": 0.69290125,
+                      "y": 0.42881945
+                    },
+                    {
+                      "x": 0.19290124,
+                      "y": 0.42881945
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "26",
+                    "endIndex": "46"
+                  }
+                ],
+                "content": "Cappucino (Hot/Iced)"
+              },
+              "type": "line_item/description",
+              "mentionText": "Cappucino (Hot/Iced)",
+              "confidence": 0.71242326,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19290124,
+                          "y": 0.41319445
+                        },
+                        {
+                          "x": 0.45061728,
+                          "y": 0.41319445
+                        },
+                        {
+                          "x": 0.45061728,
+                          "y": 0.42881945
+                        },
+                        {
+                          "x": 0.19290124,
+                          "y": 0.42881945
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "47",
+                    "endIndex": "55"
+                  }
+                ],
+                "content": "30303.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "30303.00",
+              "confidence": 0.8221421,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5910494,
+                          "y": 0.4079861
+                        },
+                        {
+                          "x": 0.69290125,
+                          "y": 0.4079861
+                        },
+                        {
+                          "x": 0.69290125,
+                          "y": 0.42274305
+                        },
+                        {
+                          "x": 0.5910494,
+                          "y": 0.42274305
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "30303",
+                "moneyValue": {
+                  "units": "30303"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "56",
+                "endIndex": "73"
+              },
+              {
+                "startIndex": "74",
+                "endIndex": "82"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Naga Lychee Juice 34632.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19598766,
+                      "y": 0.42881945
+                    },
+                    {
+                      "x": 0.69290125,
+                      "y": 0.42881945
+                    },
+                    {
+                      "x": 0.69290125,
+                      "y": 0.44791666
+                    },
+                    {
+                      "x": 0.19598766,
+                      "y": 0.44791666
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "56",
+                    "endIndex": "73"
+                  }
+                ],
+                "content": "Naga Lychee Juice"
+              },
+              "type": "line_item/description",
+              "mentionText": "Naga Lychee Juice",
+              "confidence": 0.72894466,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19598766,
+                          "y": 0.4296875
+                        },
+                        {
+                          "x": 0.41512346,
+                          "y": 0.4296875
+                        },
+                        {
+                          "x": 0.41512346,
+                          "y": 0.44791666
+                        },
+                        {
+                          "x": 0.19598766,
+                          "y": 0.44791666
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "74",
+                    "endIndex": "82"
+                  }
+                ],
+                "content": "34632.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "34632.00",
+              "confidence": 0.70467347,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5925926,
+                          "y": 0.42881945
+                        },
+                        {
+                          "x": 0.69290125,
+                          "y": 0.42881945
+                        },
+                        {
+                          "x": 0.69290125,
+                          "y": 0.4392361
+                        },
+                        {
+                          "x": 0.5925926,
+                          "y": 0.4392361
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10",
+              "normalizedValue": {
+                "text": "34632",
+                "moneyValue": {
+                  "units": "34632"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "83",
+                "endIndex": "93"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Cafe Latte",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19753087,
+                      "y": 0.45052084
+                    },
+                    {
+                      "x": 0.32561728,
+                      "y": 0.45052084
+                    },
+                    {
+                      "x": 0.32561728,
+                      "y": 0.4626736
+                    },
+                    {
+                      "x": 0.19753087,
+                      "y": 0.4626736
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "83",
+                    "endIndex": "93"
+                  }
+                ],
+                "content": "Cafe Latte"
+              },
+              "type": "line_item/description",
+              "mentionText": "Cafe Latte",
+              "confidence": 0.7321478,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19753087,
+                          "y": 0.45052084
+                        },
+                        {
+                          "x": 0.32561728,
+                          "y": 0.45052084
+                        },
+                        {
+                          "x": 0.32561728,
+                          "y": 0.4626736
+                        },
+                        {
+                          "x": 0.19753087,
+                          "y": 0.4626736
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "94",
+                "endIndex": "102"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "30303.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5925926,
+                      "y": 0.44444445
+                    },
+                    {
+                      "x": 0.69290125,
+                      "y": 0.44444445
+                    },
+                    {
+                      "x": 0.69290125,
+                      "y": 0.4574653
+                    },
+                    {
+                      "x": 0.5925926,
+                      "y": 0.4574653
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "13",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "94",
+                    "endIndex": "102"
+                  }
+                ],
+                "content": "30303.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "30303.00",
+              "confidence": 0.66330653,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5925926,
+                          "y": 0.44444445
+                        },
+                        {
+                          "x": 0.69290125,
+                          "y": 0.44444445
+                        },
+                        {
+                          "x": 0.69290125,
+                          "y": 0.4574653
+                        },
+                        {
+                          "x": 0.5925926,
+                          "y": 0.4574653
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14",
+              "normalizedValue": {
+                "text": "30303",
+                "moneyValue": {
+                  "units": "30303"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "103",
+                "endIndex": "127"
+              },
+              {
+                "startIndex": "128",
+                "endIndex": "136"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Hot Chocolate Marshmallo 30303.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19598766,
+                      "y": 0.4592014
+                    },
+                    {
+                      "x": 0.6944444,
+                      "y": 0.4592014
+                    },
+                    {
+                      "x": 0.6944444,
+                      "y": 0.4809028
+                    },
+                    {
+                      "x": 0.19598766,
+                      "y": 0.4809028
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "103",
+                    "endIndex": "127"
+                  }
+                ],
+                "content": "Hot Chocolate Marshmallo"
+              },
+              "type": "line_item/description",
+              "mentionText": "Hot Chocolate Marshmallo",
+              "confidence": 0.64010817,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19598766,
+                          "y": 0.4626736
+                        },
+                        {
+                          "x": 0.50617284,
+                          "y": 0.4626736
+                        },
+                        {
+                          "x": 0.50617284,
+                          "y": 0.4809028
+                        },
+                        {
+                          "x": 0.19598766,
+                          "y": 0.4809028
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "128",
+                    "endIndex": "136"
+                  }
+                ],
+                "content": "30303.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "30303.00",
+              "confidence": 0.61401904,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5941358,
+                          "y": 0.4592014
+                        },
+                        {
+                          "x": 0.6944444,
+                          "y": 0.4592014
+                        },
+                        {
+                          "x": 0.6944444,
+                          "y": 0.4730903
+                        },
+                        {
+                          "x": 0.5941358,
+                          "y": 0.4730903
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17",
+              "normalizedValue": {
+                "text": "30303",
+                "moneyValue": {
+                  "units": "30303"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "137",
+                "endIndex": "156"
+              },
+              {
+                "startIndex": "157",
+                "endIndex": "165"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Chicken Cesar Salad 43290.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19444445,
+                      "y": 0.4748264
+                    },
+                    {
+                      "x": 0.69753087,
+                      "y": 0.4748264
+                    },
+                    {
+                      "x": 0.69753087,
+                      "y": 0.4965278
+                    },
+                    {
+                      "x": 0.19444445,
+                      "y": 0.4965278
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "137",
+                    "endIndex": "156"
+                  }
+                ],
+                "content": "Chicken Cesar Salad"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chicken Cesar Salad",
+              "confidence": 0.7073157,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19444445,
+                          "y": 0.4800347
+                        },
+                        {
+                          "x": 0.44135803,
+                          "y": 0.4800347
+                        },
+                        {
+                          "x": 0.44135803,
+                          "y": 0.4965278
+                        },
+                        {
+                          "x": 0.19444445,
+                          "y": 0.4965278
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "157",
+                    "endIndex": "165"
+                  }
+                ],
+                "content": "43290.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "43290.00",
+              "confidence": 0.6545314,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5972222,
+                          "y": 0.4748264
+                        },
+                        {
+                          "x": 0.69753087,
+                          "y": 0.4748264
+                        },
+                        {
+                          "x": 0.69753087,
+                          "y": 0.48958334
+                        },
+                        {
+                          "x": 0.5972222,
+                          "y": 0.48958334
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20",
+              "normalizedValue": {
+                "text": "43290",
+                "moneyValue": {
+                  "units": "43290"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "166",
+                "endIndex": "179"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Mineral Water",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19290124,
+                      "y": 0.49913195
+                    },
+                    {
+                      "x": 0.36419752,
+                      "y": 0.49913195
+                    },
+                    {
+                      "x": 0.36419752,
+                      "y": 0.5138889
+                    },
+                    {
+                      "x": 0.19290124,
+                      "y": 0.5138889
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "21",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "166",
+                    "endIndex": "179"
+                  }
+                ],
+                "content": "Mineral Water"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mineral Water",
+              "confidence": 0.7023978,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19290124,
+                          "y": 0.49913195
+                        },
+                        {
+                          "x": 0.36419752,
+                          "y": 0.49913195
+                        },
+                        {
+                          "x": 0.36419752,
+                          "y": 0.5138889
+                        },
+                        {
+                          "x": 0.19290124,
+                          "y": 0.5138889
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "22"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "180",
+                "endIndex": "188"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "12987.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.60030866,
+                      "y": 0.4921875
+                    },
+                    {
+                      "x": 0.6990741,
+                      "y": 0.4921875
+                    },
+                    {
+                      "x": 0.6990741,
+                      "y": 0.5060764
+                    },
+                    {
+                      "x": 0.60030866,
+                      "y": 0.5060764
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "23",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "180",
+                    "endIndex": "188"
+                  }
+                ],
+                "content": "12987.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12987.00",
+              "confidence": 0.6055689,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60030866,
+                          "y": 0.4921875
+                        },
+                        {
+                          "x": 0.6990741,
+                          "y": 0.4921875
+                        },
+                        {
+                          "x": 0.6990741,
+                          "y": 0.5060764
+                        },
+                        {
+                          "x": 0.60030866,
+                          "y": 0.5060764
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "24",
+              "normalizedValue": {
+                "text": "12987",
+                "moneyValue": {
+                  "units": "12987"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "189",
+                "endIndex": "202"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Mineral Water",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19290124,
+                      "y": 0.5147569
+                    },
+                    {
+                      "x": 0.36419752,
+                      "y": 0.5147569
+                    },
+                    {
+                      "x": 0.36419752,
+                      "y": 0.53125
+                    },
+                    {
+                      "x": 0.19290124,
+                      "y": 0.53125
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "25",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "189",
+                    "endIndex": "202"
+                  }
+                ],
+                "content": "Mineral Water"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mineral Water",
+              "confidence": 0.75270563,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19290124,
+                          "y": 0.5147569
+                        },
+                        {
+                          "x": 0.36419752,
+                          "y": 0.5147569
+                        },
+                        {
+                          "x": 0.36419752,
+                          "y": 0.53125
+                        },
+                        {
+                          "x": 0.19290124,
+                          "y": 0.53125
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "26"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "203",
+                "endIndex": "227"
+              },
+              {
+                "startIndex": "254",
+                "endIndex": "262"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Lychee/Peach/Lemon/Mango 25974.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19290124,
+                      "y": 0.5260417
+                    },
+                    {
+                      "x": 0.7052469,
+                      "y": 0.5260417
+                    },
+                    {
+                      "x": 0.7052469,
+                      "y": 0.5512153
+                    },
+                    {
+                      "x": 0.19290124,
+                      "y": 0.5512153
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "27",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "203",
+                    "endIndex": "227"
+                  }
+                ],
+                "content": "Lychee/Peach/Lemon/Mango"
+              },
+              "type": "line_item/description",
+              "mentionText": "Lychee/Peach/Lemon/Mango",
+              "confidence": 0.7618099,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19290124,
+                          "y": 0.53125
+                        },
+                        {
+                          "x": 0.50771606,
+                          "y": 0.53125
+                        },
+                        {
+                          "x": 0.50771606,
+                          "y": 0.5512153
+                        },
+                        {
+                          "x": 0.19290124,
+                          "y": 0.5512153
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "28"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "254",
+                    "endIndex": "262"
+                  }
+                ],
+                "content": "25974.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "25974.00",
+              "confidence": 0.7747451,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.59876543,
+                          "y": 0.5260417
+                        },
+                        {
+                          "x": 0.7052469,
+                          "y": 0.5260417
+                        },
+                        {
+                          "x": 0.7052469,
+                          "y": 0.5390625
+                        },
+                        {
+                          "x": 0.59876543,
+                          "y": 0.5390625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "29",
+              "normalizedValue": {
+                "text": "25974",
+                "moneyValue": {
+                  "units": "25974"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "228",
+                "endIndex": "244"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Chicken Maryland",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18981482,
+                      "y": 0.5512153
+                    },
+                    {
+                      "x": 0.4074074,
+                      "y": 0.5512153
+                    },
+                    {
+                      "x": 0.4074074,
+                      "y": 0.5685764
+                    },
+                    {
+                      "x": 0.18981482,
+                      "y": 0.5685764
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "30",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "228",
+                    "endIndex": "244"
+                  }
+                ],
+                "content": "Chicken Maryland"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chicken Maryland",
+              "confidence": 0.6297194,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.18981482,
+                          "y": 0.5512153
+                        },
+                        {
+                          "x": 0.4074074,
+                          "y": 0.5512153
+                        },
+                        {
+                          "x": 0.4074074,
+                          "y": 0.5685764
+                        },
+                        {
+                          "x": 0.18981482,
+                          "y": 0.5685764
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "31"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "245",
+                "endIndex": "253"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "12987.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.60030866,
+                      "y": 0.5078125
+                    },
+                    {
+                      "x": 0.7037037,
+                      "y": 0.5078125
+                    },
+                    {
+                      "x": 0.7037037,
+                      "y": 0.5225694
+                    },
+                    {
+                      "x": 0.60030866,
+                      "y": 0.5225694
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "32",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "245",
+                    "endIndex": "253"
+                  }
+                ],
+                "content": "12987.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12987.00",
+              "confidence": 0.80244136,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60030866,
+                          "y": 0.5078125
+                        },
+                        {
+                          "x": 0.7037037,
+                          "y": 0.5078125
+                        },
+                        {
+                          "x": 0.7037037,
+                          "y": 0.5225694
+                        },
+                        {
+                          "x": 0.60030866,
+                          "y": 0.5225694
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "33",
+              "normalizedValue": {
+                "text": "12987",
+                "moneyValue": {
+                  "units": "12987"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "263",
+                "endIndex": "271"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "47619.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.60339504,
+                      "y": 0.5425347
+                    },
+                    {
+                      "x": 0.7083333,
+                      "y": 0.5425347
+                    },
+                    {
+                      "x": 0.7083333,
+                      "y": 0.5581597
+                    },
+                    {
+                      "x": 0.60339504,
+                      "y": 0.5581597
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "34",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "263",
+                    "endIndex": "271"
+                  }
+                ],
+                "content": "47619.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "47619.00",
+              "confidence": 0.71684843,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.60339504,
+                          "y": 0.5425347
+                        },
+                        {
+                          "x": 0.7083333,
+                          "y": 0.5425347
+                        },
+                        {
+                          "x": 0.7083333,
+                          "y": 0.5581597
+                        },
+                        {
+                          "x": 0.60339504,
+                          "y": 0.5581597
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "35",
+              "normalizedValue": {
+                "text": "47619",
+                "moneyValue": {
+                  "units": "47619"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

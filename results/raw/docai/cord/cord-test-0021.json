@@ -1,0 +1,61 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0021",
+  "at": "2026-07-10T11:07:02.595Z",
+  "latencyMs": 3121,
+  "raw": {
+    "document": {
+      "text": "1 35.000\nRP35.000\nNASI GOR SFD TLR\n1 3.000\nRr3.000\nES TEH TAWAR\n***TOTAL\nRP38.000\nCASH\nRp50.000\nCHANGE\nRp12.000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "73",
+                "endIndex": "81"
+              }
+            ],
+            "content": "RP38.000"
+          },
+          "type": "total_amount",
+          "mentionText": "RP38.000",
+          "confidence": 0.8323368,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.43333334,
+                      "y": 0.5835937
+                    },
+                    {
+                      "x": 0.690625,
+                      "y": 0.5835937
+                    },
+                    {
+                      "x": 0.690625,
+                      "y": 0.61015624
+                    },
+                    {
+                      "x": 0.43333334,
+                      "y": 0.61015624
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

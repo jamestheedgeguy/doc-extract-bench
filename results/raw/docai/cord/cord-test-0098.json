@@ -1,0 +1,929 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0098",
+  "at": "2026-07-10T11:11:58.013Z",
+  "latencyMs": 6107,
+  "raw": {
+    "document": {
+      "text": "pancic\nFOOD\nQuality/K\nPresentat\nTaste/Ras\nNO 1\nBEVERAC\nQuality/K\nPresentat\nTaste/Ra\n1 BLACK PEPPER MEATBALL PAS 79,000\n1 TRUFFLE CREAM\n77,000\nSERVICE\n1 EARL GREY MILK TEA\n59,000\nFriendlin\nSUBTTL\n215,000\nService Charge 6%\n12,900\nPromptn\nTAX 10%\n22,790\nAttentive\nTime/Wa\nTOTAL\n250,690\nOTHERS\nCleanline\nAmbiance\nValue for I\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "275",
+                "endIndex": "282"
+              }
+            ],
+            "content": "250,690"
+          },
+          "type": "total_amount",
+          "mentionText": "250,690",
+          "confidence": 0.8173672,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.52612114,
+                      "y": 0.7498844
+                    },
+                    {
+                      "x": 0.6745261,
+                      "y": 0.7498844
+                    },
+                    {
+                      "x": 0.6745261,
+                      "y": 0.77716136
+                    },
+                    {
+                      "x": 0.52612114,
+                      "y": 0.77716136
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "11"
+              }
+            ],
+            "content": "pancic\nFOOD"
+          },
+          "type": "supplier_name",
+          "mentionText": "pancic\nFOOD",
+          "confidence": 0.65508354,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1553398,
+                      "y": 0.31900138
+                    },
+                    {
+                      "x": 0.2394822,
+                      "y": 0.31900138
+                    },
+                    {
+                      "x": 0.2394822,
+                      "y": 0.38927415
+                    },
+                    {
+                      "x": 0.1553398,
+                      "y": 0.38927415
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "244",
+                "endIndex": "250"
+              }
+            ],
+            "content": "22,790"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "22,790",
+          "confidence": 0.64838994,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6074896,
+                      "y": 0.701803
+                    },
+                    {
+                      "x": 0.66944057,
+                      "y": 0.701803
+                    },
+                    {
+                      "x": 0.66944057,
+                      "y": 0.72122055
+                    },
+                    {
+                      "x": 0.6074896,
+                      "y": 0.72122055
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "84",
+                "endIndex": "85"
+              },
+              {
+                "startIndex": "86",
+                "endIndex": "111"
+              },
+              {
+                "startIndex": "112",
+                "endIndex": "118"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 BLACK PEPPER MEATBALL PAS 79,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.29588535,
+                      "y": 0.59315765
+                    },
+                    {
+                      "x": 0.6518724,
+                      "y": 0.59315765
+                    },
+                    {
+                      "x": 0.6518724,
+                      "y": 0.61534905
+                    },
+                    {
+                      "x": 0.29588535,
+                      "y": 0.61534905
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "84",
+                    "endIndex": "85"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.78151715,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.29588535,
+                          "y": 0.5982432
+                        },
+                        {
+                          "x": 0.30328247,
+                          "y": 0.5982432
+                        },
+                        {
+                          "x": 0.30328247,
+                          "y": 0.61534905
+                        },
+                        {
+                          "x": 0.29588535,
+                          "y": 0.61534905
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "86",
+                    "endIndex": "111"
+                  }
+                ],
+                "content": "BLACK PEPPER MEATBALL PAS"
+              },
+              "type": "line_item/description",
+              "mentionText": "BLACK PEPPER MEATBALL PAS",
+              "confidence": 0.4583435,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.31437817,
+                          "y": 0.59361994
+                        },
+                        {
+                          "x": 0.5635691,
+                          "y": 0.59361994
+                        },
+                        {
+                          "x": 0.5635691,
+                          "y": 0.61534905
+                        },
+                        {
+                          "x": 0.31437817,
+                          "y": 0.61534905
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "112",
+                    "endIndex": "118"
+                  }
+                ],
+                "content": "79,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "79,000",
+              "confidence": 0.49465093,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.59130836,
+                          "y": 0.59315765
+                        },
+                        {
+                          "x": 0.6518724,
+                          "y": 0.59315765
+                        },
+                        {
+                          "x": 0.6518724,
+                          "y": 0.6111882
+                        },
+                        {
+                          "x": 0.59130836,
+                          "y": 0.6111882
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "119",
+                "endIndex": "120"
+              },
+              {
+                "startIndex": "121",
+                "endIndex": "134"
+              },
+              {
+                "startIndex": "135",
+                "endIndex": "141"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 TRUFFLE CREAM 77,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.29449838,
+                      "y": 0.61349976
+                    },
+                    {
+                      "x": 0.65510863,
+                      "y": 0.61349976
+                    },
+                    {
+                      "x": 0.65510863,
+                      "y": 0.6338419
+                    },
+                    {
+                      "x": 0.29449838,
+                      "y": 0.6338419
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "119",
+                    "endIndex": "120"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.85881764,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.29449838,
+                          "y": 0.61950994
+                        },
+                        {
+                          "x": 0.30189553,
+                          "y": 0.61950994
+                        },
+                        {
+                          "x": 0.30189553,
+                          "y": 0.6338419
+                        },
+                        {
+                          "x": 0.29449838,
+                          "y": 0.6338419
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "121",
+                    "endIndex": "134"
+                  }
+                ],
+                "content": "TRUFFLE CREAM"
+              },
+              "type": "line_item/description",
+              "mentionText": "TRUFFLE CREAM",
+              "confidence": 0.5501598,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3129912,
+                          "y": 0.618123
+                        },
+                        {
+                          "x": 0.445215,
+                          "y": 0.618123
+                        },
+                        {
+                          "x": 0.445215,
+                          "y": 0.6333796
+                        },
+                        {
+                          "x": 0.3129912,
+                          "y": 0.6333796
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "135",
+                    "endIndex": "141"
+                  }
+                ],
+                "content": "77,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "77,000",
+              "confidence": 0.63348186,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5945446,
+                          "y": 0.61349976
+                        },
+                        {
+                          "x": 0.65510863,
+                          "y": 0.61349976
+                        },
+                        {
+                          "x": 0.65510863,
+                          "y": 0.63060564
+                        },
+                        {
+                          "x": 0.5945446,
+                          "y": 0.63060564
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "150",
+                "endIndex": "151"
+              },
+              {
+                "startIndex": "152",
+                "endIndex": "170"
+              },
+              {
+                "startIndex": "171",
+                "endIndex": "177"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 EARL GREY MILK TEA 59,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.29357374,
+                      "y": 0.6338419
+                    },
+                    {
+                      "x": 0.65834486,
+                      "y": 0.6338419
+                    },
+                    {
+                      "x": 0.65834486,
+                      "y": 0.65649563
+                    },
+                    {
+                      "x": 0.29357374,
+                      "y": 0.65649563
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "150",
+                    "endIndex": "151"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7936279,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.29357374,
+                          "y": 0.63938975
+                        },
+                        {
+                          "x": 0.30050856,
+                          "y": 0.63938975
+                        },
+                        {
+                          "x": 0.30050856,
+                          "y": 0.6560333
+                        },
+                        {
+                          "x": 0.29357374,
+                          "y": 0.6560333
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "152",
+                    "endIndex": "170"
+                  }
+                ],
+                "content": "EARL GREY MILK TEA"
+              },
+              "type": "line_item/description",
+              "mentionText": "EARL GREY MILK TEA",
+              "confidence": 0.44817448,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3125289,
+                          "y": 0.6389274
+                        },
+                        {
+                          "x": 0.4988442,
+                          "y": 0.6389274
+                        },
+                        {
+                          "x": 0.4988442,
+                          "y": 0.65649563
+                        },
+                        {
+                          "x": 0.3125289,
+                          "y": 0.65649563
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "171",
+                    "endIndex": "177"
+                  }
+                ],
+                "content": "59,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "59,000",
+              "confidence": 0.5865065,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5996301,
+                          "y": 0.6338419
+                        },
+                        {
+                          "x": 0.65834486,
+                          "y": 0.6338419
+                        },
+                        {
+                          "x": 0.65834486,
+                          "y": 0.6518724
+                        },
+                        {
+                          "x": 0.5996301,
+                          "y": 0.6518724
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "178",
+                "endIndex": "194"
+              },
+              {
+                "startIndex": "195",
+                "endIndex": "202"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Friendlin\nSUBTTL 215,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.12436431,
+                      "y": 0.65510863
+                    },
+                    {
+                      "x": 0.6629681,
+                      "y": 0.65510863
+                    },
+                    {
+                      "x": 0.6629681,
+                      "y": 0.6819233
+                    },
+                    {
+                      "x": 0.12436431,
+                      "y": 0.6819233
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "178",
+                    "endIndex": "194"
+                  }
+                ],
+                "content": "Friendlin\nSUBTTL"
+              },
+              "type": "line_item/description",
+              "mentionText": "Friendlin\nSUBTTL",
+              "confidence": 0.5542522,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12436431,
+                          "y": 0.6625058
+                        },
+                        {
+                          "x": 0.37355524,
+                          "y": 0.6625058
+                        },
+                        {
+                          "x": 0.37355524,
+                          "y": 0.6819233
+                        },
+                        {
+                          "x": 0.12436431,
+                          "y": 0.6819233
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "195",
+                    "endIndex": "202"
+                  }
+                ],
+                "content": "215,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "215,000",
+              "confidence": 0.42698327,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.5903837,
+                          "y": 0.65510863
+                        },
+                        {
+                          "x": 0.6629681,
+                          "y": 0.65510863
+                        },
+                        {
+                          "x": 0.6629681,
+                          "y": 0.67545074
+                        },
+                        {
+                          "x": 0.5903837,
+                          "y": 0.67545074
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "203",
+                "endIndex": "220"
+              },
+              {
+                "startIndex": "221",
+                "endIndex": "227"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Service Charge 6% 12,900",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3102173,
+                      "y": 0.6791493
+                    },
+                    {
+                      "x": 0.667129,
+                      "y": 0.6791493
+                    },
+                    {
+                      "x": 0.667129,
+                      "y": 0.7027277
+                    },
+                    {
+                      "x": 0.3102173,
+                      "y": 0.7027277
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "203",
+                    "endIndex": "220"
+                  }
+                ],
+                "content": "Service Charge 6%"
+              },
+              "type": "line_item/description",
+              "mentionText": "Service Charge 6%",
+              "confidence": 0.58790725,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3102173,
+                          "y": 0.6833102
+                        },
+                        {
+                          "x": 0.4900601,
+                          "y": 0.6833102
+                        },
+                        {
+                          "x": 0.4900601,
+                          "y": 0.7027277
+                        },
+                        {
+                          "x": 0.3102173,
+                          "y": 0.7027277
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "221",
+                    "endIndex": "227"
+                  }
+                ],
+                "content": "12,900"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12,900",
+              "confidence": 0.5110653,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6056403,
+                          "y": 0.6791493
+                        },
+                        {
+                          "x": 0.667129,
+                          "y": 0.6791493
+                        },
+                        {
+                          "x": 0.667129,
+                          "y": 0.69764215
+                        },
+                        {
+                          "x": 0.6056403,
+                          "y": 0.69764215
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

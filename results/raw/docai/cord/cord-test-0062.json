@@ -1,0 +1,575 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0062",
+  "at": "2026-07-10T11:09:45.334Z",
+  "latencyMs": 2774,
+  "raw": {
+    "document": {
+      "text": "XXI\ncafe\n1 XXI Java Tea (M)\n1 Combo 2\n18.000\n30.000\nTOTAL\n48.000\nCASH\nCHANGED\n50.000\n2.000\n12126\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "58",
+                "endIndex": "64"
+              }
+            ],
+            "content": "48.000"
+          },
+          "type": "total_amount",
+          "mentionText": "48.000",
+          "confidence": 0.9547882,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7210648,
+                      "y": 0.6095679
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.6095679
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.66358024
+                    },
+                    {
+                      "x": 0.7210648,
+                      "y": 0.66358024
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "65",
+                "endIndex": "69"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.6551905,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.03935185,
+                      "y": 0.6944444
+                    },
+                    {
+                      "x": 0.12847222,
+                      "y": 0.6944444
+                    },
+                    {
+                      "x": 0.12847222,
+                      "y": 0.7199074
+                    },
+                    {
+                      "x": 0.03935185,
+                      "y": 0.7199074
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "8"
+              }
+            ],
+            "content": "XXI\ncafe"
+          },
+          "type": "supplier_name",
+          "mentionText": "XXI\ncafe",
+          "confidence": 0.5879201,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3425926,
+                      "y": 0.090277776
+                    },
+                    {
+                      "x": 0.5833333,
+                      "y": 0.090277776
+                    },
+                    {
+                      "x": 0.5833333,
+                      "y": 0.23688272
+                    },
+                    {
+                      "x": 0.3425926,
+                      "y": 0.23688272
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "Cinema XXI"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "9",
+                "endIndex": "10"
+              },
+              {
+                "startIndex": "11",
+                "endIndex": "27"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 XXI Java Tea (M)",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.055555556,
+                      "y": 0.4992284
+                    },
+                    {
+                      "x": 0.4537037,
+                      "y": 0.4992284
+                    },
+                    {
+                      "x": 0.4537037,
+                      "y": 0.5277778
+                    },
+                    {
+                      "x": 0.055555556,
+                      "y": 0.5277778
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "9",
+                    "endIndex": "10"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8239707,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.055555556,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.0775463,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.0775463,
+                          "y": 0.5231481
+                        },
+                        {
+                          "x": 0.055555556,
+                          "y": 0.5231481
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "11",
+                    "endIndex": "27"
+                  }
+                ],
+                "content": "XXI Java Tea (M)"
+              },
+              "type": "line_item/description",
+              "mentionText": "XXI Java Tea (M)",
+              "confidence": 0.6897384,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.13541667,
+                          "y": 0.5
+                        },
+                        {
+                          "x": 0.4537037,
+                          "y": 0.5
+                        },
+                        {
+                          "x": 0.4537037,
+                          "y": 0.5277778
+                        },
+                        {
+                          "x": 0.13541667,
+                          "y": 0.5277778
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "28",
+                "endIndex": "29"
+              },
+              {
+                "startIndex": "30",
+                "endIndex": "37"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Combo 2",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.05439815,
+                      "y": 0.533179
+                    },
+                    {
+                      "x": 0.2835648,
+                      "y": 0.533179
+                    },
+                    {
+                      "x": 0.2835648,
+                      "y": 0.55864197
+                    },
+                    {
+                      "x": 0.05439815,
+                      "y": 0.55864197
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "28",
+                    "endIndex": "29"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7810487,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05439815,
+                          "y": 0.533179
+                        },
+                        {
+                          "x": 0.074074075,
+                          "y": 0.533179
+                        },
+                        {
+                          "x": 0.074074075,
+                          "y": 0.55709875
+                        },
+                        {
+                          "x": 0.05439815,
+                          "y": 0.55709875
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "37"
+                  }
+                ],
+                "content": "Combo 2"
+              },
+              "type": "line_item/description",
+              "mentionText": "Combo 2",
+              "confidence": 0.49675035,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.13657407,
+                          "y": 0.533179
+                        },
+                        {
+                          "x": 0.2835648,
+                          "y": 0.533179
+                        },
+                        {
+                          "x": 0.2835648,
+                          "y": 0.55864197
+                        },
+                        {
+                          "x": 0.13657407,
+                          "y": 0.55864197
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "38",
+                "endIndex": "44"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "18.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7314815,
+                      "y": 0.5138889
+                    },
+                    {
+                      "x": 0.8541667,
+                      "y": 0.5138889
+                    },
+                    {
+                      "x": 0.8541667,
+                      "y": 0.53858024
+                    },
+                    {
+                      "x": 0.7314815,
+                      "y": 0.53858024
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "38",
+                    "endIndex": "44"
+                  }
+                ],
+                "content": "18.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "18.000",
+              "confidence": 0.8055478,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7314815,
+                          "y": 0.5138889
+                        },
+                        {
+                          "x": 0.8541667,
+                          "y": 0.5138889
+                        },
+                        {
+                          "x": 0.8541667,
+                          "y": 0.53858024
+                        },
+                        {
+                          "x": 0.7314815,
+                          "y": 0.53858024
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "45",
+                "endIndex": "51"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "30.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7280093,
+                      "y": 0.5470679
+                    },
+                    {
+                      "x": 0.8541667,
+                      "y": 0.5470679
+                    },
+                    {
+                      "x": 0.8541667,
+                      "y": 0.57330245
+                    },
+                    {
+                      "x": 0.7280093,
+                      "y": 0.57330245
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "45",
+                    "endIndex": "51"
+                  }
+                ],
+                "content": "30.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "30.000",
+              "confidence": 0.7734403,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7280093,
+                          "y": 0.5470679
+                        },
+                        {
+                          "x": 0.8541667,
+                          "y": 0.5470679
+                        },
+                        {
+                          "x": 0.8541667,
+                          "y": 0.57330245
+                        },
+                        {
+                          "x": 0.7280093,
+                          "y": 0.57330245
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

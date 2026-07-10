@@ -1,0 +1,413 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0055",
+  "at": "2026-07-10T11:09:12.062Z",
+  "latencyMs": 2353,
+  "raw": {
+    "document": {
+      "text": "1 APPLE CINNAMON PASTRY\n2 ROYAL CHEESE TART\nTOTAL\nCARD\n22,000\n32,000\n54,000\n54,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "69",
+                "endIndex": "75"
+              }
+            ],
+            "content": "54,000"
+          },
+          "type": "total_amount",
+          "mentionText": "54,000",
+          "confidence": 0.9719523,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6180556,
+                      "y": 0.49382716
+                    },
+                    {
+                      "x": 0.8206019,
+                      "y": 0.49382716
+                    },
+                    {
+                      "x": 0.8206019,
+                      "y": 0.5285494
+                    },
+                    {
+                      "x": 0.6180556,
+                      "y": 0.5285494
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "23"
+              },
+              {
+                "startIndex": "55",
+                "endIndex": "61"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 APPLE CINNAMON PASTRY 22,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2361111,
+                      "y": 0.41512346
+                    },
+                    {
+                      "x": 0.8078704,
+                      "y": 0.41512346
+                    },
+                    {
+                      "x": 0.8078704,
+                      "y": 0.4367284
+                    },
+                    {
+                      "x": 0.2361111,
+                      "y": 0.4367284
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.70171887,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2361111,
+                          "y": 0.41589507
+                        },
+                        {
+                          "x": 0.24768518,
+                          "y": 0.41589507
+                        },
+                        {
+                          "x": 0.24768518,
+                          "y": 0.43441358
+                        },
+                        {
+                          "x": 0.2361111,
+                          "y": 0.43441358
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "2",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "23"
+                  }
+                ],
+                "content": "APPLE CINNAMON PASTRY"
+              },
+              "type": "line_item/description",
+              "mentionText": "APPLE CINNAMON PASTRY",
+              "confidence": 0.6626452,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2662037,
+                          "y": 0.41512346
+                        },
+                        {
+                          "x": 0.599537,
+                          "y": 0.41512346
+                        },
+                        {
+                          "x": 0.599537,
+                          "y": 0.4367284
+                        },
+                        {
+                          "x": 0.2662037,
+                          "y": 0.4367284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "55",
+                    "endIndex": "61"
+                  }
+                ],
+                "content": "22,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "22,000",
+              "confidence": 0.9105081,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7094907,
+                          "y": 0.41975307
+                        },
+                        {
+                          "x": 0.8078704,
+                          "y": 0.41975307
+                        },
+                        {
+                          "x": 0.8078704,
+                          "y": 0.4367284
+                        },
+                        {
+                          "x": 0.7094907,
+                          "y": 0.4367284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "24",
+                "endIndex": "25"
+              },
+              {
+                "startIndex": "26",
+                "endIndex": "43"
+              },
+              {
+                "startIndex": "62",
+                "endIndex": "68"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 ROYAL CHEESE TART 32,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.23148148,
+                      "y": 0.44212964
+                    },
+                    {
+                      "x": 0.8136574,
+                      "y": 0.44212964
+                    },
+                    {
+                      "x": 0.8136574,
+                      "y": 0.46219134
+                    },
+                    {
+                      "x": 0.23148148,
+                      "y": 0.46219134
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "24",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.7455686,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.23148148,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.2511574,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.2511574,
+                          "y": 0.45910493
+                        },
+                        {
+                          "x": 0.23148148,
+                          "y": 0.45910493
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "26",
+                    "endIndex": "43"
+                  }
+                ],
+                "content": "ROYAL CHEESE TART"
+              },
+              "type": "line_item/description",
+              "mentionText": "ROYAL CHEESE TART",
+              "confidence": 0.5150712,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2662037,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.537037,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.537037,
+                          "y": 0.45910493
+                        },
+                        {
+                          "x": 0.2662037,
+                          "y": 0.45910493
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "62",
+                    "endIndex": "68"
+                  }
+                ],
+                "content": "32,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "32,000",
+              "confidence": 0.69983125,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7141204,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.8136574,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.8136574,
+                          "y": 0.46219134
+                        },
+                        {
+                          "x": 0.7141204,
+                          "y": 0.46219134
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

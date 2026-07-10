@@ -1,0 +1,918 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51006008197",
+  "at": "2026-07-10T10:45:17.353Z",
+  "latencyMs": 2194,
+  "raw": {
+    "document": {
+      "text": "RELAIS TOTAL OULMES\nAUTOROUTE RABAT MEKNES\n15000 KHEMISSET\nLe 30/03/2018 a 12:36 V201855892CAISSIER 1, C\nTel.: 05.22.95.66.66\nP.U.\nQTE\nTOTAL\n12.00 2\n24.00\n10.00\n2\n20.00\n12.00\n1 12.00\nDESIGNATION\nCAFE CREME\nCAFE EXPRESSO\nCHOCOLAT CHAUD\nREGLE PAR ESPECE\nTotal Facture :\n56.00 DH\n56.00 DH\n****Merci de votre visite****\nPAT:37993027/RC:209031/IF:40132774\nICE: 000081241000051\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "268",
+                "endIndex": "273"
+              }
+            ],
+            "content": "56.00"
+          },
+          "type": "total_amount",
+          "mentionText": "56.00",
+          "confidence": 0.8580068,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6608579,
+                      "y": 0.6171875
+                    },
+                    {
+                      "x": 0.84852546,
+                      "y": 0.6171875
+                    },
+                    {
+                      "x": 0.84852546,
+                      "y": 0.65494794
+                    },
+                    {
+                      "x": 0.6608579,
+                      "y": 0.65494794
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "56",
+            "moneyValue": {
+              "units": "56"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "75",
+                "endIndex": "80"
+              }
+            ],
+            "content": "12:36"
+          },
+          "type": "purchase_time",
+          "mentionText": "12:36",
+          "confidence": 0.83978504,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3605898,
+                      "y": 0.3971354
+                    },
+                    {
+                      "x": 0.45174262,
+                      "y": 0.3971354
+                    },
+                    {
+                      "x": 0.45174262,
+                      "y": 0.43359375
+                    },
+                    {
+                      "x": 0.3605898,
+                      "y": 0.43359375
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 12,
+              "minutes": 36
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "62",
+                "endIndex": "72"
+              }
+            ],
+            "content": "30/03/2018"
+          },
+          "type": "receipt_date",
+          "mentionText": "30/03/2018",
+          "confidence": 0.8384758,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.10991957,
+                      "y": 0.3971354
+                    },
+                    {
+                      "x": 0.3016086,
+                      "y": 0.3971354
+                    },
+                    {
+                      "x": 0.3016086,
+                      "y": 0.43359375
+                    },
+                    {
+                      "x": 0.10991957,
+                      "y": 0.43359375
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "normalizedValue": {
+            "text": "2018-03-30",
+            "dateValue": {
+              "year": 2018,
+              "month": 3,
+              "day": 30
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "111",
+                "endIndex": "125"
+              }
+            ],
+            "content": "05.22.95.66.66"
+          },
+          "type": "supplier_phone",
+          "mentionText": "05.22.95.66.66",
+          "confidence": 0.69179803,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.44101876,
+                      "y": 0.3515625
+                    },
+                    {
+                      "x": 0.7064343,
+                      "y": 0.3515625
+                    },
+                    {
+                      "x": 0.7064343,
+                      "y": 0.38671875
+                    },
+                    {
+                      "x": 0.44101876,
+                      "y": 0.38671875
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "19"
+              }
+            ],
+            "content": "RELAIS TOTAL OULMES"
+          },
+          "type": "supplier_name",
+          "mentionText": "RELAIS TOTAL OULMES",
+          "confidence": 0.6823138,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.32841823,
+                      "y": 0.22265625
+                    },
+                    {
+                      "x": 0.691689,
+                      "y": 0.22265625
+                    },
+                    {
+                      "x": 0.691689,
+                      "y": 0.25260416
+                    },
+                    {
+                      "x": 0.32841823,
+                      "y": 0.25260416
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "20",
+                "endIndex": "58"
+              }
+            ],
+            "content": "AUTOROUTE RABAT MEKNES\n15000 KHEMISSET"
+          },
+          "type": "supplier_address",
+          "mentionText": "AUTOROUTE RABAT MEKNES\n15000 KHEMISSET",
+          "confidence": 0.47532907,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2989276,
+                      "y": 0.265625
+                    },
+                    {
+                      "x": 0.7171582,
+                      "y": 0.265625
+                    },
+                    {
+                      "x": 0.7171582,
+                      "y": 0.33984375
+                    },
+                    {
+                      "x": 0.2989276,
+                      "y": 0.33984375
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "147",
+                "endIndex": "148"
+              },
+              {
+                "startIndex": "149",
+                "endIndex": "154"
+              },
+              {
+                "startIndex": "195",
+                "endIndex": "205"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 24.00 CAFE CREME",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.050938338,
+                      "y": 0.4856771
+                    },
+                    {
+                      "x": 0.9276139,
+                      "y": 0.4856771
+                    },
+                    {
+                      "x": 0.9276139,
+                      "y": 0.51692706
+                    },
+                    {
+                      "x": 0.050938338,
+                      "y": 0.51692706
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "147",
+                    "endIndex": "148"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.83346814,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7117962,
+                          "y": 0.48828125
+                        },
+                        {
+                          "x": 0.73592496,
+                          "y": 0.48828125
+                        },
+                        {
+                          "x": 0.73592496,
+                          "y": 0.515625
+                        },
+                        {
+                          "x": 0.7117962,
+                          "y": 0.515625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "149",
+                    "endIndex": "154"
+                  }
+                ],
+                "content": "24.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "24.00",
+              "confidence": 0.6192449,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.82707775,
+                          "y": 0.48828125
+                        },
+                        {
+                          "x": 0.9276139,
+                          "y": 0.48828125
+                        },
+                        {
+                          "x": 0.9276139,
+                          "y": 0.515625
+                        },
+                        {
+                          "x": 0.82707775,
+                          "y": 0.515625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "24",
+                "moneyValue": {
+                  "units": "24"
+                }
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "195",
+                    "endIndex": "205"
+                  }
+                ],
+                "content": "CAFE CREME"
+              },
+              "type": "line_item/description",
+              "mentionText": "CAFE CREME",
+              "confidence": 0.77184933,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.050938338,
+                          "y": 0.4856771
+                        },
+                        {
+                          "x": 0.24396783,
+                          "y": 0.4856771
+                        },
+                        {
+                          "x": 0.24396783,
+                          "y": 0.51692706
+                        },
+                        {
+                          "x": 0.050938338,
+                          "y": 0.51692706
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "161",
+                "endIndex": "162"
+              },
+              {
+                "startIndex": "163",
+                "endIndex": "168"
+              },
+              {
+                "startIndex": "206",
+                "endIndex": "219"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 20.00 CAFE EXPRESSO",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.050938338,
+                      "y": 0.52734375
+                    },
+                    {
+                      "x": 0.92627347,
+                      "y": 0.52734375
+                    },
+                    {
+                      "x": 0.92627347,
+                      "y": 0.56119794
+                    },
+                    {
+                      "x": 0.050938338,
+                      "y": 0.56119794
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "161",
+                    "endIndex": "162"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.8206043,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7117962,
+                          "y": 0.52994794
+                        },
+                        {
+                          "x": 0.7386059,
+                          "y": 0.52994794
+                        },
+                        {
+                          "x": 0.7386059,
+                          "y": 0.5598958
+                        },
+                        {
+                          "x": 0.7117962,
+                          "y": 0.5598958
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "163",
+                    "endIndex": "168"
+                  }
+                ],
+                "content": "20.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "20.00",
+              "confidence": 0.5678479,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.82573724,
+                          "y": 0.53125
+                        },
+                        {
+                          "x": 0.92627347,
+                          "y": 0.53125
+                        },
+                        {
+                          "x": 0.92627347,
+                          "y": 0.56119794
+                        },
+                        {
+                          "x": 0.82573724,
+                          "y": 0.56119794
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "20",
+                "moneyValue": {
+                  "units": "20"
+                }
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "206",
+                    "endIndex": "219"
+                  }
+                ],
+                "content": "CAFE EXPRESSO"
+              },
+              "type": "line_item/description",
+              "mentionText": "CAFE EXPRESSO",
+              "confidence": 0.6917095,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.050938338,
+                          "y": 0.52734375
+                        },
+                        {
+                          "x": 0.29758713,
+                          "y": 0.52734375
+                        },
+                        {
+                          "x": 0.29758713,
+                          "y": 0.56119794
+                        },
+                        {
+                          "x": 0.050938338,
+                          "y": 0.56119794
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "175",
+                "endIndex": "176"
+              },
+              {
+                "startIndex": "177",
+                "endIndex": "182"
+              },
+              {
+                "startIndex": "220",
+                "endIndex": "234"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 12.00 CHOCOLAT CHAUD",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.050938338,
+                      "y": 0.5729167
+                    },
+                    {
+                      "x": 0.92627347,
+                      "y": 0.5729167
+                    },
+                    {
+                      "x": 0.92627347,
+                      "y": 0.60546875
+                    },
+                    {
+                      "x": 0.050938338,
+                      "y": 0.60546875
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "175",
+                    "endIndex": "176"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7748443,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7158177,
+                          "y": 0.5729167
+                        },
+                        {
+                          "x": 0.73324394,
+                          "y": 0.5729167
+                        },
+                        {
+                          "x": 0.73324394,
+                          "y": 0.6041667
+                        },
+                        {
+                          "x": 0.7158177,
+                          "y": 0.6041667
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "177",
+                    "endIndex": "182"
+                  }
+                ],
+                "content": "12.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12.00",
+              "confidence": 0.57322186,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8310992,
+                          "y": 0.57421875
+                        },
+                        {
+                          "x": 0.92627347,
+                          "y": 0.57421875
+                        },
+                        {
+                          "x": 0.92627347,
+                          "y": 0.60546875
+                        },
+                        {
+                          "x": 0.8310992,
+                          "y": 0.60546875
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16",
+              "normalizedValue": {
+                "text": "12",
+                "moneyValue": {
+                  "units": "12"
+                }
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "220",
+                    "endIndex": "234"
+                  }
+                ],
+                "content": "CHOCOLAT CHAUD"
+              },
+              "type": "line_item/description",
+              "mentionText": "CHOCOLAT CHAUD",
+              "confidence": 0.6400737,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.050938338,
+                          "y": 0.5729167
+                        },
+                        {
+                          "x": 0.31769437,
+                          "y": 0.5729167
+                        },
+                        {
+                          "x": 0.31769437,
+                          "y": 0.6041667
+                        },
+                        {
+                          "x": 0.050938338,
+                          "y": 0.6041667
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "235",
+                "endIndex": "251"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "REGLE PAR ESPECE",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.12734585,
+                      "y": 0.66015625
+                    },
+                    {
+                      "x": 0.43297586,
+                      "y": 0.66015625
+                    },
+                    {
+                      "x": 0.43297586,
+                      "y": 0.69401044
+                    },
+                    {
+                      "x": 0.12734585,
+                      "y": 0.69401044
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "235",
+                    "endIndex": "251"
+                  }
+                ],
+                "content": "REGLE PAR ESPECE"
+              },
+              "type": "line_item/description",
+              "mentionText": "REGLE PAR ESPECE",
+              "confidence": 0.5372352,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12734585,
+                          "y": 0.66015625
+                        },
+                        {
+                          "x": 0.43297586,
+                          "y": 0.66015625
+                        },
+                        {
+                          "x": 0.43297586,
+                          "y": 0.69401044
+                        },
+                        {
+                          "x": 0.12734585,
+                          "y": 0.69401044
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

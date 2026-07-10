@@ -1,0 +1,658 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0082",
+  "at": "2026-07-10T11:11:07.947Z",
+  "latencyMs": 3530,
+  "raw": {
+    "document": {
+      "text": "140\nChocolate Log Cake\nSnowman Cake Chocolate\n1x 115,000\n115,000\n1x 60,000\n60,000\nStrawberry Log Cake 2x 105,000\n210,000 TRA\nSub Total\n385,000\nGRAND TOTAL\n385,000\nVISA MASTER\n8213\n385,000\nCHANGE\n0\nTIME IN\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "155",
+                "endIndex": "162"
+              }
+            ],
+            "content": "385,000"
+          },
+          "type": "total_amount",
+          "mentionText": "385,000",
+          "confidence": 0.9162487,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7256944,
+                      "y": 0.44984567
+                    },
+                    {
+                      "x": 0.837963,
+                      "y": 0.44984567
+                    },
+                    {
+                      "x": 0.837963,
+                      "y": 0.47067901
+                    },
+                    {
+                      "x": 0.7256944,
+                      "y": 0.47067901
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "135",
+                "endIndex": "142"
+              }
+            ],
+            "content": "385,000"
+          },
+          "type": "net_amount",
+          "mentionText": "385,000",
+          "confidence": 0.8985871,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7233796,
+                      "y": 0.39891976
+                    },
+                    {
+                      "x": 0.8368056,
+                      "y": 0.39891976
+                    },
+                    {
+                      "x": 0.8368056,
+                      "y": 0.41666666
+                    },
+                    {
+                      "x": 0.7233796,
+                      "y": 0.41666666
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "175",
+                "endIndex": "179"
+              }
+            ],
+            "content": "8213"
+          },
+          "type": "credit_card_last_four_digits",
+          "mentionText": "8213",
+          "confidence": 0.8015206,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14699075,
+                      "y": 0.5324074
+                    },
+                    {
+                      "x": 0.21180555,
+                      "y": 0.5324074
+                    },
+                    {
+                      "x": 0.21180555,
+                      "y": 0.55401236
+                    },
+                    {
+                      "x": 0.14699075,
+                      "y": 0.55401236
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "163",
+                "endIndex": "167"
+              }
+            ],
+            "content": "VISA"
+          },
+          "type": "payment_type",
+          "mentionText": "VISA",
+          "confidence": 0.7918197,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14699075,
+                      "y": 0.50771606
+                    },
+                    {
+                      "x": 0.21296297,
+                      "y": 0.50771606
+                    },
+                    {
+                      "x": 0.21296297,
+                      "y": 0.52623457
+                    },
+                    {
+                      "x": 0.14699075,
+                      "y": 0.52623457
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "4",
+                "endIndex": "22"
+              },
+              {
+                "startIndex": "46",
+                "endIndex": "48"
+              },
+              {
+                "startIndex": "57",
+                "endIndex": "64"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Chocolate Log Cake 1x 115,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.075231485,
+                      "y": 0.2955247
+                    },
+                    {
+                      "x": 0.8263889,
+                      "y": 0.2955247
+                    },
+                    {
+                      "x": 0.8263889,
+                      "y": 0.32330248
+                    },
+                    {
+                      "x": 0.075231485,
+                      "y": 0.32330248
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "4",
+                    "endIndex": "22"
+                  }
+                ],
+                "content": "Chocolate Log Cake"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chocolate Log Cake",
+              "confidence": 0.765915,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.075231485,
+                          "y": 0.30246913
+                        },
+                        {
+                          "x": 0.3599537,
+                          "y": 0.30246913
+                        },
+                        {
+                          "x": 0.3599537,
+                          "y": 0.32330248
+                        },
+                        {
+                          "x": 0.075231485,
+                          "y": 0.32330248
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "46",
+                    "endIndex": "48"
+                  }
+                ],
+                "content": "1x"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1x",
+              "confidence": 0.5924355,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4675926,
+                          "y": 0.30092594
+                        },
+                        {
+                          "x": 0.5,
+                          "y": 0.30092594
+                        },
+                        {
+                          "x": 0.5,
+                          "y": 0.32021606
+                        },
+                        {
+                          "x": 0.4675926,
+                          "y": 0.32021606
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "57",
+                    "endIndex": "64"
+                  }
+                ],
+                "content": "115,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "115,000",
+              "confidence": 0.93743896,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.71875,
+                          "y": 0.2955247
+                        },
+                        {
+                          "x": 0.8263889,
+                          "y": 0.2955247
+                        },
+                        {
+                          "x": 0.8263889,
+                          "y": 0.31635803
+                        },
+                        {
+                          "x": 0.71875,
+                          "y": 0.31635803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "23",
+                "endIndex": "45"
+              },
+              {
+                "startIndex": "65",
+                "endIndex": "67"
+              },
+              {
+                "startIndex": "75",
+                "endIndex": "81"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Snowman Cake Chocolate 1x 60,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.074074075,
+                      "y": 0.32175925
+                    },
+                    {
+                      "x": 0.8310185,
+                      "y": 0.32175925
+                    },
+                    {
+                      "x": 0.8310185,
+                      "y": 0.3472222
+                    },
+                    {
+                      "x": 0.074074075,
+                      "y": 0.3472222
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "23",
+                    "endIndex": "45"
+                  }
+                ],
+                "content": "Snowman Cake Chocolate"
+              },
+              "type": "line_item/description",
+              "mentionText": "Snowman Cake Chocolate",
+              "confidence": 0.66251564,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.074074075,
+                          "y": 0.32484567
+                        },
+                        {
+                          "x": 0.41782406,
+                          "y": 0.32484567
+                        },
+                        {
+                          "x": 0.41782406,
+                          "y": 0.3472222
+                        },
+                        {
+                          "x": 0.074074075,
+                          "y": 0.3472222
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "65",
+                    "endIndex": "67"
+                  }
+                ],
+                "content": "1x"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1x",
+              "confidence": 0.5882168,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4664352,
+                          "y": 0.32484567
+                        },
+                        {
+                          "x": 0.4976852,
+                          "y": 0.32484567
+                        },
+                        {
+                          "x": 0.4976852,
+                          "y": 0.3441358
+                        },
+                        {
+                          "x": 0.4664352,
+                          "y": 0.3441358
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "75",
+                    "endIndex": "81"
+                  }
+                ],
+                "content": "60,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "60,000",
+              "confidence": 0.93184316,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7337963,
+                          "y": 0.32175925
+                        },
+                        {
+                          "x": 0.8310185,
+                          "y": 0.32175925
+                        },
+                        {
+                          "x": 0.8310185,
+                          "y": 0.3402778
+                        },
+                        {
+                          "x": 0.7337963,
+                          "y": 0.3402778
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "82",
+                "endIndex": "101"
+              },
+              {
+                "startIndex": "113",
+                "endIndex": "120"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Strawberry Log Cake 210,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.072916664,
+                      "y": 0.34799382
+                    },
+                    {
+                      "x": 0.8333333,
+                      "y": 0.34799382
+                    },
+                    {
+                      "x": 0.8333333,
+                      "y": 0.3757716
+                    },
+                    {
+                      "x": 0.072916664,
+                      "y": 0.3757716
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "82",
+                    "endIndex": "101"
+                  }
+                ],
+                "content": "Strawberry Log Cake"
+              },
+              "type": "line_item/description",
+              "mentionText": "Strawberry Log Cake",
+              "confidence": 0.706805,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.072916664,
+                          "y": 0.35030866
+                        },
+                        {
+                          "x": 0.3726852,
+                          "y": 0.35030866
+                        },
+                        {
+                          "x": 0.3726852,
+                          "y": 0.3757716
+                        },
+                        {
+                          "x": 0.072916664,
+                          "y": 0.3757716
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "113",
+                    "endIndex": "120"
+                  }
+                ],
+                "content": "210,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "210,000",
+              "confidence": 0.9364757,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.71875,
+                          "y": 0.34799382
+                        },
+                        {
+                          "x": 0.8333333,
+                          "y": 0.34799382
+                        },
+                        {
+                          "x": 0.8333333,
+                          "y": 0.36574075
+                        },
+                        {
+                          "x": 0.71875,
+                          "y": 0.36574075
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

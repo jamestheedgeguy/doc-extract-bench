@@ -1,0 +1,674 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0053",
+  "at": "2026-07-10T11:09:06.954Z",
+  "latencyMs": 2712,
+  "raw": {
+    "document": {
+      "text": "Kopi Legit\n1 Pecel Komplit + Nasi\n42.000\n1 SOTO KUDUS\n2 Mineral Water\nSubtotal\n47.000\n18.000\n107.000\nServi Charge 5%\n5.350\nPajak Rest 10%\n11.235\n4 Total\n123.585\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "153",
+                "endIndex": "160"
+              }
+            ],
+            "content": "123.585"
+          },
+          "type": "total_amount",
+          "mentionText": "123.585",
+          "confidence": 0.9001105,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8090278,
+                      "y": 0.7453704
+                    },
+                    {
+                      "x": 0.9571759,
+                      "y": 0.7453704
+                    },
+                    {
+                      "x": 0.9571759,
+                      "y": 0.7839506
+                    },
+                    {
+                      "x": 0.8090278,
+                      "y": 0.7839506
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "93",
+                "endIndex": "100"
+              }
+            ],
+            "content": "107.000"
+          },
+          "type": "net_amount",
+          "mentionText": "107.000",
+          "confidence": 0.7916169,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8159722,
+                      "y": 0.6805556
+                    },
+                    {
+                      "x": 0.9594907,
+                      "y": 0.6805556
+                    },
+                    {
+                      "x": 0.9594907,
+                      "y": 0.7006173
+                    },
+                    {
+                      "x": 0.8159722,
+                      "y": 0.7006173
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "117",
+                "endIndex": "122"
+              }
+            ],
+            "content": "5.350"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "5.350",
+          "confidence": 0.38624537,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8553241,
+                      "y": 0.7029321
+                    },
+                    {
+                      "x": 0.9571759,
+                      "y": 0.7029321
+                    },
+                    {
+                      "x": 0.9571759,
+                      "y": 0.7214506
+                    },
+                    {
+                      "x": 0.8553241,
+                      "y": 0.7214506
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "11",
+                "endIndex": "12"
+              },
+              {
+                "startIndex": "13",
+                "endIndex": "33"
+              },
+              {
+                "startIndex": "34",
+                "endIndex": "40"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Pecel Komplit + Nasi 42.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.21064815,
+                      "y": 0.5933642
+                    },
+                    {
+                      "x": 0.9513889,
+                      "y": 0.5933642
+                    },
+                    {
+                      "x": 0.9513889,
+                      "y": 0.61496913
+                    },
+                    {
+                      "x": 0.21064815,
+                      "y": 0.61496913
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "11",
+                    "endIndex": "12"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7346843,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.21064815,
+                          "y": 0.5933642
+                        },
+                        {
+                          "x": 0.22685185,
+                          "y": 0.5933642
+                        },
+                        {
+                          "x": 0.22685185,
+                          "y": 0.6134259
+                        },
+                        {
+                          "x": 0.21064815,
+                          "y": 0.6134259
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "13",
+                    "endIndex": "33"
+                  }
+                ],
+                "content": "Pecel Komplit + Nasi"
+              },
+              "type": "line_item/description",
+              "mentionText": "Pecel Komplit + Nasi",
+              "confidence": 0.6729774,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.25578704,
+                          "y": 0.5933642
+                        },
+                        {
+                          "x": 0.7048611,
+                          "y": 0.5933642
+                        },
+                        {
+                          "x": 0.7048611,
+                          "y": 0.61496913
+                        },
+                        {
+                          "x": 0.25578704,
+                          "y": 0.61496913
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "34",
+                    "endIndex": "40"
+                  }
+                ],
+                "content": "42.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "42.000",
+              "confidence": 0.679745,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8298611,
+                          "y": 0.5941358
+                        },
+                        {
+                          "x": 0.9513889,
+                          "y": 0.5941358
+                        },
+                        {
+                          "x": 0.9513889,
+                          "y": 0.6118827
+                        },
+                        {
+                          "x": 0.8298611,
+                          "y": 0.6118827
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "41",
+                "endIndex": "42"
+              },
+              {
+                "startIndex": "43",
+                "endIndex": "53"
+              },
+              {
+                "startIndex": "79",
+                "endIndex": "85"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 SOTO KUDUS 47.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.20949075,
+                      "y": 0.61496913
+                    },
+                    {
+                      "x": 0.9525463,
+                      "y": 0.61496913
+                    },
+                    {
+                      "x": 0.9525463,
+                      "y": 0.6365741
+                    },
+                    {
+                      "x": 0.20949075,
+                      "y": 0.6365741
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "41",
+                    "endIndex": "42"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7500032,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.20949075,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.22569445,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.22569445,
+                          "y": 0.6365741
+                        },
+                        {
+                          "x": 0.20949075,
+                          "y": 0.6365741
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "43",
+                    "endIndex": "53"
+                  }
+                ],
+                "content": "SOTO KUDUS"
+              },
+              "type": "line_item/description",
+              "mentionText": "SOTO KUDUS",
+              "confidence": 0.7600888,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.25462964,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.4837963,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.4837963,
+                          "y": 0.6365741
+                        },
+                        {
+                          "x": 0.25462964,
+                          "y": 0.6365741
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "79",
+                    "endIndex": "85"
+                  }
+                ],
+                "content": "47.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "47.000",
+              "confidence": 0.90344113,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8321759,
+                          "y": 0.61496913
+                        },
+                        {
+                          "x": 0.9525463,
+                          "y": 0.61496913
+                        },
+                        {
+                          "x": 0.9525463,
+                          "y": 0.6342593
+                        },
+                        {
+                          "x": 0.8321759,
+                          "y": 0.6342593
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "54",
+                "endIndex": "55"
+              },
+              {
+                "startIndex": "56",
+                "endIndex": "69"
+              },
+              {
+                "startIndex": "86",
+                "endIndex": "92"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 Mineral Water 18.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.20601852,
+                      "y": 0.6365741
+                    },
+                    {
+                      "x": 0.9560185,
+                      "y": 0.6365741
+                    },
+                    {
+                      "x": 0.9560185,
+                      "y": 0.66049385
+                    },
+                    {
+                      "x": 0.20601852,
+                      "y": 0.66049385
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "54",
+                    "endIndex": "55"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.66697985,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.20601852,
+                          "y": 0.6419753
+                        },
+                        {
+                          "x": 0.22916667,
+                          "y": 0.6419753
+                        },
+                        {
+                          "x": 0.22916667,
+                          "y": 0.66049385
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.66049385
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "56",
+                    "endIndex": "69"
+                  }
+                ],
+                "content": "Mineral Water"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mineral Water",
+              "confidence": 0.6441398,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2523148,
+                          "y": 0.6396605
+                        },
+                        {
+                          "x": 0.5486111,
+                          "y": 0.6396605
+                        },
+                        {
+                          "x": 0.5486111,
+                          "y": 0.66049385
+                        },
+                        {
+                          "x": 0.2523148,
+                          "y": 0.66049385
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "86",
+                    "endIndex": "92"
+                  }
+                ],
+                "content": "18.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "18.000",
+              "confidence": 0.7084195,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.8368056,
+                          "y": 0.6365741
+                        },
+                        {
+                          "x": 0.9560185,
+                          "y": 0.6365741
+                        },
+                        {
+                          "x": 0.9560185,
+                          "y": 0.6550926
+                        },
+                        {
+                          "x": 0.8368056,
+                          "y": 0.6550926
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

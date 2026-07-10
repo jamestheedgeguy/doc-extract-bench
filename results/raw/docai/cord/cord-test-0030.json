@@ -1,0 +1,310 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0030",
+  "at": "2026-07-10T11:07:29.293Z",
+  "latencyMs": 2823,
+  "raw": {
+    "document": {
+      "text": "Kupon 3\n28,636\nSubtotal\n28,636\nPB1 (10%)\n2,864\nDine In Total\n31,500\nCash\n50,000\nChange\n18,500\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "61",
+                "endIndex": "67"
+              }
+            ],
+            "content": "31,500"
+          },
+          "type": "total_amount",
+          "mentionText": "31,500",
+          "confidence": 0.8753082,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7222222,
+                      "y": 0.82021606
+                    },
+                    {
+                      "x": 0.8206019,
+                      "y": 0.82021606
+                    },
+                    {
+                      "x": 0.8206019,
+                      "y": 0.8425926
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.8425926
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "24",
+                "endIndex": "30"
+              }
+            ],
+            "content": "28,636"
+          },
+          "type": "net_amount",
+          "mentionText": "28,636",
+          "confidence": 0.85936886,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7164352,
+                      "y": 0.72839504
+                    },
+                    {
+                      "x": 0.8101852,
+                      "y": 0.72839504
+                    },
+                    {
+                      "x": 0.8101852,
+                      "y": 0.7484568
+                    },
+                    {
+                      "x": 0.7164352,
+                      "y": 0.7484568
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "68",
+                "endIndex": "72"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.73555195,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1423611,
+                      "y": 0.8873457
+                    },
+                    {
+                      "x": 0.20601852,
+                      "y": 0.8873457
+                    },
+                    {
+                      "x": 0.20601852,
+                      "y": 0.904321
+                    },
+                    {
+                      "x": 0.1423611,
+                      "y": 0.904321
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "41",
+                "endIndex": "46"
+              }
+            ],
+            "content": "2,864"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "2,864",
+          "confidence": 0.5115813,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7326389,
+                      "y": 0.75848764
+                    },
+                    {
+                      "x": 0.8136574,
+                      "y": 0.75848764
+                    },
+                    {
+                      "x": 0.8136574,
+                      "y": 0.7816358
+                    },
+                    {
+                      "x": 0.7326389,
+                      "y": 0.7816358
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "7"
+              },
+              {
+                "startIndex": "8",
+                "endIndex": "14"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Kupon 3 28,636",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15625,
+                      "y": 0.66589504
+                    },
+                    {
+                      "x": 0.8090278,
+                      "y": 0.66589504
+                    },
+                    {
+                      "x": 0.8090278,
+                      "y": 0.69135803
+                    },
+                    {
+                      "x": 0.15625,
+                      "y": 0.69135803
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "7"
+                  }
+                ],
+                "content": "Kupon 3"
+              },
+              "type": "line_item/description",
+              "mentionText": "Kupon 3",
+              "confidence": 0.71955913,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15625,
+                          "y": 0.66589504
+                        },
+                        {
+                          "x": 0.2673611,
+                          "y": 0.66589504
+                        },
+                        {
+                          "x": 0.2673611,
+                          "y": 0.69135803
+                        },
+                        {
+                          "x": 0.15625,
+                          "y": 0.69135803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "8",
+                    "endIndex": "14"
+                  }
+                ],
+                "content": "28,636"
+              },
+              "type": "line_item/amount",
+              "mentionText": "28,636",
+              "confidence": 0.7315444,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7118056,
+                          "y": 0.66820985
+                        },
+                        {
+                          "x": 0.8090278,
+                          "y": 0.66820985
+                        },
+                        {
+                          "x": 0.8090278,
+                          "y": 0.6867284
+                        },
+                        {
+                          "x": 0.7118056,
+                          "y": 0.6867284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

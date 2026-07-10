@@ -1,0 +1,148 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0009",
+  "at": "2026-07-10T11:06:27.341Z",
+  "latencyMs": 2401,
+  "raw": {
+    "document": {
+      "text": "Bumbu Kaldu Ayam 1\n36000\n36000\nSub Total\n36000\nDiscount (0%)\nTunai\n50000\nKembalian\n14000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "41",
+                "endIndex": "46"
+              }
+            ],
+            "content": "36000"
+          },
+          "type": "net_amount",
+          "mentionText": "36000",
+          "confidence": 0.34816825,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.46180555,
+                      "y": 0.49189815
+                    },
+                    {
+                      "x": 0.5625,
+                      "y": 0.49189815
+                    },
+                    {
+                      "x": 0.5625,
+                      "y": 0.5104167
+                    },
+                    {
+                      "x": 0.46180555,
+                      "y": 0.5104167
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "36000",
+            "moneyValue": {
+              "units": "36000"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "18"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Bumbu Kaldu Ayam 1",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.059027776,
+                      "y": 0.3738426
+                    },
+                    {
+                      "x": 0.41145834,
+                      "y": 0.3738426
+                    },
+                    {
+                      "x": 0.41145834,
+                      "y": 0.4027778
+                    },
+                    {
+                      "x": 0.059027776,
+                      "y": 0.4027778
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "18"
+                  }
+                ],
+                "content": "Bumbu Kaldu Ayam 1"
+              },
+              "type": "line_item/description",
+              "mentionText": "Bumbu Kaldu Ayam 1",
+              "confidence": 0.53243583,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.059027776,
+                          "y": 0.3738426
+                        },
+                        {
+                          "x": 0.41145834,
+                          "y": 0.3738426
+                        },
+                        {
+                          "x": 0.41145834,
+                          "y": 0.4027778
+                        },
+                        {
+                          "x": 0.059027776,
+                          "y": 0.4027778
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "2"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

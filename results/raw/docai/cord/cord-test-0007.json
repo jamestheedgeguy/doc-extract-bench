@@ -1,0 +1,225 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0007",
+  "at": "2026-07-10T11:06:21.714Z",
+  "latencyMs": 2640,
+  "raw": {
+    "document": {
+      "text": "====\nKupon 15\nADD CHICKEN BOX\n100,000\n909\nSubtotal\nPB1 (10%)\n100,909\n10,091\nTotal\nCash\n111,000\nRp.111,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "87",
+                "endIndex": "94"
+              }
+            ],
+            "content": "111,000"
+          },
+          "type": "total_amount",
+          "mentionText": "111,000",
+          "confidence": 0.9648319,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7256944,
+                      "y": 0.8206019
+                    },
+                    {
+                      "x": 0.8489583,
+                      "y": 0.8206019
+                    },
+                    {
+                      "x": 0.8489583,
+                      "y": 0.8472222
+                    },
+                    {
+                      "x": 0.7256944,
+                      "y": 0.8472222
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "61",
+                "endIndex": "68"
+              }
+            ],
+            "content": "100,909"
+          },
+          "type": "net_amount",
+          "mentionText": "100,909",
+          "confidence": 0.88480157,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7309028,
+                      "y": 0.7210648
+                    },
+                    {
+                      "x": 0.8524306,
+                      "y": 0.7210648
+                    },
+                    {
+                      "x": 0.8524306,
+                      "y": 0.75
+                    },
+                    {
+                      "x": 0.7309028,
+                      "y": 0.75
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "82",
+                "endIndex": "86"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.64018863,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.104166664,
+                      "y": 0.8819444
+                    },
+                    {
+                      "x": 0.17881945,
+                      "y": 0.8819444
+                    },
+                    {
+                      "x": 0.17881945,
+                      "y": 0.9016204
+                    },
+                    {
+                      "x": 0.104166664,
+                      "y": 0.9016204
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "69",
+                "endIndex": "75"
+              }
+            ],
+            "content": "10,091"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "10,091",
+          "confidence": 0.61918384,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.75,
+                      "y": 0.7569444
+                    },
+                    {
+                      "x": 0.8524306,
+                      "y": 0.7569444
+                    },
+                    {
+                      "x": 0.8524306,
+                      "y": 0.7835648
+                    },
+                    {
+                      "x": 0.75,
+                      "y": 0.7835648
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "5",
+                "endIndex": "41"
+              }
+            ],
+            "content": "Kupon 15\nADD CHICKEN BOX\n100,000\n909"
+          },
+          "type": "supplier_address",
+          "mentionText": "Kupon 15\nADD CHICKEN BOX\n100,000\n909",
+          "confidence": 0.51091814,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.125,
+                      "y": 0.6099537
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.6099537
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.6759259
+                    },
+                    {
+                      "x": 0.125,
+                      "y": 0.6759259
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

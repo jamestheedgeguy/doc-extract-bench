@@ -1,0 +1,275 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0087",
+  "at": "2026-07-10T11:11:24.470Z",
+  "latencyMs": 3349,
+  "raw": {
+    "document": {
+      "text": "ய\nES\nVIETNA\n1 PHOTAI CHIN\nSub Total\nPB1 10.0%\n36,500\n36,500\n3,650\nGrand Total\n40,150\n5183230101CREDIT CARD\n40,150\nODLE\nPH\nNOODLE PHO NOODLE\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "78",
+                "endIndex": "84"
+              }
+            ],
+            "content": "40,150"
+          },
+          "type": "total_amount",
+          "mentionText": "40,150",
+          "confidence": 0.9285725,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6418219,
+                      "y": 0.664464
+                    },
+                    {
+                      "x": 0.75672877,
+                      "y": 0.664464
+                    },
+                    {
+                      "x": 0.75672877,
+                      "y": 0.6886931
+                    },
+                    {
+                      "x": 0.6418219,
+                      "y": 0.6886931
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "53",
+                "endIndex": "59"
+              }
+            ],
+            "content": "36,500"
+          },
+          "type": "net_amount",
+          "mentionText": "36,500",
+          "confidence": 0.86909086,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.64285713,
+                      "y": 0.5910426
+                    },
+                    {
+                      "x": 0.7546584,
+                      "y": 0.5910426
+                    },
+                    {
+                      "x": 0.7546584,
+                      "y": 0.6145374
+                    },
+                    {
+                      "x": 0.64285713,
+                      "y": 0.6145374
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "60",
+                "endIndex": "65"
+              }
+            ],
+            "content": "3,650"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "3,650",
+          "confidence": 0.65852344,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.66045547,
+                      "y": 0.6262849
+                    },
+                    {
+                      "x": 0.7587992,
+                      "y": 0.6262849
+                    },
+                    {
+                      "x": 0.7587992,
+                      "y": 0.6490455
+                    },
+                    {
+                      "x": 0.66045547,
+                      "y": 0.6490455
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "12",
+                "endIndex": "13"
+              },
+              {
+                "startIndex": "14",
+                "endIndex": "25"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 PHOTAI CHIN",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.16563147,
+                      "y": 0.53744495
+                    },
+                    {
+                      "x": 0.45134574,
+                      "y": 0.53744495
+                    },
+                    {
+                      "x": 0.45134574,
+                      "y": 0.5653451
+                    },
+                    {
+                      "x": 0.16563147,
+                      "y": 0.5653451
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "12",
+                    "endIndex": "13"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.6838379,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.16563147,
+                          "y": 0.54405284
+                        },
+                        {
+                          "x": 0.18322982,
+                          "y": 0.54405284
+                        },
+                        {
+                          "x": 0.18322982,
+                          "y": 0.5653451
+                        },
+                        {
+                          "x": 0.16563147,
+                          "y": 0.5653451
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "14",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "PHOTAI CHIN"
+              },
+              "type": "line_item/description",
+              "mentionText": "PHOTAI CHIN",
+              "confidence": 0.5506464,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.20289855,
+                          "y": 0.53744495
+                        },
+                        {
+                          "x": 0.45134574,
+                          "y": 0.53744495
+                        },
+                        {
+                          "x": 0.45134574,
+                          "y": 0.56461084
+                        },
+                        {
+                          "x": 0.20289855,
+                          "y": 0.56461084
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

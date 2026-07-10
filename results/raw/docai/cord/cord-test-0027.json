@@ -1,0 +1,488 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0027",
+  "at": "2026-07-10T11:07:19.591Z",
+  "latencyMs": 3133,
+  "raw": {
+    "document": {
+      "text": "FOO\nPKT AYAM\n33,000\nGULAI OTAK\n23,000\n2.00 ITEMS\nSUBTOTAL\n56,000\nTAX 10%\n5,600\nTOTAL\n61,600\nCHARGE5\n61,600\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "58",
+                "endIndex": "64"
+              }
+            ],
+            "content": "56,000"
+          },
+          "type": "net_amount",
+          "mentionText": "56,000",
+          "confidence": 0.883564,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7118056,
+                      "y": 0.4382716
+                    },
+                    {
+                      "x": 0.8472222,
+                      "y": 0.4382716
+                    },
+                    {
+                      "x": 0.8472222,
+                      "y": 0.46296296
+                    },
+                    {
+                      "x": 0.7118056,
+                      "y": 0.46296296
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "85",
+                "endIndex": "91"
+              }
+            ],
+            "content": "61,600"
+          },
+          "type": "total_amount",
+          "mentionText": "61,600",
+          "confidence": 0.8756955,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.712963,
+                      "y": 0.5123457
+                    },
+                    {
+                      "x": 0.8483796,
+                      "y": 0.5123457
+                    },
+                    {
+                      "x": 0.8483796,
+                      "y": 0.54089504
+                    },
+                    {
+                      "x": 0.712963,
+                      "y": 0.54089504
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "73",
+                "endIndex": "78"
+              }
+            ],
+            "content": "5,600"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "5,600",
+          "confidence": 0.6045743,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7349537,
+                      "y": 0.47685185
+                    },
+                    {
+                      "x": 0.8472222,
+                      "y": 0.47685185
+                    },
+                    {
+                      "x": 0.8472222,
+                      "y": 0.50308645
+                    },
+                    {
+                      "x": 0.7349537,
+                      "y": 0.50308645
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "4",
+                "endIndex": "12"
+              },
+              {
+                "startIndex": "13",
+                "endIndex": "19"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "PKT AYAM 33,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.11805555,
+                      "y": 0.3263889
+                    },
+                    {
+                      "x": 0.8425926,
+                      "y": 0.3263889
+                    },
+                    {
+                      "x": 0.8425926,
+                      "y": 0.35570988
+                    },
+                    {
+                      "x": 0.11805555,
+                      "y": 0.35570988
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "4",
+                    "endIndex": "12"
+                  }
+                ],
+                "content": "PKT AYAM"
+              },
+              "type": "line_item/description",
+              "mentionText": "PKT AYAM",
+              "confidence": 0.789853,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.11805555,
+                          "y": 0.33024693
+                        },
+                        {
+                          "x": 0.30324075,
+                          "y": 0.33024693
+                        },
+                        {
+                          "x": 0.30324075,
+                          "y": 0.35570988
+                        },
+                        {
+                          "x": 0.11805555,
+                          "y": 0.35570988
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "13",
+                    "endIndex": "19"
+                  }
+                ],
+                "content": "33,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "33,000",
+              "confidence": 0.8677706,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7083333,
+                          "y": 0.3263889
+                        },
+                        {
+                          "x": 0.8425926,
+                          "y": 0.3263889
+                        },
+                        {
+                          "x": 0.8425926,
+                          "y": 0.35108024
+                        },
+                        {
+                          "x": 0.7083333,
+                          "y": 0.35108024
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "20",
+                "endIndex": "30"
+              },
+              {
+                "startIndex": "31",
+                "endIndex": "37"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "GULAI OTAK 23,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.11574074,
+                      "y": 0.36342594
+                    },
+                    {
+                      "x": 0.8449074,
+                      "y": 0.36342594
+                    },
+                    {
+                      "x": 0.8449074,
+                      "y": 0.39429012
+                    },
+                    {
+                      "x": 0.11574074,
+                      "y": 0.39429012
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "20",
+                    "endIndex": "30"
+                  }
+                ],
+                "content": "GULAI OTAK"
+              },
+              "type": "line_item/description",
+              "mentionText": "GULAI OTAK",
+              "confidence": 0.72905654,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.11574074,
+                          "y": 0.36651236
+                        },
+                        {
+                          "x": 0.34953704,
+                          "y": 0.36651236
+                        },
+                        {
+                          "x": 0.34953704,
+                          "y": 0.39429012
+                        },
+                        {
+                          "x": 0.11574074,
+                          "y": 0.39429012
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "31",
+                    "endIndex": "37"
+                  }
+                ],
+                "content": "23,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "23,000",
+              "confidence": 0.88735884,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7106481,
+                          "y": 0.36342594
+                        },
+                        {
+                          "x": 0.8449074,
+                          "y": 0.36342594
+                        },
+                        {
+                          "x": 0.8449074,
+                          "y": 0.38811728
+                        },
+                        {
+                          "x": 0.7106481,
+                          "y": 0.38811728
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "38",
+                "endIndex": "42"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2.00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.37037036,
+                      "y": 0.4027778
+                    },
+                    {
+                      "x": 0.4652778,
+                      "y": 0.4027778
+                    },
+                    {
+                      "x": 0.4652778,
+                      "y": 0.42901236
+                    },
+                    {
+                      "x": 0.37037036,
+                      "y": 0.42901236
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "38",
+                    "endIndex": "42"
+                  }
+                ],
+                "content": "2.00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "2.00",
+              "confidence": 0.7258329,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.37037036,
+                          "y": 0.4027778
+                        },
+                        {
+                          "x": 0.4652778,
+                          "y": 0.4027778
+                        },
+                        {
+                          "x": 0.4652778,
+                          "y": 0.42901236
+                        },
+                        {
+                          "x": 0.37037036,
+                          "y": 0.42901236
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10",
+              "normalizedValue": {
+                "text": "2",
+                "moneyValue": {
+                  "units": "2"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

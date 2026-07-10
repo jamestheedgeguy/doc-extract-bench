@@ -1,0 +1,1162 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0014",
+  "at": "2026-07-10T11:06:43.034Z",
+  "latencyMs": 5100,
+  "raw": {
+    "document": {
+      "text": "1 RedVelvet Cheese Slc\n38,000\n1 Chicken Baked Rice\n55,000\n1 Fish n Chips\n65,000\n1 Mushroom Soup\n35,000\n1 Chamomile\n1 Iced Tea\nSUBTOTAL\n25,000\n20,000\n238,000\nService\n17,850\nPB1\n25,585\nTOTAL\n281,435\nCoupon\nCASH\n100,000\n200,000\nChange\n18,565\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "189",
+                "endIndex": "196"
+              }
+            ],
+            "content": "281,435"
+          },
+          "type": "total_amount",
+          "mentionText": "281,435",
+          "confidence": 0.86977637,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.583878,
+                      "y": 0.4877451
+                    },
+                    {
+                      "x": 0.7587146,
+                      "y": 0.4877451
+                    },
+                    {
+                      "x": 0.7587146,
+                      "y": 0.5033701
+                    },
+                    {
+                      "x": 0.583878,
+                      "y": 0.5033701
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "149",
+                "endIndex": "156"
+              }
+            ],
+            "content": "238,000"
+          },
+          "type": "net_amount",
+          "mentionText": "238,000",
+          "confidence": 0.79069334,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.66938996,
+                      "y": 0.43167892
+                    },
+                    {
+                      "x": 0.7576253,
+                      "y": 0.43167892
+                    },
+                    {
+                      "x": 0.7576253,
+                      "y": 0.44424018
+                    },
+                    {
+                      "x": 0.66938996,
+                      "y": 0.44424018
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "22"
+              },
+              {
+                "startIndex": "23",
+                "endIndex": "29"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 RedVelvet Cheese Slc 38,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.27995643,
+                      "y": 0.33394608
+                    },
+                    {
+                      "x": 0.753268,
+                      "y": 0.33394608
+                    },
+                    {
+                      "x": 0.753268,
+                      "y": 0.34650734
+                    },
+                    {
+                      "x": 0.27995643,
+                      "y": 0.34650734
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.84734386,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.27995643,
+                          "y": 0.33394608
+                        },
+                        {
+                          "x": 0.29139432,
+                          "y": 0.33394608
+                        },
+                        {
+                          "x": 0.29139432,
+                          "y": 0.34620097
+                        },
+                        {
+                          "x": 0.27995643,
+                          "y": 0.34620097
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "22"
+                  }
+                ],
+                "content": "RedVelvet Cheese Slc"
+              },
+              "type": "line_item/description",
+              "mentionText": "RedVelvet Cheese Slc",
+              "confidence": 0.59338105,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.30555555,
+                          "y": 0.33394608
+                        },
+                        {
+                          "x": 0.55446625,
+                          "y": 0.33394608
+                        },
+                        {
+                          "x": 0.55446625,
+                          "y": 0.34620097
+                        },
+                        {
+                          "x": 0.30555555,
+                          "y": 0.34620097
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "23",
+                    "endIndex": "29"
+                  }
+                ],
+                "content": "38,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "38,000",
+              "confidence": 0.8331069,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68028325,
+                          "y": 0.33425245
+                        },
+                        {
+                          "x": 0.753268,
+                          "y": 0.33425245
+                        },
+                        {
+                          "x": 0.753268,
+                          "y": 0.34650734
+                        },
+                        {
+                          "x": 0.68028325,
+                          "y": 0.34650734
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "30",
+                "endIndex": "31"
+              },
+              {
+                "startIndex": "32",
+                "endIndex": "50"
+              },
+              {
+                "startIndex": "51",
+                "endIndex": "57"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Chicken Baked Rice 55,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2805011,
+                      "y": 0.3480392
+                    },
+                    {
+                      "x": 0.7538126,
+                      "y": 0.3480392
+                    },
+                    {
+                      "x": 0.7538126,
+                      "y": 0.35998774
+                    },
+                    {
+                      "x": 0.2805011,
+                      "y": 0.35998774
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "31"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8484642,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2805011,
+                          "y": 0.34834558
+                        },
+                        {
+                          "x": 0.291939,
+                          "y": 0.34834558
+                        },
+                        {
+                          "x": 0.291939,
+                          "y": 0.359375
+                        },
+                        {
+                          "x": 0.2805011,
+                          "y": 0.359375
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "32",
+                    "endIndex": "50"
+                  }
+                ],
+                "content": "Chicken Baked Rice"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chicken Baked Rice",
+              "confidence": 0.6222128,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.30555555,
+                          "y": 0.3480392
+                        },
+                        {
+                          "x": 0.5294118,
+                          "y": 0.3480392
+                        },
+                        {
+                          "x": 0.5294118,
+                          "y": 0.35998774
+                        },
+                        {
+                          "x": 0.30555555,
+                          "y": 0.35998774
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "51",
+                    "endIndex": "57"
+                  }
+                ],
+                "content": "55,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "55,000",
+              "confidence": 0.8253279,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.67864925,
+                          "y": 0.34834558
+                        },
+                        {
+                          "x": 0.7538126,
+                          "y": 0.34834558
+                        },
+                        {
+                          "x": 0.7538126,
+                          "y": 0.35968137
+                        },
+                        {
+                          "x": 0.67864925,
+                          "y": 0.35968137
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "58",
+                "endIndex": "59"
+              },
+              {
+                "startIndex": "60",
+                "endIndex": "72"
+              },
+              {
+                "startIndex": "73",
+                "endIndex": "79"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Fish n Chips 65,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2805011,
+                      "y": 0.3602941
+                    },
+                    {
+                      "x": 0.75490195,
+                      "y": 0.3602941
+                    },
+                    {
+                      "x": 0.75490195,
+                      "y": 0.37683824
+                    },
+                    {
+                      "x": 0.2805011,
+                      "y": 0.37683824
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "58",
+                    "endIndex": "59"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.87283576,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2805011,
+                          "y": 0.3602941
+                        },
+                        {
+                          "x": 0.293573,
+                          "y": 0.3602941
+                        },
+                        {
+                          "x": 0.293573,
+                          "y": 0.37316176
+                        },
+                        {
+                          "x": 0.2805011,
+                          "y": 0.37316176
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "60",
+                    "endIndex": "72"
+                  }
+                ],
+                "content": "Fish n Chips"
+              },
+              "type": "line_item/description",
+              "mentionText": "Fish n Chips",
+              "confidence": 0.50411457,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.30228758,
+                          "y": 0.3606005
+                        },
+                        {
+                          "x": 0.45697168,
+                          "y": 0.3606005
+                        },
+                        {
+                          "x": 0.45697168,
+                          "y": 0.37683824
+                        },
+                        {
+                          "x": 0.30228758,
+                          "y": 0.37683824
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "73",
+                    "endIndex": "79"
+                  }
+                ],
+                "content": "65,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "65,000",
+              "confidence": 0.8034774,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68028325,
+                          "y": 0.36182597
+                        },
+                        {
+                          "x": 0.75490195,
+                          "y": 0.36182597
+                        },
+                        {
+                          "x": 0.75490195,
+                          "y": 0.37438726
+                        },
+                        {
+                          "x": 0.68028325,
+                          "y": 0.37438726
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "80",
+                "endIndex": "81"
+              },
+              {
+                "startIndex": "82",
+                "endIndex": "95"
+              },
+              {
+                "startIndex": "96",
+                "endIndex": "102"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Mushroom Soup 35,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2788671,
+                      "y": 0.375
+                    },
+                    {
+                      "x": 0.75490195,
+                      "y": 0.375
+                    },
+                    {
+                      "x": 0.75490195,
+                      "y": 0.39001226
+                    },
+                    {
+                      "x": 0.2788671,
+                      "y": 0.39001226
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "80",
+                    "endIndex": "81"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.86298805,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2788671,
+                          "y": 0.375
+                        },
+                        {
+                          "x": 0.2908497,
+                          "y": 0.375
+                        },
+                        {
+                          "x": 0.2908497,
+                          "y": 0.38786766
+                        },
+                        {
+                          "x": 0.2788671,
+                          "y": 0.38786766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "82",
+                    "endIndex": "95"
+                  }
+                ],
+                "content": "Mushroom Soup"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mushroom Soup",
+              "confidence": 0.6580444,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.30555555,
+                          "y": 0.375
+                        },
+                        {
+                          "x": 0.4711329,
+                          "y": 0.375
+                        },
+                        {
+                          "x": 0.4711329,
+                          "y": 0.39001226
+                        },
+                        {
+                          "x": 0.30555555,
+                          "y": 0.39001226
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "96",
+                    "endIndex": "102"
+                  }
+                ],
+                "content": "35,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "35,000",
+              "confidence": 0.845499,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6791939,
+                          "y": 0.37683824
+                        },
+                        {
+                          "x": 0.75490195,
+                          "y": 0.37683824
+                        },
+                        {
+                          "x": 0.75490195,
+                          "y": 0.38756126
+                        },
+                        {
+                          "x": 0.6791939,
+                          "y": 0.38756126
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "103",
+                "endIndex": "104"
+              },
+              {
+                "startIndex": "105",
+                "endIndex": "114"
+              },
+              {
+                "startIndex": "135",
+                "endIndex": "141"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Chamomile 25,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2815904,
+                      "y": 0.3884804
+                    },
+                    {
+                      "x": 0.7570806,
+                      "y": 0.3884804
+                    },
+                    {
+                      "x": 0.7570806,
+                      "y": 0.4041054
+                    },
+                    {
+                      "x": 0.2815904,
+                      "y": 0.4041054
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "103",
+                    "endIndex": "104"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8666671,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2815904,
+                          "y": 0.39031863
+                        },
+                        {
+                          "x": 0.29248366,
+                          "y": 0.39031863
+                        },
+                        {
+                          "x": 0.29248366,
+                          "y": 0.4007353
+                        },
+                        {
+                          "x": 0.2815904,
+                          "y": 0.4007353
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "105",
+                    "endIndex": "114"
+                  }
+                ],
+                "content": "Chamomile"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chamomile",
+              "confidence": 0.9217125,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.30446622,
+                          "y": 0.39031863
+                        },
+                        {
+                          "x": 0.41830066,
+                          "y": 0.39031863
+                        },
+                        {
+                          "x": 0.41830066,
+                          "y": 0.40134802
+                        },
+                        {
+                          "x": 0.30446622,
+                          "y": 0.40134802
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "135",
+                    "endIndex": "141"
+                  }
+                ],
+                "content": "25,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "25,000",
+              "confidence": 0.91868126,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6797386,
+                          "y": 0.3884804
+                        },
+                        {
+                          "x": 0.7570806,
+                          "y": 0.3884804
+                        },
+                        {
+                          "x": 0.7570806,
+                          "y": 0.4041054
+                        },
+                        {
+                          "x": 0.6797386,
+                          "y": 0.4041054
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "21"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "115",
+                "endIndex": "116"
+              },
+              {
+                "startIndex": "117",
+                "endIndex": "125"
+              },
+              {
+                "startIndex": "142",
+                "endIndex": "148"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Iced Tea 20,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.27832243,
+                      "y": 0.4041054
+                    },
+                    {
+                      "x": 0.7559913,
+                      "y": 0.4041054
+                    },
+                    {
+                      "x": 0.7559913,
+                      "y": 0.41666666
+                    },
+                    {
+                      "x": 0.27832243,
+                      "y": 0.41666666
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "22",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "115",
+                    "endIndex": "116"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8090072,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.27832243,
+                          "y": 0.40441176
+                        },
+                        {
+                          "x": 0.28976035,
+                          "y": 0.40441176
+                        },
+                        {
+                          "x": 0.28976035,
+                          "y": 0.41513482
+                        },
+                        {
+                          "x": 0.27832243,
+                          "y": 0.41513482
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "23",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "117",
+                    "endIndex": "125"
+                  }
+                ],
+                "content": "Iced Tea"
+              },
+              "type": "line_item/description",
+              "mentionText": "Iced Tea",
+              "confidence": 0.6669665,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3066449,
+                          "y": 0.40441176
+                        },
+                        {
+                          "x": 0.40631807,
+                          "y": 0.40441176
+                        },
+                        {
+                          "x": 0.40631807,
+                          "y": 0.41574755
+                        },
+                        {
+                          "x": 0.3066449,
+                          "y": 0.41574755
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "24"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "142",
+                    "endIndex": "148"
+                  }
+                ],
+                "content": "20,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "20,000",
+              "confidence": 0.7876751,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68028325,
+                          "y": 0.4041054
+                        },
+                        {
+                          "x": 0.7559913,
+                          "y": 0.4041054
+                        },
+                        {
+                          "x": 0.7559913,
+                          "y": 0.41666666
+                        },
+                        {
+                          "x": 0.68028325,
+                          "y": 0.41666666
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "25"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

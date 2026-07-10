@@ -1,0 +1,357 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0080",
+  "at": "2026-07-10T11:10:57.809Z",
+  "latencyMs": 1967,
+  "raw": {
+    "document": {
+      "text": "CATHE\n1 Viet Milk Coffee\n25.000\n+Ice\n+M\nSubtotal\nTotal\nCASH\nKembalian\n25.000\n25.000\n25.000\n0 LLC\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "70",
+                "endIndex": "76"
+              }
+            ],
+            "content": "25.000"
+          },
+          "type": "net_amount",
+          "mentionText": "25.000",
+          "confidence": 0.7593962,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7986111,
+                      "y": 0.63271606
+                    },
+                    {
+                      "x": 0.8958333,
+                      "y": 0.63271606
+                    },
+                    {
+                      "x": 0.8958333,
+                      "y": 0.6574074
+                    },
+                    {
+                      "x": 0.7986111,
+                      "y": 0.6574074
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "84",
+                "endIndex": "90"
+              }
+            ],
+            "content": "25.000"
+          },
+          "type": "total_amount",
+          "mentionText": "25.000",
+          "confidence": 0.7495652,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8032407,
+                      "y": 0.720679
+                    },
+                    {
+                      "x": 0.9074074,
+                      "y": 0.720679
+                    },
+                    {
+                      "x": 0.9074074,
+                      "y": 0.75617284
+                    },
+                    {
+                      "x": 0.8032407,
+                      "y": 0.75617284
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "5"
+              }
+            ],
+            "content": "CATHE"
+          },
+          "type": "supplier_name",
+          "mentionText": "CATHE",
+          "confidence": 0.63307375,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5069444,
+                      "y": 0.18981482
+                    },
+                    {
+                      "x": 0.7291667,
+                      "y": 0.18981482
+                    },
+                    {
+                      "x": 0.7291667,
+                      "y": 0.23148148
+                    },
+                    {
+                      "x": 0.5069444,
+                      "y": 0.23148148
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "6",
+                "endIndex": "7"
+              },
+              {
+                "startIndex": "8",
+                "endIndex": "24"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Viet Milk Coffee",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15046297,
+                      "y": 0.5324074
+                    },
+                    {
+                      "x": 0.44212964,
+                      "y": 0.5324074
+                    },
+                    {
+                      "x": 0.44212964,
+                      "y": 0.56635803
+                    },
+                    {
+                      "x": 0.15046297,
+                      "y": 0.56635803
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "6",
+                    "endIndex": "7"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.6065662,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15046297,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.1712963,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.1712963,
+                          "y": 0.56635803
+                        },
+                        {
+                          "x": 0.15046297,
+                          "y": 0.56635803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "8",
+                    "endIndex": "24"
+                  }
+                ],
+                "content": "Viet Milk Coffee"
+              },
+              "type": "line_item/description",
+              "mentionText": "Viet Milk Coffee",
+              "confidence": 0.54656917,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17592593,
+                          "y": 0.5324074
+                        },
+                        {
+                          "x": 0.44212964,
+                          "y": 0.5324074
+                        },
+                        {
+                          "x": 0.44212964,
+                          "y": 0.5648148
+                        },
+                        {
+                          "x": 0.17592593,
+                          "y": 0.5648148
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "25",
+                "endIndex": "31"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "25.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7847222,
+                      "y": 0.5185185
+                    },
+                    {
+                      "x": 0.8819444,
+                      "y": 0.5185185
+                    },
+                    {
+                      "x": 0.8819444,
+                      "y": 0.5416667
+                    },
+                    {
+                      "x": 0.7847222,
+                      "y": 0.5416667
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "25",
+                    "endIndex": "31"
+                  }
+                ],
+                "content": "25.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "25.000",
+              "confidence": 0.74780685,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7847222,
+                          "y": 0.5185185
+                        },
+                        {
+                          "x": 0.8819444,
+                          "y": 0.5185185
+                        },
+                        {
+                          "x": 0.8819444,
+                          "y": 0.5416667
+                        },
+                        {
+                          "x": 0.7847222,
+                          "y": 0.5416667
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0039",
+  "at": "2026-07-10T11:08:17.272Z",
+  "latencyMs": 2856,
+  "raw": {
+    "document": {
+      "text": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD\nN.\n8 PCS\nDISKON: (20%)\n243,000 1,944,000\n1,555,200\nHPL500 RICE CASE 7L W/CUP\n5 PCS\nDISKON: (20%)\n195,000\n975,000\n790.000\nHPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP\nDON\n4 PCS\n243,000\nDISKON: (20%)\n972.000\n777.600\nTOTAL ITEM:\nTOTAL OTY\nBAYAR CREDIT CARD\n3.112,800\nTOTAL HRG\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "295",
+                "endIndex": "304"
+              }
+            ],
+            "content": "3.112,800"
+          },
+          "type": "total_amount",
+          "mentionText": "3.112,800",
+          "confidence": 0.763127,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6111111,
+                      "y": 0.95910496
+                    },
+                    {
+                      "x": 0.7650463,
+                      "y": 0.95910496
+                    },
+                    {
+                      "x": 0.7650463,
+                      "y": 0.97762346
+                    },
+                    {
+                      "x": 0.6111111,
+                      "y": 0.97762346
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "3112.8",
+            "moneyValue": {
+              "units": "3112",
+              "nanos": 800000000
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "277",
+                "endIndex": "294"
+              }
+            ],
+            "content": "BAYAR CREDIT CARD"
+          },
+          "type": "payment_type",
+          "mentionText": "BAYAR CREDIT CARD",
+          "confidence": 0.39215246,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14699075,
+                      "y": 0.9506173
+                    },
+                    {
+                      "x": 0.44328704,
+                      "y": 0.9506173
+                    },
+                    {
+                      "x": 0.44328704,
+                      "y": 0.9768519
+                    },
+                    {
+                      "x": 0.14699075,
+                      "y": 0.9768519
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "42"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1412037,
+                      "y": 0.54320985
+                    },
+                    {
+                      "x": 0.9039352,
+                      "y": 0.54320985
+                    },
+                    {
+                      "x": 0.9039352,
+                      "y": 0.5902778
+                    },
+                    {
+                      "x": 0.1412037,
+                      "y": 0.5902778
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "42"
+                  }
+                ],
+                "content": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD"
+              },
+              "type": "line_item/description",
+              "mentionText": "HPL754DR LUNCH BOX 3P SET W/RED BAG & SPOD",
+              "confidence": 0.44051048,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1412037,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.9039352,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.9039352,
+                          "y": 0.5902778
+                        },
+                        {
+                          "x": 0.1412037,
+                          "y": 0.5902778
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "43",
+                "endIndex": "51"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "N.\n8 PCS",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14467593,
+                      "y": 0.5779321
+                    },
+                    {
+                      "x": 0.27430555,
+                      "y": 0.5779321
+                    },
+                    {
+                      "x": 0.27430555,
+                      "y": 0.62114197
+                    },
+                    {
+                      "x": 0.14467593,
+                      "y": 0.62114197
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "43",
+                    "endIndex": "51"
+                  }
+                ],
+                "content": "N.\n8 PCS"
+              },
+              "type": "line_item/description",
+              "mentionText": "N.\n8 PCS",
+              "confidence": 0.4379331,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.14467593,
+                          "y": 0.5779321
+                        },
+                        {
+                          "x": 0.27430555,
+                          "y": 0.5779321
+                        },
+                        {
+                          "x": 0.27430555,
+                          "y": 0.62114197
+                        },
+                        {
+                          "x": 0.14467593,
+                          "y": 0.62114197
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "52",
+                "endIndex": "65"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "DISKON: (20%)",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15046297,
+                      "y": 0.63117284
+                    },
+                    {
+                      "x": 0.3773148,
+                      "y": 0.63117284
+                    },
+                    {
+                      "x": 0.3773148,
+                      "y": 0.654321
+                    },
+                    {
+                      "x": 0.15046297,
+                      "y": 0.654321
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "52",
+                    "endIndex": "65"
+                  }
+                ],
+                "content": "DISKON: (20%)"
+              },
+              "type": "line_item/description",
+              "mentionText": "DISKON: (20%)",
+              "confidence": 0.4580674,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15046297,
+                          "y": 0.63117284
+                        },
+                        {
+                          "x": 0.3773148,
+                          "y": 0.63117284
+                        },
+                        {
+                          "x": 0.3773148,
+                          "y": 0.654321
+                        },
+                        {
+                          "x": 0.15046297,
+                          "y": 0.654321
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "74",
+                "endIndex": "83"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1,944,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6053241,
+                      "y": 0.61419755
+                    },
+                    {
+                      "x": 0.7685185,
+                      "y": 0.61419755
+                    },
+                    {
+                      "x": 0.7685185,
+                      "y": 0.6365741
+                    },
+                    {
+                      "x": 0.6053241,
+                      "y": 0.6365741
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "74",
+                    "endIndex": "83"
+                  }
+                ],
+                "content": "1,944,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "1,944,000",
+              "confidence": 0.8270985,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6053241,
+                          "y": 0.61419755
+                        },
+                        {
+                          "x": 0.7685185,
+                          "y": 0.61419755
+                        },
+                        {
+                          "x": 0.7685185,
+                          "y": 0.6365741
+                        },
+                        {
+                          "x": 0.6053241,
+                          "y": 0.6365741
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9",
+              "normalizedValue": {
+                "text": "1944000",
+                "moneyValue": {
+                  "units": "1944000"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "84",
+                "endIndex": "93"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1,555,200",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6053241,
+                      "y": 0.6427469
+                    },
+                    {
+                      "x": 0.7638889,
+                      "y": 0.6427469
+                    },
+                    {
+                      "x": 0.7638889,
+                      "y": 0.66280866
+                    },
+                    {
+                      "x": 0.6053241,
+                      "y": 0.66280866
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "84",
+                    "endIndex": "93"
+                  }
+                ],
+                "content": "1,555,200"
+              },
+              "type": "line_item/amount",
+              "mentionText": "1,555,200",
+              "confidence": 0.7745877,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6053241,
+                          "y": 0.6427469
+                        },
+                        {
+                          "x": 0.7638889,
+                          "y": 0.6427469
+                        },
+                        {
+                          "x": 0.7638889,
+                          "y": 0.66280866
+                        },
+                        {
+                          "x": 0.6053241,
+                          "y": 0.66280866
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "1555200",
+                "moneyValue": {
+                  "units": "1555200"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "94",
+                "endIndex": "139"
+              },
+              {
+                "startIndex": "148",
+                "endIndex": "155"
+              },
+              {
+                "startIndex": "156",
+                "endIndex": "163"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "HPL500 RICE CASE 7L W/CUP\n5 PCS\nDISKON: (20%) 975,000 790.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14699075,
+                      "y": 0.6574074
+                    },
+                    {
+                      "x": 0.7569444,
+                      "y": 0.6574074
+                    },
+                    {
+                      "x": 0.7569444,
+                      "y": 0.73996913
+                    },
+                    {
+                      "x": 0.14699075,
+                      "y": 0.73996913
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "94",
+                    "endIndex": "139"
+                  }
+                ],
+                "content": "HPL500 RICE CASE 7L W/CUP\n5 PCS\nDISKON: (20%)"
+              },
+              "type": "line_item/description",
+              "mentionText": "HPL500 RICE CASE 7L W/CUP\n5 PCS\nDISKON: (20%)",
+              "confidence": 0.593017,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.14699075,
+                          "y": 0.6574074
+                        },
+                        {
+                          "x": 0.587963,
+                          "y": 0.6574074
+                        },
+                        {
+                          "x": 0.587963,
+                          "y": 0.7368827
+                        },
+                        {
+                          "x": 0.14699075,
+                          "y": 0.7368827
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "148",
+                    "endIndex": "155"
+                  }
+                ],
+                "content": "975,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "975,000",
+              "confidence": 0.93230116,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6365741,
+                          "y": 0.6967593
+                        },
+                        {
+                          "x": 0.7569444,
+                          "y": 0.6967593
+                        },
+                        {
+                          "x": 0.7569444,
+                          "y": 0.71450615
+                        },
+                        {
+                          "x": 0.6365741,
+                          "y": 0.71450615
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "156",
+                    "endIndex": "163"
+                  }
+                ],
+                "content": "790.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "790.000",
+              "confidence": 0.7977263,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6342593,
+                          "y": 0.72299385
+                        },
+                        {
+                          "x": 0.7546296,
+                          "y": 0.72299385
+                        },
+                        {
+                          "x": 0.7546296,
+                          "y": 0.73996913
+                        },
+                        {
+                          "x": 0.6342593,
+                          "y": 0.73996913
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "164",
+                "endIndex": "210"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "HPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP\nDON",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15046297,
+                      "y": 0.74151236
+                    },
+                    {
+                      "x": 0.8773148,
+                      "y": 0.74151236
+                    },
+                    {
+                      "x": 0.8773148,
+                      "y": 0.79243827
+                    },
+                    {
+                      "x": 0.15046297,
+                      "y": 0.79243827
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "16",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "164",
+                    "endIndex": "210"
+                  }
+                ],
+                "content": "HPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP\nDON"
+              },
+              "type": "line_item/description",
+              "mentionText": "HPL754BB LUNCH BOX 3P SET W/BLACK BAG & SP\nDON",
+              "confidence": 0.4994099,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15046297,
+                          "y": 0.74151236
+                        },
+                        {
+                          "x": 0.8773148,
+                          "y": 0.74151236
+                        },
+                        {
+                          "x": 0.8773148,
+                          "y": 0.79243827
+                        },
+                        {
+                          "x": 0.15046297,
+                          "y": 0.79243827
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "211",
+                "endIndex": "212"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "4",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1863426,
+                      "y": 0.8055556
+                    },
+                    {
+                      "x": 0.20601852,
+                      "y": 0.8055556
+                    },
+                    {
+                      "x": 0.20601852,
+                      "y": 0.8240741
+                    },
+                    {
+                      "x": 0.1863426,
+                      "y": 0.8240741
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "211",
+                    "endIndex": "212"
+                  }
+                ],
+                "content": "4"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "4",
+              "confidence": 0.7199242,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1863426,
+                          "y": 0.8055556
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.8055556
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.8240741
+                        },
+                        {
+                          "x": 0.1863426,
+                          "y": 0.8240741
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "4",
+                "integerValue": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

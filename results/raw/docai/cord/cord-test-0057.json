@@ -1,0 +1,227 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0057",
+  "at": "2026-07-10T11:09:18.137Z",
+  "latencyMs": 2119,
+  "raw": {
+    "document": {
+      "text": "I4-22\nICED TT\nICED GT\nCASH\n.20,000\n-22,000\n42,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "43",
+                "endIndex": "49"
+              }
+            ],
+            "content": "42,000"
+          },
+          "type": "total_amount",
+          "mentionText": "42,000",
+          "confidence": 0.9334375,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5434028,
+                      "y": 0.7453704
+                    },
+                    {
+                      "x": 0.9079861,
+                      "y": 0.7453704
+                    },
+                    {
+                      "x": 0.9079861,
+                      "y": 0.775463
+                    },
+                    {
+                      "x": 0.5434028,
+                      "y": 0.775463
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "27",
+                "endIndex": "34"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": ".20,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6857639,
+                      "y": 0.6724537
+                    },
+                    {
+                      "x": 0.9270833,
+                      "y": 0.6724537
+                    },
+                    {
+                      "x": 0.9270833,
+                      "y": 0.7025463
+                    },
+                    {
+                      "x": 0.6857639,
+                      "y": 0.7025463
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "27",
+                    "endIndex": "34"
+                  }
+                ],
+                "content": ".20,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": ".20,000",
+              "confidence": 0.64065707,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6857639,
+                          "y": 0.6724537
+                        },
+                        {
+                          "x": 0.9270833,
+                          "y": 0.6724537
+                        },
+                        {
+                          "x": 0.9270833,
+                          "y": 0.7025463
+                        },
+                        {
+                          "x": 0.6857639,
+                          "y": 0.7025463
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "2"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "35",
+                "endIndex": "42"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "-22,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6857639,
+                      "y": 0.7118056
+                    },
+                    {
+                      "x": 0.9253472,
+                      "y": 0.7118056
+                    },
+                    {
+                      "x": 0.9253472,
+                      "y": 0.7395833
+                    },
+                    {
+                      "x": 0.6857639,
+                      "y": 0.7395833
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "35",
+                    "endIndex": "42"
+                  }
+                ],
+                "content": "-22,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "-22,000",
+              "confidence": 0.3440498,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6857639,
+                          "y": 0.7118056
+                        },
+                        {
+                          "x": 0.9253472,
+                          "y": 0.7118056
+                        },
+                        {
+                          "x": 0.9253472,
+                          "y": 0.7395833
+                        },
+                        {
+                          "x": 0.6857639,
+                          "y": 0.7395833
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

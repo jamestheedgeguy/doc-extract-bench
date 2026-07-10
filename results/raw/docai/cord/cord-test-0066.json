@@ -1,0 +1,352 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0066",
+  "at": "2026-07-10T11:09:56.141Z",
+  "latencyMs": 2832,
+  "raw": {
+    "document": {
+      "text": "PILLOW DURIA\n36,364\nPLASTIK 25\nSUBTOTAL\n36,364\nPB1 10%\n10.000Z\nAMOUNT\n3.636\nTOTAL\n40,000\nCASH\n50.000\nCHANGE\n10,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "82",
+                "endIndex": "88"
+              }
+            ],
+            "content": "40,000"
+          },
+          "type": "total_amount",
+          "mentionText": "40,000",
+          "confidence": 0.86874306,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6331019,
+                      "y": 0.71219134
+                    },
+                    {
+                      "x": 0.7719907,
+                      "y": 0.71219134
+                    },
+                    {
+                      "x": 0.7719907,
+                      "y": 0.73996913
+                    },
+                    {
+                      "x": 0.6331019,
+                      "y": 0.73996913
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "40",
+                "endIndex": "46"
+              }
+            ],
+            "content": "36,364"
+          },
+          "type": "net_amount",
+          "mentionText": "36,364",
+          "confidence": 0.8434479,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6342593,
+                      "y": 0.5486111
+                    },
+                    {
+                      "x": 0.7743056,
+                      "y": 0.5486111
+                    },
+                    {
+                      "x": 0.7743056,
+                      "y": 0.5787037
+                    },
+                    {
+                      "x": 0.6342593,
+                      "y": 0.5787037
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "89",
+                "endIndex": "93"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.74485415,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18171297,
+                      "y": 0.75
+                    },
+                    {
+                      "x": 0.27546296,
+                      "y": 0.75
+                    },
+                    {
+                      "x": 0.27546296,
+                      "y": 0.7816358
+                    },
+                    {
+                      "x": 0.18171297,
+                      "y": 0.7816358
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "12"
+              },
+              {
+                "startIndex": "13",
+                "endIndex": "19"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "PILLOW DURIA 36,364",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.16898148,
+                      "y": 0.4675926
+                    },
+                    {
+                      "x": 0.7743056,
+                      "y": 0.4675926
+                    },
+                    {
+                      "x": 0.7743056,
+                      "y": 0.49691358
+                    },
+                    {
+                      "x": 0.16898148,
+                      "y": 0.49691358
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "12"
+                  }
+                ],
+                "content": "PILLOW DURIA"
+              },
+              "type": "line_item/description",
+              "mentionText": "PILLOW DURIA",
+              "confidence": 0.67721075,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.16898148,
+                          "y": 0.4675926
+                        },
+                        {
+                          "x": 0.44907406,
+                          "y": 0.4675926
+                        },
+                        {
+                          "x": 0.44907406,
+                          "y": 0.49691358
+                        },
+                        {
+                          "x": 0.16898148,
+                          "y": 0.49691358
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "13",
+                    "endIndex": "19"
+                  }
+                ],
+                "content": "36,364"
+              },
+              "type": "line_item/amount",
+              "mentionText": "36,364",
+              "confidence": 0.9147611,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6377315,
+                          "y": 0.4699074
+                        },
+                        {
+                          "x": 0.7743056,
+                          "y": 0.4699074
+                        },
+                        {
+                          "x": 0.7743056,
+                          "y": 0.49691358
+                        },
+                        {
+                          "x": 0.6377315,
+                          "y": 0.49691358
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "20",
+                "endIndex": "30"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "PLASTIK 25",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18171297,
+                      "y": 0.50848764
+                    },
+                    {
+                      "x": 0.41435185,
+                      "y": 0.50848764
+                    },
+                    {
+                      "x": 0.41435185,
+                      "y": 0.537037
+                    },
+                    {
+                      "x": 0.18171297,
+                      "y": 0.537037
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "20",
+                    "endIndex": "30"
+                  }
+                ],
+                "content": "PLASTIK 25"
+              },
+              "type": "line_item/description",
+              "mentionText": "PLASTIK 25",
+              "confidence": 0.55001837,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.18171297,
+                          "y": 0.50848764
+                        },
+                        {
+                          "x": 0.41435185,
+                          "y": 0.50848764
+                        },
+                        {
+                          "x": 0.41435185,
+                          "y": 0.537037
+                        },
+                        {
+                          "x": 0.18171297,
+                          "y": 0.537037
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0015",
+  "at": "2026-07-10T11:06:45.392Z",
+  "latencyMs": 2356,
+  "raw": {
+    "document": {
+      "text": "XXI\ncafé\n1 Lemon Tea (L)\n1 Caramel Small\nCASH\nCHANGED\n25.000\n38.000\nTOTAL\n63.000\n70.000\n7.000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "74",
+                "endIndex": "80"
+              }
+            ],
+            "content": "63.000"
+          },
+          "type": "total_amount",
+          "mentionText": "63.000",
+          "confidence": 0.9562706,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7395833,
+                      "y": 0.7141204
+                    },
+                    {
+                      "x": 0.8663194,
+                      "y": 0.7141204
+                    },
+                    {
+                      "x": 0.8663194,
+                      "y": 0.7592593
+                    },
+                    {
+                      "x": 0.7395833,
+                      "y": 0.7592593
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "8"
+              }
+            ],
+            "content": "XXI\ncafé"
+          },
+          "type": "supplier_name",
+          "mentionText": "XXI\ncafé",
+          "confidence": 0.5603797,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.36631945,
+                      "y": 0.1875
+                    },
+                    {
+                      "x": 0.6059028,
+                      "y": 0.1875
+                    },
+                    {
+                      "x": 0.6059028,
+                      "y": 0.3287037
+                    },
+                    {
+                      "x": 0.36631945,
+                      "y": 0.3287037
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "text": "Cinema XXI"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "9",
+                "endIndex": "10"
+              },
+              {
+                "startIndex": "11",
+                "endIndex": "24"
+              },
+              {
+                "startIndex": "54",
+                "endIndex": "60"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Lemon Tea (L) 25.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.0625,
+                      "y": 0.5960648
+                    },
+                    {
+                      "x": 0.8559028,
+                      "y": 0.5960648
+                    },
+                    {
+                      "x": 0.8559028,
+                      "y": 0.6365741
+                    },
+                    {
+                      "x": 0.0625,
+                      "y": 0.6365741
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "9",
+                    "endIndex": "10"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7936334,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.0625,
+                          "y": 0.5960648
+                        },
+                        {
+                          "x": 0.088541664,
+                          "y": 0.5960648
+                        },
+                        {
+                          "x": 0.088541664,
+                          "y": 0.6226852
+                        },
+                        {
+                          "x": 0.0625,
+                          "y": 0.6226852
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "11",
+                    "endIndex": "24"
+                  }
+                ],
+                "content": "Lemon Tea (L)"
+              },
+              "type": "line_item/description",
+              "mentionText": "Lemon Tea (L)",
+              "confidence": 0.76564914,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.14409722,
+                          "y": 0.5960648
+                        },
+                        {
+                          "x": 0.41145834,
+                          "y": 0.5960648
+                        },
+                        {
+                          "x": 0.41145834,
+                          "y": 0.6273148
+                        },
+                        {
+                          "x": 0.14409722,
+                          "y": 0.6273148
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "54",
+                    "endIndex": "60"
+                  }
+                ],
+                "content": "25.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "25.000",
+              "confidence": 0.8745422,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7378472,
+                          "y": 0.6122685
+                        },
+                        {
+                          "x": 0.8559028,
+                          "y": 0.6122685
+                        },
+                        {
+                          "x": 0.8559028,
+                          "y": 0.6365741
+                        },
+                        {
+                          "x": 0.7378472,
+                          "y": 0.6365741
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "25",
+                "endIndex": "26"
+              },
+              {
+                "startIndex": "27",
+                "endIndex": "40"
+              },
+              {
+                "startIndex": "61",
+                "endIndex": "67"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Caramel Small 38.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.057291668,
+                      "y": 0.6296296
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.6296296
+                    },
+                    {
+                      "x": 0.8576389,
+                      "y": 0.6701389
+                    },
+                    {
+                      "x": 0.057291668,
+                      "y": 0.6701389
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "25",
+                    "endIndex": "26"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.78017074,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.057291668,
+                          "y": 0.6296296
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.6296296
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.6574074
+                        },
+                        {
+                          "x": 0.057291668,
+                          "y": 0.6574074
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "27",
+                    "endIndex": "40"
+                  }
+                ],
+                "content": "Caramel Small"
+              },
+              "type": "line_item/description",
+              "mentionText": "Caramel Small",
+              "confidence": 0.49155065,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.140625,
+                          "y": 0.6296296
+                        },
+                        {
+                          "x": 0.41319445,
+                          "y": 0.6296296
+                        },
+                        {
+                          "x": 0.41319445,
+                          "y": 0.6643519
+                        },
+                        {
+                          "x": 0.140625,
+                          "y": 0.6643519
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "61",
+                    "endIndex": "67"
+                  }
+                ],
+                "content": "38.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "38.000",
+              "confidence": 0.8816662,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7395833,
+                          "y": 0.6446759
+                        },
+                        {
+                          "x": 0.8576389,
+                          "y": 0.6446759
+                        },
+                        {
+                          "x": 0.8576389,
+                          "y": 0.6701389
+                        },
+                        {
+                          "x": 0.7395833,
+                          "y": 0.6701389
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "41",
+                "endIndex": "45"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "CASH",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.036458332,
+                      "y": 0.8009259
+                    },
+                    {
+                      "x": 0.1267361,
+                      "y": 0.8009259
+                    },
+                    {
+                      "x": 0.1267361,
+                      "y": 0.8275463
+                    },
+                    {
+                      "x": 0.036458332,
+                      "y": 0.8275463
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "41",
+                    "endIndex": "45"
+                  }
+                ],
+                "content": "CASH"
+              },
+              "type": "line_item/description",
+              "mentionText": "CASH",
+              "confidence": 0.5519628,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.036458332,
+                          "y": 0.8009259
+                        },
+                        {
+                          "x": 0.1267361,
+                          "y": 0.8009259
+                        },
+                        {
+                          "x": 0.1267361,
+                          "y": 0.8275463
+                        },
+                        {
+                          "x": 0.036458332,
+                          "y": 0.8275463
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "46",
+                "endIndex": "53"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "CHANGED",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.029513888,
+                      "y": 0.8391204
+                    },
+                    {
+                      "x": 0.19097222,
+                      "y": 0.8391204
+                    },
+                    {
+                      "x": 0.19097222,
+                      "y": 0.8634259
+                    },
+                    {
+                      "x": 0.029513888,
+                      "y": 0.8634259
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "12",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "46",
+                    "endIndex": "53"
+                  }
+                ],
+                "content": "CHANGED"
+              },
+              "type": "line_item/description",
+              "mentionText": "CHANGED",
+              "confidence": 0.5917759,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.029513888,
+                          "y": 0.8391204
+                        },
+                        {
+                          "x": 0.19097222,
+                          "y": 0.8391204
+                        },
+                        {
+                          "x": 0.19097222,
+                          "y": 0.8634259
+                        },
+                        {
+                          "x": 0.029513888,
+                          "y": 0.8634259
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

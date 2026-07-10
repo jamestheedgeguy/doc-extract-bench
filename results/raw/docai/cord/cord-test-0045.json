@@ -1,0 +1,810 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0045",
+  "at": "2026-07-10T11:08:42.693Z",
+  "latencyMs": 3220,
+  "raw": {
+    "document": {
+      "text": "XXI\n1 Lemon Tea (L).\n25.000\n1 Mike & Ike Original\n28.000\n1 Mike & Berry\n28.000\n1 Roti Keju Manis.\n7.000\nTOTAL\n88.000\nCASH\nCHANGED\n88.000\n0\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "110",
+                "endIndex": "116"
+              }
+            ],
+            "content": "88.000"
+          },
+          "type": "total_amount",
+          "mentionText": "88.000",
+          "confidence": 0.93339705,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7372685,
+                      "y": 0.6743827
+                    },
+                    {
+                      "x": 0.8402778,
+                      "y": 0.6743827
+                    },
+                    {
+                      "x": 0.8402778,
+                      "y": 0.7106481
+                    },
+                    {
+                      "x": 0.7372685,
+                      "y": 0.7106481
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "117",
+                "endIndex": "121"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.75066745,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1712963,
+                      "y": 0.7623457
+                    },
+                    {
+                      "x": 0.24074075,
+                      "y": 0.7623457
+                    },
+                    {
+                      "x": 0.24074075,
+                      "y": 0.7839506
+                    },
+                    {
+                      "x": 0.1712963,
+                      "y": 0.7839506
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "4",
+                "endIndex": "5"
+              },
+              {
+                "startIndex": "6",
+                "endIndex": "20"
+              },
+              {
+                "startIndex": "28",
+                "endIndex": "29"
+              },
+              {
+                "startIndex": "30",
+                "endIndex": "49"
+              },
+              {
+                "startIndex": "50",
+                "endIndex": "56"
+              },
+              {
+                "startIndex": "72",
+                "endIndex": "78"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Lemon Tea (L). 1 Mike & Ike Original 28.000 28.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1863426,
+                      "y": 0.5578704
+                    },
+                    {
+                      "x": 0.8240741,
+                      "y": 0.5578704
+                    },
+                    {
+                      "x": 0.8240741,
+                      "y": 0.6157407
+                    },
+                    {
+                      "x": 0.1863426,
+                      "y": 0.6157407
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "4",
+                    "endIndex": "5"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7476577,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1886574,
+                          "y": 0.56558645
+                        },
+                        {
+                          "x": 0.2048611,
+                          "y": 0.56558645
+                        },
+                        {
+                          "x": 0.2048611,
+                          "y": 0.58641976
+                        },
+                        {
+                          "x": 0.1886574,
+                          "y": 0.58641976
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "6",
+                    "endIndex": "20"
+                  }
+                ],
+                "content": "Lemon Tea (L)."
+              },
+              "type": "line_item/description",
+              "mentionText": "Lemon Tea (L).",
+              "confidence": 0.78682077,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2488426,
+                          "y": 0.5578704
+                        },
+                        {
+                          "x": 0.4664352,
+                          "y": 0.5578704
+                        },
+                        {
+                          "x": 0.4664352,
+                          "y": 0.58487654
+                        },
+                        {
+                          "x": 0.2488426,
+                          "y": 0.58487654
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "28",
+                    "endIndex": "29"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7749369,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1863426,
+                          "y": 0.587963
+                        },
+                        {
+                          "x": 0.2025463,
+                          "y": 0.587963
+                        },
+                        {
+                          "x": 0.2025463,
+                          "y": 0.6087963
+                        },
+                        {
+                          "x": 0.1863426,
+                          "y": 0.6087963
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "49"
+                  }
+                ],
+                "content": "Mike & Ike Original"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mike & Ike Original",
+              "confidence": 0.5993168,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.24768518,
+                          "y": 0.5771605
+                        },
+                        {
+                          "x": 0.5509259,
+                          "y": 0.5771605
+                        },
+                        {
+                          "x": 0.5509259,
+                          "y": 0.6064815
+                        },
+                        {
+                          "x": 0.24768518,
+                          "y": 0.6064815
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "50",
+                    "endIndex": "56"
+                  }
+                ],
+                "content": "28.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "28.000",
+              "confidence": 0.8337454,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.71875,
+                          "y": 0.56790125
+                        },
+                        {
+                          "x": 0.8194444,
+                          "y": 0.56790125
+                        },
+                        {
+                          "x": 0.8194444,
+                          "y": 0.5910494
+                        },
+                        {
+                          "x": 0.71875,
+                          "y": 0.5910494
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "72",
+                    "endIndex": "78"
+                  }
+                ],
+                "content": "28.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "28.000",
+              "confidence": 0.7942896,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.724537,
+                          "y": 0.591821
+                        },
+                        {
+                          "x": 0.8240741,
+                          "y": 0.591821
+                        },
+                        {
+                          "x": 0.8240741,
+                          "y": 0.6157407
+                        },
+                        {
+                          "x": 0.724537,
+                          "y": 0.6157407
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "21",
+                "endIndex": "27"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "25.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7141204,
+                      "y": 0.54320985
+                    },
+                    {
+                      "x": 0.8125,
+                      "y": 0.54320985
+                    },
+                    {
+                      "x": 0.8125,
+                      "y": 0.56635803
+                    },
+                    {
+                      "x": 0.7141204,
+                      "y": 0.56635803
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "9",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "21",
+                    "endIndex": "27"
+                  }
+                ],
+                "content": "25.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "25.000",
+              "confidence": 0.7954898,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7141204,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.56635803
+                        },
+                        {
+                          "x": 0.7141204,
+                          "y": 0.56635803
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "57",
+                "endIndex": "58"
+              },
+              {
+                "startIndex": "59",
+                "endIndex": "71"
+              },
+              {
+                "startIndex": "98",
+                "endIndex": "103"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Mike & Berry 7.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18402778,
+                      "y": 0.6064815
+                    },
+                    {
+                      "x": 0.8275463,
+                      "y": 0.6064815
+                    },
+                    {
+                      "x": 0.8275463,
+                      "y": 0.6404321
+                    },
+                    {
+                      "x": 0.18402778,
+                      "y": 0.6404321
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "57",
+                    "endIndex": "58"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.77588683,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.18402778,
+                          "y": 0.6118827
+                        },
+                        {
+                          "x": 0.2013889,
+                          "y": 0.6118827
+                        },
+                        {
+                          "x": 0.2013889,
+                          "y": 0.63117284
+                        },
+                        {
+                          "x": 0.18402778,
+                          "y": 0.63117284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "59",
+                    "endIndex": "71"
+                  }
+                ],
+                "content": "Mike & Berry"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mike & Berry",
+              "confidence": 0.7083367,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.24652778,
+                          "y": 0.6064815
+                        },
+                        {
+                          "x": 0.44444445,
+                          "y": 0.6064815
+                        },
+                        {
+                          "x": 0.44444445,
+                          "y": 0.6296296
+                        },
+                        {
+                          "x": 0.24652778,
+                          "y": 0.6296296
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "98",
+                    "endIndex": "103"
+                  }
+                ],
+                "content": "7.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "7.000",
+              "confidence": 0.8588096,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7453704,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.8275463,
+                          "y": 0.6180556
+                        },
+                        {
+                          "x": 0.8275463,
+                          "y": 0.6404321
+                        },
+                        {
+                          "x": 0.7453704,
+                          "y": 0.6404321
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "79",
+                "endIndex": "80"
+              },
+              {
+                "startIndex": "81",
+                "endIndex": "97"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Roti Keju Manis.",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.18055555,
+                      "y": 0.62808645
+                    },
+                    {
+                      "x": 0.5034722,
+                      "y": 0.62808645
+                    },
+                    {
+                      "x": 0.5034722,
+                      "y": 0.6550926
+                    },
+                    {
+                      "x": 0.18055555,
+                      "y": 0.6550926
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "15",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "79",
+                    "endIndex": "80"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7741607,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.18055555,
+                          "y": 0.63503087
+                        },
+                        {
+                          "x": 0.19791667,
+                          "y": 0.63503087
+                        },
+                        {
+                          "x": 0.19791667,
+                          "y": 0.6550926
+                        },
+                        {
+                          "x": 0.18055555,
+                          "y": 0.6550926
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "81",
+                    "endIndex": "97"
+                  }
+                ],
+                "content": "Roti Keju Manis."
+              },
+              "type": "line_item/description",
+              "mentionText": "Roti Keju Manis.",
+              "confidence": 0.65960056,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.24421297,
+                          "y": 0.62808645
+                        },
+                        {
+                          "x": 0.5034722,
+                          "y": 0.62808645
+                        },
+                        {
+                          "x": 0.5034722,
+                          "y": 0.6535494
+                        },
+                        {
+                          "x": 0.24421297,
+                          "y": 0.6535494
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

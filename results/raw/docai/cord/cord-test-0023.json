@@ -1,0 +1,454 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0023",
+  "at": "2026-07-10T11:07:08.737Z",
+  "latencyMs": 3278,
+  "raw": {
+    "document": {
+      "text": "6 TWIST DONUT\n1 REDBEAN BREAD\n54,000\n9,000\nTOTAL\n63,000\nCASH\n70,000\nCHANGE\n7,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "49",
+                "endIndex": "55"
+              }
+            ],
+            "content": "63,000"
+          },
+          "type": "total_amount",
+          "mentionText": "63,000",
+          "confidence": 0.9668841,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5671296,
+                      "y": 0.5347222
+                    },
+                    {
+                      "x": 0.7395833,
+                      "y": 0.5347222
+                    },
+                    {
+                      "x": 0.7395833,
+                      "y": 0.57021606
+                    },
+                    {
+                      "x": 0.5671296,
+                      "y": 0.57021606
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "56",
+                "endIndex": "60"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.6717876,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2488426,
+                      "y": 0.5740741
+                    },
+                    {
+                      "x": 0.30671296,
+                      "y": 0.5740741
+                    },
+                    {
+                      "x": 0.30671296,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.2488426,
+                      "y": 0.5925926
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "13"
+              },
+              {
+                "startIndex": "30",
+                "endIndex": "36"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "6 TWIST DONUT 54,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.22222222,
+                      "y": 0.46219134
+                    },
+                    {
+                      "x": 0.7395833,
+                      "y": 0.46219134
+                    },
+                    {
+                      "x": 0.7395833,
+                      "y": 0.4814815
+                    },
+                    {
+                      "x": 0.22222222,
+                      "y": 0.4814815
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "6"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "6",
+              "confidence": 0.8439087,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22222222,
+                          "y": 0.46604937
+                        },
+                        {
+                          "x": 0.23842593,
+                          "y": 0.46604937
+                        },
+                        {
+                          "x": 0.23842593,
+                          "y": 0.4814815
+                        },
+                        {
+                          "x": 0.22222222,
+                          "y": 0.4814815
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "6",
+                "integerValue": 6
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "13"
+                  }
+                ],
+                "content": "TWIST DONUT"
+              },
+              "type": "line_item/description",
+              "mentionText": "TWIST DONUT",
+              "confidence": 0.5921936,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2511574,
+                          "y": 0.46604937
+                        },
+                        {
+                          "x": 0.41087964,
+                          "y": 0.46604937
+                        },
+                        {
+                          "x": 0.41087964,
+                          "y": 0.4814815
+                        },
+                        {
+                          "x": 0.2511574,
+                          "y": 0.4814815
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "36"
+                  }
+                ],
+                "content": "54,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "54,000",
+              "confidence": 0.8010524,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6516204,
+                          "y": 0.46219134
+                        },
+                        {
+                          "x": 0.7395833,
+                          "y": 0.46219134
+                        },
+                        {
+                          "x": 0.7395833,
+                          "y": 0.48070988
+                        },
+                        {
+                          "x": 0.6516204,
+                          "y": 0.48070988
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "14",
+                "endIndex": "15"
+              },
+              {
+                "startIndex": "16",
+                "endIndex": "29"
+              },
+              {
+                "startIndex": "37",
+                "endIndex": "42"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 REDBEAN BREAD 9,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.22453703,
+                      "y": 0.48765433
+                    },
+                    {
+                      "x": 0.7430556,
+                      "y": 0.48765433
+                    },
+                    {
+                      "x": 0.7430556,
+                      "y": 0.50617284
+                    },
+                    {
+                      "x": 0.22453703,
+                      "y": 0.50617284
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "14",
+                    "endIndex": "15"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.75723314,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22453703,
+                          "y": 0.48919752
+                        },
+                        {
+                          "x": 0.2349537,
+                          "y": 0.48919752
+                        },
+                        {
+                          "x": 0.2349537,
+                          "y": 0.50617284
+                        },
+                        {
+                          "x": 0.22453703,
+                          "y": 0.50617284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "16",
+                    "endIndex": "29"
+                  }
+                ],
+                "content": "REDBEAN BREAD"
+              },
+              "type": "line_item/description",
+              "mentionText": "REDBEAN BREAD",
+              "confidence": 0.62151223,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.25,
+                          "y": 0.48765433
+                        },
+                        {
+                          "x": 0.4386574,
+                          "y": 0.48765433
+                        },
+                        {
+                          "x": 0.4386574,
+                          "y": 0.50540125
+                        },
+                        {
+                          "x": 0.25,
+                          "y": 0.50540125
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "37",
+                    "endIndex": "42"
+                  }
+                ],
+                "content": "9,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "9,000",
+              "confidence": 0.81367373,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6655093,
+                          "y": 0.48765433
+                        },
+                        {
+                          "x": 0.7430556,
+                          "y": 0.48765433
+                        },
+                        {
+                          "x": 0.7430556,
+                          "y": 0.5046296
+                        },
+                        {
+                          "x": 0.6655093,
+                          "y": 0.5046296
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

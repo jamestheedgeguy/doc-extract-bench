@@ -1,0 +1,318 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0072",
+  "at": "2026-07-10T11:10:18.809Z",
+  "latencyMs": 2951,
+  "raw": {
+    "document": {
+      "text": "1 Choco Devil\nDarepes Dtrepes\n15,909\nSubTotal:\nPB1:\n15,909-\n1,591\nTotal:\ncash:\nChange:\n2,500\n17,500\n20,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "93",
+                "endIndex": "99"
+              }
+            ],
+            "content": "17,500"
+          },
+          "type": "total_amount",
+          "mentionText": "17,500",
+          "confidence": 0.8155871,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7164352,
+                      "y": 0.7685185
+                    },
+                    {
+                      "x": 0.8842593,
+                      "y": 0.7685185
+                    },
+                    {
+                      "x": 0.8842593,
+                      "y": 0.83487654
+                    },
+                    {
+                      "x": 0.7164352,
+                      "y": 0.83487654
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "52",
+                "endIndex": "59"
+              }
+            ],
+            "content": "15,909-"
+          },
+          "type": "net_amount",
+          "mentionText": "15,909-",
+          "confidence": 0.713011,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7361111,
+                      "y": 0.6527778
+                    },
+                    {
+                      "x": 0.8888889,
+                      "y": 0.6527778
+                    },
+                    {
+                      "x": 0.8888889,
+                      "y": 0.6875
+                    },
+                    {
+                      "x": 0.7361111,
+                      "y": 0.6875
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "73",
+                "endIndex": "77"
+              }
+            ],
+            "content": "cash"
+          },
+          "type": "payment_type",
+          "mentionText": "cash",
+          "confidence": 0.6035637,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4988426,
+                      "y": 0.8148148
+                    },
+                    {
+                      "x": 0.5787037,
+                      "y": 0.8148148
+                    },
+                    {
+                      "x": 0.5787037,
+                      "y": 0.83641976
+                    },
+                    {
+                      "x": 0.4988426,
+                      "y": 0.83641976
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "29"
+              },
+              {
+                "startIndex": "30",
+                "endIndex": "36"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Choco Devil\nDarepes Dtrepes 15,909",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.060185187,
+                      "y": 0.07330247
+                    },
+                    {
+                      "x": 0.9814815,
+                      "y": 0.07330247
+                    },
+                    {
+                      "x": 0.9814815,
+                      "y": 0.6080247
+                    },
+                    {
+                      "x": 0.060185187,
+                      "y": 0.6080247
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.75059456,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.060185187,
+                          "y": 0.5717593
+                        },
+                        {
+                          "x": 0.08680555,
+                          "y": 0.5717593
+                        },
+                        {
+                          "x": 0.08680555,
+                          "y": 0.5964506
+                        },
+                        {
+                          "x": 0.060185187,
+                          "y": 0.5964506
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "29"
+                  }
+                ],
+                "content": "Choco Devil\nDarepes Dtrepes"
+              },
+              "type": "line_item/description",
+              "mentionText": "Choco Devil\nDarepes Dtrepes",
+              "confidence": 0.6517192,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12847222,
+                          "y": 0.07330247
+                        },
+                        {
+                          "x": 0.9814815,
+                          "y": 0.07330247
+                        },
+                        {
+                          "x": 0.9814815,
+                          "y": 0.5949074
+                        },
+                        {
+                          "x": 0.12847222,
+                          "y": 0.5949074
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "36"
+                  }
+                ],
+                "content": "15,909"
+              },
+              "type": "line_item/amount",
+              "mentionText": "15,909",
+              "confidence": 0.56413674,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7650463,
+                          "y": 0.5779321
+                        },
+                        {
+                          "x": 0.9016204,
+                          "y": 0.5779321
+                        },
+                        {
+                          "x": 0.9016204,
+                          "y": 0.6080247
+                        },
+                        {
+                          "x": 0.7650463,
+                          "y": 0.6080247
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

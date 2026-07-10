@@ -1,0 +1,359 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0042",
+  "at": "2026-07-10T11:08:27.590Z",
+  "latencyMs": 5942,
+  "raw": {
+    "document": {
+      "text": "1 Chicken HCC. 1Pcs\n15.000\nSub Total\n15,000\n1 Items,\nP.Rest 10%\n1.500\nTotal\n16,500\nCash\n50,000\nKembali\n33,500\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "76",
+                "endIndex": "82"
+              }
+            ],
+            "content": "16,500"
+          },
+          "type": "total_amount",
+          "mentionText": "16,500",
+          "confidence": 0.9421523,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.60294116,
+                      "y": 0.54044116
+                    },
+                    {
+                      "x": 0.6808279,
+                      "y": 0.54044116
+                    },
+                    {
+                      "x": 0.6808279,
+                      "y": 0.5634191
+                    },
+                    {
+                      "x": 0.60294116,
+                      "y": 0.5634191
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "37",
+                "endIndex": "43"
+              }
+            ],
+            "content": "15,000"
+          },
+          "type": "net_amount",
+          "mentionText": "15,000",
+          "confidence": 0.8684199,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6002179,
+                      "y": 0.44638482
+                    },
+                    {
+                      "x": 0.6764706,
+                      "y": 0.44638482
+                    },
+                    {
+                      "x": 0.6764706,
+                      "y": 0.46017158
+                    },
+                    {
+                      "x": 0.6002179,
+                      "y": 0.46017158
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "83",
+                "endIndex": "87"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.6663798,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4509804,
+                      "y": 0.5686275
+                    },
+                    {
+                      "x": 0.503268,
+                      "y": 0.5686275
+                    },
+                    {
+                      "x": 0.503268,
+                      "y": 0.5793505
+                    },
+                    {
+                      "x": 0.4509804,
+                      "y": 0.5793505
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "64",
+                "endIndex": "69"
+              }
+            ],
+            "content": "1.500"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "1.500",
+          "confidence": 0.41762644,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.61383444,
+                      "y": 0.50214463
+                    },
+                    {
+                      "x": 0.6764706,
+                      "y": 0.50214463
+                    },
+                    {
+                      "x": 0.6764706,
+                      "y": 0.5147059
+                    },
+                    {
+                      "x": 0.61383444,
+                      "y": 0.5147059
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "19"
+              },
+              {
+                "startIndex": "20",
+                "endIndex": "26"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Chicken HCC. 1Pcs 15.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17374727,
+                      "y": 0.40992647
+                    },
+                    {
+                      "x": 0.6775599,
+                      "y": 0.40992647
+                    },
+                    {
+                      "x": 0.6775599,
+                      "y": 0.4261642
+                    },
+                    {
+                      "x": 0.17374727,
+                      "y": 0.4261642
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8110824,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17374727,
+                          "y": 0.4117647
+                        },
+                        {
+                          "x": 0.18736383,
+                          "y": 0.4117647
+                        },
+                        {
+                          "x": 0.18736383,
+                          "y": 0.42493874
+                        },
+                        {
+                          "x": 0.17374727,
+                          "y": 0.42493874
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "19"
+                  }
+                ],
+                "content": "Chicken HCC. 1Pcs"
+              },
+              "type": "line_item/description",
+              "mentionText": "Chicken HCC. 1Pcs",
+              "confidence": 0.7288587,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.23965141,
+                          "y": 0.4117647
+                        },
+                        {
+                          "x": 0.4624183,
+                          "y": 0.4117647
+                        },
+                        {
+                          "x": 0.4624183,
+                          "y": 0.4261642
+                        },
+                        {
+                          "x": 0.23965141,
+                          "y": 0.4261642
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "20",
+                    "endIndex": "26"
+                  }
+                ],
+                "content": "15.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "15.000",
+              "confidence": 0.8301667,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6002179,
+                          "y": 0.40992647
+                        },
+                        {
+                          "x": 0.6775599,
+                          "y": 0.40992647
+                        },
+                        {
+                          "x": 0.6775599,
+                          "y": 0.4240196
+                        },
+                        {
+                          "x": 0.6002179,
+                          "y": 0.4240196
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

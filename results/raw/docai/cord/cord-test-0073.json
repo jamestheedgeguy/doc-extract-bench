@@ -1,0 +1,270 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0073",
+  "at": "2026-07-10T11:10:21.981Z",
+  "latencyMs": 3170,
+  "raw": {
+    "document": {
+      "text": "1001-Choco Bun\n6001-Plastic Bag Small\n22.000 x1\n22.000\n0\n0 x1\nTotal Item:\nTotal.\nCash\nTendered:\nChange:\n22.000\n25.000\n3.000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "104",
+                "endIndex": "110"
+              }
+            ],
+            "content": "22.000"
+          },
+          "type": "total_amount",
+          "mentionText": "22.000",
+          "confidence": 0.92365336,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7222222,
+                      "y": 0.74614197
+                    },
+                    {
+                      "x": 0.8402778,
+                      "y": 0.74614197
+                    },
+                    {
+                      "x": 0.8402778,
+                      "y": 0.7708333
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.7708333
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "81",
+                "endIndex": "85"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.6675842,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.14467593,
+                      "y": 0.7986111
+                    },
+                    {
+                      "x": 0.22916667,
+                      "y": 0.7986111
+                    },
+                    {
+                      "x": 0.22916667,
+                      "y": 0.82253087
+                    },
+                    {
+                      "x": 0.14467593,
+                      "y": 0.82253087
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "14"
+              }
+            ],
+            "content": "1001-Choco Bun"
+          },
+          "type": "supplier_address",
+          "mentionText": "1001-Choco Bun",
+          "confidence": 0.6473892,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15625,
+                      "y": 0.5115741
+                    },
+                    {
+                      "x": 0.42708334,
+                      "y": 0.5115741
+                    },
+                    {
+                      "x": 0.42708334,
+                      "y": 0.5316358
+                    },
+                    {
+                      "x": 0.15625,
+                      "y": 0.5316358
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "15",
+                "endIndex": "47"
+              },
+              {
+                "startIndex": "48",
+                "endIndex": "54"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "6001-Plastic Bag Small\n22.000 x1 22.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15046297,
+                      "y": 0.54320985
+                    },
+                    {
+                      "x": 0.8888889,
+                      "y": 0.54320985
+                    },
+                    {
+                      "x": 0.8888889,
+                      "y": 0.6072531
+                    },
+                    {
+                      "x": 0.15046297,
+                      "y": 0.6072531
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "15",
+                    "endIndex": "47"
+                  }
+                ],
+                "content": "6001-Plastic Bag Small\n22.000 x1"
+              },
+              "type": "line_item/description",
+              "mentionText": "6001-Plastic Bag Small\n22.000 x1",
+              "confidence": 0.6012061,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15046297,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.5787037,
+                          "y": 0.54320985
+                        },
+                        {
+                          "x": 0.5787037,
+                          "y": 0.6072531
+                        },
+                        {
+                          "x": 0.15046297,
+                          "y": 0.6072531
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "48",
+                    "endIndex": "54"
+                  }
+                ],
+                "content": "22.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "22.000",
+              "confidence": 0.7332123,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7696759,
+                          "y": 0.5478395
+                        },
+                        {
+                          "x": 0.8888889,
+                          "y": 0.5478395
+                        },
+                        {
+                          "x": 0.8888889,
+                          "y": 0.56867284
+                        },
+                        {
+                          "x": 0.7696759,
+                          "y": 0.56867284
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

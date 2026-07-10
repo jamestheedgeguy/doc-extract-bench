@@ -1,0 +1,277 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0036",
+  "at": "2026-07-10T11:08:00.629Z",
+  "latencyMs": 8757,
+  "raw": {
+    "document": {
+      "text": "1\nXXXL Crispy Chicken\n40,000\n1\n- Sedang\n0\nITEMS :1\n40,000\nTotal........\n40,000\nPay Cash 100,000\nChange :60,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "72",
+                "endIndex": "78"
+              }
+            ],
+            "content": "40,000"
+          },
+          "type": "total_amount",
+          "mentionText": "40,000",
+          "confidence": 0.9349575,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7934028,
+                      "y": 0.5817871
+                    },
+                    {
+                      "x": 0.94314235,
+                      "y": 0.5817871
+                    },
+                    {
+                      "x": 0.94314235,
+                      "y": 0.6069336
+                    },
+                    {
+                      "x": 0.7934028,
+                      "y": 0.6069336
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "51",
+                "endIndex": "57"
+              }
+            ],
+            "content": "40,000"
+          },
+          "type": "net_amount",
+          "mentionText": "40,000",
+          "confidence": 0.85782206,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.79470485,
+                      "y": 0.5576172
+                    },
+                    {
+                      "x": 0.94574654,
+                      "y": 0.5576172
+                    },
+                    {
+                      "x": 0.94574654,
+                      "y": 0.5827637
+                    },
+                    {
+                      "x": 0.79470485,
+                      "y": 0.5827637
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "21"
+              },
+              {
+                "startIndex": "22",
+                "endIndex": "28"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 XXXL Crispy Chicken 40,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.07638889,
+                      "y": 0.48095703
+                    },
+                    {
+                      "x": 0.94835067,
+                      "y": 0.48095703
+                    },
+                    {
+                      "x": 0.94835067,
+                      "y": 0.50805664
+                    },
+                    {
+                      "x": 0.07638889,
+                      "y": 0.50805664
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7902345,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.07638889,
+                          "y": 0.48095703
+                        },
+                        {
+                          "x": 0.09982639,
+                          "y": 0.48095703
+                        },
+                        {
+                          "x": 0.09982639,
+                          "y": 0.50805664
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.50805664
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "21"
+                  }
+                ],
+                "content": "XXXL Crispy Chicken"
+              },
+              "type": "line_item/description",
+              "mentionText": "XXXL Crispy Chicken",
+              "confidence": 0.73990256,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17100695,
+                          "y": 0.48095703
+                        },
+                        {
+                          "x": 0.6076389,
+                          "y": 0.48095703
+                        },
+                        {
+                          "x": 0.6076389,
+                          "y": 0.50805664
+                        },
+                        {
+                          "x": 0.17100695,
+                          "y": 0.50805664
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "22",
+                    "endIndex": "28"
+                  }
+                ],
+                "content": "40,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "40,000",
+              "confidence": 0.59911025,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.796875,
+                          "y": 0.48095703
+                        },
+                        {
+                          "x": 0.94835067,
+                          "y": 0.48095703
+                        },
+                        {
+                          "x": 0.94835067,
+                          "y": 0.50439453
+                        },
+                        {
+                          "x": 0.796875,
+                          "y": 0.50439453
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0067",
+  "at": "2026-07-10T11:09:58.180Z",
+  "latencyMs": 2039,
+  "raw": {
+    "document": {
+      "text": "2005-CHEESE JOHN\n9.500,00\nTotal Item:\nTotal.\nCash\nTendered:\nx1\n9.500,00\n9.500,00\n9.500.00\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "72",
+                "endIndex": "80"
+              }
+            ],
+            "content": "9.500,00"
+          },
+          "type": "total_amount",
+          "mentionText": "9.500,00",
+          "confidence": 0.90653706,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6319444,
+                      "y": 0.75617284
+                    },
+                    {
+                      "x": 0.7523148,
+                      "y": 0.75617284
+                    },
+                    {
+                      "x": 0.7523148,
+                      "y": 0.77469134
+                    },
+                    {
+                      "x": 0.6319444,
+                      "y": 0.77469134
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "9500",
+            "moneyValue": {
+              "units": "9500"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "45",
+                "endIndex": "49"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.6133106,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.21527778,
+                      "y": 0.79012346
+                    },
+                    {
+                      "x": 0.27083334,
+                      "y": 0.79012346
+                    },
+                    {
+                      "x": 0.27083334,
+                      "y": 0.8055556
+                    },
+                    {
+                      "x": 0.21527778,
+                      "y": 0.8055556
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "16"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2005-CHEESE JOHN",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19444445,
+                      "y": 0.6373457
+                    },
+                    {
+                      "x": 0.4398148,
+                      "y": 0.6373457
+                    },
+                    {
+                      "x": 0.4398148,
+                      "y": 0.66358024
+                    },
+                    {
+                      "x": 0.19444445,
+                      "y": 0.66358024
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "16"
+                  }
+                ],
+                "content": "2005-CHEESE JOHN"
+              },
+              "type": "line_item/description",
+              "mentionText": "2005-CHEESE JOHN",
+              "confidence": 0.4925373,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19444445,
+                          "y": 0.6373457
+                        },
+                        {
+                          "x": 0.4398148,
+                          "y": 0.6373457
+                        },
+                        {
+                          "x": 0.4398148,
+                          "y": 0.66358024
+                        },
+                        {
+                          "x": 0.19444445,
+                          "y": 0.66358024
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "17",
+                "endIndex": "25"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "9.500,00",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3148148,
+                      "y": 0.662037
+                    },
+                    {
+                      "x": 0.44212964,
+                      "y": 0.662037
+                    },
+                    {
+                      "x": 0.44212964,
+                      "y": 0.6851852
+                    },
+                    {
+                      "x": 0.3148148,
+                      "y": 0.6851852
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "17",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "9.500,00"
+              },
+              "type": "line_item/amount",
+              "mentionText": "9.500,00",
+              "confidence": 0.36228353,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.3148148,
+                          "y": 0.662037
+                        },
+                        {
+                          "x": 0.44212964,
+                          "y": 0.662037
+                        },
+                        {
+                          "x": 0.44212964,
+                          "y": 0.6851852
+                        },
+                        {
+                          "x": 0.3148148,
+                          "y": 0.6851852
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5",
+              "normalizedValue": {
+                "text": "9500",
+                "moneyValue": {
+                  "units": "9500"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

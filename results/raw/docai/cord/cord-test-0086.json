@@ -1,0 +1,540 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0086",
+  "at": "2026-07-10T11:11:21.120Z",
+  "latencyMs": 2584,
+  "raw": {
+    "document": {
+      "text": "BreadLife\n1 Cheezemania\n9,500\n1 Mamamia\n12,500\nSUBTOTAL\n22,000\nDUE\n22,000\nCASH\n52,000\nCHANGE\n30,000\nTOTAL QTY 2 ITEM 2 PCS\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "56",
+                "endIndex": "62"
+              }
+            ],
+            "content": "22,000"
+          },
+          "type": "net_amount",
+          "mentionText": "22,000",
+          "confidence": 0.81358767,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7309028,
+                      "y": 0.619213
+                    },
+                    {
+                      "x": 0.8871528,
+                      "y": 0.619213
+                    },
+                    {
+                      "x": 0.8871528,
+                      "y": 0.6493056
+                    },
+                    {
+                      "x": 0.7309028,
+                      "y": 0.6493056
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "67",
+                "endIndex": "73"
+              }
+            ],
+            "content": "22,000"
+          },
+          "type": "total_amount",
+          "mentionText": "22,000",
+          "confidence": 0.7436717,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7326389,
+                      "y": 0.65625
+                    },
+                    {
+                      "x": 0.890625,
+                      "y": 0.65625
+                    },
+                    {
+                      "x": 0.890625,
+                      "y": 0.6863426
+                    },
+                    {
+                      "x": 0.7326389,
+                      "y": 0.6863426
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "74",
+                "endIndex": "78"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.7357106,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.22222222,
+                      "y": 0.7071759
+                    },
+                    {
+                      "x": 0.3263889,
+                      "y": 0.7071759
+                    },
+                    {
+                      "x": 0.3263889,
+                      "y": 0.7291667
+                    },
+                    {
+                      "x": 0.22222222,
+                      "y": 0.7291667
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "9"
+              }
+            ],
+            "content": "BreadLife"
+          },
+          "type": "supplier_name",
+          "mentionText": "BreadLife",
+          "confidence": 0.6066153,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.25,
+                      "y": 0.18402778
+                    },
+                    {
+                      "x": 0.6961806,
+                      "y": 0.18402778
+                    },
+                    {
+                      "x": 0.6961806,
+                      "y": 0.2361111
+                    },
+                    {
+                      "x": 0.25,
+                      "y": 0.2361111
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {
+            "text": "Bread Life"
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "10",
+                "endIndex": "11"
+              },
+              {
+                "startIndex": "12",
+                "endIndex": "23"
+              },
+              {
+                "startIndex": "24",
+                "endIndex": "29"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Cheezemania 9,500",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17708333,
+                      "y": 0.5034722
+                    },
+                    {
+                      "x": 0.8819444,
+                      "y": 0.5034722
+                    },
+                    {
+                      "x": 0.8819444,
+                      "y": 0.5381944
+                    },
+                    {
+                      "x": 0.17708333,
+                      "y": 0.5381944
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "10",
+                    "endIndex": "11"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7040771,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17708333,
+                          "y": 0.5162037
+                        },
+                        {
+                          "x": 0.19791667,
+                          "y": 0.5162037
+                        },
+                        {
+                          "x": 0.19791667,
+                          "y": 0.5381944
+                        },
+                        {
+                          "x": 0.17708333,
+                          "y": 0.5381944
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "12",
+                    "endIndex": "23"
+                  }
+                ],
+                "content": "Cheezemania"
+              },
+              "type": "line_item/description",
+              "mentionText": "Cheezemania",
+              "confidence": 0.8430797,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22222222,
+                          "y": 0.5092593
+                        },
+                        {
+                          "x": 0.4965278,
+                          "y": 0.5092593
+                        },
+                        {
+                          "x": 0.4965278,
+                          "y": 0.537037
+                        },
+                        {
+                          "x": 0.22222222,
+                          "y": 0.537037
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "24",
+                    "endIndex": "29"
+                  }
+                ],
+                "content": "9,500"
+              },
+              "type": "line_item/amount",
+              "mentionText": "9,500",
+              "confidence": 0.794314,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7482639,
+                          "y": 0.5034722
+                        },
+                        {
+                          "x": 0.8819444,
+                          "y": 0.5034722
+                        },
+                        {
+                          "x": 0.8819444,
+                          "y": 0.5335648
+                        },
+                        {
+                          "x": 0.7482639,
+                          "y": 0.5335648
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "30",
+                "endIndex": "31"
+              },
+              {
+                "startIndex": "32",
+                "endIndex": "39"
+              },
+              {
+                "startIndex": "40",
+                "endIndex": "46"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Mamamia 12,500",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.17708333,
+                      "y": 0.5405093
+                    },
+                    {
+                      "x": 0.8854167,
+                      "y": 0.5405093
+                    },
+                    {
+                      "x": 0.8854167,
+                      "y": 0.5752315
+                    },
+                    {
+                      "x": 0.17708333,
+                      "y": 0.5752315
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "31"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7812944,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17708333,
+                          "y": 0.5532407
+                        },
+                        {
+                          "x": 0.19791667,
+                          "y": 0.5532407
+                        },
+                        {
+                          "x": 0.19791667,
+                          "y": 0.5752315
+                        },
+                        {
+                          "x": 0.17708333,
+                          "y": 0.5752315
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "32",
+                    "endIndex": "39"
+                  }
+                ],
+                "content": "Mamamia"
+              },
+              "type": "line_item/description",
+              "mentionText": "Mamamia",
+              "confidence": 0.83160144,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22395833,
+                          "y": 0.5486111
+                        },
+                        {
+                          "x": 0.39756945,
+                          "y": 0.5486111
+                        },
+                        {
+                          "x": 0.39756945,
+                          "y": 0.5740741
+                        },
+                        {
+                          "x": 0.22395833,
+                          "y": 0.5740741
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "40",
+                    "endIndex": "46"
+                  }
+                ],
+                "content": "12,500"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12,500",
+              "confidence": 0.5366538,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7309028,
+                          "y": 0.5405093
+                        },
+                        {
+                          "x": 0.8854167,
+                          "y": 0.5405093
+                        },
+                        {
+                          "x": 0.8854167,
+                          "y": 0.5717593
+                        },
+                        {
+                          "x": 0.7309028,
+                          "y": 0.5717593
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

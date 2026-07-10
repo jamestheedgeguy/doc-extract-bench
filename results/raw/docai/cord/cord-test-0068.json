@@ -1,0 +1,102 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0068",
+  "at": "2026-07-10T11:10:00.364Z",
+  "latencyMs": 2183,
+  "raw": {
+    "document": {
+      "text": "ICED TT\n.20,000\nTOTAL\n20,000\nCASH\n.50.000\nCHANGE\n.30,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "22",
+                "endIndex": "28"
+              }
+            ],
+            "content": "20,000"
+          },
+          "type": "total_amount",
+          "mentionText": "20,000",
+          "confidence": 0.8366351,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4762634,
+                      "y": 0.67798465
+                    },
+                    {
+                      "x": 0.7641654,
+                      "y": 0.67798465
+                    },
+                    {
+                      "x": 0.7641654,
+                      "y": 0.73603505
+                    },
+                    {
+                      "x": 0.4762634,
+                      "y": 0.73603505
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "29",
+                "endIndex": "33"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.7800613,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.10260337,
+                      "y": 0.7174151
+                    },
+                    {
+                      "x": 0.21898928,
+                      "y": 0.7174151
+                    },
+                    {
+                      "x": 0.21898928,
+                      "y": 0.74589264
+                    },
+                    {
+                      "x": 0.10260337,
+                      "y": 0.74589264
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

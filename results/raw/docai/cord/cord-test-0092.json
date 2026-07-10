@@ -1,0 +1,193 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0092",
+  "at": "2026-07-10T11:11:38.393Z",
+  "latencyMs": 2486,
+  "raw": {
+    "document": {
+      "text": "901016\n-TICKET CP\n4\n60.000\n240.000\nTOTAL (Qty=4.00) 240.000\nCASH\nCHANGE\nntri\n250.000\n10.000\n****\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "77",
+                "endIndex": "84"
+              }
+            ],
+            "content": "250.000"
+          },
+          "type": "total_amount",
+          "mentionText": "250.000",
+          "confidence": 0.5991973,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7204861,
+                      "y": 0.630787
+                    },
+                    {
+                      "x": 0.8472222,
+                      "y": 0.630787
+                    },
+                    {
+                      "x": 0.8472222,
+                      "y": 0.6516204
+                    },
+                    {
+                      "x": 0.7204861,
+                      "y": 0.6516204
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "18",
+                "endIndex": "19"
+              },
+              {
+                "startIndex": "27",
+                "endIndex": "34"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "4 240.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.22916667,
+                      "y": 0.40046296
+                    },
+                    {
+                      "x": 0.828125,
+                      "y": 0.40046296
+                    },
+                    {
+                      "x": 0.828125,
+                      "y": 0.42824075
+                    },
+                    {
+                      "x": 0.22916667,
+                      "y": 0.42824075
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "18",
+                    "endIndex": "19"
+                  }
+                ],
+                "content": "4"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "4",
+              "confidence": 0.7625392,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22916667,
+                          "y": 0.41087964
+                        },
+                        {
+                          "x": 0.2482639,
+                          "y": 0.41087964
+                        },
+                        {
+                          "x": 0.2482639,
+                          "y": 0.42824075
+                        },
+                        {
+                          "x": 0.22916667,
+                          "y": 0.42824075
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "2",
+              "normalizedValue": {
+                "text": "4",
+                "integerValue": 4
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "27",
+                    "endIndex": "34"
+                  }
+                ],
+                "content": "240.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "240.000",
+              "confidence": 0.62816954,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7065972,
+                          "y": 0.40046296
+                        },
+                        {
+                          "x": 0.828125,
+                          "y": 0.40046296
+                        },
+                        {
+                          "x": 0.828125,
+                          "y": 0.4236111
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.4236111
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

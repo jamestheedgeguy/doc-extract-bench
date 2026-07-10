@@ -1,0 +1,444 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0040",
+  "at": "2026-07-10T11:08:19.211Z",
+  "latencyMs": 1937,
+  "raw": {
+    "document": {
+      "text": "Snack Lestari All\n2 27,000\n54,000\nBakery Aneka Sisir banana, Pizza, yoko, Mar\nmer Daging, abon, keju,cokelat, dll\n2\n7,000\nTOTAL\nCASH\nCHANGE\nCS\nScanned with\nCamScanner\n14,000\n68,000\n100,000\n32,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "174",
+                "endIndex": "180"
+              }
+            ],
+            "content": "68,000"
+          },
+          "type": "total_amount",
+          "mentionText": "68,000",
+          "confidence": 0.96903545,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6577778,
+                      "y": 0.7390625
+                    },
+                    {
+                      "x": 0.91555554,
+                      "y": 0.7390625
+                    },
+                    {
+                      "x": 0.91555554,
+                      "y": 0.7703125
+                    },
+                    {
+                      "x": 0.6577778,
+                      "y": 0.7703125
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "128",
+                "endIndex": "132"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.60304004,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.044444446,
+                      "y": 0.775
+                    },
+                    {
+                      "x": 0.13555555,
+                      "y": 0.775
+                    },
+                    {
+                      "x": 0.13555555,
+                      "y": 0.8
+                    },
+                    {
+                      "x": 0.044444446,
+                      "y": 0.8
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "17"
+              }
+            ],
+            "content": "Snack Lestari All"
+          },
+          "type": "supplier_name",
+          "mentionText": "Snack Lestari All",
+          "confidence": 0.5524655,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.044444446,
+                      "y": 0.4875
+                    },
+                    {
+                      "x": 0.41555557,
+                      "y": 0.4875
+                    },
+                    {
+                      "x": 0.41555557,
+                      "y": 0.5171875
+                    },
+                    {
+                      "x": 0.044444446,
+                      "y": 0.5171875
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "18",
+                "endIndex": "19"
+              },
+              {
+                "startIndex": "27",
+                "endIndex": "33"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 54,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.086666666,
+                      "y": 0.528125
+                    },
+                    {
+                      "x": 0.92,
+                      "y": 0.528125
+                    },
+                    {
+                      "x": 0.92,
+                      "y": 0.5625
+                    },
+                    {
+                      "x": 0.086666666,
+                      "y": 0.5625
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "18",
+                    "endIndex": "19"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.84647053,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.086666666,
+                          "y": 0.528125
+                        },
+                        {
+                          "x": 0.11333334,
+                          "y": 0.528125
+                        },
+                        {
+                          "x": 0.11333334,
+                          "y": 0.55625
+                        },
+                        {
+                          "x": 0.086666666,
+                          "y": 0.55625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "27",
+                    "endIndex": "33"
+                  }
+                ],
+                "content": "54,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "54,000",
+              "confidence": 0.92916477,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.78444445,
+                          "y": 0.5359375
+                        },
+                        {
+                          "x": 0.92,
+                          "y": 0.5359375
+                        },
+                        {
+                          "x": 0.92,
+                          "y": 0.5625
+                        },
+                        {
+                          "x": 0.78444445,
+                          "y": 0.5625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "34",
+                "endIndex": "113"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Bakery Aneka Sisir banana, Pizza, yoko, Mar\nmer Daging, abon, keju,cokelat, dll",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.044444446,
+                      "y": 0.5671875
+                    },
+                    {
+                      "x": 0.9222222,
+                      "y": 0.5671875
+                    },
+                    {
+                      "x": 0.9222222,
+                      "y": 0.6453125
+                    },
+                    {
+                      "x": 0.044444446,
+                      "y": 0.6453125
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "34",
+                    "endIndex": "113"
+                  }
+                ],
+                "content": "Bakery Aneka Sisir banana, Pizza, yoko, Mar\nmer Daging, abon, keju,cokelat, dll"
+              },
+              "type": "line_item/description",
+              "mentionText": "Bakery Aneka Sisir banana, Pizza, yoko, Mar\nmer Daging, abon, keju,cokelat, dll",
+              "confidence": 0.26331067,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.044444446,
+                          "y": 0.5671875
+                        },
+                        {
+                          "x": 0.9222222,
+                          "y": 0.5671875
+                        },
+                        {
+                          "x": 0.9222222,
+                          "y": 0.6453125
+                        },
+                        {
+                          "x": 0.044444446,
+                          "y": 0.6453125
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "114",
+                "endIndex": "115"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.086666666,
+                      "y": 0.6484375
+                    },
+                    {
+                      "x": 0.11111111,
+                      "y": 0.6484375
+                    },
+                    {
+                      "x": 0.11111111,
+                      "y": 0.6765625
+                    },
+                    {
+                      "x": 0.086666666,
+                      "y": 0.6765625
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "114",
+                    "endIndex": "115"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.7203293,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.086666666,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.11111111,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.11111111,
+                          "y": 0.6765625
+                        },
+                        {
+                          "x": 0.086666666,
+                          "y": 0.6765625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

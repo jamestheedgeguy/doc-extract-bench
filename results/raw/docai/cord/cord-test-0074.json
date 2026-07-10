@@ -1,0 +1,1533 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0074",
+  "at": "2026-07-10T11:10:34.162Z",
+  "latencyMs": 12176,
+  "raw": {
+    "document": {
+      "text": "1 BLACKCURRANT\n32,000\n1 SPRITE\n32,000\n** BEVERAGE\n64,000\n1 GRILLED CALAMARI\n85,000\n1 DINE FOR 2\n129,000\n* DANISH FISH & CHIPS DF\n* NEW YORK FISH & CHIPS\n** FOOD\n214,000\nSUBTTL\n278,000\nService Charge\n22.240\nTAX\n30,024\nTOTAL\n330264\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "223",
+                "endIndex": "229"
+              }
+            ],
+            "content": "330264"
+          },
+          "type": "total_amount",
+          "mentionText": "330264",
+          "confidence": 0.95460445,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.56987846,
+                      "y": 0.73046875
+                    },
+                    {
+                      "x": 0.7717014,
+                      "y": 0.73046875
+                    },
+                    {
+                      "x": 0.7717014,
+                      "y": 0.74658203
+                    },
+                    {
+                      "x": 0.56987846,
+                      "y": 0.74658203
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "330264",
+            "moneyValue": {
+              "units": "330264"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "210",
+                "endIndex": "216"
+              }
+            ],
+            "content": "30,024"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "30,024",
+          "confidence": 0.6482425,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6848958,
+                      "y": 0.68969727
+                    },
+                    {
+                      "x": 0.7734375,
+                      "y": 0.68969727
+                    },
+                    {
+                      "x": 0.7734375,
+                      "y": 0.7062988
+                    },
+                    {
+                      "x": 0.6848958,
+                      "y": 0.7062988
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "176",
+                "endIndex": "183"
+              }
+            ],
+            "content": "278,000"
+          },
+          "type": "net_amount",
+          "mentionText": "278,000",
+          "confidence": 0.27481475,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.66883683,
+                      "y": 0.6496582
+                    },
+                    {
+                      "x": 0.7725694,
+                      "y": 0.6496582
+                    },
+                    {
+                      "x": 0.7725694,
+                      "y": 0.6645508
+                    },
+                    {
+                      "x": 0.66883683,
+                      "y": 0.6645508
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "14"
+              },
+              {
+                "startIndex": "15",
+                "endIndex": "21"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 BLACKCURRANT 32,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2534722,
+                      "y": 0.48901367
+                    },
+                    {
+                      "x": 0.76692706,
+                      "y": 0.48901367
+                    },
+                    {
+                      "x": 0.76692706,
+                      "y": 0.5048828
+                    },
+                    {
+                      "x": 0.2534722,
+                      "y": 0.5048828
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7404155,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2534722,
+                          "y": 0.4921875
+                        },
+                        {
+                          "x": 0.26302084,
+                          "y": 0.4921875
+                        },
+                        {
+                          "x": 0.26302084,
+                          "y": 0.5048828
+                        },
+                        {
+                          "x": 0.2534722,
+                          "y": 0.5048828
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "14"
+                  }
+                ],
+                "content": "BLACKCURRANT"
+              },
+              "type": "line_item/description",
+              "mentionText": "BLACKCURRANT",
+              "confidence": 0.8960059,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.27907985,
+                          "y": 0.49121094
+                        },
+                        {
+                          "x": 0.4500868,
+                          "y": 0.49121094
+                        },
+                        {
+                          "x": 0.4500868,
+                          "y": 0.5046387
+                        },
+                        {
+                          "x": 0.27907985,
+                          "y": 0.5046387
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "15",
+                    "endIndex": "21"
+                  }
+                ],
+                "content": "32,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "32,000",
+              "confidence": 0.79710484,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68012154,
+                          "y": 0.48901367
+                        },
+                        {
+                          "x": 0.76692706,
+                          "y": 0.48901367
+                        },
+                        {
+                          "x": 0.76692706,
+                          "y": 0.50341797
+                        },
+                        {
+                          "x": 0.68012154,
+                          "y": 0.50341797
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "22",
+                "endIndex": "23"
+              },
+              {
+                "startIndex": "24",
+                "endIndex": "30"
+              },
+              {
+                "startIndex": "31",
+                "endIndex": "37"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 SPRITE 32,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2543403,
+                      "y": 0.50878906
+                    },
+                    {
+                      "x": 0.76779515,
+                      "y": 0.50878906
+                    },
+                    {
+                      "x": 0.76779515,
+                      "y": 0.5246582
+                    },
+                    {
+                      "x": 0.2543403,
+                      "y": 0.5246582
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "22",
+                    "endIndex": "23"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7435517,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2543403,
+                          "y": 0.51171875
+                        },
+                        {
+                          "x": 0.2638889,
+                          "y": 0.51171875
+                        },
+                        {
+                          "x": 0.2638889,
+                          "y": 0.5246582
+                        },
+                        {
+                          "x": 0.2543403,
+                          "y": 0.5246582
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "24",
+                    "endIndex": "30"
+                  }
+                ],
+                "content": "SPRITE"
+              },
+              "type": "line_item/description",
+              "mentionText": "SPRITE",
+              "confidence": 0.8828994,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.27864584,
+                          "y": 0.51123047
+                        },
+                        {
+                          "x": 0.36631945,
+                          "y": 0.51123047
+                        },
+                        {
+                          "x": 0.36631945,
+                          "y": 0.5246582
+                        },
+                        {
+                          "x": 0.27864584,
+                          "y": 0.5246582
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "31",
+                    "endIndex": "37"
+                  }
+                ],
+                "content": "32,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "32,000",
+              "confidence": 0.72395474,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6805556,
+                          "y": 0.50878906
+                        },
+                        {
+                          "x": 0.76779515,
+                          "y": 0.50878906
+                        },
+                        {
+                          "x": 0.76779515,
+                          "y": 0.5239258
+                        },
+                        {
+                          "x": 0.6805556,
+                          "y": 0.5239258
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "38",
+                "endIndex": "49"
+              },
+              {
+                "startIndex": "50",
+                "endIndex": "56"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "** BEVERAGE 64,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2217882,
+                      "y": 0.52978516
+                    },
+                    {
+                      "x": 0.72439235,
+                      "y": 0.52978516
+                    },
+                    {
+                      "x": 0.72439235,
+                      "y": 0.545166
+                    },
+                    {
+                      "x": 0.2217882,
+                      "y": 0.545166
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "38",
+                    "endIndex": "49"
+                  }
+                ],
+                "content": "** BEVERAGE"
+              },
+              "type": "line_item/description",
+              "mentionText": "** BEVERAGE",
+              "confidence": 0.5688568,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2217882,
+                          "y": 0.5305176
+                        },
+                        {
+                          "x": 0.4908854,
+                          "y": 0.5305176
+                        },
+                        {
+                          "x": 0.4908854,
+                          "y": 0.545166
+                        },
+                        {
+                          "x": 0.2217882,
+                          "y": 0.545166
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "50",
+                    "endIndex": "56"
+                  }
+                ],
+                "content": "64,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "64,000",
+              "confidence": 0.70437205,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6380208,
+                          "y": 0.52978516
+                        },
+                        {
+                          "x": 0.72439235,
+                          "y": 0.52978516
+                        },
+                        {
+                          "x": 0.72439235,
+                          "y": 0.54418945
+                        },
+                        {
+                          "x": 0.6380208,
+                          "y": 0.54418945
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "57",
+                "endIndex": "58"
+              },
+              {
+                "startIndex": "59",
+                "endIndex": "75"
+              },
+              {
+                "startIndex": "76",
+                "endIndex": "82"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 GRILLED CALAMARI 85,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2547743,
+                      "y": 0.5500488
+                    },
+                    {
+                      "x": 0.76866317,
+                      "y": 0.5500488
+                    },
+                    {
+                      "x": 0.76866317,
+                      "y": 0.5654297
+                    },
+                    {
+                      "x": 0.2547743,
+                      "y": 0.5654297
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "14",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "57",
+                    "endIndex": "58"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7592246,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2547743,
+                          "y": 0.55200195
+                        },
+                        {
+                          "x": 0.2638889,
+                          "y": 0.55200195
+                        },
+                        {
+                          "x": 0.2638889,
+                          "y": 0.5654297
+                        },
+                        {
+                          "x": 0.2547743,
+                          "y": 0.5654297
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "15",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "59",
+                    "endIndex": "75"
+                  }
+                ],
+                "content": "GRILLED CALAMARI"
+              },
+              "type": "line_item/description",
+              "mentionText": "GRILLED CALAMARI",
+              "confidence": 0.6059915,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2782118,
+                          "y": 0.55029297
+                        },
+                        {
+                          "x": 0.5069444,
+                          "y": 0.55029297
+                        },
+                        {
+                          "x": 0.5069444,
+                          "y": 0.56518555
+                        },
+                        {
+                          "x": 0.2782118,
+                          "y": 0.56518555
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "16"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "76",
+                    "endIndex": "82"
+                  }
+                ],
+                "content": "85,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "85,000",
+              "confidence": 0.78678185,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68098956,
+                          "y": 0.5500488
+                        },
+                        {
+                          "x": 0.76866317,
+                          "y": 0.5500488
+                        },
+                        {
+                          "x": 0.76866317,
+                          "y": 0.56274414
+                        },
+                        {
+                          "x": 0.68098956,
+                          "y": 0.56274414
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "17"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "83",
+                "endIndex": "84"
+              },
+              {
+                "startIndex": "85",
+                "endIndex": "95"
+              },
+              {
+                "startIndex": "96",
+                "endIndex": "103"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 DINE FOR 2 129,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2543403,
+                      "y": 0.5698242
+                    },
+                    {
+                      "x": 0.77039933,
+                      "y": 0.5698242
+                    },
+                    {
+                      "x": 0.77039933,
+                      "y": 0.5847168
+                    },
+                    {
+                      "x": 0.2543403,
+                      "y": 0.5847168
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "18",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "83",
+                    "endIndex": "84"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.70261395,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2543403,
+                          "y": 0.57177734
+                        },
+                        {
+                          "x": 0.26345485,
+                          "y": 0.57177734
+                        },
+                        {
+                          "x": 0.26345485,
+                          "y": 0.5847168
+                        },
+                        {
+                          "x": 0.2543403,
+                          "y": 0.5847168
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "19",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "85",
+                    "endIndex": "95"
+                  }
+                ],
+                "content": "DINE FOR 2"
+              },
+              "type": "line_item/description",
+              "mentionText": "DINE FOR 2",
+              "confidence": 0.63427645,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.27907985,
+                          "y": 0.5708008
+                        },
+                        {
+                          "x": 0.42447916,
+                          "y": 0.5708008
+                        },
+                        {
+                          "x": 0.42447916,
+                          "y": 0.58447266
+                        },
+                        {
+                          "x": 0.27907985,
+                          "y": 0.58447266
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "20"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "96",
+                    "endIndex": "103"
+                  }
+                ],
+                "content": "129,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "129,000",
+              "confidence": 0.83164597,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6710069,
+                          "y": 0.5698242
+                        },
+                        {
+                          "x": 0.77039933,
+                          "y": 0.5698242
+                        },
+                        {
+                          "x": 0.77039933,
+                          "y": 0.58325195
+                        },
+                        {
+                          "x": 0.6710069,
+                          "y": 0.58325195
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "21"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "104",
+                "endIndex": "128"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "* DANISH FISH & CHIPS DF",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.29427084,
+                      "y": 0.5891113
+                    },
+                    {
+                      "x": 0.640625,
+                      "y": 0.5891113
+                    },
+                    {
+                      "x": 0.640625,
+                      "y": 0.6044922
+                    },
+                    {
+                      "x": 0.29427084,
+                      "y": 0.6044922
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "22",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "104",
+                    "endIndex": "128"
+                  }
+                ],
+                "content": "* DANISH FISH & CHIPS DF"
+              },
+              "type": "line_item/description",
+              "mentionText": "* DANISH FISH & CHIPS DF",
+              "confidence": 0.49732646,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.29427084,
+                          "y": 0.5891113
+                        },
+                        {
+                          "x": 0.640625,
+                          "y": 0.5891113
+                        },
+                        {
+                          "x": 0.640625,
+                          "y": 0.6044922
+                        },
+                        {
+                          "x": 0.29427084,
+                          "y": 0.6044922
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "23"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "129",
+                "endIndex": "152"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "* NEW YORK FISH & CHIPS",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2938368,
+                      "y": 0.6088867
+                    },
+                    {
+                      "x": 0.625,
+                      "y": 0.6088867
+                    },
+                    {
+                      "x": 0.625,
+                      "y": 0.6245117
+                    },
+                    {
+                      "x": 0.2938368,
+                      "y": 0.6245117
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "24",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "129",
+                    "endIndex": "152"
+                  }
+                ],
+                "content": "* NEW YORK FISH & CHIPS"
+              },
+              "type": "line_item/description",
+              "mentionText": "* NEW YORK FISH & CHIPS",
+              "confidence": 0.49860382,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2938368,
+                          "y": 0.6088867
+                        },
+                        {
+                          "x": 0.625,
+                          "y": 0.6088867
+                        },
+                        {
+                          "x": 0.625,
+                          "y": 0.6245117
+                        },
+                        {
+                          "x": 0.2938368,
+                          "y": 0.6245117
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "25"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "153",
+                "endIndex": "160"
+              },
+              {
+                "startIndex": "161",
+                "endIndex": "168"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "** FOOD 214,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2217882,
+                      "y": 0.6296387
+                    },
+                    {
+                      "x": 0.72699654,
+                      "y": 0.6296387
+                    },
+                    {
+                      "x": 0.72699654,
+                      "y": 0.6447754
+                    },
+                    {
+                      "x": 0.2217882,
+                      "y": 0.6447754
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "26",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "153",
+                    "endIndex": "160"
+                  }
+                ],
+                "content": "** FOOD"
+              },
+              "type": "line_item/description",
+              "mentionText": "** FOOD",
+              "confidence": 0.4783937,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2217882,
+                          "y": 0.6303711
+                        },
+                        {
+                          "x": 0.37760416,
+                          "y": 0.6303711
+                        },
+                        {
+                          "x": 0.37760416,
+                          "y": 0.6447754
+                        },
+                        {
+                          "x": 0.2217882,
+                          "y": 0.6447754
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "27"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "161",
+                    "endIndex": "168"
+                  }
+                ],
+                "content": "214,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "214,000",
+              "confidence": 0.51000816,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.62456596,
+                          "y": 0.6296387
+                        },
+                        {
+                          "x": 0.72699654,
+                          "y": 0.6296387
+                        },
+                        {
+                          "x": 0.72699654,
+                          "y": 0.64282227
+                        },
+                        {
+                          "x": 0.62456596,
+                          "y": 0.64282227
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "28"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "169",
+                "endIndex": "175"
+              },
+              {
+                "startIndex": "176",
+                "endIndex": "183"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "SUBTTL 278,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2795139,
+                      "y": 0.6496582
+                    },
+                    {
+                      "x": 0.7725694,
+                      "y": 0.6496582
+                    },
+                    {
+                      "x": 0.7725694,
+                      "y": 0.6645508
+                    },
+                    {
+                      "x": 0.2795139,
+                      "y": 0.6645508
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "29",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "169",
+                    "endIndex": "175"
+                  }
+                ],
+                "content": "SUBTTL"
+              },
+              "type": "line_item/description",
+              "mentionText": "SUBTTL",
+              "confidence": 0.79619974,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2795139,
+                          "y": 0.6503906
+                        },
+                        {
+                          "x": 0.3671875,
+                          "y": 0.6503906
+                        },
+                        {
+                          "x": 0.3671875,
+                          "y": 0.6640625
+                        },
+                        {
+                          "x": 0.2795139,
+                          "y": 0.6640625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "30"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "176",
+                    "endIndex": "183"
+                  }
+                ],
+                "content": "278,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "278,000",
+              "confidence": 0.35641065,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.66883683,
+                          "y": 0.6496582
+                        },
+                        {
+                          "x": 0.7725694,
+                          "y": 0.6496582
+                        },
+                        {
+                          "x": 0.7725694,
+                          "y": 0.6645508
+                        },
+                        {
+                          "x": 0.66883683,
+                          "y": 0.6645508
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "31"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "184",
+                "endIndex": "198"
+              },
+              {
+                "startIndex": "199",
+                "endIndex": "205"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Service Charge 22.240",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2795139,
+                      "y": 0.6699219
+                    },
+                    {
+                      "x": 0.7708333,
+                      "y": 0.6699219
+                    },
+                    {
+                      "x": 0.7708333,
+                      "y": 0.6845703
+                    },
+                    {
+                      "x": 0.2795139,
+                      "y": 0.6845703
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "32",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "184",
+                    "endIndex": "198"
+                  }
+                ],
+                "content": "Service Charge"
+              },
+              "type": "line_item/description",
+              "mentionText": "Service Charge",
+              "confidence": 0.5840694,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2795139,
+                          "y": 0.6706543
+                        },
+                        {
+                          "x": 0.48350695,
+                          "y": 0.6706543
+                        },
+                        {
+                          "x": 0.48350695,
+                          "y": 0.6845703
+                        },
+                        {
+                          "x": 0.2795139,
+                          "y": 0.6845703
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "33"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "199",
+                    "endIndex": "205"
+                  }
+                ],
+                "content": "22.240"
+              },
+              "type": "line_item/amount",
+              "mentionText": "22.240",
+              "confidence": 0.53202736,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.68446183,
+                          "y": 0.6699219
+                        },
+                        {
+                          "x": 0.7708333,
+                          "y": 0.6699219
+                        },
+                        {
+                          "x": 0.7708333,
+                          "y": 0.6833496
+                        },
+                        {
+                          "x": 0.68446183,
+                          "y": 0.6833496
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "34"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0089",
+  "at": "2026-07-10T11:11:31.029Z",
+  "latencyMs": 3065,
+  "raw": {
+    "document": {
+      "text": "1\n1\nXXL Crispy Chicken\nPedas sedikit\n40.000\n0\nITEMS:1\n40,000\nTotal.\n40,000\nPay Cash 50,000\nChange :10,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "68",
+                "endIndex": "74"
+              }
+            ],
+            "content": "40,000"
+          },
+          "type": "total_amount",
+          "mentionText": "40,000",
+          "confidence": 0.8454893,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7569444,
+                      "y": 0.62114197
+                    },
+                    {
+                      "x": 0.9039352,
+                      "y": 0.62114197
+                    },
+                    {
+                      "x": 0.9039352,
+                      "y": 0.650463
+                    },
+                    {
+                      "x": 0.7569444,
+                      "y": 0.650463
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "54",
+                "endIndex": "60"
+              }
+            ],
+            "content": "40,000"
+          },
+          "type": "net_amount",
+          "mentionText": "40,000",
+          "confidence": 0.6107652,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7592593,
+                      "y": 0.591821
+                    },
+                    {
+                      "x": 0.9085648,
+                      "y": 0.591821
+                    },
+                    {
+                      "x": 0.9085648,
+                      "y": 0.62191355
+                    },
+                    {
+                      "x": 0.7592593,
+                      "y": 0.62191355
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "4",
+                "endIndex": "22"
+              },
+              {
+                "startIndex": "37",
+                "endIndex": "43"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 XXL Crispy Chicken 40.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.059027776,
+                      "y": 0.48919752
+                    },
+                    {
+                      "x": 0.912037,
+                      "y": 0.48919752
+                    },
+                    {
+                      "x": 0.912037,
+                      "y": 0.5285494
+                    },
+                    {
+                      "x": 0.059027776,
+                      "y": 0.5285494
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7376294,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.059027776,
+                          "y": 0.49151236
+                        },
+                        {
+                          "x": 0.0775463,
+                          "y": 0.49151236
+                        },
+                        {
+                          "x": 0.0775463,
+                          "y": 0.5154321
+                        },
+                        {
+                          "x": 0.059027776,
+                          "y": 0.5154321
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "4",
+                    "endIndex": "22"
+                  }
+                ],
+                "content": "XXL Crispy Chicken"
+              },
+              "type": "line_item/description",
+              "mentionText": "XXL Crispy Chicken",
+              "confidence": 0.62900585,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.14814815,
+                          "y": 0.48919752
+                        },
+                        {
+                          "x": 0.5706019,
+                          "y": 0.48919752
+                        },
+                        {
+                          "x": 0.5706019,
+                          "y": 0.52623457
+                        },
+                        {
+                          "x": 0.14814815,
+                          "y": 0.52623457
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "37",
+                    "endIndex": "43"
+                  }
+                ],
+                "content": "40.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "40.000",
+              "confidence": 0.6894895,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7650463,
+                          "y": 0.5015432
+                        },
+                        {
+                          "x": 0.912037,
+                          "y": 0.5015432
+                        },
+                        {
+                          "x": 0.912037,
+                          "y": 0.5285494
+                        },
+                        {
+                          "x": 0.7650463,
+                          "y": 0.5285494
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "2",
+                "endIndex": "3"
+              },
+              {
+                "startIndex": "23",
+                "endIndex": "36"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Pedas sedikit",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.059027776,
+                      "y": 0.5231481
+                    },
+                    {
+                      "x": 0.45833334,
+                      "y": 0.5231481
+                    },
+                    {
+                      "x": 0.45833334,
+                      "y": 0.5509259
+                    },
+                    {
+                      "x": 0.059027776,
+                      "y": 0.5509259
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "3"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.74513113,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.059027776,
+                          "y": 0.52391976
+                        },
+                        {
+                          "x": 0.0787037,
+                          "y": 0.52391976
+                        },
+                        {
+                          "x": 0.0787037,
+                          "y": 0.5470679
+                        },
+                        {
+                          "x": 0.059027776,
+                          "y": 0.5470679
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "23",
+                    "endIndex": "36"
+                  }
+                ],
+                "content": "Pedas sedikit"
+              },
+              "type": "line_item/description",
+              "mentionText": "Pedas sedikit",
+              "confidence": 0.49756885,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.17939815,
+                          "y": 0.5231481
+                        },
+                        {
+                          "x": 0.45833334,
+                          "y": 0.5231481
+                        },
+                        {
+                          "x": 0.45833334,
+                          "y": 0.5509259
+                        },
+                        {
+                          "x": 0.17939815,
+                          "y": 0.5509259
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

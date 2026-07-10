@@ -1,0 +1,108 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0018",
+  "at": "2026-07-10T11:06:53.901Z",
+  "latencyMs": 2283,
+  "raw": {
+    "document": {
+      "text": "Propolis Cair 1\n156000\n156000\nSub Tofal\n156000\nTunai\n156000\nKembalian\nRp.0\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "53",
+                "endIndex": "59"
+              }
+            ],
+            "content": "156000"
+          },
+          "type": "total_amount",
+          "mentionText": "156000",
+          "confidence": 0.57215005,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.4409722,
+                      "y": 0.5833333
+                    },
+                    {
+                      "x": 0.5677083,
+                      "y": 0.5833333
+                    },
+                    {
+                      "x": 0.5677083,
+                      "y": 0.6041667
+                    },
+                    {
+                      "x": 0.4409722,
+                      "y": 0.6041667
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "156000",
+            "moneyValue": {
+              "units": "156000"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "40",
+                "endIndex": "46"
+              }
+            ],
+            "content": "156000"
+          },
+          "type": "payment_authorization_id",
+          "mentionText": "156000",
+          "confidence": 0.5518753,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.44270834,
+                      "y": 0.49421296
+                    },
+                    {
+                      "x": 0.5659722,
+                      "y": 0.49421296
+                    },
+                    {
+                      "x": 0.5659722,
+                      "y": 0.5127315
+                    },
+                    {
+                      "x": 0.44270834,
+                      "y": 0.5127315
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

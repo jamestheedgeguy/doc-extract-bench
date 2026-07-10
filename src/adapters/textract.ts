@@ -4,6 +4,7 @@
  *  Env/credentials: standard AWS credential chain (AWS_PROFILE, env keys,
  *  ~/.aws). Region: AWS_REGION (default us-east-1). */
 
+import { NodeHttpHandler } from "@smithy/node-http-handler";
 import { normalizeAmount } from "../score/normalize.js";
 import {
   AnalyzeDocumentCommand,
@@ -20,7 +21,17 @@ import { now, type Adapter, type AdapterResult, type DocType } from "./types.js"
 
 let client: TextractClient | null = null;
 function getClient(): TextractClient {
-  if (!client) client = new TextractClient({ region: process.env.AWS_REGION ?? "us-east-1" });
+  if (!client)
+    client = new TextractClient({
+      region: process.env.AWS_REGION ?? "us-east-1",
+      maxAttempts: 3,
+      // A hung socket must never stall a run.
+      requestHandler: new NodeHttpHandler({
+        connectionTimeout: 10_000,
+        requestTimeout: 120_000,
+        socketTimeout: 120_000,
+      }),
+    });
   return client;
 }
 

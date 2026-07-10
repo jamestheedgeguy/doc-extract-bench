@@ -1,0 +1,439 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0063",
+  "at": "2026-07-10T11:09:47.185Z",
+  "latencyMs": 1850,
+  "raw": {
+    "document": {
+      "text": "Kopi Susu Kampung.\nIce\nx1\n19.000\nKopi Susu Kampung\nLess Ice\n0\nKopi Susu Kampung.\nx2\n38.000\nIce\nSubtotal\nTotal\nCash\nChange\n57.000\n57.000\n60.000\n3.000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "129",
+                "endIndex": "135"
+              }
+            ],
+            "content": "57.000"
+          },
+          "type": "total_amount",
+          "mentionText": "57.000",
+          "confidence": 0.94097257,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.8402062,
+                      "y": 0.87421876
+                    },
+                    {
+                      "x": 0.9587629,
+                      "y": 0.87421876
+                    },
+                    {
+                      "x": 0.9587629,
+                      "y": 0.8960937
+                    },
+                    {
+                      "x": 0.8402062,
+                      "y": 0.8960937
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "122",
+                "endIndex": "128"
+              }
+            ],
+            "content": "57.000"
+          },
+          "type": "net_amount",
+          "mentionText": "57.000",
+          "confidence": 0.9122134,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.83891755,
+                      "y": 0.815625
+                    },
+                    {
+                      "x": 0.95747423,
+                      "y": 0.815625
+                    },
+                    {
+                      "x": 0.95747423,
+                      "y": 0.83515626
+                    },
+                    {
+                      "x": 0.83891755,
+                      "y": 0.83515626
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "22"
+              },
+              {
+                "startIndex": "26",
+                "endIndex": "32"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Kopi Susu Kampung.\nIce 19.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.0154639175,
+                      "y": 0.634375
+                    },
+                    {
+                      "x": 0.9613402,
+                      "y": 0.634375
+                    },
+                    {
+                      "x": 0.9613402,
+                      "y": 0.6859375
+                    },
+                    {
+                      "x": 0.0154639175,
+                      "y": 0.6859375
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "22"
+                  }
+                ],
+                "content": "Kopi Susu Kampung.\nIce"
+              },
+              "type": "line_item/description",
+              "mentionText": "Kopi Susu Kampung.\nIce",
+              "confidence": 0.6978918,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.0154639175,
+                          "y": 0.634375
+                        },
+                        {
+                          "x": 0.36726806,
+                          "y": 0.634375
+                        },
+                        {
+                          "x": 0.36726806,
+                          "y": 0.6859375
+                        },
+                        {
+                          "x": 0.0154639175,
+                          "y": 0.6859375
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "26",
+                    "endIndex": "32"
+                  }
+                ],
+                "content": "19.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "19.000",
+              "confidence": 0.8472612,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.84664947,
+                          "y": 0.6351563
+                        },
+                        {
+                          "x": 0.9613402,
+                          "y": 0.6351563
+                        },
+                        {
+                          "x": 0.9613402,
+                          "y": 0.65625
+                        },
+                        {
+                          "x": 0.84664947,
+                          "y": 0.65625
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "33",
+                "endIndex": "59"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Kopi Susu Kampung\nLess Ice",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.05541237,
+                      "y": 0.69453126
+                    },
+                    {
+                      "x": 0.60438144,
+                      "y": 0.69453126
+                    },
+                    {
+                      "x": 0.60438144,
+                      "y": 0.7203125
+                    },
+                    {
+                      "x": 0.05541237,
+                      "y": 0.7203125
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "33",
+                    "endIndex": "59"
+                  }
+                ],
+                "content": "Kopi Susu Kampung\nLess Ice"
+              },
+              "type": "line_item/description",
+              "mentionText": "Kopi Susu Kampung\nLess Ice",
+              "confidence": 0.5958289,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05541237,
+                          "y": 0.69453126
+                        },
+                        {
+                          "x": 0.60438144,
+                          "y": 0.69453126
+                        },
+                        {
+                          "x": 0.60438144,
+                          "y": 0.7203125
+                        },
+                        {
+                          "x": 0.05541237,
+                          "y": 0.7203125
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "62",
+                "endIndex": "83"
+              },
+              {
+                "startIndex": "84",
+                "endIndex": "90"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "Kopi Susu Kampung.\nx2 38.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.018041236,
+                      "y": 0.72265625
+                    },
+                    {
+                      "x": 0.95747423,
+                      "y": 0.72265625
+                    },
+                    {
+                      "x": 0.95747423,
+                      "y": 0.75078124
+                    },
+                    {
+                      "x": 0.018041236,
+                      "y": 0.75078124
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "62",
+                    "endIndex": "83"
+                  }
+                ],
+                "content": "Kopi Susu Kampung.\nx2"
+              },
+              "type": "line_item/description",
+              "mentionText": "Kopi Susu Kampung.\nx2",
+              "confidence": 0.7552476,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.018041236,
+                          "y": 0.72265625
+                        },
+                        {
+                          "x": 0.62628865,
+                          "y": 0.72265625
+                        },
+                        {
+                          "x": 0.62628865,
+                          "y": 0.75078124
+                        },
+                        {
+                          "x": 0.018041236,
+                          "y": 0.75078124
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "84",
+                    "endIndex": "90"
+                  }
+                ],
+                "content": "38.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "38.000",
+              "confidence": 0.7982023,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.84149486,
+                          "y": 0.725
+                        },
+                        {
+                          "x": 0.95747423,
+                          "y": 0.725
+                        },
+                        {
+                          "x": 0.95747423,
+                          "y": 0.7453125
+                        },
+                        {
+                          "x": 0.84149486,
+                          "y": 0.7453125
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

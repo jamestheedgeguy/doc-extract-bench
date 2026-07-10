@@ -1,0 +1,495 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0049",
+  "at": "2026-07-10T11:08:54.822Z",
+  "latencyMs": 2512,
+  "raw": {
+    "document": {
+      "text": "1 Ptgs Eggtart\n12,000\n1 Choco Melt\n11,000\nSUBTOTAL\n23,000\nDUE\n23,000\nCASH\nCHANGE\n50,000\n27.000\nTOTAL QTY 2 ITEM 2 PCS\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "69",
+                "endIndex": "73"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.7119249,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.28125,
+                      "y": 0.71875
+                    },
+                    {
+                      "x": 0.3628472,
+                      "y": 0.71875
+                    },
+                    {
+                      "x": 0.3628472,
+                      "y": 0.7361111
+                    },
+                    {
+                      "x": 0.28125,
+                      "y": 0.7361111
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "62",
+                "endIndex": "68"
+              }
+            ],
+            "content": "23,000"
+          },
+          "type": "total_amount",
+          "mentionText": "23,000",
+          "confidence": 0.61584496,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6822917,
+                      "y": 0.6898148
+                    },
+                    {
+                      "x": 0.8072917,
+                      "y": 0.6898148
+                    },
+                    {
+                      "x": 0.8072917,
+                      "y": 0.712963
+                    },
+                    {
+                      "x": 0.6822917,
+                      "y": 0.712963
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "51",
+                "endIndex": "57"
+              }
+            ],
+            "content": "23,000"
+          },
+          "type": "net_amount",
+          "mentionText": "23,000",
+          "confidence": 0.3313003,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6822917,
+                      "y": 0.6585648
+                    },
+                    {
+                      "x": 0.8055556,
+                      "y": 0.6585648
+                    },
+                    {
+                      "x": 0.8055556,
+                      "y": 0.681713
+                    },
+                    {
+                      "x": 0.6822917,
+                      "y": 0.681713
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "14"
+              },
+              {
+                "startIndex": "15",
+                "endIndex": "21"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Ptgs Eggtart 12,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.265625,
+                      "y": 0.5729167
+                    },
+                    {
+                      "x": 0.7916667,
+                      "y": 0.5729167
+                    },
+                    {
+                      "x": 0.7916667,
+                      "y": 0.5949074
+                    },
+                    {
+                      "x": 0.265625,
+                      "y": 0.5949074
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.8197026,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.265625,
+                          "y": 0.5740741
+                        },
+                        {
+                          "x": 0.28125,
+                          "y": 0.5740741
+                        },
+                        {
+                          "x": 0.28125,
+                          "y": 0.5925926
+                        },
+                        {
+                          "x": 0.265625,
+                          "y": 0.5925926
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "14"
+                  }
+                ],
+                "content": "Ptgs Eggtart"
+              },
+              "type": "line_item/description",
+              "mentionText": "Ptgs Eggtart",
+              "confidence": 0.7021783,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2986111,
+                          "y": 0.5740741
+                        },
+                        {
+                          "x": 0.5277778,
+                          "y": 0.5740741
+                        },
+                        {
+                          "x": 0.5277778,
+                          "y": 0.5925926
+                        },
+                        {
+                          "x": 0.2986111,
+                          "y": 0.5925926
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "15",
+                    "endIndex": "21"
+                  }
+                ],
+                "content": "12,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "12,000",
+              "confidence": 0.88206995,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6788194,
+                          "y": 0.5729167
+                        },
+                        {
+                          "x": 0.7916667,
+                          "y": 0.5729167
+                        },
+                        {
+                          "x": 0.7916667,
+                          "y": 0.5949074
+                        },
+                        {
+                          "x": 0.6788194,
+                          "y": 0.5949074
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "22",
+                "endIndex": "23"
+              },
+              {
+                "startIndex": "24",
+                "endIndex": "34"
+              },
+              {
+                "startIndex": "35",
+                "endIndex": "41"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Choco Melt 11,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.26041666,
+                      "y": 0.6006944
+                    },
+                    {
+                      "x": 0.796875,
+                      "y": 0.6006944
+                    },
+                    {
+                      "x": 0.796875,
+                      "y": 0.6226852
+                    },
+                    {
+                      "x": 0.26041666,
+                      "y": 0.6226852
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "22",
+                    "endIndex": "23"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7767893,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.26041666,
+                          "y": 0.6018519
+                        },
+                        {
+                          "x": 0.27430555,
+                          "y": 0.6018519
+                        },
+                        {
+                          "x": 0.27430555,
+                          "y": 0.6168981
+                        },
+                        {
+                          "x": 0.26041666,
+                          "y": 0.6168981
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "24",
+                    "endIndex": "34"
+                  }
+                ],
+                "content": "Choco Melt"
+              },
+              "type": "line_item/description",
+              "mentionText": "Choco Melt",
+              "confidence": 0.65807843,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2951389,
+                          "y": 0.6006944
+                        },
+                        {
+                          "x": 0.4878472,
+                          "y": 0.6006944
+                        },
+                        {
+                          "x": 0.4878472,
+                          "y": 0.6157407
+                        },
+                        {
+                          "x": 0.2951389,
+                          "y": 0.6157407
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "35",
+                    "endIndex": "41"
+                  }
+                ],
+                "content": "11,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "11,000",
+              "confidence": 0.68992674,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6822917,
+                          "y": 0.6006944
+                        },
+                        {
+                          "x": 0.796875,
+                          "y": 0.6006944
+                        },
+                        {
+                          "x": 0.796875,
+                          "y": 0.6226852
+                        },
+                        {
+                          "x": 0.6822917,
+                          "y": 0.6226852
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

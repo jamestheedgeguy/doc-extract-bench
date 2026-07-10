@@ -1,0 +1,405 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0058",
+  "at": "2026-07-10T11:09:22.480Z",
+  "latencyMs": 4340,
+  "raw": {
+    "document": {
+      "text": "1\nPHO BO TAI\n55,000\nCASH\n100,000\nSub Total:\n55,000\nPB1\n5,500\nTotal:\n60,500\nPays\n100,000\nChange Due:\n39,500\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "44",
+                "endIndex": "50"
+              }
+            ],
+            "content": "55,000"
+          },
+          "type": "net_amount",
+          "mentionText": "55,000",
+          "confidence": 0.873386,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.63616556,
+                      "y": 0.5389093
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.5389093
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.5548407
+                    },
+                    {
+                      "x": 0.63616556,
+                      "y": 0.5548407
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "68",
+                "endIndex": "74"
+              }
+            ],
+            "content": "60,500"
+          },
+          "type": "total_amount",
+          "mentionText": "60,500",
+          "confidence": 0.79748225,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6383442,
+                      "y": 0.5808824
+                    },
+                    {
+                      "x": 0.7227669,
+                      "y": 0.5808824
+                    },
+                    {
+                      "x": 0.7227669,
+                      "y": 0.5983456
+                    },
+                    {
+                      "x": 0.6383442,
+                      "y": 0.5983456
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "12"
+              },
+              {
+                "startIndex": "13",
+                "endIndex": "19"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 PHO BO TAI 55,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19880174,
+                      "y": 0.47549018
+                    },
+                    {
+                      "x": 0.72167754,
+                      "y": 0.47549018
+                    },
+                    {
+                      "x": 0.72167754,
+                      "y": 0.49234068
+                    },
+                    {
+                      "x": 0.19880174,
+                      "y": 0.49234068
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7129783,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19880174,
+                          "y": 0.48069853
+                        },
+                        {
+                          "x": 0.209695,
+                          "y": 0.48069853
+                        },
+                        {
+                          "x": 0.209695,
+                          "y": 0.49234068
+                        },
+                        {
+                          "x": 0.19880174,
+                          "y": 0.49234068
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "12"
+                  }
+                ],
+                "content": "PHO BO TAI"
+              },
+              "type": "line_item/description",
+              "mentionText": "PHO BO TAI",
+              "confidence": 0.73561025,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2570806,
+                          "y": 0.47855392
+                        },
+                        {
+                          "x": 0.39923748,
+                          "y": 0.47855392
+                        },
+                        {
+                          "x": 0.39923748,
+                          "y": 0.49234068
+                        },
+                        {
+                          "x": 0.2570806,
+                          "y": 0.49234068
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "13",
+                    "endIndex": "19"
+                  }
+                ],
+                "content": "55,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "55,000",
+              "confidence": 0.78418016,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.63398695,
+                          "y": 0.47549018
+                        },
+                        {
+                          "x": 0.72167754,
+                          "y": 0.47549018
+                        },
+                        {
+                          "x": 0.72167754,
+                          "y": 0.4908088
+                        },
+                        {
+                          "x": 0.63398695,
+                          "y": 0.4908088
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "20",
+                "endIndex": "24"
+              },
+              {
+                "startIndex": "25",
+                "endIndex": "32"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "CASH 100,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.2570806,
+                      "y": 0.49724266
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.49724266
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.51348037
+                    },
+                    {
+                      "x": 0.2570806,
+                      "y": 0.51348037
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "20",
+                    "endIndex": "24"
+                  }
+                ],
+                "content": "CASH"
+              },
+              "type": "line_item/description",
+              "mentionText": "CASH",
+              "confidence": 0.59662694,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2570806,
+                          "y": 0.50153184
+                        },
+                        {
+                          "x": 0.31808278,
+                          "y": 0.50153184
+                        },
+                        {
+                          "x": 0.31808278,
+                          "y": 0.51348037
+                        },
+                        {
+                          "x": 0.2570806,
+                          "y": 0.51348037
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "25",
+                    "endIndex": "32"
+                  }
+                ],
+                "content": "100,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "100,000",
+              "confidence": 0.4577121,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.62200433,
+                          "y": 0.49724266
+                        },
+                        {
+                          "x": 0.7222222,
+                          "y": 0.49724266
+                        },
+                        {
+                          "x": 0.7222222,
+                          "y": 0.5122549
+                        },
+                        {
+                          "x": 0.62200433,
+                          "y": 0.5122549
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

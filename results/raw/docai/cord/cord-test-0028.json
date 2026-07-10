@@ -1,0 +1,672 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0028",
+  "at": "2026-07-10T11:07:23.498Z",
+  "latencyMs": 3904,
+  "raw": {
+    "document": {
+      "text": "SAMGYOPSAL\n2\n194,000\nSUL LUNG TANG 1\n75,000\nMAKOLI\n1\n100,000\nSub Total\n369,000\n18.450\nService\nVAT\nDiscount\nTOTAL\n38,745\n0\n426,195\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "122",
+                "endIndex": "129"
+              }
+            ],
+            "content": "426,195"
+          },
+          "type": "total_amount",
+          "mentionText": "426,195",
+          "confidence": 0.9607266,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6171875,
+                      "y": 0.6672454
+                    },
+                    {
+                      "x": 0.7855903,
+                      "y": 0.6672454
+                    },
+                    {
+                      "x": 0.7855903,
+                      "y": 0.6956019
+                    },
+                    {
+                      "x": 0.6171875,
+                      "y": 0.6956019
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "71",
+                "endIndex": "78"
+              }
+            ],
+            "content": "369,000"
+          },
+          "type": "net_amount",
+          "mentionText": "369,000",
+          "confidence": 0.81866735,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6414931,
+                      "y": 0.5283565
+                    },
+                    {
+                      "x": 0.7786458,
+                      "y": 0.5283565
+                    },
+                    {
+                      "x": 0.7786458,
+                      "y": 0.5486111
+                    },
+                    {
+                      "x": 0.6414931,
+                      "y": 0.5486111
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "113",
+                "endIndex": "119"
+              }
+            ],
+            "content": "38,745"
+          },
+          "type": "total_tax_amount",
+          "mentionText": "38,745",
+          "confidence": 0.49149472,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6640625,
+                      "y": 0.5868056
+                    },
+                    {
+                      "x": 0.7777778,
+                      "y": 0.5868056
+                    },
+                    {
+                      "x": 0.7777778,
+                      "y": 0.6053241
+                    },
+                    {
+                      "x": 0.6640625,
+                      "y": 0.6053241
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "10"
+              },
+              {
+                "startIndex": "11",
+                "endIndex": "12"
+              },
+              {
+                "startIndex": "13",
+                "endIndex": "20"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "SAMGYOPSAL 2 194,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.12934028,
+                      "y": 0.4189815
+                    },
+                    {
+                      "x": 0.7699653,
+                      "y": 0.4189815
+                    },
+                    {
+                      "x": 0.7699653,
+                      "y": 0.4403935
+                    },
+                    {
+                      "x": 0.12934028,
+                      "y": 0.4403935
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "10"
+                  }
+                ],
+                "content": "SAMGYOPSAL"
+              },
+              "type": "line_item/description",
+              "mentionText": "SAMGYOPSAL",
+              "confidence": 0.87509483,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12934028,
+                          "y": 0.421875
+                        },
+                        {
+                          "x": 0.3888889,
+                          "y": 0.421875
+                        },
+                        {
+                          "x": 0.3888889,
+                          "y": 0.4403935
+                        },
+                        {
+                          "x": 0.12934028,
+                          "y": 0.4403935
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "11",
+                    "endIndex": "12"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.7246407,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.49305555,
+                          "y": 0.4230324
+                        },
+                        {
+                          "x": 0.5130208,
+                          "y": 0.4230324
+                        },
+                        {
+                          "x": 0.5130208,
+                          "y": 0.4369213
+                        },
+                        {
+                          "x": 0.49305555,
+                          "y": 0.4369213
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "13",
+                    "endIndex": "20"
+                  }
+                ],
+                "content": "194,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "194,000",
+              "confidence": 0.8745079,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6380208,
+                          "y": 0.4189815
+                        },
+                        {
+                          "x": 0.7699653,
+                          "y": 0.4189815
+                        },
+                        {
+                          "x": 0.7699653,
+                          "y": 0.4375
+                        },
+                        {
+                          "x": 0.6380208,
+                          "y": 0.4375
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "21",
+                "endIndex": "34"
+              },
+              {
+                "startIndex": "35",
+                "endIndex": "36"
+              },
+              {
+                "startIndex": "37",
+                "endIndex": "43"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "SUL LUNG TANG 1 75,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1267361,
+                      "y": 0.4508102
+                    },
+                    {
+                      "x": 0.7699653,
+                      "y": 0.4508102
+                    },
+                    {
+                      "x": 0.7699653,
+                      "y": 0.47337964
+                    },
+                    {
+                      "x": 0.1267361,
+                      "y": 0.47337964
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "21",
+                    "endIndex": "34"
+                  }
+                ],
+                "content": "SUL LUNG TANG"
+              },
+              "type": "line_item/description",
+              "mentionText": "SUL LUNG TANG",
+              "confidence": 0.7375715,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1267361,
+                          "y": 0.4525463
+                        },
+                        {
+                          "x": 0.4279514,
+                          "y": 0.4525463
+                        },
+                        {
+                          "x": 0.4279514,
+                          "y": 0.47337964
+                        },
+                        {
+                          "x": 0.1267361,
+                          "y": 0.47337964
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "35",
+                    "endIndex": "36"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7616154,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.49305555,
+                          "y": 0.4519676
+                        },
+                        {
+                          "x": 0.5112847,
+                          "y": 0.4519676
+                        },
+                        {
+                          "x": 0.5112847,
+                          "y": 0.4699074
+                        },
+                        {
+                          "x": 0.49305555,
+                          "y": 0.4699074
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "37",
+                    "endIndex": "43"
+                  }
+                ],
+                "content": "75,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "75,000",
+              "confidence": 0.73837537,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6579861,
+                          "y": 0.4508102
+                        },
+                        {
+                          "x": 0.7699653,
+                          "y": 0.4508102
+                        },
+                        {
+                          "x": 0.7699653,
+                          "y": 0.46875
+                        },
+                        {
+                          "x": 0.6579861,
+                          "y": 0.46875
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "44",
+                "endIndex": "50"
+              },
+              {
+                "startIndex": "51",
+                "endIndex": "52"
+              },
+              {
+                "startIndex": "53",
+                "endIndex": "60"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "MAKOLI 1 100,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.12760417,
+                      "y": 0.4809028
+                    },
+                    {
+                      "x": 0.7725694,
+                      "y": 0.4809028
+                    },
+                    {
+                      "x": 0.7725694,
+                      "y": 0.5052083
+                    },
+                    {
+                      "x": 0.12760417,
+                      "y": 0.5052083
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "11",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "44",
+                    "endIndex": "50"
+                  }
+                ],
+                "content": "MAKOLI"
+              },
+              "type": "line_item/description",
+              "mentionText": "MAKOLI",
+              "confidence": 0.9487108,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12760417,
+                          "y": 0.4861111
+                        },
+                        {
+                          "x": 0.2699653,
+                          "y": 0.4861111
+                        },
+                        {
+                          "x": 0.2699653,
+                          "y": 0.5052083
+                        },
+                        {
+                          "x": 0.12760417,
+                          "y": 0.5052083
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "51",
+                    "endIndex": "52"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.80430263,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.4965278,
+                          "y": 0.4849537
+                        },
+                        {
+                          "x": 0.5104167,
+                          "y": 0.4849537
+                        },
+                        {
+                          "x": 0.5104167,
+                          "y": 0.5
+                        },
+                        {
+                          "x": 0.4965278,
+                          "y": 0.5
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "53",
+                    "endIndex": "60"
+                  }
+                ],
+                "content": "100,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "100,000",
+              "confidence": 0.7890389,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.640625,
+                          "y": 0.4809028
+                        },
+                        {
+                          "x": 0.7725694,
+                          "y": 0.4809028
+                        },
+                        {
+                          "x": 0.7725694,
+                          "y": 0.5011574
+                        },
+                        {
+                          "x": 0.640625,
+                          "y": 0.5011574
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "14"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

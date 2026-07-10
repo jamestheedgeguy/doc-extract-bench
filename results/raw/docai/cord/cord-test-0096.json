@@ -1,0 +1,364 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0096",
+  "at": "2026-07-10T11:11:50.219Z",
+  "latencyMs": 3257,
+  "raw": {
+    "document": {
+      "text": "1\nBBQ Chicken\n1\nTidak Pedas\nITEMS:1\nTotal.\n41,000\n41,000\n41,000\nPay Cash 50,000 Change :9,000\nhoki\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "50",
+                "endIndex": "56"
+              }
+            ],
+            "content": "41,000"
+          },
+          "type": "total_amount",
+          "mentionText": "41,000",
+          "confidence": 0.70490193,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.5752315,
+                      "y": 0.72299385
+                    },
+                    {
+                      "x": 0.6574074,
+                      "y": 0.72299385
+                    },
+                    {
+                      "x": 0.6574074,
+                      "y": 0.74382716
+                    },
+                    {
+                      "x": 0.5752315,
+                      "y": 0.74382716
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "68",
+                "endIndex": "72"
+              }
+            ],
+            "content": "Cash"
+          },
+          "type": "payment_type",
+          "mentionText": "Cash",
+          "confidence": 0.555905,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.20601852,
+                      "y": 0.7708333
+                    },
+                    {
+                      "x": 0.2777778,
+                      "y": 0.7708333
+                    },
+                    {
+                      "x": 0.2777778,
+                      "y": 0.80401236
+                    },
+                    {
+                      "x": 0.20601852,
+                      "y": 0.80401236
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "13"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 BBQ Chicken",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15856482,
+                      "y": 0.68132716
+                    },
+                    {
+                      "x": 0.38194445,
+                      "y": 0.68132716
+                    },
+                    {
+                      "x": 0.38194445,
+                      "y": 0.7006173
+                    },
+                    {
+                      "x": 0.15856482,
+                      "y": 0.7006173
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.81525,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15856482,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.16898148,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.16898148,
+                          "y": 0.7006173
+                        },
+                        {
+                          "x": 0.15856482,
+                          "y": 0.7006173
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "13"
+                  }
+                ],
+                "content": "BBQ Chicken"
+              },
+              "type": "line_item/description",
+              "mentionText": "BBQ Chicken",
+              "confidence": 0.6764903,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.21296297,
+                          "y": 0.68132716
+                        },
+                        {
+                          "x": 0.38194445,
+                          "y": 0.68132716
+                        },
+                        {
+                          "x": 0.38194445,
+                          "y": 0.7006173
+                        },
+                        {
+                          "x": 0.21296297,
+                          "y": 0.7006173
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "14",
+                "endIndex": "15"
+              },
+              {
+                "startIndex": "16",
+                "endIndex": "27"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 Tidak Pedas",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.15856482,
+                      "y": 0.69830245
+                    },
+                    {
+                      "x": 0.38194445,
+                      "y": 0.69830245
+                    },
+                    {
+                      "x": 0.38194445,
+                      "y": 0.7191358
+                    },
+                    {
+                      "x": 0.15856482,
+                      "y": 0.7191358
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "5",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "14",
+                    "endIndex": "15"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.765787,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.15856482,
+                          "y": 0.7060185
+                        },
+                        {
+                          "x": 0.1701389,
+                          "y": 0.7060185
+                        },
+                        {
+                          "x": 0.1701389,
+                          "y": 0.7191358
+                        },
+                        {
+                          "x": 0.15856482,
+                          "y": 0.7191358
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "16",
+                    "endIndex": "27"
+                  }
+                ],
+                "content": "Tidak Pedas"
+              },
+              "type": "line_item/description",
+              "mentionText": "Tidak Pedas",
+              "confidence": 0.5099863,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22800925,
+                          "y": 0.69830245
+                        },
+                        {
+                          "x": 0.38194445,
+                          "y": 0.69830245
+                        },
+                        {
+                          "x": 0.38194445,
+                          "y": 0.7175926
+                        },
+                        {
+                          "x": 0.22800925,
+                          "y": 0.7175926
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

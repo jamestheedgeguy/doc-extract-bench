@@ -1,0 +1,633 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0006",
+  "at": "2026-07-10T11:06:19.072Z",
+  "latencyMs": 3355,
+  "raw": {
+    "document": {
+      "text": "Tous Les_Jours\n1 EGG TART\n13,000\n2 CHOCO CUS ARD PASTRY\n24,000\n1 REDBEAN BREAD\n9,000\nTOTAL\n46,000\nCASH\n50,000\nCHANGE\n4,000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "91",
+                "endIndex": "97"
+              }
+            ],
+            "content": "46,000"
+          },
+          "type": "total_amount",
+          "mentionText": "46,000",
+          "confidence": 0.9705432,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.6342593,
+                      "y": 0.5640432
+                    },
+                    {
+                      "x": 0.8611111,
+                      "y": 0.5640432
+                    },
+                    {
+                      "x": 0.8611111,
+                      "y": 0.6064815
+                    },
+                    {
+                      "x": 0.6342593,
+                      "y": 0.6064815
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "98",
+                "endIndex": "102"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.74038136,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.22569445,
+                      "y": 0.6134259
+                    },
+                    {
+                      "x": 0.30092594,
+                      "y": 0.6134259
+                    },
+                    {
+                      "x": 0.30092594,
+                      "y": 0.6388889
+                    },
+                    {
+                      "x": 0.22569445,
+                      "y": 0.6388889
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "15",
+                "endIndex": "16"
+              },
+              {
+                "startIndex": "17",
+                "endIndex": "25"
+              },
+              {
+                "startIndex": "26",
+                "endIndex": "32"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 EGG TART 13,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1886574,
+                      "y": 0.43904322
+                    },
+                    {
+                      "x": 0.8703704,
+                      "y": 0.43904322
+                    },
+                    {
+                      "x": 0.8703704,
+                      "y": 0.4691358
+                    },
+                    {
+                      "x": 0.1886574,
+                      "y": 0.4691358
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "15",
+                    "endIndex": "16"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.6986737,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1886574,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.46450618
+                        },
+                        {
+                          "x": 0.1886574,
+                          "y": 0.46450618
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "3",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "17",
+                    "endIndex": "25"
+                  }
+                ],
+                "content": "EGG TART"
+              },
+              "type": "line_item/description",
+              "mentionText": "EGG TART",
+              "confidence": 0.5039337,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22685185,
+                          "y": 0.43904322
+                        },
+                        {
+                          "x": 0.3784722,
+                          "y": 0.43904322
+                        },
+                        {
+                          "x": 0.3784722,
+                          "y": 0.46373457
+                        },
+                        {
+                          "x": 0.22685185,
+                          "y": 0.46373457
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "26",
+                    "endIndex": "32"
+                  }
+                ],
+                "content": "13,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "13,000",
+              "confidence": 0.7629567,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7534722,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.8703704,
+                          "y": 0.44212964
+                        },
+                        {
+                          "x": 0.8703704,
+                          "y": 0.4691358
+                        },
+                        {
+                          "x": 0.7534722,
+                          "y": 0.4691358
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "33",
+                "endIndex": "34"
+              },
+              {
+                "startIndex": "35",
+                "endIndex": "55"
+              },
+              {
+                "startIndex": "56",
+                "endIndex": "62"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "2 CHOCO CUS ARD PASTRY 24,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.1875,
+                      "y": 0.4699074
+                    },
+                    {
+                      "x": 0.8726852,
+                      "y": 0.4699074
+                    },
+                    {
+                      "x": 0.8726852,
+                      "y": 0.49845678
+                    },
+                    {
+                      "x": 0.1875,
+                      "y": 0.49845678
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "33",
+                    "endIndex": "34"
+                  }
+                ],
+                "content": "2"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "2",
+              "confidence": 0.6488218,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.1875,
+                          "y": 0.4722222
+                        },
+                        {
+                          "x": 0.21064815,
+                          "y": 0.4722222
+                        },
+                        {
+                          "x": 0.21064815,
+                          "y": 0.49537036
+                        },
+                        {
+                          "x": 0.1875,
+                          "y": 0.49537036
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7",
+              "normalizedValue": {
+                "text": "2",
+                "integerValue": 2
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "35",
+                    "endIndex": "55"
+                  }
+                ],
+                "content": "CHOCO CUS ARD PASTRY"
+              },
+              "type": "line_item/description",
+              "mentionText": "CHOCO CUS ARD PASTRY",
+              "confidence": 0.7309484,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.23032407,
+                          "y": 0.4699074
+                        },
+                        {
+                          "x": 0.5983796,
+                          "y": 0.4699074
+                        },
+                        {
+                          "x": 0.5983796,
+                          "y": 0.49459878
+                        },
+                        {
+                          "x": 0.23032407,
+                          "y": 0.49459878
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "56",
+                    "endIndex": "62"
+                  }
+                ],
+                "content": "24,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "24,000",
+              "confidence": 0.84150326,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.75,
+                          "y": 0.47608024
+                        },
+                        {
+                          "x": 0.8726852,
+                          "y": 0.47608024
+                        },
+                        {
+                          "x": 0.8726852,
+                          "y": 0.49845678
+                        },
+                        {
+                          "x": 0.75,
+                          "y": 0.49845678
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "63",
+                "endIndex": "64"
+              },
+              {
+                "startIndex": "65",
+                "endIndex": "78"
+              },
+              {
+                "startIndex": "79",
+                "endIndex": "84"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 REDBEAN BREAD 9,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19212963,
+                      "y": 0.4992284
+                    },
+                    {
+                      "x": 0.8680556,
+                      "y": 0.4992284
+                    },
+                    {
+                      "x": 0.8680556,
+                      "y": 0.52700615
+                    },
+                    {
+                      "x": 0.19212963,
+                      "y": 0.52700615
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "10",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "63",
+                    "endIndex": "64"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.7345172,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19212963,
+                          "y": 0.50385803
+                        },
+                        {
+                          "x": 0.20833333,
+                          "y": 0.50385803
+                        },
+                        {
+                          "x": 0.20833333,
+                          "y": 0.52700615
+                        },
+                        {
+                          "x": 0.19212963,
+                          "y": 0.52700615
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "65",
+                    "endIndex": "78"
+                  }
+                ],
+                "content": "REDBEAN BREAD"
+              },
+              "type": "line_item/description",
+              "mentionText": "REDBEAN BREAD",
+              "confidence": 0.6589858,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.22453703,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.4710648,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.4710648,
+                          "y": 0.52623457
+                        },
+                        {
+                          "x": 0.22453703,
+                          "y": 0.52623457
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "12"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "79",
+                    "endIndex": "84"
+                  }
+                ],
+                "content": "9,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "9,000",
+              "confidence": 0.71482944,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7673611,
+                          "y": 0.50540125
+                        },
+                        {
+                          "x": 0.8680556,
+                          "y": 0.50540125
+                        },
+                        {
+                          "x": 0.8680556,
+                          "y": 0.52700615
+                        },
+                        {
+                          "x": 0.7673611,
+                          "y": 0.52700615
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "13"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

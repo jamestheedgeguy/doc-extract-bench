@@ -1,0 +1,320 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0090",
+  "at": "2026-07-10T11:11:34.193Z",
+  "latencyMs": 3163,
+  "raw": {
+    "document": {
+      "text": "B17\n1 CIRENG PANDAWA\n26,818\nSubtotal\n26,818\nPb1\n2,681\nTotal\n29,500\nCASH\n29,500\nTotal Item\n1\nTotal Qty\n1\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "60",
+                "endIndex": "66"
+              }
+            ],
+            "content": "29,500"
+          },
+          "type": "total_amount",
+          "mentionText": "29,500",
+          "confidence": 0.8463957,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.69584835,
+                      "y": 0.6069012
+                    },
+                    {
+                      "x": 0.82039714,
+                      "y": 0.6069012
+                    },
+                    {
+                      "x": 0.82039714,
+                      "y": 0.6292287
+                    },
+                    {
+                      "x": 0.69584835,
+                      "y": 0.6292287
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "37",
+                "endIndex": "43"
+              }
+            ],
+            "content": "26,818"
+          },
+          "type": "net_amount",
+          "mentionText": "26,818",
+          "confidence": 0.8132741,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7193141,
+                      "y": 0.5399188
+                    },
+                    {
+                      "x": 0.8185921,
+                      "y": 0.5399188
+                    },
+                    {
+                      "x": 0.8185921,
+                      "y": 0.55886334
+                    },
+                    {
+                      "x": 0.7193141,
+                      "y": 0.55886334
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "67",
+                "endIndex": "71"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.7827164,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.46841156,
+                      "y": 0.63870096
+                    },
+                    {
+                      "x": 0.5622744,
+                      "y": 0.63870096
+                    },
+                    {
+                      "x": 0.5622744,
+                      "y": 0.6569689
+                    },
+                    {
+                      "x": 0.46841156,
+                      "y": 0.6569689
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "4",
+                "endIndex": "5"
+              },
+              {
+                "startIndex": "6",
+                "endIndex": "20"
+              },
+              {
+                "startIndex": "21",
+                "endIndex": "27"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 CIRENG PANDAWA 26,818",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.26263538,
+                      "y": 0.47902572
+                    },
+                    {
+                      "x": 0.81498194,
+                      "y": 0.47902572
+                    },
+                    {
+                      "x": 0.81498194,
+                      "y": 0.5006766
+                    },
+                    {
+                      "x": 0.26263538,
+                      "y": 0.5006766
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "4",
+                    "endIndex": "5"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.70890355,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.26263538,
+                          "y": 0.48173207
+                        },
+                        {
+                          "x": 0.27707583,
+                          "y": 0.48173207
+                        },
+                        {
+                          "x": 0.27707583,
+                          "y": 0.5006766
+                        },
+                        {
+                          "x": 0.26263538,
+                          "y": 0.5006766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "6",
+                    "endIndex": "20"
+                  }
+                ],
+                "content": "CIRENG PANDAWA"
+              },
+              "type": "line_item/description",
+              "mentionText": "CIRENG PANDAWA",
+              "confidence": 0.6429448,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.28971118,
+                          "y": 0.4797023
+                        },
+                        {
+                          "x": 0.55866426,
+                          "y": 0.4797023
+                        },
+                        {
+                          "x": 0.55866426,
+                          "y": 0.5006766
+                        },
+                        {
+                          "x": 0.28971118,
+                          "y": 0.5006766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "21",
+                    "endIndex": "27"
+                  }
+                ],
+                "content": "26,818"
+              },
+              "type": "line_item/amount",
+              "mentionText": "26,818",
+              "confidence": 0.8025458,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.71841156,
+                          "y": 0.47902572
+                        },
+                        {
+                          "x": 0.81498194,
+                          "y": 0.47902572
+                        },
+                        {
+                          "x": 0.81498194,
+                          "y": 0.5
+                        },
+                        {
+                          "x": 0.71841156,
+                          "y": 0.5
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}
