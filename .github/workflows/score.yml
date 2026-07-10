@@ -30,7 +30,7 @@ jobs:
         run: pnpm test
 
       - name: SROIE ground truth (sha256-verified keyless fetch)
-        run: pnpm fetch --gt-sroie
+        run: pnpm exec tsx scripts/fetch.ts --gt-sroie
 
       - name: Replay — re-score all committed raw responses offline
         run: pnpm replay

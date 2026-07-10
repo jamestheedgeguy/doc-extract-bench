@@ -30,7 +30,7 @@ jobs:
         run: pnpm fetch
 
       - name: Verify pre-registered subsets
-        run: pnpm select --check
+        run: pnpm exec tsx datasets/select.ts --check
 
       - name: Run benchmark (cost-gated)
         env:

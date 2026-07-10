@@ -73,7 +73,7 @@ Every vendor's verbatim responses live in `results/raw/`. Re-score them offline:
 
 ```bash
 pnpm install
-pnpm fetch --gt-sroie   # keyless: re-derives SROIE ground truth from the pinned source
+pnpm exec tsx scripts/fetch.ts --gt-sroie   # keyless: re-derives SROIE ground truth
 pnpm replay             # re-scores all committed raw responses
 pnpm report             # regenerates results/latest.json + the README tables
 pnpm test               # TEDS implementation vs Python-reference fixtures
