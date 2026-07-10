@@ -1,0 +1,211 @@
+{
+  "vendor": "kynth",
+  "dataset": "sroie",
+  "docType": "receipt",
+  "n": 5,
+  "failures": 0,
+  "latencyMsP50": 3426,
+  "fieldAccuracy": 0.8,
+  "fieldsScored": 20,
+  "anls": 0.8441176470588235,
+  "perField": {
+    "merchant": {
+      "accuracy": 0.8,
+      "n": 5
+    },
+    "date": {
+      "accuracy": 0.8,
+      "n": 5
+    },
+    "address": {
+      "accuracy": 0.8,
+      "n": 5
+    },
+    "total": {
+      "accuracy": 0.8,
+      "n": 5
+    }
+  },
+  "docs": [
+    {
+      "docId": "X51007231365",
+      "latencyMs": 7152,
+      "fields": {
+        "perField": [
+          {
+            "field": "merchant",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "date",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "address",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 4,
+        "correct": 2,
+        "accuracy": 0.5,
+        "anls": 0.5
+      }
+    },
+    {
+      "docId": "X51006466056",
+      "latencyMs": 3130,
+      "fields": {
+        "perField": [
+          {
+            "field": "merchant",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "date",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "address",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 4,
+        "correct": 4,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "X51005757248",
+      "latencyMs": 3426,
+      "fields": {
+        "perField": [
+          {
+            "field": "merchant",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "date",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "address",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          }
+        ],
+        "scored": 4,
+        "correct": 3,
+        "accuracy": 0.75,
+        "anls": 0.75
+      }
+    },
+    {
+      "docId": "X51005442341",
+      "latencyMs": 3762,
+      "fields": {
+        "perField": [
+          {
+            "field": "merchant",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "date",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "address",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 4,
+        "correct": 4,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "X51005757353(1)",
+      "latencyMs": 3366,
+      "fields": {
+        "perField": [
+          {
+            "field": "merchant",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "date",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "address",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0.8823529411764706
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 4,
+        "correct": 3,
+        "accuracy": 0.75,
+        "anls": 0.9705882352941176
+      }
+    }
+  ]
+}

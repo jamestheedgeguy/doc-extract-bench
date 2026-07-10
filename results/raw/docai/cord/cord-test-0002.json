@@ -1,0 +1,446 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0002",
+  "at": "2026-07-10T10:00:37.966Z",
+  "latencyMs": 2664,
+  "raw": {
+    "document": {
+      "text": "1 JASMINE MT (L)\n24.000\nTOCONUT JELLY (L)\n4.000\nSUB TOTAL\n28.000\nt\nTOTAL SALES\n28.000\nTOTAL ITEMS\n1\nCASH\n100.000\nCHANGE\n72.000\nQueue No: 102\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "79",
+                "endIndex": "85"
+              }
+            ],
+            "content": "28.000"
+          },
+          "type": "total_amount",
+          "mentionText": "28.000",
+          "confidence": 0.8707174,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7962963,
+                      "y": 0.65123457
+                    },
+                    {
+                      "x": 0.8773148,
+                      "y": 0.65123457
+                    },
+                    {
+                      "x": 0.8773148,
+                      "y": 0.66820985
+                    },
+                    {
+                      "x": 0.7962963,
+                      "y": 0.66820985
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "58",
+                "endIndex": "64"
+              }
+            ],
+            "content": "28.000"
+          },
+          "type": "net_amount",
+          "mentionText": "28.000",
+          "confidence": 0.8341755,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7893519,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.8680556,
+                      "y": 0.5925926
+                    },
+                    {
+                      "x": 0.8680556,
+                      "y": 0.6080247
+                    },
+                    {
+                      "x": 0.7893519,
+                      "y": 0.6080247
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "100",
+                "endIndex": "104"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.6347859,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.11574074,
+                      "y": 0.7183642
+                    },
+                    {
+                      "x": 0.17939815,
+                      "y": 0.7183642
+                    },
+                    {
+                      "x": 0.17939815,
+                      "y": 0.73919755
+                    },
+                    {
+                      "x": 0.11574074,
+                      "y": 0.73919755
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "1"
+              },
+              {
+                "startIndex": "2",
+                "endIndex": "16"
+              },
+              {
+                "startIndex": "17",
+                "endIndex": "23"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "1 JASMINE MT (L) 24.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.19328703,
+                      "y": 0.5015432
+                    },
+                    {
+                      "x": 0.8599537,
+                      "y": 0.5015432
+                    },
+                    {
+                      "x": 0.8599537,
+                      "y": 0.52006173
+                    },
+                    {
+                      "x": 0.19328703,
+                      "y": 0.52006173
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "endIndex": "1"
+                  }
+                ],
+                "content": "1"
+              },
+              "type": "line_item/quantity",
+              "mentionText": "1",
+              "confidence": 0.6981406,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.19328703,
+                          "y": 0.5015432
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.5015432
+                        },
+                        {
+                          "x": 0.20601852,
+                          "y": 0.5169753
+                        },
+                        {
+                          "x": 0.19328703,
+                          "y": 0.5169753
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4",
+              "normalizedValue": {
+                "text": "1",
+                "integerValue": 1
+              }
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "2",
+                    "endIndex": "16"
+                  }
+                ],
+                "content": "JASMINE MT (L)"
+              },
+              "type": "line_item/description",
+              "mentionText": "JASMINE MT (L)",
+              "confidence": 0.69813067,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.2534722,
+                          "y": 0.5015432
+                        },
+                        {
+                          "x": 0.47800925,
+                          "y": 0.5015432
+                        },
+                        {
+                          "x": 0.47800925,
+                          "y": 0.5169753
+                        },
+                        {
+                          "x": 0.2534722,
+                          "y": 0.5169753
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "17",
+                    "endIndex": "23"
+                  }
+                ],
+                "content": "24.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "24.000",
+              "confidence": 0.8757228,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7789352,
+                          "y": 0.5046296
+                        },
+                        {
+                          "x": 0.8599537,
+                          "y": 0.5046296
+                        },
+                        {
+                          "x": 0.8599537,
+                          "y": 0.52006173
+                        },
+                        {
+                          "x": 0.7789352,
+                          "y": 0.52006173
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "24",
+                "endIndex": "41"
+              },
+              {
+                "startIndex": "42",
+                "endIndex": "47"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "TOCONUT JELLY (L) 4.000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.24189815,
+                      "y": 0.5285494
+                    },
+                    {
+                      "x": 0.8611111,
+                      "y": 0.5285494
+                    },
+                    {
+                      "x": 0.8611111,
+                      "y": 0.5493827
+                    },
+                    {
+                      "x": 0.24189815,
+                      "y": 0.5493827
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "7",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "24",
+                    "endIndex": "41"
+                  }
+                ],
+                "content": "TOCONUT JELLY (L)"
+              },
+              "type": "line_item/description",
+              "mentionText": "TOCONUT JELLY (L)",
+              "confidence": 0.67634636,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.24189815,
+                          "y": 0.5285494
+                        },
+                        {
+                          "x": 0.5092593,
+                          "y": 0.5285494
+                        },
+                        {
+                          "x": 0.5092593,
+                          "y": 0.5447531
+                        },
+                        {
+                          "x": 0.24189815,
+                          "y": 0.5447531
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "8"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "42",
+                    "endIndex": "47"
+                  }
+                ],
+                "content": "4.000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "4.000",
+              "confidence": 0.8820873,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7951389,
+                          "y": 0.5324074
+                        },
+                        {
+                          "x": 0.8611111,
+                          "y": 0.5324074
+                        },
+                        {
+                          "x": 0.8611111,
+                          "y": 0.5493827
+                        },
+                        {
+                          "x": 0.7951389,
+                          "y": 0.5493827
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

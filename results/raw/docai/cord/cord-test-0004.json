@@ -1,0 +1,527 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0004",
+  "at": "2026-07-10T10:00:44.462Z",
+  "latencyMs": 3474,
+  "raw": {
+    "document": {
+      "text": "Tatuakan\nR\nBalo\nJias\nRiger\nle\nNew CE BLACKCOFFE\nAVOCADO COFFEE\n82,000\n61,000\nebe CHIKEN KATSU FF\n51,000\nBibi\nRa\nSUS TOTAL\n194,000\nDISCOUNT\nСер\n19,400\nTOTAL\n174,600\nCASH\n200,000\nCHANGE\n25,400\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "156",
+                "endIndex": "163"
+              }
+            ],
+            "content": "174,600"
+          },
+          "type": "total_amount",
+          "mentionText": "174,600",
+          "confidence": 0.84698975,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.7222222,
+                      "y": 0.6643519
+                    },
+                    {
+                      "x": 0.8564815,
+                      "y": 0.6643519
+                    },
+                    {
+                      "x": 0.8564815,
+                      "y": 0.6890432
+                    },
+                    {
+                      "x": 0.7222222,
+                      "y": 0.6890432
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "164",
+                "endIndex": "168"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.78161764,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.28587964,
+                      "y": 0.6867284
+                    },
+                    {
+                      "x": 0.41782406,
+                      "y": 0.6867284
+                    },
+                    {
+                      "x": 0.41782406,
+                      "y": 0.7106481
+                    },
+                    {
+                      "x": 0.28587964,
+                      "y": 0.7106481
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "122",
+                "endIndex": "129"
+              }
+            ],
+            "content": "194,000"
+          },
+          "type": "net_amount",
+          "mentionText": "194,000",
+          "confidence": 0.5639849,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.724537,
+                      "y": 0.5972222
+                    },
+                    {
+                      "x": 0.8518519,
+                      "y": 0.5972222
+                    },
+                    {
+                      "x": 0.8518519,
+                      "y": 0.6180556
+                    },
+                    {
+                      "x": 0.724537,
+                      "y": 0.6180556
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "30",
+                "endIndex": "47"
+              },
+              {
+                "startIndex": "63",
+                "endIndex": "69"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "New CE BLACKCOFFE 82,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.023148147,
+                      "y": 0.42438272
+                    },
+                    {
+                      "x": 0.8368056,
+                      "y": 0.42438272
+                    },
+                    {
+                      "x": 0.8368056,
+                      "y": 0.4675926
+                    },
+                    {
+                      "x": 0.023148147,
+                      "y": 0.4675926
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "30",
+                    "endIndex": "47"
+                  }
+                ],
+                "content": "New CE BLACKCOFFE"
+              },
+              "type": "line_item/description",
+              "mentionText": "New CE BLACKCOFFE",
+              "confidence": 0.8038016,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.023148147,
+                          "y": 0.42438272
+                        },
+                        {
+                          "x": 0.375,
+                          "y": 0.42438272
+                        },
+                        {
+                          "x": 0.375,
+                          "y": 0.4675926
+                        },
+                        {
+                          "x": 0.023148147,
+                          "y": 0.4675926
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "4"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "63",
+                    "endIndex": "69"
+                  }
+                ],
+                "content": "82,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "82,000",
+              "confidence": 0.63869476,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7222222,
+                          "y": 0.4367284
+                        },
+                        {
+                          "x": 0.8368056,
+                          "y": 0.4367284
+                        },
+                        {
+                          "x": 0.8368056,
+                          "y": 0.45910493
+                        },
+                        {
+                          "x": 0.7222222,
+                          "y": 0.45910493
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "48",
+                "endIndex": "62"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "AVOCADO COFFEE",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.12268519,
+                      "y": 0.4537037
+                    },
+                    {
+                      "x": 0.3784722,
+                      "y": 0.4537037
+                    },
+                    {
+                      "x": 0.3784722,
+                      "y": 0.47993827
+                    },
+                    {
+                      "x": 0.12268519,
+                      "y": 0.47993827
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "6",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "48",
+                    "endIndex": "62"
+                  }
+                ],
+                "content": "AVOCADO COFFEE"
+              },
+              "type": "line_item/description",
+              "mentionText": "AVOCADO COFFEE",
+              "confidence": 0.39445487,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12268519,
+                          "y": 0.4537037
+                        },
+                        {
+                          "x": 0.3784722,
+                          "y": 0.4537037
+                        },
+                        {
+                          "x": 0.3784722,
+                          "y": 0.47993827
+                        },
+                        {
+                          "x": 0.12268519,
+                          "y": 0.47993827
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "7"
+            }
+          ]
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "70",
+                "endIndex": "76"
+              },
+              {
+                "startIndex": "77",
+                "endIndex": "96"
+              },
+              {
+                "startIndex": "97",
+                "endIndex": "103"
+              }
+            ]
+          },
+          "type": "line_item",
+          "mentionText": "61,000 ebe CHIKEN KATSU FF 51,000",
+          "confidence": 1,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.009259259,
+                      "y": 0.4683642
+                    },
+                    {
+                      "x": 0.8344907,
+                      "y": 0.4683642
+                    },
+                    {
+                      "x": 0.8344907,
+                      "y": 0.51929015
+                    },
+                    {
+                      "x": 0.009259259,
+                      "y": 0.51929015
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "8",
+          "properties": [
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "70",
+                    "endIndex": "76"
+                  }
+                ],
+                "content": "61,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "61,000",
+              "confidence": 0.7030601,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7256944,
+                          "y": 0.4683642
+                        },
+                        {
+                          "x": 0.8344907,
+                          "y": 0.4683642
+                        },
+                        {
+                          "x": 0.8344907,
+                          "y": 0.48996913
+                        },
+                        {
+                          "x": 0.7256944,
+                          "y": 0.48996913
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "9"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "77",
+                    "endIndex": "96"
+                  }
+                ],
+                "content": "ebe CHIKEN KATSU FF"
+              },
+              "type": "line_item/description",
+              "mentionText": "ebe CHIKEN KATSU FF",
+              "confidence": 0.63535404,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.009259259,
+                          "y": 0.47608024
+                        },
+                        {
+                          "x": 0.3923611,
+                          "y": 0.47608024
+                        },
+                        {
+                          "x": 0.3923611,
+                          "y": 0.51929015
+                        },
+                        {
+                          "x": 0.009259259,
+                          "y": 0.51929015
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "10"
+            },
+            {
+              "textAnchor": {
+                "textSegments": [
+                  {
+                    "startIndex": "97",
+                    "endIndex": "103"
+                  }
+                ],
+                "content": "51,000"
+              },
+              "type": "line_item/amount",
+              "mentionText": "51,000",
+              "confidence": 0.70703983,
+              "pageAnchor": {
+                "pageRefs": [
+                  {
+                    "boundingPoly": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.7164352,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.8287037,
+                          "y": 0.4992284
+                        },
+                        {
+                          "x": 0.8287037,
+                          "y": 0.5169753
+                        },
+                        {
+                          "x": 0.7164352,
+                          "y": 0.5169753
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "id": "11"
+            }
+          ]
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

@@ -32,6 +32,11 @@ export function normalizeAmount(v: unknown): number | null {
   const negative = /^\(.*\)$/.test(s) || /-/.test(s);
   s = s.replace(/[^\d.,]/g, "");
   if (!s) return null;
+  // Dot-grouped thousands ("60.000", "1.234.567" — Indonesian/European
+  // convention): every dot group is exactly 3 digits and there is no comma.
+  // No currency in this benchmark uses 3 decimal places, so this is
+  // unambiguous here (documented in methodology).
+  if (/^\d{1,3}(\.\d{3})+$/.test(s)) s = s.replace(/\./g, "");
   const lastDot = s.lastIndexOf(".");
   const lastComma = s.lastIndexOf(",");
   if (lastComma > lastDot) {

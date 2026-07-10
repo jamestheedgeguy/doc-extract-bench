@@ -35,6 +35,10 @@ import { cordToReceiptGt, faturaToInvoiceGt, fintabnetToHtml } from "../datasets
 const VERIFY_ONLY = process.argv.includes("--verify");
 const GT_SROIE_ONLY = process.argv.includes("--gt-sroie");
 
+function asText(v: unknown): string {
+  return typeof v === "string" ? v : Buffer.from(v as Uint8Array).toString("utf8");
+}
+
 export function safeId(id: string): string {
   return id.replace(/[/:#]/g, "_");
 }
@@ -153,14 +157,14 @@ async function materializeCord(): Promise<void> {
     return;
   }
   const file = await asyncBufferFromFile(sourcePath("cord-test.parquet"));
-  const rows = await parquetReadObjects({ file, columns: ["image", "ground_truth"], compressors });
+  const rows = await parquetReadObjects({ file, columns: ["image", "ground_truth"], compressors, utf8: false });
   if (rows.length !== 100) throw new Error(`CORD test split: expected 100 rows, got ${rows.length}`);
   rows.forEach((row, i) => {
     const id = `cord-test-${String(i).padStart(4, "0")}`;
     if (!sub.ids.includes(id)) return;
     const img = row.image as { bytes: Uint8Array; path?: string };
     writeFileSync(resolve(outDir, `${id}.png`), Buffer.from(img.bytes));
-    writeJson(resolve(GT_DIR, "cord", `${id}.json`), cordToReceiptGt(String(row.ground_truth)));
+    writeJson(resolve(GT_DIR, "cord", `${id}.json`), cordToReceiptGt(asText(row.ground_truth)));
   });
   console.log(`cord: ${sub.ids.length} docs materialized`);
 }
@@ -189,15 +193,18 @@ async function materializeFintabnet(): Promise<void> {
       rowStart: w.row,
       rowEnd: w.row + 1,
       compressors,
+      utf8: false, // keep image bytes as raw Uint8Array
     });
     const row = rows[0];
-    const expected = `${w.shard}:${w.row}:${row.filename}#${row.imgid}`;
+    const expected = `${w.shard}:${w.row}:${asText(row.filename)}#${row.imgid}`;
     if (expected !== w.id) throw new Error(`fintabnet row identity mismatch: ${expected} != ${w.id}`);
     const img = row.image as { bytes: Uint8Array };
     writeFileSync(imgOut, Buffer.from(img.bytes));
     // `cells` is nested one level ([[cell,…]]) in the parquet encoding.
     const cellList = (row.cells as { tokens: string[] }[][])[0] ?? [];
-    const html = fintabnetToHtml(row.html as string[], cellList);
+    const structure = (row.html as (string | Uint8Array)[]).map(asText);
+    const cellsDecoded = cellList.map((c) => ({ tokens: (c.tokens as (string | Uint8Array)[]).map(asText) }));
+    const html = fintabnetToHtml(structure, cellsDecoded);
     mkdirSync(resolve(GT_DIR, "fintabnet"), { recursive: true });
     writeFileSync(gtOut, html);
   }

@@ -4,6 +4,7 @@
  *  Env/credentials: standard AWS credential chain (AWS_PROFILE, env keys,
  *  ~/.aws). Region: AWS_REGION (default us-east-1). */
 
+import { normalizeAmount } from "../score/normalize.js";
 import {
   AnalyzeDocumentCommand,
   AnalyzeExpenseCommand,
@@ -39,11 +40,7 @@ function summary(doc: ExpenseDocument | undefined, type: string): string | null 
 }
 
 function amount(v: string | null): number | null {
-  if (!v) return null;
-  const m = v.replace(/[^\d.,-]/g, "");
-  if (!m) return null;
-  const n = Number(m.replace(/,(?=\d{3}(\D|$))/g, "").replace(",", "."));
-  return Number.isFinite(n) ? n : null;
+  return normalizeAmount(v);
 }
 
 function currencyOf(doc: ExpenseDocument | undefined): string | null {

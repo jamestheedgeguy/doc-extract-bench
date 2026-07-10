@@ -1,0 +1,381 @@
+{
+  "vendor": "docai",
+  "dataset": "fatura",
+  "docType": "invoice",
+  "n": 5,
+  "failures": 0,
+  "latencyMsP50": 2975,
+  "fieldAccuracy": 0.9714285714285714,
+  "fieldsScored": 35,
+  "anls": 0.9714285714285714,
+  "perField": {
+    "customerName": {
+      "accuracy": 0.75,
+      "n": 4
+    },
+    "issueDate": {
+      "accuracy": 1,
+      "n": 5
+    },
+    "dueDate": {
+      "accuracy": 1,
+      "n": 3
+    },
+    "currency": {
+      "accuracy": 1,
+      "n": 5
+    },
+    "subtotal": {
+      "accuracy": 1,
+      "n": 4
+    },
+    "tax": {
+      "accuracy": 1,
+      "n": 3
+    },
+    "total": {
+      "accuracy": 1,
+      "n": 5
+    },
+    "vendorName": {
+      "accuracy": 1,
+      "n": 3
+    },
+    "invoiceNumber": {
+      "accuracy": 1,
+      "n": 3
+    }
+  },
+  "docs": [
+    {
+      "docId": "Template1_Instance190",
+      "latencyMs": 3097,
+      "fields": {
+        "perField": [
+          {
+            "field": "vendorName",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "customerName",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "invoiceNumber",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "issueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "dueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "currency",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "tax",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 7,
+        "correct": 6,
+        "accuracy": 0.8571428571428571,
+        "anls": 0.8571428571428571
+      }
+    },
+    {
+      "docId": "Template1_Instance183",
+      "latencyMs": 2478,
+      "fields": {
+        "perField": [
+          {
+            "field": "vendorName",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "customerName",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "invoiceNumber",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "issueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "dueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "currency",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "tax",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "Template2_Instance175",
+      "latencyMs": 2975,
+      "fields": {
+        "perField": [
+          {
+            "field": "vendorName",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "customerName",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "invoiceNumber",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "issueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "dueDate",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "currency",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "tax",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "Template2_Instance193",
+      "latencyMs": 2357,
+      "fields": {
+        "perField": [
+          {
+            "field": "vendorName",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "customerName",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "invoiceNumber",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "issueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "dueDate",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "currency",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "tax",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "Template3_Instance199",
+      "latencyMs": 4048,
+      "fields": {
+        "perField": [
+          {
+            "field": "vendorName",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "customerName",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "invoiceNumber",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "issueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "dueDate",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "currency",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "subtotal",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "tax",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 7,
+        "correct": 7,
+        "accuracy": 1,
+        "anls": 1
+      }
+    }
+  ]
+}

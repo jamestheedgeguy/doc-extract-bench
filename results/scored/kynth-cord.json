@@ -1,0 +1,244 @@
+{
+  "vendor": "kynth",
+  "dataset": "cord",
+  "docType": "receipt",
+  "n": 5,
+  "failures": 0,
+  "latencyMsP50": 3561,
+  "items": {
+    "precision": 0.5454545454545454,
+    "recall": 0.6666666666666666,
+    "f1": 0.6,
+    "gtItems": 9,
+    "predItems": 11,
+    "correct": 6
+  },
+  "totalsAccuracy": 0.5,
+  "docs": [
+    {
+      "docId": "cord-test-0000",
+      "latencyMs": 3541,
+      "items": {
+        "gtCount": 1,
+        "predCount": 2,
+        "matched": 1,
+        "correct": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
+      },
+      "totalsFields": {
+        "perField": [
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "tax",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "serviceCharge",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          }
+        ],
+        "scored": 3,
+        "correct": 0,
+        "accuracy": 0,
+        "anls": 0
+      }
+    },
+    {
+      "docId": "cord-test-0001",
+      "latencyMs": 3706,
+      "items": {
+        "gtCount": 3,
+        "predCount": 3,
+        "matched": 3,
+        "correct": 3,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      "totalsFields": {
+        "perField": [
+          {
+            "field": "subtotal",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "tax",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "serviceCharge",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 1,
+        "correct": 1,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "cord-test-0002",
+      "latencyMs": 3543,
+      "items": {
+        "gtCount": 1,
+        "predCount": 2,
+        "matched": 1,
+        "correct": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
+      },
+      "totalsFields": {
+        "perField": [
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "tax",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "serviceCharge",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": false,
+            "anls": 0
+          }
+        ],
+        "scored": 2,
+        "correct": 0,
+        "accuracy": 0,
+        "anls": 0
+      }
+    },
+    {
+      "docId": "cord-test-0003",
+      "latencyMs": 3561,
+      "items": {
+        "gtCount": 1,
+        "predCount": 1,
+        "matched": 1,
+        "correct": 0,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
+      },
+      "totalsFields": {
+        "perField": [
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "tax",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "serviceCharge",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 2,
+        "correct": 2,
+        "accuracy": 1,
+        "anls": 1
+      }
+    },
+    {
+      "docId": "cord-test-0004",
+      "latencyMs": 3610,
+      "items": {
+        "gtCount": 3,
+        "predCount": 3,
+        "matched": 3,
+        "correct": 3,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      },
+      "totalsFields": {
+        "perField": [
+          {
+            "field": "subtotal",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          },
+          {
+            "field": "tax",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "serviceCharge",
+            "gtPresent": false,
+            "correct": false,
+            "anls": 0
+          },
+          {
+            "field": "total",
+            "gtPresent": true,
+            "correct": true,
+            "anls": 1
+          }
+        ],
+        "scored": 2,
+        "correct": 2,
+        "accuracy": 1,
+        "anls": 1
+      }
+    }
+  ]
+}

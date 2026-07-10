@@ -51,23 +51,54 @@ export const kynth: Adapter = {
   },
 
   async run(doc, mimeType, docType): Promise<AdapterResult> {
+    const headers = {
+      "content-type": "application/json",
+      authorization: `Bearer ${process.env.KYNTH_API_KEY}`,
+    };
+    // Dense multi-page statements can exceed the synchronous 60s window —
+    // use the async job flow for them (billed identically).
+    const useAsync = docType === "statement";
     const t0 = now();
     const res = await fetch(`${BASE}/v1/${ENDPOINT[docType]}`, {
       method: "POST",
-      headers: {
-        "content-type": "application/json",
-        authorization: `Bearer ${process.env.KYNTH_API_KEY}`,
-      },
-      body: JSON.stringify({ file: { data: doc.toString("base64"), mimeType } }),
+      headers,
+      body: JSON.stringify({
+        file: { data: doc.toString("base64"), mimeType },
+        ...(useAsync ? { async: true } : {}),
+      }),
     });
-    const raw = (await res.json()) as Record<string, unknown>;
+    const text = await res.text();
+    let raw: Record<string, unknown>;
+    try {
+      raw = JSON.parse(text) as Record<string, unknown>;
+    } catch {
+      throw new Error(`kynth /v1/${ENDPOINT[docType]} HTTP ${res.status}: non-JSON response ${text.slice(0, 200)}`);
+    }
+    if (!res.ok && res.status !== 202)
+      throw new Error(`kynth /v1/${ENDPOINT[docType]} HTTP ${res.status}: ${JSON.stringify(raw).slice(0, 300)}`);
+    if (useAsync && raw.jobId) {
+      const deadline = Date.now() + 300_000;
+      for (;;) {
+        await new Promise((r) => setTimeout(r, 3000));
+        const jr = await fetch(`${BASE}/v1/jobs/${raw.jobId}`, { headers });
+        const job = (await jr.json()) as Record<string, unknown>;
+        if (job.status === "succeeded") {
+          raw = (job.result ?? {}) as Record<string, unknown>;
+          break;
+        }
+        if (job.status === "failed") throw new Error(`kynth job failed: ${JSON.stringify(job.error).slice(0, 300)}`);
+        if (Date.now() > deadline) throw new Error("kynth job timed out after 300s");
+      }
+    }
     const latencyMs = Math.round(now() - t0);
-    if (!res.ok) throw new Error(`kynth /v1/${ENDPOINT[docType]} HTTP ${res.status}: ${JSON.stringify(raw).slice(0, 300)}`);
     return { canonical: this.fromRaw(raw, docType), latencyMs, raw };
   },
 
   fromRaw(raw, docType) {
-    const data = rec(rec(raw).data);
+    // The API returns extraction fields at the top level of the response
+    // body (usage/model metadata alongside); tolerate a data-wrapped shape.
+    const top = rec(raw);
+    const data = top.data && typeof top.data === "object" ? rec(top.data) : top;
     if (docType === "invoice") {
       const vendor = rec(data.vendor);
       const canonical: CanonicalInvoice = {

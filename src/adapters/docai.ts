@@ -10,6 +10,7 @@
  *      `gcloud auth print-access-token` once per run. */
 
 import { execFileSync } from "node:child_process";
+import { normalizeAmount } from "../score/normalize.js";
 import type { CanonicalInvoice } from "../schemas/invoice.js";
 import type { CanonicalReceipt } from "../schemas/receipt.js";
 import type { CanonicalStatement, StatementTransaction } from "../schemas/statement.js";
@@ -83,12 +84,7 @@ function entityAmount(e: DocaiEntity | undefined): number | null {
   if (mv && (mv.units !== undefined || mv.nanos !== undefined)) {
     return Number(mv.units ?? 0) + (mv.nanos ?? 0) / 1e9;
   }
-  const t = entityText(e);
-  if (!t) return null;
-  const s = t.replace(/[^\d.,-]/g, "");
-  if (!s) return null;
-  const n = Number(s.replace(/,(?=\d{3}(\D|$))/g, "").replace(",", "."));
-  return Number.isFinite(n) ? n : null;
+  return normalizeAmount(entityText(e));
 }
 
 function find(entities: DocaiEntity[] | undefined, ...types: string[]): DocaiEntity | undefined {

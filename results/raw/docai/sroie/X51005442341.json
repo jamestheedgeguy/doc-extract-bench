@@ -1,0 +1,245 @@
+{
+  "vendor": "docai",
+  "dataset": "sroie",
+  "docId": "X51005442341",
+  "at": "2026-07-10T10:00:18.458Z",
+  "latencyMs": 2083,
+  "raw": {
+    "document": {
+      "text": "RESTAURANT SIN DU\nK3-113, JL IBRAHIM SULTAN\n80300 JOHOR BAHRU\nJOHOR\nH/P: 019-7521215\n016-7867868\n09/03/2018 21:28\n0001\n000000#7259 CASHIERO1\nOPT.05 RM 149.00\nDPT.04 RN 21.00\nCASH\nRM 170.00\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "97",
+                "endIndex": "107"
+              }
+            ],
+            "content": "09/03/2018"
+          },
+          "type": "receipt_date",
+          "mentionText": "09/03/2018",
+          "confidence": 0.8552909,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.30925927,
+                      "y": 0.34250164
+                    },
+                    {
+                      "x": 0.37962964,
+                      "y": 0.34250164
+                    },
+                    {
+                      "x": 0.37962964,
+                      "y": 0.35363457
+                    },
+                    {
+                      "x": 0.30925927,
+                      "y": 0.35363457
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "2018-09-03",
+            "dateValue": {
+              "year": 2018,
+              "month": 9,
+              "day": 3
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "108",
+                "endIndex": "113"
+              }
+            ],
+            "content": "21:28"
+          },
+          "type": "purchase_time",
+          "mentionText": "21:28",
+          "confidence": 0.7581026,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.3861111,
+                      "y": 0.34315652
+                    },
+                    {
+                      "x": 0.42407408,
+                      "y": 0.34315652
+                    },
+                    {
+                      "x": 0.42407408,
+                      "y": 0.35428944
+                    },
+                    {
+                      "x": 0.3861111,
+                      "y": 0.35428944
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1",
+          "normalizedValue": {
+            "datetimeValue": {
+              "hours": 21,
+              "minutes": 28
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "17"
+              }
+            ],
+            "content": "RESTAURANT SIN DU"
+          },
+          "type": "supplier_name",
+          "mentionText": "RESTAURANT SIN DU",
+          "confidence": 0.61898506,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.33333334,
+                      "y": 0.25540274
+                    },
+                    {
+                      "x": 0.4564815,
+                      "y": 0.25540274
+                    },
+                    {
+                      "x": 0.4564815,
+                      "y": 0.26588082
+                    },
+                    {
+                      "x": 0.33333334,
+                      "y": 0.26588082
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "18",
+                "endIndex": "67"
+              }
+            ],
+            "content": "K3-113, JL IBRAHIM SULTAN\n80300 JOHOR BAHRU\nJOHOR"
+          },
+          "type": "supplier_address",
+          "mentionText": "K3-113, JL IBRAHIM SULTAN\n80300 JOHOR BAHRU\nJOHOR",
+          "confidence": 0.5207582,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.31203705,
+                      "y": 0.2665357
+                    },
+                    {
+                      "x": 0.48240742,
+                      "y": 0.2665357
+                    },
+                    {
+                      "x": 0.48240742,
+                      "y": 0.30320892
+                    },
+                    {
+                      "x": 0.31203705,
+                      "y": 0.30320892
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3",
+          "normalizedValue": {}
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "182",
+                "endIndex": "188"
+              }
+            ],
+            "content": "170.00"
+          },
+          "type": "total_amount",
+          "mentionText": "170.00",
+          "confidence": 0.4647957,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.37962964,
+                      "y": 0.4302554
+                    },
+                    {
+                      "x": 0.46203703,
+                      "y": 0.4302554
+                    },
+                    {
+                      "x": 0.46203703,
+                      "y": 0.44138834
+                    },
+                    {
+                      "x": 0.37962964,
+                      "y": 0.44138834
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "4",
+          "normalizedValue": {
+            "text": "170",
+            "moneyValue": {
+              "units": "170"
+            }
+          }
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}

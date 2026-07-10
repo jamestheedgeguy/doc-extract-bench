@@ -41,7 +41,9 @@ export function parseGtDate(raw: string | null | undefined): string | null {
 export function lastAmount(raw: string | null | undefined): number | null {
   if (!raw) return null;
   const s = raw.replace(/\([^)]*%[^)]*\)/g, "");
-  const matches = s.match(/-?\d{1,3}(?:[ ,]\d{3})*(?:\.\d+)?|-?\d+(?:\.\d+)?/g);
+  // comma-grouped thousands first, else a plain number (so "1942.43" is one
+  // match, not "194" + "2.43")
+  const matches = s.match(/-?\d{1,3}(?:,\d{3})+(?:\.\d+)?|-?\d+(?:\.\d+)?/g);
   if (!matches || !matches.length) return null;
   const n = Number(matches[matches.length - 1].replace(/[ ,]/g, ""));
   return Number.isFinite(n) ? n : null;
@@ -105,7 +107,7 @@ export function faturaToInvoiceGt(annRaw: string): CanonicalInvoice {
 
   const numberRaw = ftext(a, "NUMBER");
   const invoiceNumber = numberRaw
-    ? stripLabel(numberRaw, /^\s*(tax\s+)?invoice\s*(#|no\.?|num(ber)?)?\s*[:#\-]?/i)
+    ? stripLabel(numberRaw, /^\s*(tax\s+)?invoice\s*(#|id|no\.?|num(ber)?)?\s*[:#\-]?/i)
     : null;
 
   const dateRaw = ftext(a, "DATE");

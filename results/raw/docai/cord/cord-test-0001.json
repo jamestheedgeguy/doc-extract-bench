@@ -1,0 +1,189 @@
+{
+  "vendor": "docai",
+  "dataset": "cord",
+  "docId": "cord-test-0001",
+  "at": "2026-07-10T10:00:35.300Z",
+  "latencyMs": 2448,
+  "raw": {
+    "document": {
+      "text": "SAMS\nJ.STB PROMO\n17500\nY.B.BAT\n46000\nY.BASO PROM\n27500\nTOTAL\n91000\nCASH\n91000\n",
+      "pages": [
+        {}
+      ],
+      "entities": [
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "61",
+                "endIndex": "66"
+              }
+            ],
+            "content": "91000"
+          },
+          "type": "total_amount",
+          "mentionText": "91000",
+          "confidence": 0.98718977,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.559375,
+                      "y": 0.64453125
+                    },
+                    {
+                      "x": 0.84479165,
+                      "y": 0.64453125
+                    },
+                    {
+                      "x": 0.84479165,
+                      "y": 0.6796875
+                    },
+                    {
+                      "x": 0.559375,
+                      "y": 0.6796875
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "0",
+          "normalizedValue": {
+            "text": "91000",
+            "moneyValue": {
+              "units": "91000"
+            }
+          }
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "endIndex": "4"
+              }
+            ],
+            "content": "SAMS"
+          },
+          "type": "supplier_name",
+          "mentionText": "SAMS",
+          "confidence": 0.70056045,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.38541666,
+                      "y": 0.240625
+                    },
+                    {
+                      "x": 0.609375,
+                      "y": 0.240625
+                    },
+                    {
+                      "x": 0.609375,
+                      "y": 0.271875
+                    },
+                    {
+                      "x": 0.38541666,
+                      "y": 0.271875
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "1"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "67",
+                "endIndex": "71"
+              }
+            ],
+            "content": "CASH"
+          },
+          "type": "payment_type",
+          "mentionText": "CASH",
+          "confidence": 0.6411564,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.13020833,
+                      "y": 0.6875
+                    },
+                    {
+                      "x": 0.36875,
+                      "y": 0.6875
+                    },
+                    {
+                      "x": 0.36875,
+                      "y": 0.7265625
+                    },
+                    {
+                      "x": 0.13020833,
+                      "y": 0.7265625
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "2"
+        },
+        {
+          "textAnchor": {
+            "textSegments": [
+              {
+                "startIndex": "5",
+                "endIndex": "54"
+              }
+            ],
+            "content": "J.STB PROMO\n17500\nY.B.BAT\n46000\nY.BASO PROM\n27500"
+          },
+          "type": "supplier_address",
+          "mentionText": "J.STB PROMO\n17500\nY.B.BAT\n46000\nY.BASO PROM\n27500",
+          "confidence": 0.35551137,
+          "pageAnchor": {
+            "pageRefs": [
+              {
+                "boundingPoly": {
+                  "normalizedVertices": [
+                    {
+                      "x": 0.13125,
+                      "y": 0.525
+                    },
+                    {
+                      "x": 0.85625,
+                      "y": 0.525
+                    },
+                    {
+                      "x": 0.85625,
+                      "y": 0.6382812
+                    },
+                    {
+                      "x": 0.13125,
+                      "y": 0.6382812
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "id": "3"
+        }
+      ]
+    },
+    "humanReviewStatus": {
+      "state": "SKIPPED"
+    }
+  }
+}
