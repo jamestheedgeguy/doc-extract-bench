@@ -12,6 +12,13 @@ Four document types, five pinned datasets, deterministic metrics, and **every ra
 vendor response committed** — so every number below can be re-derived offline by
 anyone, with zero API keys.
 
+Part of **[Toolproof](https://toolproof.kynth.studio)**, the measurement layer for AI
+agent tooling — nine indexes held to [one published
+methodology](https://toolproof.kynth.studio/methodology), with the conflicts named. This
+benchmark is the only one of the nine whose headline numbers a stranger can fully
+re-derive offline, which is not a coincidence: it is the one that scores our own product
+against commercial competitors, so it is the one that needed the strongest guarantee.
+
 ## Results
 
 <!-- RESULTS_START -->
