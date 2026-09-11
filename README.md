@@ -2,7 +2,7 @@
 
 An open, reproducible benchmark of document-extraction APIs on public datasets:
 
-- **[Kynth Core](https://api.kynth.studio)** — `/v1/invoice`, `/v1/receipt`, `/v1/statement`, `/v1/tables`
+- **[Kynth Core](https://api.thecompound.tech)** — `/v1/invoice`, `/v1/receipt`, `/v1/statement`, `/v1/tables`
 - **AWS Textract** — AnalyzeExpense, AnalyzeDocument (TABLES)
 - **Google Document AI** — Invoice parser, Expense parser, Bank Statement parser, Form parser
 - **Veryfi** — documents API (BYO keys)
@@ -12,9 +12,9 @@ Four document types, five pinned datasets, deterministic metrics, and **every ra
 vendor response committed** — so every number below can be re-derived offline by
 anyone, with zero API keys.
 
-Part of **[Toolproof](https://toolproof.kynth.studio)**, the measurement layer for AI
+Part of **[Toolproof](https://toolproof.thecompound.tech)**, the measurement layer for AI
 agent tooling — nine indexes held to [one published
-methodology](https://toolproof.kynth.studio/methodology), with the conflicts named. This
+methodology](https://toolproof.thecompound.tech/methodology), with the conflicts named. This
 benchmark is the only one of the nine whose headline numbers a stranger can fully
 re-derive offline, which is not a coincidence: it is the one that scores our own product
 against commercial competitors, so it is the one that needed the strongest guarantee.
@@ -100,7 +100,7 @@ credentials are skipped, not failed.
 
 | Env var | Vendor | Notes |
 |---|---|---|
-| `KYNTH_API_KEY` | Kynth Core | [api.kynth.studio](https://api.kynth.studio) — 500 free credits/mo |
+| `KYNTH_API_KEY` | Kynth Core | [api.thecompound.tech](https://api.thecompound.tech) — 500 free credits/mo |
 | `AWS_PROFILE` / `AWS_ACCESS_KEY_ID` (+standard chain), `AWS_REGION` | AWS Textract | needs `textract:AnalyzeExpense`, `textract:AnalyzeDocument` |
 | `DOCAI_PROCESSOR_INVOICE` / `_EXPENSE` / `_BANK_STATEMENT` / `_FORM` | Google Document AI | full processor resource names; auth via `GOOGLE_ACCESS_TOKEN` or `gcloud auth print-access-token` |
 | `VERYFI_CLIENT_ID`, `VERYFI_API_KEY`, `VERYFI_USERNAME` | Veryfi | free tier = 100 docs/mo (receipts-only coverage) |
@@ -177,7 +177,7 @@ https://raw.githubusercontent.com/kyisaiah47/doc-extract-bench/main/results/late
 The same figures through the Toolproof read API, alongside the other eight indexes:
 
 ```
-https://toolproof.kynth.studio/api/v1/indexes/doc-extract-bench
+https://toolproof.thecompound.tech/api/v1/indexes/doc-extract-bench
 ```
 
 A citation line, if you need one:
@@ -185,7 +185,7 @@ A citation line, if you need one:
 ```
 doc-extract-bench — document-extraction APIs scored on pinned public datasets, with
 every raw vendor response committed. Toolproof,
-https://toolproof.kynth.studio/api/v1/indexes/doc-extract-bench (CC BY 4.0).
+https://toolproof.thecompound.tech/api/v1/indexes/doc-extract-bench (CC BY 4.0).
 ```
 
 **This benchmark mints no README badge, and that is deliberate.** Seven of the nine
@@ -201,7 +201,7 @@ repository, an AGENTS.md, a starter kit, a shadcn registry — one call tells yo
 readings exist and hands you the line to paste:
 
 ```
-curl https://toolproof.kynth.studio/api/v1/subjects/<owner>/<repo>
+curl https://toolproof.thecompound.tech/api/v1/subjects/<owner>/<repo>
 ```
 
 ## License
