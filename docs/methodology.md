@@ -120,7 +120,7 @@ unchanged when the evaluator is fixed, and the error responses are cached under
 ### Latency
 
 Wall-clock per document (upload → parsed response), reported as the median.
-Kynth statements use its async job flow (submit + poll at 3 s), so its
+Compound statements use its async job flow (submit + poll at 3 s), so its
 statement latency includes polling granularity. Latency is measured from one
 machine (US-East residential) and is indicative, not a load test.
 
@@ -135,7 +135,7 @@ retried in later runs unless the raw file is deleted deliberately.
 
 | Vendor | invoice | receipt | statement | tables |
 |---|---|---|---|---|
-| Kynth Core | ✅ | ✅ | ✅ (parses; evaluator pending upstream) | ✅ |
+| Compound Core | ✅ | ✅ | ✅ (parses; evaluator pending upstream) | ✅ |
 | AWS Textract | ✅ AnalyzeExpense | ✅ AnalyzeExpense | — no product | ✅ AnalyzeDocument TABLES |
 | Google Document AI | ✅ Invoice parser | ✅ Expense parser | ✅ Bank Statement parser (parses; evaluator pending upstream) | ✅ Form parser |
 | Veryfi | ⏭ skipped — no account/credentials | ⏭ | ⏭ | — no product |
@@ -150,7 +150,7 @@ one receipt dataset per month (partial coverage would be labeled as such).
 
 | Vendor | invoice | receipt | statement | tables | Minimums |
 |---|---|---|---|---|---|
-| Kynth Core | $0.08/doc | $0.06/doc | $0.12/doc | $0.08/doc | none — success-only billing, 500 free credits/mo |
+| Compound Core | $0.08/doc | $0.06/doc | $0.12/doc | $0.08/doc | none — success-only billing, 500 free credits/mo |
 | AWS Textract | $0.01/page (AnalyzeExpense, first 1M) | $0.01/page | — | $0.015/page (TABLES) | none |
 | Google Document AI | $0.01/page (Invoice parser) | $0.01/page (Expense parser) | $0.75/doc (Bank Statement parser, Lending) | $0.03/page (Form parser) | none |
 | Veryfi | $0.16/doc | $0.08/doc | $0.25/doc | — | **$500/month platform minimum** (free tier: 100 docs/mo) |

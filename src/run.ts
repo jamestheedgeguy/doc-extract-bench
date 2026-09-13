@@ -1,7 +1,7 @@
 /** Benchmark runner.
  *
  *    tsx src/run.ts                         # run everything available
- *    tsx src/run.ts --vendor kynth          # one vendor
+ *    tsx src/run.ts --vendor compound          # one vendor
  *    tsx src/run.ts --doctype invoice       # one doc type
  *    tsx src/run.ts --limit 5               # first N docs per dataset (smoke)
  *    tsx src/run.ts --replay                # re-score committed raw responses
@@ -19,7 +19,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { FILES_DIR, GT_DIR, ROOT, SUBSETS_DIR, readJson, writeJson, type Subset } from "../datasets/lib.js";
-import { kynth } from "./adapters/kynth.js";
+import { compound } from "./adapters/compound.js";
 import { textract } from "./adapters/textract.js";
 import { docai } from "./adapters/docai.js";
 import { veryfi } from "./adapters/veryfi.js";
@@ -52,7 +52,7 @@ const DOCTYPE_FILTER = argValue("--doctype")?.split(",") ?? null;
 const LIMIT = argValue("--limit") ? Number(argValue("--limit")) : null;
 const MAX_RUN_USD = Number(process.env.MAX_RUN_USD ?? argValue("--max-usd") ?? 60);
 
-const ADAPTERS: Adapter[] = [kynth, textract, docai, veryfi, llamaparse];
+const ADAPTERS: Adapter[] = [compound, textract, docai, veryfi, llamaparse];
 
 // ------------------------------------------------------------ datasets
 

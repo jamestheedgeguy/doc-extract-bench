@@ -2,7 +2,7 @@
 
 An open, reproducible benchmark of document-extraction APIs on public datasets:
 
-- **[Kynth Core](https://api.thecompound.tech)** — `/v1/invoice`, `/v1/receipt`, `/v1/statement`, `/v1/tables`
+- **[Compound Core](https://api.thecompound.tech)** — `/v1/invoice`, `/v1/receipt`, `/v1/statement`, `/v1/tables`
 - **AWS Textract** — AnalyzeExpense, AnalyzeDocument (TABLES)
 - **Google Document AI** — Invoice parser, Expense parser, Bank Statement parser, Form parser
 - **Veryfi** — documents API (BYO keys)
@@ -28,7 +28,7 @@ _Last generated 2026-07-10 — every number below is recomputable offline from t
 
 | Vendor | Field accuracy | ANLS (diagnostic) | Median latency | Failures |
 |---|---|---|---|---|
-| Kynth Core | **99.4%** | 99.4% | 12.8s | 0/100 |
+| Compound Core | **99.4%** | 99.4% | 12.8s | 0/100 |
 | AWS Textract | **92.2%** | 92.2% | 1.8s | 0/100 |
 | Google Document AI | **93.1%** | 93.8% | 2.9s | 0/100 |
 
@@ -36,7 +36,7 @@ _Last generated 2026-07-10 — every number below is recomputable offline from t
 
 | Vendor | Field accuracy | ANLS (diagnostic) | Median latency | Failures |
 |---|---|---|---|---|
-| Kynth Core | **88.8%** | 93.9% | 3.1s | 0/100 |
+| Compound Core | **88.8%** | 93.9% | 3.1s | 0/100 |
 | AWS Textract | **68.8%** | 83.1% | 2.1s | 0/100 |
 | Google Document AI | **52.8%** | 66.2% | 2.3s | 0/100 |
 
@@ -44,7 +44,7 @@ _Last generated 2026-07-10 — every number below is recomputable offline from t
 
 | Vendor | Line-item F1 | Precision | Recall | Totals accuracy | Median latency |
 |---|---|---|---|---|---|
-| Kynth Core | **41.9%** | 38.9% | 45.4% | 67.1% | 3.9s |
+| Compound Core | **41.9%** | 38.9% | 45.4% | 67.1% | 3.9s |
 | AWS Textract | **77.1%** | 73.8% | 80.6% | 95.5% | 2.5s |
 | Google Document AI | **36.6%** | 30.8% | 45.0% | 82.2% | 3.0s |
 
@@ -52,7 +52,7 @@ _Last generated 2026-07-10 — every number below is recomputable offline from t
 
 | Vendor | TEDS | S-TEDS (structure only) | Median latency | Failures |
 |---|---|---|---|---|
-| Kynth Core | **0.791** | 0.819 | 23.4s | 14/100 |
+| Compound Core | **0.791** | 0.819 | 23.4s | 14/100 |
 | AWS Textract | **0.836** | 0.891 | 2.5s | 0/100 |
 | Google Document AI | **0.365** | 0.423 | 2.6s | 0/100 |
 
@@ -60,7 +60,7 @@ _Last generated 2026-07-10 — every number below is recomputable offline from t
 
 | Vendor | Parses cached | Status |
 |---|---|---|
-| Kynth Core | 5/5 | evaluation pending (upstream) |
+| Compound Core | 5/5 | evaluation pending (upstream) |
 | Google Document AI | 5/5 | evaluation pending (upstream) |
 
 _Statements are scored exclusively by the [Bankstatemently evaluation API](https://github.com/bankstatemently/bank-statement-parsing-benchmark) (server-side ground truth). At the time of this run their evaluator returned an internal ground-truth error (`parsed ground truth transaction 0 is missing account.kind`) for every published statement PDF, so scores are pending an upstream fix. Our parses are committed under `results/raw/*/bankstatemently/` and will be submitted unchanged once the evaluator is fixed. AWS Textract has no bank-statement product._
@@ -100,7 +100,7 @@ credentials are skipped, not failed.
 
 | Env var | Vendor | Notes |
 |---|---|---|
-| `KYNTH_API_KEY` | Kynth Core | [api.thecompound.tech](https://api.thecompound.tech) — 500 free credits/mo |
+| `COMPOUND_API_KEY` | Compound Core | [api.thecompound.tech](https://api.thecompound.tech) — 500 free credits/mo |
 | `AWS_PROFILE` / `AWS_ACCESS_KEY_ID` (+standard chain), `AWS_REGION` | AWS Textract | needs `textract:AnalyzeExpense`, `textract:AnalyzeDocument` |
 | `DOCAI_PROCESSOR_INVOICE` / `_EXPENSE` / `_BANK_STATEMENT` / `_FORM` | Google Document AI | full processor resource names; auth via `GOOGLE_ACCESS_TOKEN` or `gcloud auth print-access-token` |
 | `VERYFI_CLIENT_ID`, `VERYFI_API_KEY`, `VERYFI_USERNAME` | Veryfi | free tier = 100 docs/mo (receipts-only coverage) |
@@ -147,7 +147,7 @@ otherwise it shells out to `gcloud auth print-access-token`.
 5. **Keyless CI re-scoring** — every PR re-scores the committed responses and
    re-runs the TEDS fixture tests ([`.github/workflows/score.yml`](.github/workflows/score.yml)).
 
-Kynth Core is our own product — this benchmark exists because we want to be
+Compound Core is our own product — this benchmark exists because we want to be
 measured in public, under rules fixed before the measurements. If you see a
 methodological problem, open an issue; scoring changes are applied to **all**
 vendors via replay.

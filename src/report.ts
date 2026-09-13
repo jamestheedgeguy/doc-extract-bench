@@ -30,13 +30,13 @@ interface Scored {
 }
 
 const VENDOR_LABELS: Record<string, string> = {
-  kynth: "Kynth Core",
+  compound: "Compound Core",
   textract: "AWS Textract",
   docai: "Google Document AI",
   veryfi: "Veryfi",
   llamaparse: "LlamaParse",
 };
-const VENDOR_ORDER = ["kynth", "textract", "docai", "veryfi", "llamaparse"];
+const VENDOR_ORDER = ["compound", "textract", "docai", "veryfi", "llamaparse"];
 
 function pct(x: number | null | undefined): string {
   return x === null || x === undefined ? "—" : `${(x * 100).toFixed(1)}%`;
