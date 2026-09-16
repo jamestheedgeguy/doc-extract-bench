@@ -191,3 +191,17 @@ test("available() skips cleanly when the CLI python is missing", () => {
     else process.env.PACKET_INTAKE_PYTHON = prev;
   }
 });
+
+test("run() does not invent success when the CLI is missing", async () => {
+  const prev = process.env.PACKET_INTAKE_PYTHON;
+  process.env.PACKET_INTAKE_PYTHON = "/no/such/packet-intake-python-binary";
+  try {
+    await assert.rejects(
+      () => packetintake.run(Buffer.from("not-a-document"), "image/jpeg", "invoice"),
+      /not configured|CLI/i,
+    );
+  } finally {
+    if (prev === undefined) delete process.env.PACKET_INTAKE_PYTHON;
+    else process.env.PACKET_INTAKE_PYTHON = prev;
+  }
+});
