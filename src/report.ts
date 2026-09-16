@@ -35,8 +35,9 @@ const VENDOR_LABELS: Record<string, string> = {
   docai: "Google Document AI",
   veryfi: "Veryfi",
   llamaparse: "LlamaParse",
+  packetintake: "Packet Intake",
 };
-const VENDOR_ORDER = ["compound", "textract", "docai", "veryfi", "llamaparse"];
+const VENDOR_ORDER = ["compound", "textract", "docai", "veryfi", "llamaparse", "packetintake"];
 
 function pct(x: number | null | undefined): string {
   return x === null || x === undefined ? "—" : `${(x * 100).toFixed(1)}%`;
