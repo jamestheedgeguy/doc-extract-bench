@@ -13,7 +13,7 @@
     "bench": "tsx src/run.ts",
     "replay": "tsx src/run.ts --replay",
     "report": "tsx src/report.ts",
-    "test": "tsx --test src/score/*.test.ts",
+    "test": "tsx --test src/score/*.test.ts src/adapters/*.test.ts",
     "verify-manifest": "tsx scripts/fetch.ts --verify"
   },
   "dependencies": {

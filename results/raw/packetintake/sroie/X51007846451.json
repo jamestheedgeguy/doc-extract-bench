@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007846451",
+  "at": "2026-09-16T23:26:09.584Z",
+  "latencyMs": 77089,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "POS/53796",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "23/06/18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "PASIR EMAS HARDWARE SDN BHD (801222-M)",
+        "confidence": 0.45
+      },
+      "vendor_address": {
+        "value": "NO 69, JALAN PENGKALAN 5, TAMAN PASIR EMAS, KG PASIR PUTIH, 81700 PASIR GUDANG, JOHOR.",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000144596992",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.45
+      },
+      "payment_terms": {
+        "value": "Cash",
+        "confidence": 0.45
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "PLUG TOP 13A(BIASA-MK)",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": "WAAN34",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "8.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "24.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "UMS 13A PLUG(SINGLE)",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": "ST00014",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "12.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "36.00",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.45
+      },
+      "total": {
+        "value": "36.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Amount</th></tr></thead><tbody><tr><td colspan=\"2\">PLUG TOP 13A(BIASA-MK)</td><td>@8.00</td><td></td></tr><tr><td>WAAN34</td><td>3</td><td>8.00</td><td>24.00 SR0</td></tr><tr><td colspan=\"2\">UMS 13A PLUG(SINGLE)</td><td>@4.00</td><td></td></tr><tr><td>ST00014</td><td>3</td><td>4.00</td><td>12.00 SR0</td></tr><tr><td colspan=\"3\">Gross Amt :</td><td>36.00</td></tr><tr><td colspan=\"3\">GST (6%) :</td><td>0.00</td></tr><tr><td colspan=\"3\">Net Amt :</td><td>36.00</td></tr><tr><td colspan=\"3\">Received</td><td>36.00</td></tr><tr><td colspan=\"3\">Change :</td><td>0.00</td></tr><tr><td colspan=\"3\">Round Adj. :</td><td>0.00</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th>Item</th><th>Qty</th><th>Price</th><th>Amount</th></tr></thead><tbody><tr><td colspan=\"2\">PLUG TOP 13A(BIASA-MK)</td><td>@8.00</td><td></td></tr><tr><td>WAAN34</td><td>3</td><td>8.00</td><td>24.00 SR0</td></tr><tr><td colspan=\"2\">UMS 13A PLUG(SINGLE)</td><td>@4.00</td><td></td></tr><tr><td>ST00014</td><td>3</td><td>4.00</td><td>12.00 SR0</td></tr><tr><td colspan=\"3\" align=\"right\">Gross Amt :</td><td>36.00</td></tr><tr><td colspan=\"3\" align=\"right\">GST (6%) :</td><td>0.00</td></tr><tr><td colspan=\"3\" align=\"right\"><strong>Net Amt :</strong></td><td><strong>36.00</strong></td></tr><tr><td colspan=\"3\" align=\"right\">Received</td><td>36.00</td></tr><tr><td colspan=\"3\" align=\"right\">Change :</td><td>0.00</td></tr><tr><td colspan=\"3\" align=\"right\">Round Adj. :</td><td>0.00</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.00165975,
+        "latency_ms": 35379,
+        "tokens_in": 1877,
+        "tokens_out": 2297
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.0007434,
+        "latency_ms": 25525,
+        "tokens_in": 1874,
+        "tokens_out": 564
+      }
+    ]
+  }
+}

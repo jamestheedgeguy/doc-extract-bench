@@ -1,0 +1,145 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005447852",
+  "at": "2026-09-16T23:12:45.455Z",
+  "latencyMs": 64522,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "18314/102/T0422",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "20-02-18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "99 SPEED MART S/B (519537-X)",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY, 44150 KLANG, SELANGOR, 1249-TMN PANDAN CAHAYA",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000181747712",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.45
+      },
+      "payment_terms": {
+        "value": "Cash",
+        "confidence": 0.45
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "8991 NUTRI PLUS TELUR SEGAR",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": "8991",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": "9.90",
+          "confidence": 0.45
+        },
+        "amount": {
+          "value": "9.90",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "9.90",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>Time</th><th>Receipt No.</th><th>Date</th></tr><tr><td>06:20PM</td><td>568008</td><td>20-02-18</td></tr><tr><th>Item</th><th>Description</th><th>Amount (RM)</th></tr><tr><td>8991</td><td>NUTRI PLUS TELUR SEGAR</td><td>9.90 z</td></tr><tr><td colspan=\"2\">Total Sales (Inclusive GST)</td><td>9.90</td></tr><tr><td colspan=\"2\">CASH</td><td>10.00</td></tr><tr><td colspan=\"2\">CHANGE</td><td>0.10</td></tr></table><table><tr><th>GST Summary</th><th>Amount (RM)</th><th>Tax (RM)</th></tr><tr><td>z = 0%</td><td>9.90</td><td>.00</td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><tr><th>Time</th><th>Receipt No.</th><th>Date</th></tr><tr><td>06:20PM</td><td>568008</td><td>20-02-18</td></tr><tr><th>Item</th><th>Description</th><th>Amount (RM)</th></tr><tr><td>8991</td><td>NUTRI PLUS TELUR SEGAR</td><td>9.90 z</td></tr><tr><td colspan=\"2\">Total Sales (Inclusive GST)</td><td>9.90</td></tr><tr><td colspan=\"2\">CASH</td><td>10.00</td></tr><tr><td colspan=\"2\">CHANGE</td><td>0.10</td></tr></table><table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><tr><th>GST Summary</th><th>Amount (RM)</th><th>Tax (RM)</th></tr><tr><td>z = 0%</td><td>9.90</td><td>.00</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.0010636,
+        "latency_ms": 24008,
+        "tokens_in": 1862,
+        "tokens_out": 1152
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.011062608,
+        "latency_ms": 35320,
+        "tokens_in": 1884,
+        "tokens_out": 8936
+      }
+    ]
+  }
+}

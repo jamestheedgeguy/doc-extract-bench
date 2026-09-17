@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51008123599",
+  "at": "2026-09-16T23:17:28.954Z",
+  "latencyMs": 16260,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "SP3-01-147902",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "17/06/2018 7:36:12 PM",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "JIMART@SP3 - OGN GROUP SDN BHD",
+        "confidence": 0.45
+      },
+      "vendor_address": {
+        "value": "No.29M, Jalan Dinar G U3/G, Seksyen U3, Subang Perdana, 40150 Shah Alam, 013-336 3999",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "GST Reg No: 002077622272 (Roc: 1026984-X)",
+        "confidence": 0.45
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.45
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Kitchen Lighter 2015",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "SR 6001188379050",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "3.68",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "18.40",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Cotton White Mop 450 W.HDL",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "SR 9555586101265",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "9.91",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "9.91",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "28.31",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "28.30",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>#</th><th>Description</th><th>Qty</th><th>Price</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>SR 6001188379050Kitchen Lighter 2015</td><td>5</td><td>3.68</td><td>18.40</td></tr><tr><td>2</td><td>SR 9555586101265Cotton White Mop 450 W.HDL</td><td>1</td><td>9.91</td><td>9.91</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>#</th><th>Description</th><th>Qty</th><th>Price</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>SR 6001188379050<br>Kitchen Lighter 2015</td><td>5</td><td>3.68</td><td>18.40</td></tr><tr><td>2</td><td>SR 9555586101265<br>Cotton White Mop 450 W.HDL</td><td>1</td><td>9.91</td><td>9.91</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001982208,
+        "latency_ms": 7035,
+        "tokens_in": 1868,
+        "tokens_out": 1373
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001970784,
+        "latency_ms": 7150,
+        "tokens_in": 1868,
+        "tokens_out": 1583
+      }
+    ]
+  }
+}

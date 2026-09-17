@@ -1,0 +1,145 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005447832",
+  "at": "2026-09-16T23:16:16.617Z",
+  "latencyMs": 37719,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "60000152273",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "26/02/18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "PETRODELI ENTERPRISE",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT 485, TMN LEMBAH KERAMAT\nJLN ULU KELANG\n54200 KUALA LUMPUR",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000145047552",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "FuelSave 95 (Pump # 09)",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "39.42",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.170",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "85.54",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "85.54",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "85.54",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Quantity</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>FuelSave 95 (Pump # 09)</td><td>39.42 litre</td><td>2.170 RM / litre</td><td>RM 85.54 C</td></tr><tr><td colspan=\"3\">Total</td><td>RM 85.54</td></tr><tr><td colspan=\"3\">Visa</td><td>RM 85.54</td></tr><tr><td colspan=\"3\">Relief GST C</td><td>RM 0.00</td></tr><tr><td colspan=\"3\">Total Gross C</td><td>RM 85.54</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Quantity</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>FuelSave 95 (Pump # 09)</td><td>39.42 litre</td><td>2.170 RM / litre</td><td>RM 85.54 C</td></tr><tr><td colspan=\"3\">Total</td><td>RM 85.54</td></tr><tr><td colspan=\"3\">Visa</td><td>RM 85.54</td></tr><tr><td colspan=\"3\">Relief GST C</td><td>RM 0.00</td></tr><tr><td colspan=\"3\">Total Gross C</td><td>RM 85.54</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005750208,
+        "latency_ms": 20806,
+        "tokens_in": 1860,
+        "tokens_out": 4515
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003741984,
+        "latency_ms": 14253,
+        "tokens_in": 1860,
+        "tokens_out": 3061
+      }
+    ]
+  }
+}

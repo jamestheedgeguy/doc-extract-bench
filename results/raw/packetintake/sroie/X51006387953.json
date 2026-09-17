@@ -1,0 +1,164 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006387953",
+  "at": "2026-09-16T23:11:40.611Z",
+  "latencyMs": 87476,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "0002300417000116",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "30/04/2017",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "AMANO MALAYSIA SDN BHD",
+        "confidence": 0.45
+      },
+      "vendor_address": {
+        "value": "12 JALAN PENGACARA U1/48, TEMASYA INDUSTRIAL PARK, 40150 SHAH ALAM SELANGOR",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "001137704960",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Parking Fee",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "0.94",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "GST (Included) 6.00 %",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "0.06",
+          "confidence": 0.45
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "0.06",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "1.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>P/S #02</td><td>A</td><td>INV-No.</td><td>0002300417000116</td></tr><tr><td>T/D #11</td><td></td><td>Ticket No.</td><td>029332</td></tr><tr><td>Entry Time</td><td colspan=\"3\">30/04/2017 (Sun) 20:22</td></tr><tr><td>Paid Time</td><td colspan=\"3\">30/04/2017 (Sun) 21:51</td></tr><tr><td>Parking Time</td><td colspan=\"3\">1:29</td></tr><tr><td>Type</td><td colspan=\"2\">Rate A</td><td>RM1.00</td></tr><tr><td>Parking Fee</td><td colspan=\"2\"></td><td>RM0.94</td></tr><tr><td>GST (Included)</td><td colspan=\"2\">6.00 %</td><td>RM0.06</td></tr><tr><td>Total</td><td colspan=\"2\"></td><td>RM1.00</td></tr><tr><td>Paid</td><td colspan=\"2\"></td><td>RM1.00</td></tr><tr><td>Change</td><td colspan=\"2\"></td><td>RM0.00</td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>P/S #02</td><td>A</td><td>INV-No.</td><td>0002300417000116</td></tr><tr><td>T/D #11</td><td></td><td>Ticket No.</td><td>029332</td></tr><tr><td>Entry Time</td><td colspan=\"3\">30/04/2017 (Sun) 20:22</td></tr><tr><td>Paid Time</td><td colspan=\"3\">30/04/2017 (Sun) 21:51</td></tr><tr><td>Parking Time</td><td colspan=\"3\">1:29</td></tr><tr><td>Type</td><td colspan=\"2\">Rate A</td><td>RM1.00</td></tr><tr><td>Parking Fee</td><td colspan=\"2\"></td><td>RM0.94</td></tr><tr><td>GST (Included)</td><td colspan=\"2\">6.00 %</td><td>RM0.06</td></tr><tr><td>Total</td><td colspan=\"2\"></td><td>RM1.00</td></tr><tr><td>Paid</td><td colspan=\"2\"></td><td>RM1.00</td></tr><tr><td>Change</td><td colspan=\"2\"></td><td>RM0.00</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.00073458,
+        "latency_ms": 48643,
+        "tokens_in": 1821,
+        "tokens_out": 565
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.0111534,
+        "latency_ms": 35819,
+        "tokens_in": 1846,
+        "tokens_out": 8833
+      }
+    ]
+  }
+}

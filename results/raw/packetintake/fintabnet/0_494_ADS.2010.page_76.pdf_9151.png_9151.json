@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:494:ADS.2010.page_76.pdf_9151.png#9151",
+  "at": "2026-09-17T02:07:14.153Z",
+  "latencyMs": 4875,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Segment</th><th>Products and Services</th></tr></thead><tbody><tr><td>LoyaltyOne</td><td>AIR MILES Reward ProgramLoyalty Services—Loyalty consulting—Customer analytics—Creative services</td></tr><tr><td>Epsilon</td><td>Marketing Services—Marketing database services—Analytical services—Strategic consulting and creative services—Proprietary data services—Digital communications</td></tr><tr><td>Private Label Services and Credit</td><td>Processing Services—New account processing—Bill processing—Remittance processing—Customer carePrivate Label Receivables Financing—Underwriting and risk management—Receivables fundingMarketing Services</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th>Segment</th><th>Products and Services</th></tr></thead><tbody><tr><td>LoyaltyOne</td><td><ul><li>AIR MILES Reward Program</li><li>Loyalty Services<br/>&mdash;Loyalty consulting<br/>&mdash;Customer analytics<br/>&mdash;Creative services</li></ul></td></tr><tr><td>Epsilon</td><td><ul><li>Marketing Services<br/>&mdash;Marketing database services<br/>&mdash;Analytical services<br/>&mdash;Strategic consulting and creative services<br/>&mdash;Proprietary data services<br/>&mdash;Digital communications</li></ul></td></tr><tr><td>Private Label Services and Credit</td><td><ul><li>Processing Services<br/>&mdash;New account processing<br/>&mdash;Bill processing<br/>&mdash;Remittance processing<br/>&mdash;Customer care</li><li>Private Label Receivables Financing<br/>&mdash;Underwriting and risk management<br/>&mdash;Receivables funding</li><li>Marketing Services</li></ul></td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001127208,
+        "latency_ms": 4423,
+        "tokens_in": 1186,
+        "tokens_out": 831
+      }
+    ]
+  }
+}

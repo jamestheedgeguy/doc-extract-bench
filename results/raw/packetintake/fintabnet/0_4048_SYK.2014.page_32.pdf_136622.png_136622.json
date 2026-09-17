@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:4048:SYK.2014.page_32.pdf_136622.png#136622",
+  "at": "2026-09-17T01:54:34.525Z",
+  "latencyMs": 6416,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th rowspan=\"2\"></th><th colspan=\"2\">Shares (in millions)</th><th colspan=\"2\">Weighted Average Grant date Fair value</th></tr><tr><th>RSUs</th><th>PSUs</th><th>RSUs</th><th>PSUs</th></tr></thead><tbody><tr><td>Nonvested at January 1</td><td>1.5</td><td>0.3</td><td>$56.19</td><td>$58.10</td></tr><tr><td>Granted</td><td>0.6</td><td>0.1</td><td>76.61</td><td>81.14</td></tr><tr><td>Vested</td><td>(0.7)</td><td>(0.1)</td><td>55.71</td><td>56.53</td></tr><tr><td>Canceled</td><td>(0.1)</td><td>—</td><td>63.45</td><td>57.12</td></tr><tr><td>Nonvested at December 31</td><td>1.3</td><td>0.3</td><td>$65.04</td><td>$66.18</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th rowspan=\"2\"></th><th colspan=\"2\">Shares (in millions)</th><th colspan=\"2\">Weighted Average Grant date Fair value</th></tr><tr><th>RSUs</th><th>PSUs</th><th>RSUs</th><th>PSUs</th></tr></thead><tbody><tr><td>Nonvested at January 1</td><td>1.5</td><td>0.3</td><td>$56.19</td><td>$58.10</td></tr><tr><td>Granted</td><td>0.6</td><td>0.1</td><td>76.61</td><td>81.14</td></tr><tr><td>Vested</td><td>(0.7)</td><td>(0.1)</td><td>55.71</td><td>56.53</td></tr><tr><td>Canceled</td><td>(0.1)</td><td>—</td><td>63.45</td><td>57.12</td></tr><tr><td>Nonvested at December 31</td><td>1.3</td><td>0.3</td><td>$65.04</td><td>$66.18</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001675608,
+        "latency_ms": 6039,
+        "tokens_in": 1098,
+        "tokens_out": 1310
+      }
+    ]
+  }
+}

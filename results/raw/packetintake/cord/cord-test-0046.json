@@ -1,0 +1,156 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0046",
+  "at": "2026-09-17T01:23:36.386Z",
+  "latencyMs": 15338,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "S-Bubble Milk Tea 100%",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "20000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "20000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "S-Caramel Milk Tea 100%",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "20000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "20000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "40000.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1X S-Bubble Milk Tea 100%</td><td>1</td><td>20,000</td><td>20,000</td></tr><tr><td>1X S-Caramel Milk Tea 100%</td><td>1</td><td>20,000</td><td>20,000</td></tr><tr><td colspan=\"3\">Total</td><td>40,000</td></tr><tr><td colspan=\"3\">Cash</td><td>40,000</td></tr><tr><td colspan=\"3\">Change</td><td>0</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1X S-Bubble Milk Tea 100%</td><td>1</td><td>20,000</td><td>20,000</td></tr><tr><td>1X S-Caramel Milk Tea 100%</td><td>1</td><td>20,000</td><td>20,000</td></tr><tr><td colspan=\"3\">Total</td><td>40,000</td></tr><tr><td colspan=\"3\">Cash</td><td>40,000</td></tr><tr><td colspan=\"3\">Change</td><td>0</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001496208,
+        "latency_ms": 8194,
+        "tokens_in": 1888,
+        "tokens_out": 963
+      }
+    ]
+  }
+}

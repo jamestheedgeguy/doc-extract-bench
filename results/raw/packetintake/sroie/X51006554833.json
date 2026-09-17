@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006554833",
+  "at": "2026-09-16T23:24:52.131Z",
+  "latencyMs": 45075,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS00251915",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "29/10/2017",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "AA PHARMACY",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "B-8, JALAN SS15/4D, 47500 SUBANG JAYA, SELANGOR",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001536708608",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "(BOX 100S) SUPER SAFE POWDER FREE NITRIL",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "030249",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "14.90",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "14.90",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "(S SIZE) SUPER SAFE LATEX GLOVE POWDER F",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "03022",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "14.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "14.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "27.27",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "1.64",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "28.90",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>ITEM</th><th>QTY</th><th>U/P (GST)</th><th>AMOUNT (GST)</th></tr><tr><td>030249(BOX 100S) SUPER SAFE POWDER FREE NITRIL</td><td>1</td><td>14.90</td><td>14.90 S</td></tr><tr><td>03022(S SIZE) SUPER SAFE LATEX GLOVE POWDER F</td><td>1</td><td>14.00</td><td>14.00 S</td></tr><tr><td>TOTAL QUANTITY</td><td>2</td><td></td><td></td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><tr><th>ITEM</th><th>QTY</th><th>U/P (GST)</th><th>AMOUNT (GST)</th></tr><tr><td>030249<br>(BOX 100S) SUPER SAFE POWDER FREE NITRIL</td><td>1</td><td>14.90</td><td>14.90 S</td></tr><tr><td>03022<br>(S SIZE) SUPER SAFE LATEX GLOVE POWDER F</td><td>1</td><td>14.00</td><td>14.00 S</td></tr><tr><td>TOTAL QUANTITY</td><td>2</td><td></td><td></td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 28.90 != subtotal 27.27",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.00061686,
+        "latency_ms": 19064,
+        "tokens_in": 1815,
+        "tokens_out": 403
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.00061686,
+        "latency_ms": 22686,
+        "tokens_in": 1815,
+        "tokens_out": 403
+      }
+    ]
+  }
+}

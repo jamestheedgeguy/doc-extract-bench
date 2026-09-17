@@ -1,0 +1,182 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0004",
+  "at": "2026-09-17T00:53:22.336Z",
+  "latencyMs": 17455,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "ICE BLACKCOFFE",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "82000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "AVOCADO COFFEE",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "61000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "CHIKEN KATSU FF",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "51000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "194000",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "19400",
+        "confidence": 0.92
+      },
+      "total": {
+        "value": "174600",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>ICE BLACKCOFFE</td><td>2</td><td>82,000</td></tr><tr><td>AVOCADO COFFEE</td><td>1</td><td>61,000</td></tr><tr><td>CHIKEN KATSU FF</td><td>1</td><td>51,000</td></tr><tr><td colspan=\"3\"></td></tr><tr><td>SUB_TOTAL</td><td></td><td>194,000</td></tr><tr><td>DISCOUNT</td><td></td><td>19,400</td></tr><tr><td>TOTAL</td><td></td><td>174,600</td></tr><tr><td>CASH</td><td></td><td>200,000</td></tr><tr><td>CHANGE</td><td></td><td>25,400</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>ICE BLACKCOFFE</td><td>2</td><td>82,000</td></tr><tr><td>AVOCADO COFFEE</td><td>1</td><td>61,000</td></tr><tr><td>CHIKEN KATSU FF</td><td>1</td><td>51,000</td></tr><tr><td colspan=\"3\">&nbsp;</td></tr><tr><td>SUB_TOTAL</td><td></td><td>194,000</td></tr><tr><td>DISCOUNT</td><td></td><td>19,400</td></tr><tr><td>TOTAL</td><td></td><td>174,600</td></tr><tr><td>CASH</td><td></td><td>200,000</td></tr><tr><td>CHANGE</td><td></td><td>25,400</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002874708,
+        "latency_ms": 7602,
+        "tokens_in": 1867,
+        "tokens_out": 2117
+      }
+    ]
+  }
+}

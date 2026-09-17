@@ -1,0 +1,221 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template46_Instance176",
+  "at": "2026-09-16T22:18:26.273Z",
+  "latencyMs": 23325,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "5Y6M8d-019",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "04-Jul-2005",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "02-Apr-2007",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Morton-Leach",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "98324 Espinoza View, North Olivia, NY 66612 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Kelly Stout",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Go wall admit.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "57.98",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "289.90",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.35
+        }
+      },
+      {
+        "description": {
+          "value": "Production war.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "6.91",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "34.55",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.35
+        }
+      },
+      {
+        "description": {
+          "value": "Letter government.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "23.73",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "94.92",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.35
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "419.37",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "21.43",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "420.08",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th><th>TAX</th><th>AMOUNT</th></tr></thead><tbody><tr><td>Go wall admit.</td><td>5.00</td><td>$57.98</td><td>$0.00</td><td>$289.90</td></tr><tr><td>Production war.</td><td>5.00</td><td>$6.91</td><td>$0.00</td><td>$34.55</td></tr><tr><td>Letter government.</td><td>4.00</td><td>$23.73</td><td>$0.00</td><td>$94.92</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th><th>TAX</th><th>AMOUNT</th></tr></thead><tbody><tr><td>Go wall admit.</td><td>5.00</td><td>$57.98</td><td>$0.00</td><td>$289.90</td></tr><tr><td>Production war.</td><td>5.00</td><td>$6.91</td><td>$0.00</td><td>$34.55</td></tr><tr><td>Letter government.</td><td>4.00</td><td>$23.73</td><td>$0.00</td><td>$94.92</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      },
+      {
+        "code": "currency_mismatch",
+        "severity": "hard",
+        "message": "line currency USD != header EUR",
+        "path": "line_items[0].currency"
+      },
+      {
+        "code": "currency_mismatch",
+        "severity": "hard",
+        "message": "line currency USD != header EUR",
+        "path": "line_items[1].currency"
+      },
+      {
+        "code": "currency_mismatch",
+        "severity": "hard",
+        "message": "line currency USD != header EUR",
+        "path": "line_items[2].currency"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005536008,
+        "latency_ms": 14024,
+        "tokens_in": 1878,
+        "tokens_out": 4332
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002886552,
+        "latency_ms": 6451,
+        "tokens_in": 1878,
+        "tokens_out": 2375
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:3835:WDC.2008.page_81.pdf_69364.png#69364",
+  "at": "2026-09-17T01:46:05.770Z",
+  "latencyMs": 28714,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th></th><th>Weighted AverageAmortization Period(in years)</th><th>Gross CarryingAmount(in millions)</th><th>AccumulatedAmortization(in millions)</th><th>Net CarryingAmount(in millions)</th></tr></thead><tbody><tr><td>Existing technology</td><td>9</td><td>$100</td><td>$26</td><td>$74</td></tr><tr><td>Customer relationships</td><td>3</td><td>10</td><td>3</td><td>7</td></tr><tr><td>Total</td><td></td><td>$110</td><td>$29</td><td>$81</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th></th><th>Weighted Average<br>Amortization Period<br>(in years)</th><th>Gross Carrying<br>Amount<br>(in millions)</th><th>Accumulated<br>Amortization<br>(in millions)</th><th>Net Carrying<br>Amount<br>(in millions)</th></tr></thead><tbody><tr><td>Existing technology</td><td>9</td><td>$100</td><td>$26</td><td>$74</td></tr><tr><td>Customer relationships</td><td>3</td><td>10</td><td>3</td><td>7</td></tr><tr><td>Total</td><td></td><td>$110</td><td>$29</td><td>$81</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.007282608,
+        "latency_ms": 28318,
+        "tokens_in": 1092,
+        "tokens_out": 5984
+      }
+    ]
+  }
+}

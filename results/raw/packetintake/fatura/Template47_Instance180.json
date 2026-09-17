@@ -1,0 +1,203 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template47_Instance180",
+  "at": "2026-09-16T22:24:38.005Z",
+  "latencyMs": 12431,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "6371-537",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "13-Mar-2010",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "05-Nov-2007",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Rogers, Olson and Sanders",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "116 Smith Loop Apt. 882, East David, AL 55672 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": "54",
+        "confidence": 0.7
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Look several.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "812187",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "77.84",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "389.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "State city.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "868603",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "80.48",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "402.40",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Pass prove.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "218020",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "69.11",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "207.33",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "1016.07",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>5.00</td><td>812187</td><td>Look several.</td><td>77.84</td><td>389.20</td></tr><tr><td>5.00</td><td>868603</td><td>State city.</td><td>80.48</td><td>402.40</td></tr><tr><td>3.00</td><td>218020</td><td>Pass prove.</td><td>69.11</td><td>207.33</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>5.00</td><td>812187</td><td>Look several.</td><td>77.84</td><td>389.20</td></tr><tr><td>5.00</td><td>868603</td><td>State city.</td><td>80.48</td><td>402.40</td></tr><tr><td>3.00</td><td>218020</td><td>Pass prove.</td><td>69.11</td><td>207.33</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001372308,
+        "latency_ms": 3356,
+        "tokens_in": 1887,
+        "tokens_out": 860
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002068452,
+        "latency_ms": 5996,
+        "tokens_in": 1887,
+        "tokens_out": 1691
+      }
+    ]
+  }
+}

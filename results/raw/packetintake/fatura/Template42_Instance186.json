@@ -1,0 +1,229 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template42_Instance186",
+  "at": "2026-09-16T22:07:03.457Z",
+  "latencyMs": 14318,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "9Y5M7d-457",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "25-Nov-2009",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "05-Jul-2000",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "White-Owens",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "84945 Watson Greens Suite 097\nMaryshire, TX 73257 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Dr. Ryan Bautista",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": "03",
+        "confidence": 0.7
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Eat challenge rock enter.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "28.03",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "84.09",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "That on.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "25.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "76.50",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Southern including.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "86.13",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "516.78",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Can her.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "67.01",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "268.04",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>3.00</td><td>Eat challenge rock enter.</td><td>28.03</td><td>84.09</td></tr><tr><td>3.00</td><td>That on.</td><td>25.50</td><td>76.50</td></tr><tr><td>6.00</td><td>Southern including.</td><td>86.13</td><td>516.78</td></tr><tr><td>4.00</td><td>Can her.</td><td>67.01</td><td>268.04</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>3.00</td><td>Eat challenge rock enter.</td><td>28.03</td><td>84.09</td></tr><tr><td>3.00</td><td>That on.</td><td>25.50</td><td>76.50</td></tr><tr><td>6.00</td><td>Southern including.</td><td>86.13</td><td>516.78</td></tr><tr><td>4.00</td><td>Can her.</td><td>67.01</td><td>268.04</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002557908,
+        "latency_ms": 6033,
+        "tokens_in": 1871,
+        "tokens_out": 1852
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001966452,
+        "latency_ms": 4918,
+        "tokens_in": 1871,
+        "tokens_out": 1610
+      }
+    ]
+  }
+}

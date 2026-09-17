@@ -1,0 +1,182 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:2491:WAB.2012.page_66.pdf_136402.png#136402",
+  "at": "2026-09-17T02:08:56.938Z",
+  "latencyMs": 36004,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Raw materials",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "186341",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Work-in-process",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "129605",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Finished goods",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "91093",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "407039",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table>In thousands<thead><tr><th rowspan=\"2\"></th><th colspan=\"2\">December 31,</th></tr><tr><th>2012</th><th>2011</th></tr></thead><tbody><tr><td>Raw materials</td><td>$186,341</td><td>$154,885</td></tr><tr><td>Work-in-process</td><td>129,605</td><td>110,179</td></tr><tr><td>Finished goods</td><td>91,093</td><td>83,110</td></tr><tr><td>Total inventories</td><td>$407,039</td><td>$348,174</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><caption>In thousands</caption><thead><tr><th rowspan='2'></th><th colspan='2'>December 31,</th></tr><tr><th>2012</th><th>2011</th></tr></thead><tbody><tr><td>Raw materials</td><td>$186,341</td><td>$154,885</td></tr><tr><td>Work-in-process</td><td>129,605</td><td>110,179</td></tr><tr><td>Finished goods</td><td>91,093</td><td>83,110</td></tr><tr><td>Total inventories</td><td>$407,039</td><td>$348,174</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.009786408,
+        "latency_ms": 35595,
+        "tokens_in": 1098,
+        "tokens_out": 8069
+      }
+    ]
+  }
+}

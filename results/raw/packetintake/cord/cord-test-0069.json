@@ -1,0 +1,189 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0069",
+  "at": "2026-09-17T01:32:57.429Z",
+  "latencyMs": 49780,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": "23/??/2017",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "[MD] SOFT MORNING ROLL",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "18000.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "REAL HONEY PANCAKE BREAD",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "20000.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "CUSTARD BRIOCHE",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "36000.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "74000.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>[MD] SOFT MORNING ROLL</td><td>18,000</td></tr><tr><td>2</td><td>REAL HONEY PANCAKE BREAD</td><td>20,000</td></tr><tr><td>4</td><td>CUSTARD BRIOCHE</td><td>36,000</td></tr><tr><td colspan=\"2\">TOTAL</td><td>74,000</td></tr><tr><td colspan=\"2\">CASH</td><td>100,000</td></tr><tr><td colspan=\"2\">CHANGE</td><td>26,000</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>[MD] SOFT MORNING ROLL</td><td>18,000</td></tr><tr><td>2</td><td>REAL HONEY PANCAKE BREAD</td><td>20,000</td></tr><tr><td>4</td><td>CUSTARD BRIOCHE</td><td>36,000</td></tr><tr><td colspan=\"2\">TOTAL</td><td>74,000</td></tr><tr><td colspan=\"2\">CASH</td><td>100,000</td></tr><tr><td colspan=\"2\">CHANGE</td><td>26,000</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002455008,
+        "latency_ms": 22583,
+        "tokens_in": 1884,
+        "tokens_out": 1763
+      }
+    ]
+  }
+}

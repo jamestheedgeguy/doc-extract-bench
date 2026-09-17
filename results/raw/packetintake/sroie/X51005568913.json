@@ -1,0 +1,143 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005568913",
+  "at": "2026-09-17T00:09:54.065Z",
+  "latencyMs": 15394,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "000000011000136498",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "27/07/17",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "IKANO HANDEL SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "IKEA Cheras, No 2A Jalan Cochrane, Taman Maluri, 55100 KUALA LUMPUR",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000115154944",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "BOSTRAK WRD 80X50X18",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "50346155",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "269.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "538.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "507.55",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "30.45",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "538.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>Description</td><td>Amount</td><td>TX</td></tr><tr><td>50346155 BOSTRAK WRD 80X50X182 pc @ 269.00</td><td>538.00</td><td>SRS</td></tr><tr><td>Total RM Including GST 6%</td><td>538.00</td><td></td></tr><tr><td>Rounding Adj.</td><td>0.00</td><td></td></tr><tr><td>Total Rounded</td><td>538.00</td><td></td></tr><tr><td>Visa</td><td>-538.00</td><td></td></tr><tr><td>GST SR 6%</td><td>538.00</td><td>30.45</td></tr><tr><td>Amt. Excl. GST</td><td>507.55</td><td></td></tr><tr><td>No. of Items</td><td>2</td><td></td></tr></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>Description</td><td>Amount</td><td>TX</td></tr><tr><td>50346155 BOSTRAK WRD 80X50X18<br>2 pc @ 269.00</td><td>538.00</td><td>SRS</td></tr><tr><td>Total RM Including GST 6%</td><td>538.00</td><td></td></tr><tr><td>Rounding Adj.</td><td>0.00</td><td></td></tr><tr><td>Total Rounded</td><td>538.00</td><td></td></tr><tr><td>Visa</td><td>-538.00</td><td></td></tr><tr><td>GST SR 6%</td><td>538.00</td><td>30.45</td></tr><tr><td>Amt. Excl. GST</td><td>507.55</td><td></td></tr><tr><td>No. of Items</td><td>2</td><td></td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 538.00 != subtotal 507.55",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004945608,
+        "latency_ms": 12261,
+        "tokens_in": 1866,
+        "tokens_out": 3843
+      }
+    ]
+  }
+}

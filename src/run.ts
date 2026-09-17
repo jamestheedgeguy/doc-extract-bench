@@ -24,6 +24,7 @@ import { textract } from "./adapters/textract.js";
 import { docai } from "./adapters/docai.js";
 import { veryfi } from "./adapters/veryfi.js";
 import { llamaparse } from "./adapters/llamaparse.js";
+import { packetintake } from "./adapters/packetintake.js";
 import type { Adapter, DocType } from "./adapters/types.js";
 import { INVOICE_FIELDS, INVOICE_FIELD_TYPES, type CanonicalInvoice } from "./schemas/invoice.js";
 import {
@@ -52,7 +53,7 @@ const DOCTYPE_FILTER = argValue("--doctype")?.split(",") ?? null;
 const LIMIT = argValue("--limit") ? Number(argValue("--limit")) : null;
 const MAX_RUN_USD = Number(process.env.MAX_RUN_USD ?? argValue("--max-usd") ?? 60);
 
-const ADAPTERS: Adapter[] = [compound, textract, docai, veryfi, llamaparse];
+const ADAPTERS: Adapter[] = [compound, textract, docai, veryfi, llamaparse, packetintake];
 
 // ------------------------------------------------------------ datasets
 

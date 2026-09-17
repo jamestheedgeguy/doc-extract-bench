@@ -1,0 +1,189 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007103675",
+  "at": "2026-09-17T00:29:00.208Z",
+  "latencyMs": 27690,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "31804048",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "25-04-18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "MR. D.I.Y. (M) SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000306020352",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "CASH",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "RUBBER BOOTS P/968BK-SIZE8 (BLACK) *S WA60 - 6/48",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "9555590501204",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "9.90",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "9.90",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "SEKOPLAS H/D GARBAGE 89cm*117cm 10s *S WA57 - 16",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "9557002081113",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "4",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "9.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "38.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "PLASTIC BAGS *S",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "99999",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "0.20",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "0.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "2.72",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "48.10",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Qty</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>RUBBER BOOTS P/968BK-SIZE8 (BLACK) *SWA60 - 6/48</td><td>9555590501204</td><td>1</td><td>9.90</td><td>9.90</td><td>RM</td></tr><tr><td>SEKOPLAS H/D GARBAGE 89cm*117cm 10s *SWA57 - 16</td><td>9557002081113</td><td>4</td><td>9.50</td><td>38.00</td><td>RM</td></tr><tr><td>PLASTIC BAGS *S</td><td>99999</td><td>1</td><td>0.20</td><td>0.20</td><td>RM</td></tr><tr><td colspan=\"6\">Item(s) : 3 Qty(s) : 6</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Qty</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>RUBBER BOOTS P/968BK-SIZE8 (BLACK) *S<br>WA60 - 6/48</td><td>9555590501204</td><td>1</td><td>9.90</td><td>9.90</td><td>RM</td></tr><tr><td>SEKOPLAS H/D GARBAGE 89cm*117cm 10s *S<br>WA57 - 16</td><td>9557002081113</td><td>4</td><td>9.50</td><td>38.00</td><td>RM</td></tr><tr><td>PLASTIC BAGS *S</td><td>99999</td><td>1</td><td>0.20</td><td>0.20</td><td>RM</td></tr><tr><td colspan=\"6\">Item(s) : 3 Qty(s) : 6</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.009833808,
+        "latency_ms": 25196,
+        "tokens_in": 1868,
+        "tokens_out": 7916
+      }
+    ]
+  }
+}

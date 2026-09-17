@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:937:MPC.2013.page_63.pdf_2932.png#2932",
+  "at": "2026-09-17T02:12:11.270Z",
+  "latencyMs": 29053,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>(Dollars per gallon)</td><td>2013</td><td>2012</td></tr><tr><td>Chicago spot unleaded regular gasoline</td><td>$ 2.76</td><td>$ 2.84</td></tr><tr><td>Chicago spot ultra-low sulfur diesel</td><td>3.01</td><td>3.01</td></tr><tr><td>USGC spot unleaded regular gasoline</td><td>2.69</td><td>2.81</td></tr><tr><td>USGC spot ultra-low sulfur diesel</td><td>2.97</td><td>3.05</td></tr></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>(Dollars per gallon)</td><td>2013</td><td>2012</td></tr><tr><td>Chicago spot unleaded regular gasoline</td><td>$ 2.76</td><td>$ 2.84</td></tr><tr><td>Chicago spot ultra-low sulfur diesel</td><td>3.01</td><td>3.01</td></tr><tr><td>USGC spot unleaded regular gasoline</td><td>2.69</td><td>2.81</td></tr><tr><td>USGC spot ultra-low sulfur diesel</td><td>2.97</td><td>3.05</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.007532208,
+        "latency_ms": 28657,
+        "tokens_in": 1096,
+        "tokens_out": 6191
+      }
+    ]
+  }
+}

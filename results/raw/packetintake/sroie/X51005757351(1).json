@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005757351(1)",
+  "at": "2026-09-16T23:44:58.351Z",
+  "latencyMs": 76273,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "31803054",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "24-03-18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "MR. D.I.Y. (M) SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000306020352",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "MULTIPURPOSE BROOM 737P W/4FT",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": "WA16 - 24",
+          "confidence": 0.45
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "6.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "13.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "HOSE PUMP C88351#",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": "KE23-33-53 - 12/120",
+          "confidence": 0.45
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "1.90",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "1.90",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "0.84",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "14.90",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>MULTIPURPOSE BROOM 737P W/4FT</td><td>WA16 - 249555221300282</td><td>2</td><td>6.50</td><td>13.00</td><td>RM</td></tr><tr><td>HOSE PUMP C88351#</td><td>KE23-33-53 - 12/1209074333</td><td>1</td><td>1.90</td><td>1.90</td><td>RM</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>MULTIPURPOSE BROOM 737P W/4FT</td><td>WA16 - 24<br>9555221300282</td><td>2</td><td>6.50</td><td>13.00</td><td>RM</td></tr><tr><td>HOSE PUMP C88351#</td><td>KE23-33-53 - 12/120<br>9074333</td><td>1</td><td>1.90</td><td>1.90</td><td>RM</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003125402,
+        "latency_ms": 30642,
+        "tokens_in": 1865,
+        "tokens_out": 4361
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.00374924,
+        "latency_ms": 38722,
+        "tokens_in": 1865,
+        "tokens_out": 5059
+      }
+    ]
+  }
+}

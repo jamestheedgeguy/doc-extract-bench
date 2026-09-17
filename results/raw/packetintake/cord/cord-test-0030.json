@@ -1,0 +1,130 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0030",
+  "at": "2026-09-17T01:08:03.904Z",
+  "latencyMs": 12935,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Kupon 3",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "28636.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "28636.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "2864.00",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "31500.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><tbody><tr><td>Kupon 3</td><td>28,636</td></tr><tr><td>Subtotal</td><td>28,636</td></tr><tr><td>PB1 (10%)</td><td>2,864</td></tr><tr><td>Dine In Total</td><td>31,500</td></tr><tr><td>Cash</td><td>50,000</td></tr><tr><td>Change</td><td>18,500</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\"><tbody><tr><td>Kupon 3</td><td>28,636</td></tr><tr><td>Subtotal</td><td>28,636</td></tr><tr><td>PB1 (10%)</td><td>2,864</td></tr><tr><td>Dine In Total</td><td>31,500</td></tr><tr><td>Cash</td><td>50,000</td></tr><tr><td>Change</td><td>18,500</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001072308,
+        "latency_ms": 2447,
+        "tokens_in": 1867,
+        "tokens_out": 615
+      }
+    ]
+  }
+}

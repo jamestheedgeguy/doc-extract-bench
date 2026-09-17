@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template48_Instance199",
+  "at": "2026-09-16T22:24:49.928Z",
+  "latencyMs": 11590,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "4Y4M4d-741",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "28-Mar-1998",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "24-Apr-2004",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Brooks LLC",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "9950 Santos Squares, Garzafurt, MH 31937 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Tyler Franklin",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Factor while per.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "316289",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "3.43",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "20.58",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Run.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "278518",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "52.82",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "52.82",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "73.40",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "6.61",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "76.97",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>6.00</td><td>316289</td><td>Factor while per.</td><td>3.43</td><td>20.58</td></tr><tr><td>1.00</td><td>278518</td><td>Run.</td><td>52.82</td><td>52.82</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>6.00</td><td>316289</td><td>Factor while per.</td><td>3.43</td><td>20.58</td></tr><tr><td>1.00</td><td>278518</td><td>Run.</td><td>52.82</td><td>52.82</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001173108,
+        "latency_ms": 2490,
+        "tokens_in": 1851,
+        "tokens_out": 703
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002373252,
+        "latency_ms": 6130,
+        "tokens_in": 1851,
+        "tokens_out": 1954
+      }
+    ]
+  }
+}

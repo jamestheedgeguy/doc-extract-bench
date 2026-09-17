@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:991:MPC.2018.page_130.pdf_2680.png#2680",
+  "at": "2026-09-17T02:05:36.465Z",
+  "latencyMs": 21281,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th rowspan=\"2\">(In millions)</th><th colspan=\"2\">Change in IFO from a Hypothetical Price Increase of</th><th colspan=\"2\">Change in IFO from a Hypothetical Price Decrease of</th></tr><tr><th>10%</th><th>25%</th><th>10%</th><th>25%</th></tr></thead><tbody><tr><td colspan=\"5\">As of December 31, 2018</td></tr><tr><td>Crude</td><td>$ (22)</td><td>$ (55)</td><td>$ 22</td><td>$ 55</td></tr><tr><td>Refined products</td><td>3</td><td>7</td><td>(3)</td><td>(7)</td></tr><tr><td>Blending products</td><td>(8)</td><td>(19)</td><td>8</td><td>19</td></tr><tr><td>Embedded derivatives</td><td>(6)</td><td>(15)</td><td>6</td><td>15</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th rowspan='2'>(In millions)</th><th colspan='2'>Change in IFO from a Hypothetical Price Increase of</th><th colspan='2'>Change in IFO from a Hypothetical Price Decrease of</th></tr><tr><th>10%</th><th>25%</th><th>10%</th><th>25%</th></tr></thead><tbody><tr><td colspan='5'>As of December 31, 2018</td></tr><tr><td>Crude</td><td>$ (22)</td><td>$ (55)</td><td>$ 22</td><td>$ 55</td></tr><tr><td>Refined products</td><td>3</td><td>7</td><td>(3)</td><td>(7)</td></tr><tr><td>Blending products</td><td>(8)</td><td>(19)</td><td>8</td><td>19</td></tr><tr><td>Embedded derivatives</td><td>(6)</td><td>(15)</td><td>6</td><td>15</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005681808,
+        "latency_ms": 20856,
+        "tokens_in": 1100,
+        "tokens_out": 4648
+      }
+    ]
+  }
+}

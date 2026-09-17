@@ -1,0 +1,156 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007262330",
+  "at": "2026-09-17T00:30:20.184Z",
+  "latencyMs": 22855,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "0051808219001118",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "23/03/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "SWC ENTERPRISE SDN BHD",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "5-7, JALAN MAHAGONI 7/1, SEKSYEN 4, BANDAR UTAMA, 44300 BATANG KALI, SELANGOR",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "002017808384",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "OPEN CODE-SR ITEM",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "0025679 U",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "11.80",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "23.60",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "OPEN CODE-SR ITEM",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "0025679 U",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "8.80",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "17.60",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "41.20",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "2.34",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.92
+      },
+      "total": {
+        "value": "41.20",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td rowspan=\"2\">OPEN CODE-SR ITEM</td><td>0025679 U</td><td>2</td><td>11.80</td><td>23.60</td><td>RM</td></tr><tr><td>0025679 U</td><td>2</td><td>8.80</td><td>17.60</td><td>RM</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td rowspan=\"2\">OPEN CODE-SR ITEM</td><td>0025679 U</td><td>2</td><td>11.80</td><td>23.60</td><td>RM</td></tr><tr><td>0025679 U</td><td>2</td><td>8.80</td><td>17.60</td><td>RM</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.006455508,
+        "latency_ms": 19406,
+        "tokens_in": 1839,
+        "tokens_out": 5108
+      }
+    ]
+  }
+}

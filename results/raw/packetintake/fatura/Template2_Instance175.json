@@ -1,0 +1,223 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template2_Instance175",
+  "at": "2026-09-16T21:17:25.090Z",
+  "latencyMs": 10814,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV47355637",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "04-Jun-1996",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Barnes, Garcia and Martin",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "13868 Michael Wall, North Cindytown, CT 45483 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "33123456789102Z1",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Sheila Bell",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Card analysis fund.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "30.87",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Anything standard there.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "30.98",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Person police prevent.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "79.48",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Policy during.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "73.37",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "864.21",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "60.49",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "861.43",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Card analysis fund.</td><td>3.00</td><td>$30.87</td></tr><tr><td>Anything standard there.</td><td>3.00</td><td>$30.98</td></tr><tr><td>Person police prevent.</td><td>3.00</td><td>$79.48</td></tr><tr><td>Policy during.</td><td>6.00</td><td>$73.37</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Card analysis fund.</td><td>3.00</td><td>$30.87</td></tr><tr><td>Anything standard there.</td><td>3.00</td><td>$30.98</td></tr><tr><td>Person police prevent.</td><td>3.00</td><td>$79.48</td></tr><tr><td>Policy during.</td><td>6.00</td><td>$73.37</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001863,
+        "latency_ms": 4280,
+        "tokens_in": 1878,
+        "tokens_out": 1083
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001342008,
+        "latency_ms": 3742,
+        "tokens_in": 1878,
+        "tokens_out": 837
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template15_Instance192",
+  "at": "2026-09-16T21:26:25.561Z",
+  "latencyMs": 18477,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV56293466",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "19-Nov-2014",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "31-Mar-2014",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": "744 Hernandez Hollow Apt. 459 Rossville, UT 53295 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Frederick Williams",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Individual rest.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "80.92",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "80.92",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Sign offer.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "58.11",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "232.44",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Catch we.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "48.15",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "192.60",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "505.96",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "-18.11",
+        "confidence": 0.45
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1.00</td><td>Individual rest.</td><td>80.92</td><td>80.92</td></tr><tr><td>4.00</td><td>Sign offer.</td><td>58.11</td><td>232.44</td></tr><tr><td>4.00</td><td>Catch we.</td><td>48.15</td><td>192.60</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1.00</td><td>Individual rest.</td><td>80.92</td><td>80.92</td></tr><tr><td>4.00</td><td>Sign offer.</td><td>58.11</td><td>232.44</td></tr><tr><td>4.00</td><td>Catch we.</td><td>48.15</td><td>192.60</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003361308,
+        "latency_ms": 7797,
+        "tokens_in": 1841,
+        "tokens_out": 2529
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003397452,
+        "latency_ms": 7898,
+        "tokens_in": 1841,
+        "tokens_out": 2810
+      }
+    ]
+  }
+}

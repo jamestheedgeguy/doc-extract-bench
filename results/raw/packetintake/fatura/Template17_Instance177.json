@@ -1,0 +1,229 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template17_Instance177",
+  "at": "2026-09-16T21:27:38.885Z",
+  "latencyMs": 16839,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "5Y4M1d-293",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "10-Dec-2022",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "26-Nov-2020",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Berg, Ward and Wright",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "5776 Whitney Meadow, West Adriennebury, ID 40049 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "O4AROPO98743125",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Elizabeth Thomas",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Treatment top avoid.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Yard authority.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Hotel buy.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Both policy either.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "1228.68",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "72.15",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "1282.15",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr><tr><td>Treatment top avoid.</td><td>5.00</td><td>$53.38</td></tr><tr><td>Yard authority.</td><td>5.00</td><td>$51.76</td></tr><tr><td>Hotel buy.</td><td>5.00</td><td>$91.06</td></tr><tr><td>Both policy either.</td><td>6.00</td><td>$41.28</td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr><tr><td>Treatment top avoid.</td><td>5.00</td><td>$53.38</td></tr><tr><td>Yard authority.</td><td>5.00</td><td>$51.76</td></tr><tr><td>Hotel buy.</td><td>5.00</td><td>$91.06</td></tr><tr><td>Both policy either.</td><td>6.00</td><td>$41.28</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003938808,
+        "latency_ms": 7135,
+        "tokens_in": 1894,
+        "tokens_out": 2997
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003140952,
+        "latency_ms": 6842,
+        "tokens_in": 1894,
+        "tokens_out": 2583
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "1:1337:NFLX.2015.page_60.pdf_72289.png#72289",
+  "at": "2026-09-17T01:51:33.965Z",
+  "latencyMs": 14782,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th></th><th colspan=\"2\">As of December 31,</th></tr><tr><th></th><th>2015</th><th>2014</th></tr><tr><th></th><th colspan=\"2\">(in thousands)</th></tr></thead><tbody><tr><td>Total content assets, gross</td><td>$12,284,097</td><td>$8,537,835</td></tr><tr><td>Accumulated amortization</td><td>(5,065,282)</td><td>(3,598,375)</td></tr><tr><td>Total content assets, net</td><td>7,218,815</td><td>4,939,460</td></tr><tr><td>Current content assets, net</td><td>2,905,998</td><td>2,166,134</td></tr><tr><td>Non-current content assets, net</td><td>$4,312,817</td><td>$2,773,326</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th></th><th colspan=\"2\">As of December 31,</th></tr><tr><th></th><th>2015</th><th>2014</th></tr><tr><th></th><th colspan=\"2\">(in thousands)</th></tr></thead><tbody><tr><td>Total content assets, gross</td><td>$12,284,097</td><td>$8,537,835</td></tr><tr><td>Accumulated amortization</td><td>(5,065,282)</td><td>(3,598,375)</td></tr><tr><td>Total content assets, net</td><td>7,218,815</td><td>4,939,460</td></tr><tr><td>Current content assets, net</td><td>2,905,998</td><td>2,166,134</td></tr><tr><td>Non-current content assets, net</td><td>$4,312,817</td><td>$2,773,326</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003837708,
+        "latency_ms": 14373,
+        "tokens_in": 1089,
+        "tokens_out": 3114
+      }
+    ]
+  }
+}

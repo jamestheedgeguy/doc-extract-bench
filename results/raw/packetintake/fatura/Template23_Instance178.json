@@ -1,0 +1,197 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template23_Instance178",
+  "at": "2026-09-16T21:39:43.747Z",
+  "latencyMs": 17672,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1720-726",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "24-May-2001",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "King, Richards and Roy",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Valerie Richards",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Allow seem blue.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "26.67",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "26.67",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Beat.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "61.77",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "247.08",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Second war.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "12.03",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "60.15",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "339.23",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>Allow seem blue.</td><td>26.67</td><td>1.00</td><td>26.67</td></tr><tr><td>Beat.</td><td>61.77</td><td>4.00</td><td>247.08</td></tr><tr><td>Second war.</td><td>12.03</td><td>5.00</td><td>60.15</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>Allow seem blue.</td><td>26.67</td><td>1.00</td><td>26.67</td></tr><tr><td>Beat.</td><td>61.77</td><td>4.00</td><td>247.08</td></tr><tr><td>Second war.</td><td>12.03</td><td>5.00</td><td>60.15</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003477108,
+        "latency_ms": 8618,
+        "tokens_in": 1851,
+        "tokens_out": 2623
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002524452,
+        "latency_ms": 6383,
+        "tokens_in": 1851,
+        "tokens_out": 2080
+      }
+    ]
+  }
+}

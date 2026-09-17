@@ -1,0 +1,145 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51008123476",
+  "at": "2026-09-16T23:31:34.900Z",
+  "latencyMs": 324972,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "4953/0602/00602",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "25/06/18 11:18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Dion Realties Sdn Bhd",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "Menara Dion #02-03, Level 2, 27, Jalan Sultan Ismail, 50250 Kuala Lumpur.",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000850247680",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Pay parking ticket",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "010100",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "5.00",
+        "confidence": 0.45
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "5.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>010100 Pay parking ticket25/06/18 11:03 - 25/06/18 11:18Length of stay: 0 Dy. 0 Hr. 15 Min.02992887002011018176397900??</td><td>5.00 RM</td></tr><tr><td>Amount Incl. GST</td><td>5.00 RM</td></tr><tr><td>Accepted total</td><td>10.00 RM</td></tr><tr><td>Change</td><td>5.00 RM</td></tr><tr><td>G.S.T. 0.00</td><td>0.00 RM</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>010100 Pay parking ticket<br>25/06/18 11:03 - 25/06/18 11:18<br>Length of stay: 0 Dy. 0 Hr. 15 Min.<br>02992887002011018176397900??</td><td>5.00 RM</td></tr><tr><td>Amount Incl. GST</td><td>5.00 RM</td></tr><tr><td>Accepted total</td><td>10.00 RM</td></tr><tr><td>Change</td><td>5.00 RM</td></tr><tr><td>G.S.T. 0.00</td><td>0.00 RM</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.0054624,
+        "latency_ms": 18931,
+        "tokens_in": 1860,
+        "tokens_out": 4087
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.0106773,
+        "latency_ms": 303650,
+        "tokens_in": 1839,
+        "tokens_out": 8438
+      }
+    ]
+  }
+}

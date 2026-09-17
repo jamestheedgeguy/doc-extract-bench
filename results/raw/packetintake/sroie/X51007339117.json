@@ -1,0 +1,163 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007339117",
+  "at": "2026-09-17T00:52:42.351Z",
+  "latencyMs": 27750,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS-SA-0121370",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "01/11/2017",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "SANYU STATIONERY SHOP",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "NO. 31G&33G, JALAN SETIA INDAH X, U13/X, 40170 SETIA ALAM",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001531760640",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "DEFLECT-O 120 x 55MM L SHAPE TAG HOLDER (LANDSCAPE) (DDKRL-120X55)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "2022-0124",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.2000",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "11.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "7\" POP MOBILE STAND (M-1755)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "2020-0231",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "4.5000",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "22.50",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "31.60",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "1.90",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "33.50",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>No.</th><th>SKU</th><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td rowspan=\"2\">1</td><td rowspan=\"2\">2022-0124</td><td rowspan=\"2\">DEFLECT-O 120 x 55MM L SHAPE TAG HOLDER (LANDSCAPE) (DDKRL-120X55)</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>2.2000</td><td>11.00</td><td>SR</td></tr><tr><td rowspan=\"2\">2</td><td rowspan=\"2\">2020-0231</td><td rowspan=\"2\">7\" POP MOBILE STAND (M-1755)</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>4.5000</td><td>22.50</td><td>SR</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>No.</th><th>SKU</th><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td rowspan=\"2\">1</td><td rowspan=\"2\">2022-0124</td><td rowspan=\"2\">DEFLECT-O 120 x 55MM L SHAPE TAG HOLDER (LANDSCAPE) (DDKRL-120X55)</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>2.2000</td><td>11.00</td><td>SR</td></tr><tr><td rowspan=\"2\">2</td><td rowspan=\"2\">2020-0231</td><td rowspan=\"2\">7&quot; POP MOBILE STAND (M-1755)</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>4.5000</td><td>22.50</td><td>SR</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 33.50 != subtotal 31.60",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.009099108,
+        "latency_ms": 21209,
+        "tokens_in": 1859,
+        "tokens_out": 7306
+      }
+    ]
+  }
+}

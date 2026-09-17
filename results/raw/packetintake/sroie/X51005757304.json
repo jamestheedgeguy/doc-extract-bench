@@ -1,0 +1,164 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005757304",
+  "at": "2026-09-16T23:43:41.748Z",
+  "latencyMs": 32563,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "18252",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "20/03/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "BAIFU (M) Sdn Bhd",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "DAISO JAPAN, IOI MALL",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "001389649920",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.45
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Plastic spoons 8pcs",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "4997642045475",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "5.90",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "17.70",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Plastic forks 8pcs",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "4997642045482",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "5.90",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "17.70",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "35.40",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "2.00",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "35.40",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>Plastic spoons 8pcs</td><td>4997642045475</td><td>3</td><td>5.90</td><td>17.70</td><td>MYR</td></tr><tr><td>Plastic forks 8pcs</td><td>4997642045482</td><td>3</td><td>5.90</td><td>17.70</td><td>MYR</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>Plastic spoons 8pcs</td><td>4997642045475</td><td>3</td><td>5.90</td><td>17.70</td><td>MYR</td></tr><tr><td>Plastic forks 8pcs</td><td>4997642045482</td><td>3</td><td>5.90</td><td>17.70</td><td>MYR</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.000825098,
+        "latency_ms": 6159,
+        "tokens_in": 1859,
+        "tokens_out": 919
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001772198,
+        "latency_ms": 14797,
+        "tokens_in": 1859,
+        "tokens_out": 2354
+      }
+    ]
+  }
+}

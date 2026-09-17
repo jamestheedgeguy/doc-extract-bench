@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template43_Instance183",
+  "at": "2026-09-16T22:07:42.475Z",
+  "latencyMs": 13578,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV38329457",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "05-May-1994",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "12-Nov-2014",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Paul Gibson and Anderson",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "938 Gonzalez Key Suite 573, New Anitaport, MN 04941 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Nicole Cross",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Oil wish around.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "850952",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "85.04",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "85.04",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Question law.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "089980",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "40.10",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "40.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "125.14",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "5.05",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "5.09",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "125.26",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>1.00</td><td>850952</td><td>Oil wish around.</td><td>85.04</td><td>85.04</td></tr><tr><td>1.00</td><td>089980</td><td>Question law.</td><td>40.10</td><td>40.10</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>1.00</td><td>850952</td><td>Oil wish around.</td><td>85.04</td><td>85.04</td></tr><tr><td>1.00</td><td>089980</td><td>Question law.</td><td>40.10</td><td>40.10</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002299608,
+        "latency_ms": 4794,
+        "tokens_in": 1894,
+        "tokens_out": 1631
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002518152,
+        "latency_ms": 5907,
+        "tokens_in": 1894,
+        "tokens_out": 2064
+      }
+    ]
+  }
+}

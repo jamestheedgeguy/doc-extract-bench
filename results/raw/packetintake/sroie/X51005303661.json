@@ -1,0 +1,156 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005303661",
+  "at": "2026-09-17T00:36:44.412Z",
+  "latencyMs": 19897,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "LCS03908",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "20/12/2017",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "LIGHTROOM GALLERY SDN BHD",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "No: 28, JALAN ASTANA 1C, BANDAR BUKIT RAJA, 41050 KLANG SELANGOR D.E, MALAYSIA",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "000584089600",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": "CASH",
+        "confidence": 0.92
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "T5 JOINT 2PIN 2PCS",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "CH50514",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "2.83",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "2.83",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "YE30 BK 7W WW LED TRACK LIGHT",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "YT51874",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "33.02",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "66.04",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "68.87",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "4.13",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "73.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>SKU</th><th>Description</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>CH50514</td><td>T5 JOINT 2PIN 2PCS</td><td>1</td><td>2.83</td><td>2.83</td><td>RM</td></tr><tr><td>YT51874</td><td>YE30 BK 7W WW LED TRACK LIGHT</td><td>2</td><td>33.02</td><td>66.04</td><td>RM</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>SKU</th><th>Description</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>CH50514</td><td>T5 JOINT 2PIN 2PCS</td><td>1</td><td>2.83</td><td>2.83</td><td>RM</td></tr><tr><td>YT51874</td><td>YE30 BK 7W WW LED TRACK LIGHT</td><td>2</td><td>33.02</td><td>66.04</td><td>RM</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003332952,
+        "latency_ms": 10362,
+        "tokens_in": 1866,
+        "tokens_out": 2750
+      }
+    ]
+  }
+}

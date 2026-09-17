@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:961:MPC.2013.page_37.pdf_2923.png#2923",
+  "at": "2026-09-17T02:03:37.028Z",
+  "latencyMs": 29533,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Pipeline Company</th><th>Origin</th><th>Destination</th><th>Diameter (inches)</th><th>Length (miles)</th><th>Ownership Interest</th><th>Operated by MPL</th></tr></thead><tbody><tr><td colspan=\"7\">Crude oil pipeline companies:</td></tr><tr><td>LOCAP LLC</td><td>Clovelly, LA</td><td>St. James, LA</td><td>48\"</td><td>57</td><td>59%</td><td>No</td></tr><tr><td>LOOP LLC</td><td>Offshore Gulf of Mexico</td><td>Clovelly, LA</td><td>48\"</td><td>48</td><td>51%</td><td>No</td></tr><tr><td>North Dakota Pipeline Company LLC(a)</td><td>Plentywood, MT</td><td>Clearbrook, MN</td><td>TBD</td><td>TBD</td><td>38%</td><td>No</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>105</td><td></td><td></td></tr><tr><td colspan=\"7\">Products pipeline companies:</td></tr><tr><td>Centennial Pipeline LLC(b)</td><td>Beaumont, TX</td><td>Bourbon, IL</td><td>24\"-26\"</td><td>795</td><td>50%</td><td>Yes</td></tr><tr><td>Explorer Pipeline Company</td><td>Lake Charles, LA</td><td>Hammond, IN</td><td>12\"-28\"</td><td>1,883</td><td>17%</td><td>No</td></tr><tr><td>Muskegeon Pipeline LLC</td><td>Griffith, IN</td><td>Muskegon, MI</td><td>10\"</td><td>170</td><td>60%</td><td>Yes</td></tr><tr><td>Wolverine Pipe Line Company</td><td>Chicago, IL</td><td>Bay City &amp; Ferrysburg, MI</td><td>6\"-18\"</td><td>743</td><td>6%</td><td>No</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>3,591</td><td></td><td></td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Pipeline Company</th><th>Origin</th><th>Destination</th><th>Diameter (inches)</th><th>Length (miles)</th><th>Ownership Interest</th><th>Operated by MPL</th></tr></thead><tbody><tr><td colspan='7'>Crude oil pipeline companies:</td></tr><tr><td>LOCAP LLC</td><td>Clovelly, LA</td><td>St. James, LA</td><td>48&quot;</td><td>57</td><td>59%</td><td>No</td></tr><tr><td>LOOP LLC</td><td>Offshore Gulf of Mexico</td><td>Clovelly, LA</td><td>48&quot;</td><td>48</td><td>51%</td><td>No</td></tr><tr><td>North Dakota Pipeline Company LLC<sup>(a)</sup></td><td>Plentywood, MT</td><td>Clearbrook, MN</td><td>TBD</td><td>TBD</td><td>38%</td><td>No</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>105</td><td></td><td></td></tr><tr><td colspan='7'>Products pipeline companies:</td></tr><tr><td>Centennial Pipeline LLC<sup>(b)</sup></td><td>Beaumont, TX</td><td>Bourbon, IL</td><td>24&quot;-26&quot;</td><td>795</td><td>50%</td><td>Yes</td></tr><tr><td>Explorer Pipeline Company</td><td>Lake Charles, LA</td><td>Hammond, IN</td><td>12&quot;-28&quot;</td><td>1,883</td><td>17%</td><td>No</td></tr><tr><td>Muskegeon Pipeline LLC</td><td>Griffith, IN</td><td>Muskegon, MI</td><td>10&quot;</td><td>170</td><td>60%</td><td>Yes</td></tr><tr><td>Wolverine Pipe Line Company</td><td>Chicago, IL</td><td>Bay City &amp; Ferrysburg, MI</td><td>6&quot;-18&quot;</td><td>743</td><td>6%</td><td>No</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>3,591</td><td></td><td></td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.008156208,
+        "latency_ms": 29074,
+        "tokens_in": 1116,
+        "tokens_out": 6706
+      }
+    ]
+  }
+}

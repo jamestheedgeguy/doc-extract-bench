@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template37_Instance191",
+  "at": "2026-09-16T22:04:22.243Z",
+  "latencyMs": 16320,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": "25-Jun-1997",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "18-Jan-2023",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "HMIGH",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "05866 Velazquez Mount North Diane, NJ 20651 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Dr. Judith Mitchell",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": "88",
+        "confidence": 0.7
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "In voice buy.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "50.81",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Rise interview exactly.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "86.15",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "497.03",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "16.57",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "499.63",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>In voice buy.</td><td>3.00</td><td>$50.81</td></tr><tr><td>Rise interview exactly.</td><td>4.00</td><td>$86.15</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>In voice buy.</td><td>3.00</td><td>$50.81</td></tr><tr><td>Rise interview exactly.</td><td>4.00</td><td>$86.15</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002652708,
+        "latency_ms": 6410,
+        "tokens_in": 1839,
+        "tokens_out": 1939
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002415252,
+        "latency_ms": 6487,
+        "tokens_in": 1839,
+        "tokens_out": 1992
+      }
+    ]
+  }
+}

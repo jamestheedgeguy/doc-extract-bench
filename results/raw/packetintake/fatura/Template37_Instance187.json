@@ -1,0 +1,229 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template37_Instance187",
+  "at": "2026-09-16T22:04:48.728Z",
+  "latencyMs": 26152,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": "03-Oct-2006",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "09-May-2012",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "HWIGH",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "05866 Velazquez Mount North Diane, NJ 20651 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Scott Peck",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": "84",
+        "confidence": 0.7
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Region center so.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "8.18",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Push special.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "43.68",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Conference than PM strategy.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "9.10",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Carry there.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "22.78",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "212.08",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "14.06",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "221.50",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Region center so.</td><td>1.00</td><td>$8.18</td></tr><tr><td>Push special.</td><td>3.00</td><td>$43.68</td></tr><tr><td>Conference than PM strategy.</td><td>3.00</td><td>$9.10</td></tr><tr><td>Carry there.</td><td>2.00</td><td>$22.78</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Region center so.</td><td>1.00</td><td>$8.18</td></tr><tr><td>Push special.</td><td>3.00</td><td>$43.68</td></tr><tr><td>Conference than PM strategy.</td><td>3.00</td><td>$9.10</td></tr><tr><td>Carry there.</td><td>2.00</td><td>$22.78</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003969108,
+        "latency_ms": 9889,
+        "tokens_in": 1871,
+        "tokens_out": 3028
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.004790052,
+        "latency_ms": 12726,
+        "tokens_in": 1871,
+        "tokens_out": 3963
+      }
+    ]
+  }
+}

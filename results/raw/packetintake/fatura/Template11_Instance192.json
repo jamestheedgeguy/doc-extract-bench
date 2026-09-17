@@ -1,0 +1,229 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template11_Instance192",
+  "at": "2026-09-16T21:23:48.463Z",
+  "latencyMs": 26333,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1Y5M4d-802",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "29-May-2012",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "05-Mar-2019",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "Please send payment within 8 days of receiving this invoice.",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Stage evening.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "23.36",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "140.16",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Maybe order.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "58.84",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "176.52",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Answer none boy able.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "65.18",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "391.08",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Material.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "99.52",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "298.56",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "1006.32",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "66.08",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "-49.71",
+        "confidence": 0.45
+      },
+      "total": {
+        "value": "1028.32",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Amount</th></tr></thead><tbody><tr><td>Stage evening.</td><td>$23.36</td><td>6.00</td><td>$140.16</td></tr><tr><td>Maybe order.</td><td>$58.84</td><td>3.00</td><td>$176.52</td></tr><tr><td>Answer none boy able.</td><td>$65.18</td><td>6.00</td><td>$391.08</td></tr><tr><td>Material.</td><td>$99.52</td><td>3.00</td><td>$298.56</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Amount</th></tr></thead><tbody><tr><td>Stage evening.</td><td>$23.36</td><td>6.00</td><td>$140.16</td></tr><tr><td>Maybe order.</td><td>$58.84</td><td>3.00</td><td>$176.52</td></tr><tr><td>Answer none boy able.</td><td>$65.18</td><td>6.00</td><td>$391.08</td></tr><tr><td>Material.</td><td>$99.52</td><td>3.00</td><td>$298.56</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004153608,
+        "latency_ms": 11410,
+        "tokens_in": 1854,
+        "tokens_out": 3186
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003838152,
+        "latency_ms": 12008,
+        "tokens_in": 1854,
+        "tokens_out": 3174
+      }
+    ]
+  }
+}

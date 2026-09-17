@@ -1,0 +1,163 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005605333(1)",
+  "at": "2026-09-17T00:16:01.574Z",
+  "latencyMs": 10118,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "7010385084",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "07/01/18 14:41",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "POPULAR BOOK CO. (M) SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "No 8, Jalan 7/118B, Desa Tun Razak, 56000 Kuala Lumpur, Malaysia, KL FESTIVAL CITY MALL",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001492992000",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Norhasmida",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "Cash",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "70g P.Copy 450'S",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "13.69",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "41.07",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Stat-Great Saving",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "-9.60",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "31.47",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "1.78",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "-9.60",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "31.45",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>Description</th><th>Amount</th></tr><tr><td>70g P.Copy 450'S</td><td></td></tr><tr><td>3pc @ 13.69</td><td>41.07 T</td></tr><tr><td>Stat-Great Saving</td><td>-9.60</td></tr><tr><td>Total RM Incl. of GST</td><td>31.47</td></tr><tr><td>Rounding Adj</td><td>-0.02</td></tr><tr><td>Total RM</td><td>31.45</td></tr><tr><td>Cash</td><td>-50.00</td></tr><tr><td>CHANGE</td><td>18.55</td></tr><tr><td>Item Count</td><td>3</td></tr><tr><td>GST Summary Amount (RM)</td><td>29.69</td></tr><tr><td>Tax (RM) T @ 6%</td><td>1.78</td></tr><tr><td>Total Savings</td><td>-9.60</td></tr></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><tr><th>Description</th><th>Amount</th></tr><tr><td>70g P.Copy 450'S</td><td></td></tr><tr><td>3pc @ 13.69</td><td>41.07 T</td></tr><tr><td>Stat-Great Saving</td><td>-9.60</td></tr><tr><td>Total RM Incl. of GST</td><td>31.47</td></tr><tr><td>Rounding Adj</td><td>-0.02</td></tr><tr><td>Total RM</td><td>31.45</td></tr><tr><td>Cash</td><td>-50.00</td></tr><tr><td>CHANGE</td><td>18.55</td></tr><tr><td>Item Count</td><td>3</td></tr><tr><td>GST Summary Amount (RM)</td><td>29.69</td></tr><tr><td>Tax (RM) T @ 6%</td><td>1.78</td></tr><tr><td>Total Savings</td><td>-9.60</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001888308,
+        "latency_ms": 5905,
+        "tokens_in": 1859,
+        "tokens_out": 1297
+      }
+    ]
+  }
+}

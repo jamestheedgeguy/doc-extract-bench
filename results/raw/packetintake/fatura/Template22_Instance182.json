@@ -1,0 +1,203 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template22_Instance182",
+  "at": "2026-09-16T21:39:25.748Z",
+  "latencyMs": 25171,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV88887281",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "06-Jan-2017",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "28-Oct-1996",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Tracey Fischer",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Face establish.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "46.05",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Factor seek ready.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "14.54",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Along deal send.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "25.36",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "13.70",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "-14.48",
+        "confidence": 0.45
+      },
+      "total": {
+        "value": "372.57",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Face establish.</td><td>3.00</td><td>$46.05</td></tr><tr><td>Factor seek ready.</td><td>5.00</td><td>$14.54</td></tr><tr><td>Along deal send.</td><td>6.00</td><td>$25.36</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Face establish.</td><td>3.00</td><td>$46.05</td></tr><tr><td>Factor seek ready.</td><td>5.00</td><td>$14.54</td></tr><tr><td>Along deal send.</td><td>6.00</td><td>$25.36</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002960052,
+        "latency_ms": 8220,
+        "tokens_in": 1851,
+        "tokens_out": 2443
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.005598852,
+        "latency_ms": 14193,
+        "tokens_in": 1851,
+        "tokens_out": 4642
+      }
+    ]
+  }
+}

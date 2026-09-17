@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005677334",
+  "at": "2026-09-16T23:36:05.423Z",
+  "latencyMs": 78809,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS00013066",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "31/01/2018",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "SYARIKAT PERNIAGAAN GIN KEE",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR. TEL: 03-40210276",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000750673920",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "CASH",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "6/8 BATU (BAG)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "1701",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "6.36",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "31.80",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "4.5KG RENDEROC PLUG",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "2167",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "50.88",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "50.88",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "78.00",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "4.68",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "82.68",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>Amount</th><th>Tax</th></tr><tr><td>17016/8 BATU (BAG)</td><td>5</td><td>6.36</td><td>31.80</td><td>SR</td></tr><tr><td>21674.5KG RENDEROC PLUG</td><td>1</td><td>50.88</td><td>50.88</td><td>SR</td></tr><tr><td>Total Qty:</td><td>6</td><td></td><td>82.68</td><td></td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>Amount</th><th>Tax</th></tr><tr><td>1701<br>6/8 BATU (BAG)</td><td>5</td><td>6.36</td><td>31.80</td><td>SR</td></tr><tr><td>2167<br>4.5KG RENDEROC PLUG</td><td>1</td><td>50.88</td><td>50.88</td><td>SR</td></tr><tr><td>Total Qty:</td><td>6</td><td></td><td>82.68</td><td></td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 82.68 != subtotal 78.00",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003586082,
+        "latency_ms": 40264,
+        "tokens_in": 1889,
+        "tokens_out": 5051
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003110678,
+        "latency_ms": 34636,
+        "tokens_in": 1889,
+        "tokens_out": 4372
+      }
+    ]
+  }
+}

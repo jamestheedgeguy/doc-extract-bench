@@ -1,0 +1,138 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006401978",
+  "at": "2026-09-16T23:59:07.596Z",
+  "latencyMs": 71165,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "00134609",
+        "confidence": 0.45
+      },
+      "invoice_date": {
+        "value": "22/04/2017",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "B & BEST RESTAURANT",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "NO.12, JALAN SS4C/5, PETALING JAYA, SELANGOR DARUL EHSAN",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "001800839168",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "FISHBALL NOODLE",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "7.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "21.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "21.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "1.26",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "22.25",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>3</td><td>FISHBALL NOODLE</td><td>7.00</td><td>21.00</td></tr><tr><td>3</td><td>SUB TOTAL</td><td></td><td>21.00</td></tr><tr><td colspan=\"3\">GST 6%</td><td>1.26</td></tr><tr><td colspan=\"3\">ROUNDING ADJ</td><td>-0.01</td></tr><tr><td colspan=\"3\">NET TOTAL</td><td>22.25</td></tr><tr><td colspan=\"3\">Cash</td><td>22.25</td></tr><tr><td colspan=\"3\">CHANGE</td><td>0.00</td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>3</td><td>FISHBALL NOODLE</td><td>7.00</td><td>21.00</td></tr><tr><td>3</td><td>SUB TOTAL</td><td></td><td>21.00</td></tr><tr><td colspan=\"3\">GST 6%</td><td>1.26</td></tr><tr><td colspan=\"3\">ROUNDING ADJ</td><td>-0.01</td></tr><tr><td colspan=\"3\">NET TOTAL</td><td>22.25</td></tr><tr><td colspan=\"3\">Cash</td><td>22.25</td></tr><tr><td colspan=\"3\">CHANGE</td><td>0.00</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004414822,
+        "latency_ms": 47159,
+        "tokens_in": 1888,
+        "tokens_out": 6307
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001240018,
+        "latency_ms": 19123,
+        "tokens_in": 1888,
+        "tokens_out": 1538
+      }
+    ]
+  }
+}

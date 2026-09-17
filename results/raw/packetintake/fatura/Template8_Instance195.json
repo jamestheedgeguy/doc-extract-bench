@@ -1,0 +1,203 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template8_Instance195",
+  "at": "2026-09-16T21:21:33.629Z",
+  "latencyMs": 15550,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1073-848",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "10-Oct-2004",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "27-Jan-1994",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Graham, Carrillo and Stark",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "8110 Lee Haven, West Michele, IN 23979 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "24HDE7487RESRT4",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Raymond Baker",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Always several.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "49.54",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Art sense already.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "31.12",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Discussion though effort.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "36.74",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "390.50",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "400.43",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Always several.</td><td>4.00</td><td>$49.54</td></tr><tr><td>Art sense already.</td><td>5.00</td><td>$31.12</td></tr><tr><td>Discussion though effort.</td><td>1.00</td><td>$36.74</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\"><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Always several.</td><td>4.00</td><td>$49.54</td></tr><tr><td>Art sense already.</td><td>5.00</td><td>$31.12</td></tr><tr><td>Discussion though effort.</td><td>1.00</td><td>$36.74</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001317108,
+        "latency_ms": 3538,
+        "tokens_in": 1859,
+        "tokens_out": 821
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002637252,
+        "latency_ms": 8934,
+        "tokens_in": 1859,
+        "tokens_out": 2172
+      }
+    ]
+  }
+}

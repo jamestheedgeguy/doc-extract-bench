@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template9_Instance178",
+  "at": "2026-09-16T21:21:52.511Z",
+  "latencyMs": 18545,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV16957593",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "30-Jun-2008",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Navarro, Ford and Bryan",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": "09AABCS142961ZS",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Sean Davis",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Base high.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "18.61",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "18.61",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "In role.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "49.06",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "196.24",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "224.14",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1.00</td><td>Base high.</td><td>18.61</td><td>18.61</td></tr><tr><td>4.00</td><td>In role.</td><td>49.06</td><td>196.24</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1.00</td><td>Base high.</td><td>18.61</td><td>18.61</td></tr><tr><td>4.00</td><td>In role.</td><td>49.06</td><td>196.24</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002943108,
+        "latency_ms": 8795,
+        "tokens_in": 1887,
+        "tokens_out": 2169
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002055252,
+        "latency_ms": 7006,
+        "tokens_in": 1887,
+        "tokens_out": 1680
+      }
+    ]
+  }
+}

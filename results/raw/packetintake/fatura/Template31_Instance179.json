@@ -1,0 +1,223 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template31_Instance179",
+  "at": "2026-09-16T22:01:16.970Z",
+  "latencyMs": 19890,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "6Y5M7d-149",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "02-Jun-1998",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": "785 Kaiser Circles Suite 840 West Johnny, KS 33272 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Stacie Foster",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Himself development.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "525534",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "38.05",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "152.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Others.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "693689",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "4.09",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "12.27",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Leave some.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "125366",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "28.14",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "168.84",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Old push.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "133282",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "26.02",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "26.02",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "359.33",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "23.01",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "365.56",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>4.00</td><td>525534</td><td>Himself development.</td><td>38.05</td><td>152.20</td></tr><tr><td>3.00</td><td>693689</td><td>Others.</td><td>4.09</td><td>12.27</td></tr><tr><td>6.00</td><td>125366</td><td>Leave some.</td><td>28.14</td><td>168.84</td></tr><tr><td>1.00</td><td>133282</td><td>Old push.</td><td>26.02</td><td>26.02</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>4.00</td><td>525534</td><td>Himself development.</td><td>38.05</td><td>152.20</td></tr><tr><td>3.00</td><td>693689</td><td>Others.</td><td>4.09</td><td>12.27</td></tr><tr><td>6.00</td><td>125366</td><td>Leave some.</td><td>28.14</td><td>168.84</td></tr><tr><td>1.00</td><td>133282</td><td>Old push.</td><td>26.02</td><td>26.02</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003342708,
+        "latency_ms": 10130,
+        "tokens_in": 1871,
+        "tokens_out": 2506
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002452452,
+        "latency_ms": 6359,
+        "tokens_in": 1871,
+        "tokens_out": 2015
+      }
+    ]
+  }
+}

@@ -106,6 +106,8 @@ credentials are skipped, not failed.
 | `VERYFI_CLIENT_ID`, `VERYFI_API_KEY`, `VERYFI_USERNAME` | Veryfi | free tier = 100 docs/mo (receipts-only coverage) |
 | `LLAMA_CLOUD_API_KEY` | LlamaParse / LlamaExtract | |
 | `BANKSTATEMENTLY_API_KEY` | statement scoring | free — [bankstatemently.com/developers](https://bankstatemently.com/developers) |
+| `PACKET_INTAKE_PYTHON` | Packet Intake | Python executable for `python -m packet_intake.extract` (default `python3`) |
+| `PACKET_INTAKE_ROOT` | Packet Intake | checkout of [packet-intake](https://github.com/jamestheedgeguy/packet-intake); `src/` is prepended to `PYTHONPATH` |
 | `MAX_RUN_USD` | cost cap | default 60 |
 
 ### One-time Google Document AI setup
@@ -203,6 +205,39 @@ readings exist and hands you the line to paste:
 ```
 curl https://toolproof.thecompound.tech/api/v1/subjects/<owner>/<repo>
 ```
+
+## Contributing adapters
+
+Vendors live in `src/adapters/` and are registered on `ADAPTERS` in
+[`src/run.ts`](src/run.ts). Missing credentials skip the vendor (never fail the
+run). A vendor with no product for a doc type is reported as `"no product"`.
+
+### Packet Intake
+
+The Packet Intake adapter shells out to its CLI — it is not a hosted API:
+
+```bash
+python -m packet_intake.extract --file <path> --json
+```
+
+Point this harness at a checkout (or a venv that already has `packet-intake`
+installed):
+
+```bash
+export PACKET_INTAKE_ROOT=/path/to/packet-intake   # prepends $PACKET_INTAKE_ROOT/src to PYTHONPATH
+export PACKET_INTAKE_PYTHON=/path/to/.venv/bin/python   # optional; default python3 on PATH
+```
+
+Live Layer 1 for this vendor uses **OpenRouter only via Packet Intake**
+(`OPENROUTER_API_KEY` in that environment). This adapter never calls AWS
+Textract or Google Document AI. Textract/DocAI rows on this fork remain the
+replayed committed upstream runs.
+
+The cost gate uses a conservative **$0.04/doc** estimate (two OpenRouter vision
+calls) because live `model_runs[].cost_usd` is unknown until after a run. If
+the CLI is not importable, Packet Intake is SKIPPED so `pnpm replay` for other
+vendors still works. Bank statements are `"no product"` until Packet Intake
+maps them.
 
 ## License
 

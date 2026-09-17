@@ -1,0 +1,216 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006620181",
+  "at": "2026-09-16T23:54:32.418Z",
+  "latencyMs": 37870,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "000-049909",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "2016/05/01",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "NADEJE PLATINUM SDN BHD",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "GK101, GND FLR, ONE UTAMA SHOPPING CENTRE, NO.1, LEBUH BANDAR UTAMA, 47800 PETALING JAYA, SELANGOR.",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "001151160320",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "DoubleCoco Slice",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "12.60",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "12.60",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Mother's Slices",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "13.50",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "13.50",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Tiramisu Slice",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "12.60",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "12.60",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Cheese Slice",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "12.60",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "12.60",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "2.90",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "51.30",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Price</th></tr></thead><tbody><tr><td>DoubleCoco Slice</td><td>1</td><td>RM12.60</td></tr><tr><td>Mother's Slices</td><td>1</td><td>RM13.50</td></tr><tr><td>Tiramisu Slice</td><td>1</td><td>RM12.60</td></tr><tr><td>Cheese Slice</td><td>1</td><td>RM12.60</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Price</th></tr></thead><tbody><tr><td>DoubleCoco Slice</td><td>1</td><td>RM12.60</td></tr><tr><td>Mother's Slices</td><td>1</td><td>RM13.50</td></tr><tr><td>Tiramisu Slice</td><td>1</td><td>RM12.60</td></tr><tr><td>Cheese Slice</td><td>1</td><td>RM12.60</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001962482,
+        "latency_ms": 15761,
+        "tokens_in": 1898,
+        "tokens_out": 2588
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002061938,
+        "latency_ms": 18465,
+        "tokens_in": 1898,
+        "tokens_out": 2780
+      }
+    ]
+  }
+}

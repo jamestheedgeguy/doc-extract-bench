@@ -1,0 +1,169 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005442394",
+  "at": "2026-09-17T00:15:51.115Z",
+  "latencyMs": 18798,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "OR18033002170384",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "30 Mar 2018 18:17",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "12, Jalan Tampoi 7/4, Kawasan Perindustrian Tampoi, 81200 Johor Bahru, Johor",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "867388-U",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "BAR WANG RICE@PERMAS JAYA",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "1 Meat + 3 Vege",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "SR 100100000035",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "7.10",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "7.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Vegetable",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "SR 100100000015",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "1.10",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "1.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "7.74",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.46",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "8.20",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>Total</th></tr></thead><tbody><tr><td colspan=\"3\">SR 100100000035- 1 Meat + 3 Vege</td></tr><tr><td>$7.10</td><td>1</td><td>$7.10</td></tr><tr><td colspan=\"3\">SR 100100000015- Vegetable</td></tr><tr><td>$1.10</td><td>1</td><td>$1.10</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>Total</th></tr></thead><tbody><tr><td colspan=\"3\">SR 100100000035- 1 Meat + 3 Vege</td></tr><tr><td>$7.10</td><td>1</td><td>$7.10</td></tr><tr><td colspan=\"3\">SR 100100000015- Vegetable</td></tr><tr><td>$1.10</td><td>1</td><td>$1.10</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 8.20 != subtotal 7.74",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.006061608,
+        "latency_ms": 17879,
+        "tokens_in": 1878,
+        "tokens_out": 4770
+      }
+    ]
+  }
+}

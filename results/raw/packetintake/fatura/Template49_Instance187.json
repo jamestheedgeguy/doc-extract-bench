@@ -1,0 +1,223 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template49_Instance187",
+  "at": "2026-09-16T22:31:10.939Z",
+  "latencyMs": 26522,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV/82-61/022",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "22-Jun-1996",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Robinson-Carson",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "37LTOQASACEIZS",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "John Leon",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Husband analysis building.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "75.51",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "75.51",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Important car.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "84.29",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "421.45",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Difference large exactly.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "37.84",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "189.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Inside east chance.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "4.73",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "4.73",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "690.89",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "719.84",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Amount</th></tr></thead><tbody><tr><td>Husband analysis building.</td><td>$75.51</td><td>1.00</td><td>$75.51</td></tr><tr><td>Important car.</td><td>$84.29</td><td>5.00</td><td>$421.45</td></tr><tr><td>Difference large exactly.</td><td>$37.84</td><td>5.00</td><td>$189.20</td></tr><tr><td>Inside east chance.</td><td>$4.73</td><td>1.00</td><td>$4.73</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Amount</th></tr></thead><tbody><tr><td>Husband analysis building.</td><td>$75.51</td><td>1.00</td><td>$75.51</td></tr><tr><td>Important car.</td><td>$84.29</td><td>5.00</td><td>$421.45</td></tr><tr><td>Difference large exactly.</td><td>$37.84</td><td>5.00</td><td>$189.20</td></tr><tr><td>Inside east chance.</td><td>$4.73</td><td>1.00</td><td>$4.73</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002712852,
+        "latency_ms": 6558,
+        "tokens_in": 1839,
+        "tokens_out": 2240
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.005096052,
+        "latency_ms": 16188,
+        "tokens_in": 1839,
+        "tokens_out": 4226
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51008099043",
+  "at": "2026-09-17T00:28:32.198Z",
+  "latencyMs": 19529,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1207108",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "23-06-2018 17:31:54",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "RESTORAN WAN SHENG",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "No.2, Jalan Temenggung 19/9, Seksyen 9, Bandar Mahkota Cheras, 43200 Cheras, Selangor",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001335787520",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Teh (B)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.10",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "2.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Cham (B)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.10",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "2.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Take Away",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "0.20",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "0.40",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "4.60",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "4.60",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>Description</th><th>Qty</th><th>U.price</th><th>Total</th><th>TAX</th></tr><tr><td>Teh (B)</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1 x</td><td>2.10</td><td>2.10</td><td>ZRL</td></tr><tr><td>Cham (B)</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1 x</td><td>2.10</td><td>2.10</td><td>ZRL</td></tr><tr><td>Take Away</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>2 x</td><td>0.20</td><td>0.40</td><td>ZRL</td></tr></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><tr><th>Description</th><th>Qty</th><th>U.price</th><th>Total</th><th>TAX</th></tr><tr><td>Teh (B)</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1 x</td><td>2.10</td><td>2.10</td><td>ZRL</td></tr><tr><td>Cham (B)</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1 x</td><td>2.10</td><td>2.10</td><td>ZRL</td></tr><tr><td>Take Away</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>2 x</td><td>0.20</td><td>0.40</td><td>ZRL</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.007580808,
+        "latency_ms": 17594,
+        "tokens_in": 1822,
+        "tokens_out": 6050
+      }
+    ]
+  }
+}

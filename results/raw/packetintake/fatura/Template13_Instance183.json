@@ -1,0 +1,203 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template13_Instance183",
+  "at": "2026-09-16T21:24:56.862Z",
+  "latencyMs": 21962,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": "14-Oct-1994",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "16-Aug-2010",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Fernandez PLC",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "2942 Gary Village Suite 237 New Yolandaland, IL 18166 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "8 days",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Prevent under manage.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "454932",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "88.79",
+          "confidence": 0.45
+        },
+        "amount": {
+          "value": "88.79",
+          "confidence": 0.45
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Civil significant.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "317272",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "9.89",
+          "confidence": 0.45
+        },
+        "amount": {
+          "value": "59.34",
+          "confidence": 0.45
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Quite summer.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "580449",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "61.41",
+          "confidence": 0.45
+        },
+        "amount": {
+          "value": "307.05",
+          "confidence": 0.45
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "458.82",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>#</th><th>ID</th><th>Item name</th><th>Quantity</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>454932</td><td>Prevent under manage.</td><td>1.00</td><td>$88.79</td><td>$88.79</td></tr><tr><td>2</td><td>317272</td><td>Civil significant.</td><td>6.00</td><td>$9.89</td><td>$59.34</td></tr><tr><td>3</td><td>580449</td><td>Quite summer.</td><td>5.00</td><td>$61.41</td><td>$307.05</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>#</th><th>ID</th><th>Item name</th><th>Quantity</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>454932</td><td>Prevent under manage.</td><td>1.00</td><td>$88.79</td><td>$88.79</td></tr><tr><td>2</td><td>317272</td><td>Civil significant.</td><td>6.00</td><td>$9.89</td><td>$59.34</td></tr><tr><td>3</td><td>580449</td><td>Quite summer.</td><td>5.00</td><td>$61.41</td><td>$307.05</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003157908,
+        "latency_ms": 9796,
+        "tokens_in": 1859,
+        "tokens_out": 2355
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003082452,
+        "latency_ms": 9014,
+        "tokens_in": 1859,
+        "tokens_out": 2543
+      }
+    ]
+  }
+}

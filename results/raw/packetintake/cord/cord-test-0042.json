@@ -1,0 +1,130 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0042",
+  "at": "2026-09-17T01:21:11.787Z",
+  "latencyMs": 64316,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Chicken HCC, 1Pcs",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "15000",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "15000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "15000",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "1500",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "16500",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>1</td><td>Chicken HCC, 1Pcs</td><td>15,000</td></tr><tr><td></td><td>Sub Total</td><td>15,000</td></tr><tr><td></td><td>P.Rest 10 %</td><td>1,500</td></tr><tr><td></td><td>Total</td><td>16,500</td></tr><tr><td></td><td>Cash</td><td>50,000</td></tr><tr><td></td><td>Kembali</td><td>33,500</td></tr></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>1</td><td>Chicken HCC, 1Pcs</td><td>15,000</td></tr><tr><td></td><td>Sub Total</td><td>15,000</td></tr><tr><td></td><td>P.Rest 10 %</td><td>1,500</td></tr><tr><td></td><td>Total</td><td>16,500</td></tr><tr><td></td><td>Cash</td><td>50,000</td></tr><tr><td></td><td>Kembali</td><td>33,500</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.0004107672,
+        "latency_ms": 44206,
+        "tokens_in": 1859,
+        "tokens_out": 292
+      }
+    ]
+  }
+}

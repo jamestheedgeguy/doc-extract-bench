@@ -1,0 +1,169 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006008091",
+  "at": "2026-09-17T00:37:50.226Z",
+  "latencyMs": 15731,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1010104759",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "05/03/18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "POPULAR BOOK CO. (M) SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "No 8, Jalan 7/118B, Desa Tun Razak 56000 Kuala Lumpur, Malaysia EMPIRE SHOPPING GALLERY",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001492992000",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Li Fong",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "SC Acr Frame S103M",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "5.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "11.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Member Discount",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "-1.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "11.00",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.56",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "-1.10",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "9.90",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>SC Acr Frame S103M</td><td>11.00 T</td></tr><tr><td>2pc @ 5.50</td><td></td></tr><tr><td>Member Discount</td><td>-1.10</td></tr><tr><td>Total RM Incl. of GST</td><td>9.90</td></tr><tr><td>Cash</td><td>-20.00</td></tr><tr><td>CHANGE</td><td>10.10</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%;\"><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>SC Acr Frame S103M</td><td>11.00 T</td></tr><tr><td>2pc @ 5.50</td><td></td></tr><tr><td>Member Discount</td><td>-1.10</td></tr><tr><td>Total RM Incl. of GST</td><td>9.90</td></tr><tr><td>Cash</td><td>-20.00</td></tr><tr><td>CHANGE</td><td>10.10</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 9.90 != subtotal 11.00",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003094308,
+        "latency_ms": 9397,
+        "tokens_in": 1819,
+        "tokens_out": 2312
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:618:MKC.2016.page_41.pdf_58238.png#58238",
+  "at": "2026-09-17T01:53:18.469Z",
+  "latencyMs": 5188,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th></th><th>2016</th><th>2015</th><th>2014</th></tr></thead><tbody><tr><td>Net income</td><td>$ 472.3</td><td>$ 401.6</td><td>$ 437.9</td></tr><tr><td>Depreciation and amortization</td><td>108.7</td><td>105.9</td><td>102.7</td></tr><tr><td>Interest expense</td><td>58.0</td><td>53.3</td><td>49.7</td></tr><tr><td>Income tax expense</td><td>153.0</td><td>131.3</td><td>145.9</td></tr><tr><td>EBITDA</td><td>$ 790.0</td><td>$ 692.1</td><td>$ 736.2</td></tr><tr><td>Total debt</td><td>$1,447.2</td><td>$1,394.4</td><td>$1,283.9</td></tr><tr><td>Total debt/EBITDA</td><td>1.83</td><td>2.01</td><td>1.74</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th></th><th>2016</th><th>2015</th><th>2014</th></tr></thead><tbody><tr><td>Net income</td><td>$ 472.3</td><td>$ 401.6</td><td>$ 437.9</td></tr><tr><td>Depreciation and amortization</td><td>108.7</td><td>105.9</td><td>102.7</td></tr><tr><td>Interest expense</td><td>58.0</td><td>53.3</td><td>49.7</td></tr><tr><td>Income tax expense</td><td>153.0</td><td>131.3</td><td>145.9</td></tr><tr><td>EBITDA</td><td>$ 790.0</td><td>$ 692.1</td><td>$ 736.2</td></tr><tr><td>Total debt</td><td>$1,447.2</td><td>$1,394.4</td><td>$1,283.9</td></tr><tr><td>Total debt/EBITDA</td><td>1.83</td><td>2.01</td><td>1.74</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001230108,
+        "latency_ms": 4803,
+        "tokens_in": 1089,
+        "tokens_out": 941
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006619854",
+  "at": "2026-09-17T00:09:16.666Z",
+  "latencyMs": 13553,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "17688/103/70184",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "04-06-16",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "99 SPEED MART S/B (519537-X)",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT P.T, 33198, BATU 4, JALAN KAPAR, MUKIM KAPAR, 42100 KLANG, SELANGOR, 1174-PERMATA MAGNA",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000181747712",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "GARDENIA SQUIGGLES CHO",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "9178",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "1.05",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "2.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "1.98",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.12",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "2.10",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Qty</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>GARDENIA SQUIGGLES CHO</td><td>9178</td><td>2</td><td>1.05</td><td>2.10</td><td>RM</td></tr></tbody></table><table><tbody><tr><th>Total Sales (Inclusive GST)</th><td>RM 2.10</td></tr><tr><th>CASH</th><td>RM 5.10</td></tr><tr><th>CHANGE</th><td>RM 3.00</td></tr><tr><th>GST Summary</th><th>Amount(RM)</th><th>Tax(RM)</th></tr><tr><td>s = 6%</td><td>1.98</td><td>.12</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Qty</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>GARDENIA SQUIGGLES CHO</td><td>9178</td><td>2</td><td>1.05</td><td>2.10</td><td>RM</td></tr></tbody></table><table><tbody><tr><th>Total Sales (Inclusive GST)</th><td>RM 2.10</td></tr><tr><th>CASH</th><td>RM 5.10</td></tr><tr><th>CHANGE</th><td>RM 3.00</td></tr><tr><th>GST Summary</th><th>Amount(RM)</th><th>Tax(RM)</th></tr><tr><td>s = 6%</td><td>1.98</td><td>.12</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 2.10 != subtotal 1.98",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005472108,
+        "latency_ms": 10628,
+        "tokens_in": 1845,
+        "tokens_out": 4287
+      }
+    ]
+  }
+}
