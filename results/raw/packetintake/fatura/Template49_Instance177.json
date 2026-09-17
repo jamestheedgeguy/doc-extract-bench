@@ -1,0 +1,223 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template49_Instance177",
+  "at": "2026-09-16T22:25:37.805Z",
+  "latencyMs": 31843,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "8Y4M7d-878",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "01-Jun-2008",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Robinson-Carson",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "28713 Hart Fort Suite 267 Stewartsville, MI 55458 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "37LTOQASACEIZS",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Oscar Wyatt",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Probably offer professional.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "69.33",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "415.98",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Hear course.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "95.29",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "381.16",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Since protect whom.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "89.43",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "536.58",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Out receive.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "62.93",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "251.72",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "1585.44",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "1579.32",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Amount</th></tr></thead><tbody><tr><td>Probably offer professional.</td><td>$69.33</td><td>6.00</td><td>$415.98</td></tr><tr><td>Hear course.</td><td>$95.29</td><td>4.00</td><td>$381.16</td></tr><tr><td>Since protect whom.</td><td>$89.43</td><td>6.00</td><td>$536.58</td></tr><tr><td>Out receive.</td><td>$62.93</td><td>4.00</td><td>$251.72</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Qty</th><th>Amount</th></tr></thead><tbody><tr><td>Probably offer professional.</td><td>$69.33</td><td>6.00</td><td>$415.98</td></tr><tr><td>Hear course.</td><td>$95.29</td><td>4.00</td><td>$381.16</td></tr><tr><td>Since protect whom.</td><td>$89.43</td><td>6.00</td><td>$536.58</td></tr><tr><td>Out receive.</td><td>$62.93</td><td>4.00</td><td>$251.72</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004651908,
+        "latency_ms": 11770,
+        "tokens_in": 1871,
+        "tokens_out": 3597
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.006549252,
+        "latency_ms": 16285,
+        "tokens_in": 1871,
+        "tokens_out": 5429
+      }
+    ]
+  }
+}

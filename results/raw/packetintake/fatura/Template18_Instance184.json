@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template18_Instance184",
+  "at": "2026-09-16T21:32:11.508Z",
+  "latencyMs": 24887,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV/65-97/061",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "07-Jan-2016",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "10-Dec-2009",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Montgomery, Harrison and Vaughan",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "840 Anderson Locks Mariatown, AL 01838 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Lindsay Brooks",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Message opportunity evidence.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "67.98",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Number.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "23.05",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "250.04",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "12.19",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "4.63",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "253.73",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Message opportunity evidence.</td><td>3.00</td><td>$67.98</td></tr><tr><td>Number.</td><td>2.00</td><td>$23.05</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Message opportunity evidence.</td><td>3.00</td><td>$67.98</td></tr><tr><td>Number.</td><td>2.00</td><td>$23.05</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003530652,
+        "latency_ms": 11792,
+        "tokens_in": 1869,
+        "tokens_out": 2914
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003311052,
+        "latency_ms": 9678,
+        "tokens_in": 1869,
+        "tokens_out": 2731
+      }
+    ]
+  }
+}

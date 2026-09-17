@@ -1,0 +1,223 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template9_Instance189",
+  "at": "2026-09-16T21:22:13.208Z",
+  "latencyMs": 20370,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV12541226",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "29-Jan-1996",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Navarro, Ford and Bryan",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": "09AABCS142961ZS",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Dustin Watts",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "14 days",
+        "confidence": 0.45
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Back seek.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "94.46",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "377.84",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "This organization.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "44.49",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "133.47",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Under factor trial.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "23.09",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "69.27",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Medical start rest.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "88.42",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "442.10",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "1036.47",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>4.00</td><td>Back seek.</td><td>94.46</td><td>377.84</td></tr><tr><td>3.00</td><td>This organization.</td><td>44.49</td><td>133.47</td></tr><tr><td>3.00</td><td>Under factor trial.</td><td>23.09</td><td>69.27</td></tr><tr><td>5.00</td><td>Medical start rest.</td><td>88.42</td><td>442.10</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>4.00</td><td>Back seek.</td><td>94.46</td><td>377.84</td></tr><tr><td>3.00</td><td>This organization.</td><td>44.49</td><td>133.47</td></tr><tr><td>3.00</td><td>Under factor trial.</td><td>23.09</td><td>69.27</td></tr><tr><td>5.00</td><td>Medical start rest.</td><td>88.42</td><td>442.10</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003294708,
+        "latency_ms": 9360,
+        "tokens_in": 1859,
+        "tokens_out": 2469
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002763252,
+        "latency_ms": 8117,
+        "tokens_in": 1859,
+        "tokens_out": 2277
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template33_Instance191",
+  "at": "2026-09-16T22:02:19.629Z",
+  "latencyMs": 13514,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV74575236",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "12-Feb-2019",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "06-May-2003",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Duran, Morgan and Lopez",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "Address:4901 Long Wall Apt. 620\nJoshuaville, CT 95783 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "336SPTNO37LG120",
+        "confidence": 0.45
+      },
+      "customer_name": {
+        "value": "Jeanette Mendez",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Already.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "27.26",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Local prove develop.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "82.39",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Exactly system structure.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "98.83",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Hotel we recognize.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "77.84",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "1062.89",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "191.32",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "1084.40",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Already.</td><td>4.00</td><td>$27.26</td></tr><tr><td>Local prove develop.</td><td>3.00</td><td>$82.39</td></tr><tr><td>Exactly system structure.</td><td>4.00</td><td>$98.83</td></tr><tr><td>Hotel we recognize.</td><td>4.00</td><td>$77.84</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Already.</td><td>4.00</td><td>$27.26</td></tr><tr><td>Local prove develop.</td><td>3.00</td><td>$82.39</td></tr><tr><td>Exactly system structure.</td><td>4.00</td><td>$98.83</td></tr><tr><td>Hotel we recognize.</td><td>4.00</td><td>$77.84</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003112308,
+        "latency_ms": 7951,
+        "tokens_in": 1859,
+        "tokens_out": 2317
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001246452,
+        "latency_ms": 2697,
+        "tokens_in": 1859,
+        "tokens_out": 1013
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0076",
+  "at": "2026-09-17T01:36:17.387Z",
+  "latencyMs": 18049,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "BASO TAHU",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "46000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "NASI PUTIH",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "6000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "BASO TAHU",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "46000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "NASI PUTIH",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "6000",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "12000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "110000",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>BASO TAHU</td><td></td><td></td><td>*46000</td></tr><tr><td>NASI PUTIH</td><td></td><td></td><td>*6000</td></tr><tr><td>BASO TAHU</td><td></td><td></td><td>*46000</td></tr><tr><td>NASI PUTIH</td><td>2x</td><td>6000</td><td>*12000</td></tr><tr><td>ITEMS</td><td colspan=\"2\">5</td><td></td></tr><tr><td>CASH</td><td colspan=\"2\"></td><td>*110000</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>BASO TAHU</td><td></td><td></td><td>*46000</td></tr><tr><td>NASI PUTIH</td><td></td><td></td><td>*6000</td></tr><tr><td>BASO TAHU</td><td></td><td></td><td>*46000</td></tr><tr><td>NASI PUTIH</td><td>2x</td><td>6000</td><td>*12000</td></tr><tr><td>ITEMS</td><td colspan=\"2\">5</td><td></td></tr><tr><td>CASH</td><td colspan=\"2\"></td><td>*110000</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001473408,
+        "latency_ms": 8899,
+        "tokens_in": 1888,
+        "tokens_out": 944
+      }
+    ]
+  }
+}

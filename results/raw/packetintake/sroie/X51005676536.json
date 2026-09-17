@@ -1,0 +1,197 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005676536",
+  "at": "2026-09-16T23:32:32.062Z",
+  "latencyMs": 56831,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS00012507",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "02/01/2018",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "SYARIKAT PERNIAGAAN GIN KEE",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR.",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000750673920",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "CASH",
+        "confidence": 0.45
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "8' 2 X 3",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "1811",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "13.57",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "13.57",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "7' X 35# CORRUGATED ROOFING SHEET",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "1042",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "4",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "18.55",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "74.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "NAIL (PER/PACK) - RM5",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "1921",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "5.30",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "5.30",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "87.80",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "5.27",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "93.07",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td>18118' 2 X 3</td><td>1</td><td>13.57</td><td>13.57</td><td>SR</td></tr><tr><td>10427' X 35# CORRUGATED ROOFING SHEET</td><td>4</td><td>18.55</td><td>74.20</td><td>SR</td></tr><tr><td>1921NAIL (PER/PACK) - RM5</td><td>1</td><td>5.30</td><td>5.30</td><td>SR</td></tr><tr><td>Total Qty:</td><td>6</td><td></td><td>93.07</td><td></td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td>1811<br>8' 2 X 3</td><td>1</td><td>13.57</td><td>13.57</td><td>SR</td></tr><tr><td>1042<br>7' X 35# CORRUGATED ROOFING SHEET</td><td>4</td><td>18.55</td><td>74.20</td><td>SR</td></tr><tr><td>1921<br>NAIL (PER/PACK) - RM5</td><td>1</td><td>5.30</td><td>5.30</td><td>SR</td></tr><tr><td>Total Qty:</td><td>6</td><td></td><td>93.07</td><td></td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 93.07 != subtotal 87.80",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.00069624,
+        "latency_ms": 20388,
+        "tokens_in": 1820,
+        "tokens_out": 512
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002722142,
+        "latency_ms": 32245,
+        "tokens_in": 1844,
+        "tokens_out": 3757
+      }
+    ]
+  }
+}

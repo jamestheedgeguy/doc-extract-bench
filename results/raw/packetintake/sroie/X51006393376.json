@@ -1,0 +1,169 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006393376",
+  "at": "2026-09-17T00:17:25.176Z",
+  "latencyMs": 20023,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1902B/103/70269",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "10-05-17",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "99 SPEED MART S/B (519537-X)",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT P.T. 2811, JALAN ANGSA, TAMAN BERKELEY, 41150 KLANG, SELANGOR, 1214-JINJANG UTARA",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000181747712",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "CRISPI ROLL 12 GRAIN SE",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "355",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "6.85",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "CS 1002 A5 H/COVER NOT",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "9413",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "4.65",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "10.85",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.65",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "11.50",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>CRISPI ROLL 12 GRAIN SE</td><td>355</td><td>6.85</td><td>RM</td></tr><tr><td>CS 1002 A5 H/COVER NOT</td><td>9413</td><td>4.65</td><td>RM</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>CRISPI ROLL 12 GRAIN SE</td><td>355</td><td>6.85</td><td>RM</td></tr><tr><td>CS 1002 A5 H/COVER NOT</td><td>9413</td><td>4.65</td><td>RM</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 11.50 != subtotal 10.85",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004202808,
+        "latency_ms": 17518,
+        "tokens_in": 1822,
+        "tokens_out": 3235
+      }
+    ]
+  }
+}

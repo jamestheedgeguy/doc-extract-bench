@@ -1,0 +1,156 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "1:376:EXPE.2010.page_108.pdf_117085.png#117085",
+  "at": "2026-09-17T01:58:56.873Z",
+  "latencyMs": 6397,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "United States",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "2066107",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "All other countries",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "1282002",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "3348109",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "3348109",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th colspan=\"4\">Year Ended December 31,</th></tr><tr><th></th><th>2010</th><th>2009</th><th>2008</th></tr><tr><td colspan=\"4\">(In thousands)</td></tr></thead><tbody><tr><td>Revenue</td><td></td><td></td><td></td></tr><tr><td>United States</td><td>$2,066,107</td><td>$1,864,281</td><td>$1,937,068</td></tr><tr><td>All other countries</td><td>1,282,002</td><td>1,091,145</td><td>999,945</td></tr><tr><td></td><td>$3,348,109</td><td>$2,955,426</td><td>$2,937,013</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th colspan=\"4\" align=\"center\">Year Ended December 31,</th></tr><tr><th align=\"left\"></th><th align=\"center\">2010</th><th align=\"center\">2009</th><th align=\"center\">2008</th></tr><tr><td colspan=\"4\" align=\"center\">(In thousands)</td></tr></thead><tbody><tr><td><strong>Revenue</strong></td><td></td><td></td><td></td></tr><tr><td>United States</td><td align=\"right\">$2,066,107</td><td align=\"right\">$1,864,281</td><td align=\"right\">$1,937,068</td></tr><tr><td>All other countries</td><td align=\"right\">1,282,002</td><td align=\"right\">1,091,145</td><td align=\"right\">999,945</td></tr><tr><td></td><td align=\"right\">$3,348,109</td><td align=\"right\">$2,955,426</td><td align=\"right\">$2,937,013</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001198608,
+        "latency_ms": 5977,
+        "tokens_in": 1080,
+        "tokens_out": 917
+      }
+    ]
+  }
+}

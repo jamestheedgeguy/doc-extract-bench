@@ -1,0 +1,175 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51008142062",
+  "at": "2026-09-17T00:50:03.506Z",
+  "latencyMs": 18837,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS00012389",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "02/05/2018",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "KEDAI PAPAN YEW CHUAN",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT 276 JALAN BANTING 43800 DENGKIL, SELANGOR.",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000781500416",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "SUCI ALAM JAYA TRANSPORT",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "BATU SIMEN",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "100211",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1200",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "0.23",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "292.56",
+          "confidence": 0.35
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "PASIR HALUS (D)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "101870",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "65.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "68.90",
+          "confidence": 0.35
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "341.00",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "20.46",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "361.46",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>(GST) S/Price</th><th>(GST) Amount</th><th>Tax</th></tr></thead><tbody><tr><td>100211</td><td>1,200</td><td>0.23</td><td>0.24</td><td>292.56</td><td>SR</td></tr><tr><td>BATU SIMEN</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>101870</td><td>1</td><td>65.00</td><td>69.00</td><td>68.90</td><td>SR</td></tr><tr><td>PASIR HALUS (D)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total Qty: 1,201</td><td></td><td></td><td></td><td>361.46</td><td></td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table border='1' cellspacing='0' cellpadding='4'><thead><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>(GST) S/Price</th><th>(GST) Amount</th><th>Tax</th></tr></thead><tbody><tr><td>100211</td><td>1,200</td><td>0.23</td><td>0.24</td><td>292.56</td><td>SR</td></tr><tr><td>BATU SIMEN</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>101870</td><td>1</td><td>65.00</td><td>69.00</td><td>68.90</td><td>SR</td></tr><tr><td>PASIR HALUS (D)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total Qty: 1,201</td><td></td><td></td><td></td><td>361.46</td><td></td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 361.46 != subtotal 341.00",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "qty_price_ne_amount",
+        "severity": "hard",
+        "message": "qty*unit_price 276.00 != amount 292.56",
+        "path": "line_items[0].amount"
+      },
+      {
+        "code": "qty_price_ne_amount",
+        "severity": "hard",
+        "message": "qty*unit_price 65.00 != amount 68.90",
+        "path": "line_items[1].amount"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.007131252,
+        "latency_ms": 16551,
+        "tokens_in": 1887,
+        "tokens_out": 5910
+      }
+    ]
+  }
+}

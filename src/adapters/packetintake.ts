@@ -29,7 +29,7 @@ import { now, type Adapter, type AdapterResult, type DocType } from "./types.js"
 /** Conservative per-document estimate for the pre-run cost gate. */
 export const PACKET_INTAKE_UNIT_PRICE_USD = 0.04;
 
-const CLI_TIMEOUT_MS = 180_000;
+const CLI_TIMEOUT_MS = 420_000;
 const PROBE_TIMEOUT_MS = 8_000;
 
 interface StringField {

@@ -1,0 +1,145 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006502529",
+  "at": "2026-09-16T23:03:51.249Z",
+  "latencyMs": 113182,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "1000000163",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "20/04/2018",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "FamilyMart",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "Maxincome Resources Sdn Bhd (383322-D)\n16A, Jalan Astaka U8/83, Bukit Jelutong\n40150 Shah Alam, Selangor D.E.",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000468594688",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Spritzer N/Water 1.51 ea",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "3.70",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "3.70",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "3.49",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.21",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "3.70",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Desc</th><th>Amt(RM)</th></tr></thead><tbody><tr><td>Spritzer N/Water 1.51 ea</td><td>3.70 S</td></tr><tr><td>TOTAL</td><td>3.70</td></tr><tr><td>Cash</td><td>-10.00</td></tr><tr><td>CHANGE</td><td>6.30</td></tr><tr><td># ITEMS SOLD</td><td>1</td></tr><tr><td>Tax Code</td><td>Amt(RM)</td></tr><tr><td>S 6%</td><td>3.49</td></tr><tr><td></td><td>GST(RM) 0.21</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Desc</th><th>Amt(RM)</th></tr></thead><tbody><tr><td>Spritzer N/Water 1.51 ea</td><td>3.70 S</td></tr><tr><td><strong>TOTAL</strong></td><td><strong>3.70</strong></td></tr><tr><td>Cash</td><td>-10.00</td></tr><tr><td>CHANGE</td><td>6.30</td></tr><tr><td># ITEMS SOLD</td><td>1</td></tr><tr><td>Tax Code</td><td>Amt(RM)</td></tr><tr><td>S 6%</td><td>3.49</td></tr><tr><td></td><td>GST(RM) 0.21</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 3.70 != subtotal 3.49",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.0016068,
+        "latency_ms": 48079,
+        "tokens_in": 1868,
+        "tokens_out": 872
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.00062928,
+        "latency_ms": 61412,
+        "tokens_in": 1864,
+        "tokens_out": 408
+      }
+    ]
+  }
+}

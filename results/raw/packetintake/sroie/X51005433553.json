@@ -1,0 +1,182 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005433553",
+  "at": "2026-09-17T00:14:52.336Z",
+  "latencyMs": 15036,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "003-1220815",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "11/03/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "YHM Aeon Tebrau City",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "S117, Second Floor, Aeon Tebrau City, 1, Jalan Desa Tebrau, Taman Desa Tebrau, 81100 Johor Bahru, Johor.",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "002105827328",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Green Tea",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "FG-A00019",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "1.50",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "1.50",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Kake Udon R",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "FG-H00001",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "8.80",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "8.80",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Enoki Tempura",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "FG-H00100",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "2.80",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "2.80",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "13.10",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "0.74",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "13.10",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>U.Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td>FG-A00019Green Tea</td><td>1</td><td>1.50</td><td>1.50</td><td>SR</td></tr><tr><td>FG-H00001Kake Udon R</td><td>1</td><td>8.80</td><td>8.80</td><td>SR</td></tr><tr><td>FG-H00100Enoki Tempura</td><td>1</td><td>2.80</td><td>2.80</td><td>SR</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>U.Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td>FG-A00019<br>Green Tea</td><td>1</td><td>1.50</td><td>1.50</td><td>SR</td></tr><tr><td>FG-H00001<br>Kake Udon R</td><td>1</td><td>8.80</td><td>8.80</td><td>SR</td></tr><tr><td>FG-H00100<br>Enoki Tempura</td><td>1</td><td>2.80</td><td>2.80</td><td>SR</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004148952,
+        "latency_ms": 13980,
+        "tokens_in": 1878,
+        "tokens_out": 3427
+      }
+    ]
+  }
+}

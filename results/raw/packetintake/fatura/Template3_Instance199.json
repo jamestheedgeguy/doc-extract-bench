@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template3_Instance199",
+  "at": "2026-09-16T21:18:04.771Z",
+  "latencyMs": 13042,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "4Y9M5d-977",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "01-Oct-2001",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "19-May-2022",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Kirk, Murphy and Daniels",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Nicholas Elliott",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": "49",
+        "confidence": 0.7
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Tough.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "338719",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "2.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "34.42",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "68.84",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Field answer somebody.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "218930",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "18.69",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "93.45",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "6.16",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "163.99",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>2.00</td><td>338719</td><td>Tough.</td><td>34.42</td><td>68.84</td></tr><tr><td>5.00</td><td>218930</td><td>Field answer somebody.</td><td>18.69</td><td>93.45</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>2.00</td><td>338719</td><td>Tough.</td><td>34.42</td><td>68.84</td></tr><tr><td>5.00</td><td>218930</td><td>Field answer somebody.</td><td>18.69</td><td>93.45</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002558508,
+        "latency_ms": 6385,
+        "tokens_in": 1865,
+        "tokens_out": 1854
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001505052,
+        "latency_ms": 3762,
+        "tokens_in": 1865,
+        "tokens_out": 1227
+      }
+    ]
+  }
+}

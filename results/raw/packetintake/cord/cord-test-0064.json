@@ -1,0 +1,130 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0064",
+  "at": "2026-09-17T01:31:14.744Z",
+  "latencyMs": 24254,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "SINGLE SCOOP",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": null,
+          "confidence": null
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "16.000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "16.000",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>SINGLE SCOOP</td><td>16.000</td></tr><tr><td>TOTAL</td><td>16.000</td></tr><tr><td>CATEND</td><td>50.000</td></tr><tr><td>CHANGE</td><td>34.000</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>SINGLE SCOOP</td><td>16.000</td></tr><tr><td>TOTAL</td><td>16.000</td></tr><tr><td>CATEND</td><td>50.000</td></tr><tr><td>CHANGE</td><td>34.000</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.000915408,
+        "latency_ms": 7637,
+        "tokens_in": 1888,
+        "tokens_out": 479
+      }
+    ]
+  }
+}

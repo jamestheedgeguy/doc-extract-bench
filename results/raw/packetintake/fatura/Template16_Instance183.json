@@ -1,0 +1,223 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template16_Instance183",
+  "at": "2026-09-16T21:27:21.725Z",
+  "latencyMs": 21442,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "5557-297",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "06-Jan-2004",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Woods-Gibbs",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "696 Thompson Forest, Ashleybury, AR 73994 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Whitney Bennett",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Majority prove.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "40.61",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "81.22",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Realize network.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "67.86",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "203.58",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Focus reason.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "86.04",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "86.04",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Base improve.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "87.51",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "87.51",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "458.35",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "478.65",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>Majority prove.</td><td>2.00</td><td>$40.61</td><td>$81.22</td></tr><tr><td>Realize network.</td><td>3.00</td><td>$67.86</td><td>$203.58</td></tr><tr><td>Focus reason.</td><td>1.00</td><td>$86.04</td><td>$86.04</td></tr><tr><td>Base improve.</td><td>1.00</td><td>$87.51</td><td>$87.51</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>Majority prove.</td><td>2.00</td><td>$40.61</td><td>$81.22</td></tr><tr><td>Realize network.</td><td>3.00</td><td>$67.86</td><td>$203.58</td></tr><tr><td>Focus reason.</td><td>1.00</td><td>$86.04</td><td>$86.04</td></tr><tr><td>Base improve.</td><td>1.00</td><td>$87.51</td><td>$87.51</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002562108,
+        "latency_ms": 6505,
+        "tokens_in": 1865,
+        "tokens_out": 1857
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003726252,
+        "latency_ms": 11437,
+        "tokens_in": 1865,
+        "tokens_out": 3078
+      }
+    ]
+  }
+}

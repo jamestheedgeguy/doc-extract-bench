@@ -1,0 +1,145 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005719864",
+  "at": "2026-09-16T22:55:03.310Z",
+  "latencyMs": 22281,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "0200419363",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "05/01/2018",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "FUN N CHEER (MALURI)",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT 37636, JALAN 6/37A, TAMAN BUKIT MALURI, 52100 KUALA LUMPUR",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "001439154176",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "KAIN BEBOLA(S) SHA BU",
+          "confidence": 0.45
+        },
+        "sku": {
+          "value": "0412638",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "14.90",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "29.80",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "28.11",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "1.69",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "29.80",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item/Desc.</th><th>Qty</th><th>Price</th><th>Amt.</th></tr></thead><tbody><tr><td>KAIN BEBOLA(S) SHA BU0412638</td><td>2</td><td>14.90</td><td>29.80</td></tr><tr><td>Total Qty</td><td>2</td><td></td><td></td></tr><tr><td colspan=\"3\">TOTAL EXCL.GST</td><td>28.11</td></tr><tr><td colspan=\"3\">ADD : GST @ 6% On</td><td>1.69</td></tr><tr><td colspan=\"3\"></td><td>29.80</td></tr><tr><td colspan=\"3\">CASH</td><td>50.00</td></tr><tr><td colspan=\"3\">CHANGE</td><td>20.20</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\"><thead><tr><th>Item/Desc.</th><th>Qty</th><th>Price</th><th>Amt.</th></tr></thead><tbody><tr><td>KAIN BEBOLA(S) SHA BU<br>0412638</td><td>2</td><td>14.90</td><td>29.80</td></tr><tr><td>Total Qty</td><td>2</td><td></td><td></td></tr><tr><td colspan=\"3\">TOTAL EXCL.GST</td><td>28.11</td></tr><tr><td colspan=\"3\">ADD : GST @ 6% On</td><td>1.69</td></tr><tr><td colspan=\"3\"></td><td>29.80</td></tr><tr><td colspan=\"3\">CASH</td><td>50.00</td></tr><tr><td colspan=\"3\">CHANGE</td><td>20.20</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 29.80 != subtotal 28.11",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001254108,
+        "latency_ms": 5983,
+        "tokens_in": 1889,
+        "tokens_out": 761
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001060284,
+        "latency_ms": 5746,
+        "tokens_in": 1889,
+        "tokens_out": 819
+      }
+    ]
+  }
+}

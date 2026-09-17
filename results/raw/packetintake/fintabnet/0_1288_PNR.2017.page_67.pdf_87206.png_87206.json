@@ -1,0 +1,111 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:1288:PNR.2017.page_67.pdf_87206.png#87206",
+  "at": "2026-09-16T21:13:55.286Z",
+  "latencyMs": 33722,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td rowspan=\"2\">In millions</td><td colspan=\"3\">Years ended December 31</td></tr><tr><td>2017</td><td>2016</td><td>2015</td></tr><tr><td>Cash paid for interest, net</td><td>$ 107.2</td><td>$ 143.4</td><td>$ 76.9</td></tr><tr><td>Cash paid for income taxes, net</td><td>362.1</td><td>145.1</td><td>182.8</td></tr></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td rowspan=2>In millions</td><td colspan=3>Years ended December 31</td></tr><tr><td>2017</td><td>2016</td><td>2015</td></tr><tr><td>Cash paid for interest, net</td><td>$ 107.2</td><td>$ 143.4</td><td>$ 76.9</td></tr><tr><td>Cash paid for income taxes, net</td><td>362.1</td><td>145.1</td><td>182.8</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005144508,
+        "latency_ms": 20978,
+        "tokens_in": 1089,
+        "tokens_out": 4203
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003058044,
+        "latency_ms": 11707,
+        "tokens_in": 1089,
+        "tokens_out": 2527
+      }
+    ]
+  }
+}

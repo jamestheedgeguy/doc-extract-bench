@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:1683:DLR.2008.page_66.pdf_21868.png#21868",
+  "at": "2026-09-17T02:07:45.527Z",
+  "latencyMs": 31028,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Year Ended December 31,</th><th>2008</th><th>2007</th><th>2006</th></tr></thead><tbody><tr><td colspan=\"4\">Statement of Operations Data:</td></tr><tr><td>Total operating revenues</td><td>$ 527,445</td><td>$ 395,247</td><td>$ 272,076</td></tr><tr><td>Total operating expenses</td><td>(400,101)</td><td>(308,358)</td><td>(197,508)</td></tr><tr><td>Operating income</td><td>127,344</td><td>86,889</td><td>74,568</td></tr><tr><td>Other expenses, net</td><td>(56,797)</td><td>(61,668)</td><td>(48,675)</td></tr><tr><td>Income from continuing operations before minority interests</td><td>$ 70,547</td><td>$ 25,221</td><td>$ 25,893</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Year Ended December 31,</th><th>2008</th><th>2007</th><th>2006</th></tr></thead><tbody><tr><td colspan='4'><strong>Statement of Operations Data:</strong></td></tr><tr><td>Total operating revenues</td><td>$ 527,445</td><td>$ 395,247</td><td>$ 272,076</td></tr><tr><td>Total operating expenses</td><td>(400,101)</td><td>(308,358)</td><td>(197,508)</td></tr><tr><td>Operating income</td><td>127,344</td><td>86,889</td><td>74,568</td></tr><tr><td>Other expenses, net</td><td>(56,797)</td><td>(61,668)</td><td>(48,675)</td></tr><tr><td>Income from continuing operations before minority interests</td><td>$ 70,547</td><td>$ 25,221</td><td>$ 25,893</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.008381208,
+        "latency_ms": 30603,
+        "tokens_in": 1098,
+        "tokens_out": 6898
+      }
+    ]
+  }
+}

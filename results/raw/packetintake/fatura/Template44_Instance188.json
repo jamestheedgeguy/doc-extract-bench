@@ -1,0 +1,197 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template44_Instance188",
+  "at": "2026-09-16T22:07:50.466Z",
+  "latencyMs": 7662,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV/70-60/480",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "28-Sep-1993",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Knight, Huffman and Moore",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "087 Michael Lodge, Kristiborough, IN 63843 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Per it toward.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "35.91",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "143.64",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Fund myself free.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "37.25",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "74.50",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Bad condition form.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "29.58",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "29.58",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "247.72",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "15.68",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "258.59",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>DESCRIPTION</th><th>QUANTITY</th><th>PRICE</th><th>AMOUNT</th></tr></thead><tbody><tr><td>Per it toward.</td><td>4.00</td><td>35.91</td><td>143.64</td></tr><tr><td>Fund myself free.</td><td>2.00</td><td>37.25</td><td>74.50</td></tr><tr><td>Bad condition form.</td><td>1.00</td><td>29.58</td><td>29.58</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>DESCRIPTION</th><th>QUANTITY</th><th>PRICE</th><th>AMOUNT</th></tr></thead><tbody><tr><td>Per it toward.</td><td>4.00</td><td>35.91</td><td>143.64</td></tr><tr><td>Fund myself free.</td><td>2.00</td><td>37.25</td><td>74.50</td></tr><tr><td>Bad condition form.</td><td>1.00</td><td>29.58</td><td>29.58</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001243608,
+        "latency_ms": 2475,
+        "tokens_in": 1878,
+        "tokens_out": 755
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.000956952,
+        "latency_ms": 2209,
+        "tokens_in": 1878,
+        "tokens_out": 767
+      }
+    ]
+  }
+}

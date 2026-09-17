@@ -1,0 +1,164 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005711453",
+  "at": "2026-09-16T23:17:57.412Z",
+  "latencyMs": 28118,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "003621900059183",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "10/03/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Gerbang Alaf Restaurants Sdn Bhd",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "Level 6, Bangunan TH, Damansara Uptown3, No.3, Jalan SS21/39,47400 Petaling Jaya, Selangor",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "000504664064",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "M Coke",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "3.50",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "McChicken",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "5.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "0.48",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "8.50",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>QTY</th><th>ITEM</th><th>TOTAL</th></tr></thead><tbody><tr><td>1</td><td>M Coke</td><td>3.50</td></tr><tr><td>1</td><td>McChicken</td><td>5.00</td></tr><tr><td colspan=\"2\">TakeOut Total (incl GST)</td><td>8.50</td></tr><tr><td colspan=\"2\">Total Rounded</td><td>8.50</td></tr><tr><td colspan=\"2\">Cash Tendered</td><td>50.00</td></tr><tr><td colspan=\"2\">Change</td><td>41.50</td></tr><tr><td colspan=\"2\">TOTAL INCLUDES 6% GST</td><td>0.48</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>QTY</th><th>ITEM</th><th>TOTAL</th></tr></thead><tbody><tr><td>1</td><td>M Coke</td><td>3.50</td></tr><tr><td>1</td><td>McChicken</td><td>5.00</td></tr><tr><td colspan=\"2\">TakeOut Total (incl GST)</td><td>8.50</td></tr><tr><td colspan=\"2\">Total Rounded</td><td>8.50</td></tr><tr><td colspan=\"2\">Cash Tendered</td><td>50.00</td></tr><tr><td colspan=\"2\">Change</td><td>41.50</td></tr><tr><td colspan=\"2\">TOTAL INCLUDES 6% GST</td><td>0.48</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004356408,
+        "latency_ms": 16043,
+        "tokens_in": 1866,
+        "tokens_out": 3352
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001559784,
+        "latency_ms": 7888,
+        "tokens_in": 1866,
+        "tokens_out": 1241
+      }
+    ]
+  }
+}

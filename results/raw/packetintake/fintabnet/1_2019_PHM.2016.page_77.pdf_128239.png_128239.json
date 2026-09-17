@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "1:2019:PHM.2016.page_77.pdf_128239.png#128239",
+  "at": "2026-09-17T01:52:41.546Z",
+  "latencyMs": 20877,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th></th><th colspan=\"2\">December 31,</th></tr><tr><th></th><th>2016</th><th>2015</th></tr></thead><tbody><tr><td colspan=\"3\">Accounts and notes receivable:</td></tr><tr><td>Insurance receivables (Note 12)</td><td>$ 307,344</td><td>$ 362,680</td></tr><tr><td>Notes receivable</td><td>29,111</td><td>28,288</td></tr><tr><td>Other receivables</td><td>90,714</td><td>81,581</td></tr><tr><td></td><td>427,169</td><td>472,549</td></tr><tr><td>Prepaid expenses</td><td>106,748</td><td>109,113</td></tr><tr><td>Deposits and pre-acquisition costs (Note 1)</td><td>195,436</td><td>162,119</td></tr><tr><td>Property and equipment, net (Note 1)</td><td>77,444</td><td>86,312</td></tr><tr><td>Income taxes receivable (Note 9)</td><td>9,272</td><td>25,080</td></tr><tr><td>Other</td><td>41,357</td><td>38,172</td></tr><tr><td></td><td>$ 857,426</td><td>$ 893,345</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table>\n  <thead>\n    <tr>\n      <th></th>\n      <th colspan=\"2\">December 31,</th>\n    </tr>\n    <tr>\n      <th></th>\n      <th>2016</th>\n      <th>2015</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td colspan=\"3\">Accounts and notes receivable:</td>\n    </tr>\n    <tr>\n      <td>Insurance receivables (Note 12)</td>\n      <td>$ 307,344</td>\n      <td>$ 362,680</td>\n    </tr>\n    <tr>\n      <td>Notes receivable</td>\n      <td>29,111</td>\n      <td>28,288</td>\n    </tr>\n    <tr>\n      <td>Other receivables</td>\n      <td>90,714</td>\n      <td>81,581</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>427,169</td>\n      <td>472,549</td>\n    </tr>\n    <tr>\n      <td>Prepaid expenses</td>\n      <td>106,748</td>\n      <td>109,113</td>\n    </tr>\n    <tr>\n      <td>Deposits and pre-acquisition costs (Note 1)</td>\n      <td>195,436</td>\n      <td>162,119</td>\n    </tr>\n    <tr>\n      <td>Property and equipment, net (Note 1)</td>\n      <td>77,444</td>\n      <td>86,312</td>\n    </tr>\n    <tr>\n      <td>Income taxes receivable (Note 9)</td>\n      <td>9,272</td>\n      <td>25,080</td>\n    </tr>\n    <tr>\n      <td>Other</td>\n      <td>41,357</td>\n      <td>38,172</td>\n    </tr>\n    <tr>\n      <td></td>\n      <td>$ 857,426</td>\n      <td>$ 893,345</td>\n    </tr>\n  </tbody>\n</table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.006040008,
+        "latency_ms": 20457,
+        "tokens_in": 1098,
+        "tokens_out": 4947
+      }
+    ]
+  }
+}

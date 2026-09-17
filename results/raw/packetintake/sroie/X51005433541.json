@@ -1,0 +1,169 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005433541",
+  "at": "2026-09-17T00:50:53.662Z",
+  "latencyMs": 16038,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "OR18031402160311",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "14 Mar 2018",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "12, Jalan Tampoi 7/4, Kawasan Perindustrian, Tampoi, 81200 Johor Bahru, Johor",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000656195584",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "4 Vege",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "SR 100100000060",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "5.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "5.50",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Pork",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "SR 100100000006",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.70",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "2.70",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "7.74",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.46",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "8.20",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>Total</th></tr></thead><tbody><tr><td>SR 100100000060- 4 Vege$5.50</td><td>1</td><td>$5.50</td></tr><tr><td>SR 100100000006- Pork$2.70</td><td>1</td><td>$2.70</td></tr></tbody></table><table><thead><tr><th>Payment Mode</th><th>Amount</th></tr></thead><tbody><tr><td>CASH</td><td>$8.20</td></tr><tr><td>Change</td><td>$0.00</td></tr></tbody></table><table><thead><tr><th>GST Summary</th><th>Amount($)</th><th>Tax($)</th></tr></thead><tbody><tr><td>SR + 35 @6%</td><td>7.74</td><td>0.46</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>Total</th></tr></thead><tbody><tr><td>SR 100100000060- 4 Vege<br>$5.50</td><td>1</td><td>$5.50</td></tr><tr><td>SR 100100000006- Pork<br>$2.70</td><td>1</td><td>$2.70</td></tr></tbody></table><table><thead><tr><th>Payment Mode</th><th>Amount</th></tr></thead><tbody><tr><td>CASH</td><td>$8.20</td></tr><tr><td>Change</td><td>$0.00</td></tr></tbody></table><table><thead><tr><th>GST Summary</th><th>Amount($)</th><th>Tax($)</th></tr></thead><tbody><tr><td>SR + 35 @6%</td><td>7.74</td><td>0.46</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 8.20 != subtotal 7.74",
+        "path": "totals.subtotal"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.006858108,
+        "latency_ms": 15134,
+        "tokens_in": 1841,
+        "tokens_out": 5443
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template47_Instance179",
+  "at": "2026-09-16T22:24:25.244Z",
+  "latencyMs": 25355,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "2Y5M9d-302",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "15-Sep-1995",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "15-Sep-1998",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Rogers, Olson and Sanders",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "116 Smith Loop Apt. 882 East David, AL 55672 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": "75",
+        "confidence": 0.7
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "All payments to be made in cash.",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Exactly unit minute.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "493756",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "12.39",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "49.56",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Figure pull.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "064709",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "17.54",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "105.24",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Car life.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "861398",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "65.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "262.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Instead deal inside.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "259905",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "32.88",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "131.52",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "555.37",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>4.00</td><td>493756</td><td>Exactly unit minute.</td><td>12.39</td><td>49.56</td></tr><tr><td>6.00</td><td>064709</td><td>Figure pull.</td><td>17.54</td><td>105.24</td></tr><tr><td>4.00</td><td>861398</td><td>Car life.</td><td>65.50</td><td>262.00</td></tr><tr><td>4.00</td><td>259905</td><td>Instead deal inside.</td><td>32.88</td><td>131.52</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>ID</th><th>Description</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>4.00</td><td>493756</td><td>Exactly unit minute.</td><td>12.39</td><td>49.56</td></tr><tr><td>6.00</td><td>064709</td><td>Figure pull.</td><td>17.54</td><td>105.24</td></tr><tr><td>4.00</td><td>861398</td><td>Car life.</td><td>65.50</td><td>262.00</td></tr><tr><td>4.00</td><td>259905</td><td>Instead deal inside.</td><td>32.88</td><td>131.52</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004634652,
+        "latency_ms": 11505,
+        "tokens_in": 1869,
+        "tokens_out": 3834
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003492252,
+        "latency_ms": 10478,
+        "tokens_in": 1869,
+        "tokens_out": 2882
+      }
+    ]
+  }
+}

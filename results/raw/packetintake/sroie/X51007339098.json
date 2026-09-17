@@ -1,0 +1,137 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007339098",
+  "at": "2026-09-17T00:16:37.603Z",
+  "latencyMs": 35678,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS-SA-0079030",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "18/04/2017",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "SANYU STATIONERY SHOP",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "NO. 31G&33G, JALAN SETIA INDAH X ,U13/X 40170 SETIA ALAM",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001531760640",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "RESTAURANT ORDER CHIT NCR 3.5\"x6\"",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "2012-0029",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.9000",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "8.70",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "8.21",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.49",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "8.70",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>1.</td><td>2012-0029</td><td>RESTAURANT ORDER CHIT NCR 3.5\"x6\"</td><td>3</td><td>2.9000</td><td>8.70</td><td>SR</td></tr><tr><td colspan=\"6\">Total Sales Inclusive GST @6%</td><td>8.70</td></tr><tr><td colspan=\"6\">Discount</td><td>0.00</td></tr><tr><td colspan=\"6\">Total</td><td>8.70</td></tr><tr><td colspan=\"6\">Round Adj</td><td>0.00</td></tr><tr><td colspan=\"6\">Final Total</td><td>8.70</td></tr><tr><td colspan=\"6\">CASH</td><td>10.00</td></tr><tr><td colspan=\"6\">CHANGE</td><td>1.30</td></tr><tr><td colspan=\"3\">GST Summary</td><td colspan=\"2\">Amount(RM)</td><td colspan=\"2\">Tax(RM)</td></tr><tr><td colspan=\"3\">SR @ 6%</td><td colspan=\"2\">8.21</td><td colspan=\"2\">0.49</td></tr></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>1.</td><td>2012-0029</td><td>RESTAURANT ORDER CHIT NCR 3.5\"x6\"</td><td>3</td><td>2.9000</td><td>8.70</td><td>SR</td></tr><tr><td colspan=\"6\">Total Sales Inclusive GST @6%</td><td>8.70</td></tr><tr><td colspan=\"6\">Discount</td><td>0.00</td></tr><tr><td colspan=\"6\">Total</td><td>8.70</td></tr><tr><td colspan=\"6\">Round Adj</td><td>0.00</td></tr><tr><td colspan=\"6\">Final Total</td><td>8.70</td></tr><tr><td colspan=\"6\">CASH</td><td>10.00</td></tr><tr><td colspan=\"6\">CHANGE</td><td>1.30</td></tr><tr><td colspan=\"3\">GST Summary</td><td colspan=\"2\">Amount(RM)</td><td colspan=\"2\">Tax(RM)</td></tr><tr><td colspan=\"3\">SR @ 6%</td><td colspan=\"2\">8.21</td><td colspan=\"2\">0.49</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 8.70 != subtotal 8.21",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.006762708,
+        "latency_ms": 29587,
+        "tokens_in": 1887,
+        "tokens_out": 5352
+      }
+    ]
+  }
+}

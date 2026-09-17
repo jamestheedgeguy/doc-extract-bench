@@ -1,0 +1,163 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007103599",
+  "at": "2026-09-17T00:28:02.380Z",
+  "latencyMs": 27832,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "R000116475",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "11-04-18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "MR. D.I.Y. (M) SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "LOT 1851-A & 1851-B, JALAN KPB 6, KAWASAN PERINDUSTRIAN BALAKONG, 43300 SERI KEMBANGAN, SELANGOR",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000306020352",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "OPENER SS MT-005 AI31 - 12/108",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "9064430",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "8.80",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "8.80",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "PLASTIC BAGS",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "99999",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "0.20",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "0.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "0.51",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "9.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><th>Description</th><th>SKU</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr><tr><td>OPENER SS MT-005AI31 - 12/108</td><td>9064430</td><td>1</td><td>8.80</td><td>8.80</td></tr><tr><td>PLASTIC BAGS</td><td>99999</td><td>1</td><td>0.20</td><td>0.20</td></tr></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><tr><th>Description</th><th>SKU</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr><tr><td>OPENER SS MT-005<br>AI31 - 12/108</td><td>9064430</td><td>1</td><td>8.80</td><td>8.80</td></tr><tr><td>PLASTIC BAGS</td><td>99999</td><td>1</td><td>0.20</td><td>0.20</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.009268452,
+        "latency_ms": 24571,
+        "tokens_in": 1879,
+        "tokens_out": 7693
+      }
+    ]
+  }
+}

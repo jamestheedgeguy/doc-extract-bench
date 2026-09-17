@@ -1,0 +1,249 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template28_Instance176",
+  "at": "2026-09-16T21:46:44.080Z",
+  "latencyMs": 10209,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": "23-Jun-2001",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": "86143 Ruth Isle Apt. 608, Ashleyshire, TN 12593 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "Melissa Howe",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Citizen water generation.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "99.49",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Side the get.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "8.95",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Different move stuff.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "85.68",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Hot.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "7.05",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Space across red.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "7.79",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "733.26",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "42.06",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "754.64",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Citizen water generation.</td><td>1.00</td><td>$99.49</td></tr><tr><td>Side the get.</td><td>5.00</td><td>$8.95</td></tr><tr><td>Different move stuff.</td><td>6.00</td><td>$85.68</td></tr><tr><td>Hot.</td><td>4.00</td><td>$7.05</td></tr><tr><td>Space across red.</td><td>6.00</td><td>$7.79</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Citizen water generation.</td><td>1.00</td><td>$99.49</td></tr><tr><td>Side the get.</td><td>5.00</td><td>$8.95</td></tr><tr><td>Different move stuff.</td><td>6.00</td><td>$85.68</td></tr><tr><td>Hot.</td><td>4.00</td><td>$7.05</td></tr><tr><td>Space across red.</td><td>6.00</td><td>$7.79</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003121908,
+        "latency_ms": 5333,
+        "tokens_in": 1887,
+        "tokens_out": 2318
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.001228452,
+        "latency_ms": 1985,
+        "tokens_in": 1887,
+        "tokens_out": 991
+      }
+    ]
+  }
+}

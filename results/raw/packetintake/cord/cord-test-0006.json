@@ -1,0 +1,182 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0006",
+  "at": "2026-09-17T00:54:17.754Z",
+  "latencyMs": 9982,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "EGG TART",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "13000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "CHOCO CUSTARD PASTRY",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "24000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "REDBEAN BREAD",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "9000",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "46000",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>EGG TART</td><td>13,000</td></tr><tr><td>2</td><td>CHOCO CUSTARD PASTRY</td><td>24,000</td></tr><tr><td>1</td><td>REDBEAN BREAD</td><td>9,000</td></tr><tr><td colspan=\"2\">TOTAL</td><td>46,000</td></tr><tr><td colspan=\"2\">CASH</td><td>50,000</td></tr><tr><td colspan=\"2\">CHANGE</td><td>4,000</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Amount</th></tr></thead><tbody><tr><td>1</td><td>EGG TART</td><td>13,000</td></tr><tr><td>2</td><td>CHOCO CUSTARD PASTRY</td><td>24,000</td></tr><tr><td>1</td><td>REDBEAN BREAD</td><td>9,000</td></tr><tr><td colspan=\"2\">TOTAL</td><td>46,000</td></tr><tr><td colspan=\"2\">CASH</td><td>50,000</td></tr><tr><td colspan=\"2\">CHANGE</td><td>4,000</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001263108,
+        "latency_ms": 3905,
+        "tokens_in": 1867,
+        "tokens_out": 774
+      }
+    ]
+  }
+}

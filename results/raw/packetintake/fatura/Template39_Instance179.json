@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template39_Instance179",
+  "at": "2026-09-16T22:05:31.434Z",
+  "latencyMs": 15296,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV00738500",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "22-Nov-1994",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "14-Apr-2014",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "LCSR",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "19021 Christopher Estate South Williammouth, NH 22397 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "John Miller",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Action leave.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "95.87",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "383.48",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Knowledge choose.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "26.59",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "79.77",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "463.25",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "19.81",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "16.58",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>Action leave.</td><td>4.00</td><td>$95.87</td><td>$383.48</td></tr><tr><td>Knowledge choose.</td><td>3.00</td><td>$26.59</td><td>$79.77</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit price</th><th>Amount</th></tr></thead><tbody><tr><td>Action leave.</td><td>4.00</td><td>$95.87</td><td>$383.48</td></tr><tr><td>Knowledge choose.</td><td>3.00</td><td>$26.59</td><td>$79.77</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002055108,
+        "latency_ms": 4625,
+        "tokens_in": 1851,
+        "tokens_out": 1438
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003255252,
+        "latency_ms": 7720,
+        "tokens_in": 1851,
+        "tokens_out": 2689
+      }
+    ]
+  }
+}

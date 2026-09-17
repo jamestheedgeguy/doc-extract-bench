@@ -1,0 +1,169 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005685357(1)",
+  "at": "2026-09-17T00:30:38.758Z",
+  "latencyMs": 18236,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "3180301",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "02/03/18",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Farmasi Maluri S/B(587969-U)",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "23, Jln Burung Jentayu, Tmn Bukit Maluri, Kepong, 52100 KL.",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000342237184",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "**BMS MILK THISTLE",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "061558",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "111.30",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "72.35",
+          "confidence": 0.35
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "TRILON-E CRM",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "910845",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "7.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "7.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": "4.10",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "36.75",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "79.35",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Disc.</th><th>Subtotal</th></tr></thead><tbody><tr><td>061558 - **BMS MILK THISTLE1 X 111.30</td><td>36.75</td><td>72.35 S</td></tr><tr><td>910845 - TRILON-E CRM1 X 7.00</td><td></td><td>7.00 Z</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Disc.</th><th>Subtotal</th></tr></thead><tbody><tr><td>061558 - **BMS MILK THISTLE<br>1 X 111.30</td><td>36.75</td><td>72.35 S</td></tr><tr><td>910845 - TRILON-E CRM<br>1 X 7.00</td><td></td><td>7.00 Z</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "qty_price_ne_amount",
+        "severity": "hard",
+        "message": "qty*unit_price 111.30 != amount 72.35",
+        "path": "line_items[0].amount"
+      },
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005782308,
+        "latency_ms": 16104,
+        "tokens_in": 1899,
+        "tokens_out": 4532
+      }
+    ]
+  }
+}

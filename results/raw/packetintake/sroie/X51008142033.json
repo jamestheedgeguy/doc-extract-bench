@@ -1,0 +1,189 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51008142033",
+  "at": "2026-09-17T00:44:33.986Z",
+  "latencyMs": 11716,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "V001-538524",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "19-05-2018 12:46:58",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR.",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000670224384",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Rice w Seafood /Meat Item Single",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "15.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Beverage",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Noodle Item Single",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": "20.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "40.00",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "2.40",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "42.40",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Total</th><th>TAX</th></tr></thead><tbody><tr><td>1</td><td>Rice w Seafood /Meat Item Single</td><td>15.00</td><td>SR</td></tr><tr><td>1</td><td>Beverage</td><td>5.00</td><td>SR</td></tr><tr><td>1</td><td>Noodle Item Single</td><td>20.00</td><td>SR</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Total</th><th>TAX</th></tr></thead><tbody><tr><td>1</td><td>Rice w Seafood /Meat Item Single</td><td>15.00</td><td>SR</td></tr><tr><td>1</td><td>Beverage</td><td>5.00</td><td>SR</td></tr><tr><td>1</td><td>Noodle Item Single</td><td>20.00</td><td>SR</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004962708,
+        "latency_ms": 9545,
+        "tokens_in": 1847,
+        "tokens_out": 3862
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006008197",
+  "at": "2026-09-17T00:51:43.376Z",
+  "latencyMs": 14792,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "V201855892",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "30/03/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "RELAIS TOTAL OULMES",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "AUTOROUTE RABAT MEKNES 15000 KHEMISSET",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "PAT:37993027/RC:209031/IF:40132774 / ICE:000081241000051",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "DH",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": "REGLE PAR ESPECE",
+        "confidence": 0.92
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "CAFE CREME",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "12.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "24.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "DH",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "CAFE EXPRESSO",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "10.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "20.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "DH",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "CHOCOLAT CHAUD",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "12.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "12.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "DH",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "56.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "56.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>DESIGNATION</th><th>P.U.</th><th>QTE</th><th>TOTAL</th></tr></thead><tbody><tr><td>CAFE CREME</td><td>12.00</td><td>2</td><td>24.00</td></tr><tr><td>CAFE EXPRESSO</td><td>10.00</td><td>2</td><td>20.00</td></tr><tr><td>CHOCOLAT CHAUD</td><td>12.00</td><td>1</td><td>12.00</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>DESIGNATION</th><th>P.U.</th><th>QTE</th><th>TOTAL</th></tr></thead><tbody><tr><td>CAFE CREME</td><td>12.00</td><td>2</td><td>24.00</td></tr><tr><td>CAFE EXPRESSO</td><td>10.00</td><td>2</td><td>20.00</td></tr><tr><td>CHOCOLAT CHAUD</td><td>12.00</td><td>1</td><td>12.00</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004931808,
+        "latency_ms": 12317,
+        "tokens_in": 1840,
+        "tokens_out": 3838
+      }
+    ]
+  }
+}

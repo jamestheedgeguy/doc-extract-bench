@@ -1,0 +1,130 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51007339653",
+  "at": "2026-09-17T00:38:05.275Z",
+  "latencyMs": 14720,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CSP0406159",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "15/09/2017",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "AIK HUAT HARDWARE ENTERPRISE (SETIA ALAM) SDN BHD",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "NO. 17-G, JALAN SETIA INDAH (X) U13/X, SETIA ALAM, SEKSYEN U13, 40170 SHAH ALAM,",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "000394528768",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": "Aunt Center",
+        "confidence": 0.92
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "40MM 2K/BELLE PADLOCK ??",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "9200310000040",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "8.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "24.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "24.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "1.36",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.92
+      },
+      "total": {
+        "value": "24.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEM</th><th>QTY</th><th>U/P (RM)</th><th>AMOUNT (RM)</th></tr></thead><tbody><tr><td>920031000004040MM 2K/BELLE PADLOCK ??</td><td>3</td><td>8.00</td><td>24.00</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>ITEM</th><th>QTY</th><th>U/P (RM)</th><th>AMOUNT (RM)</th></tr></thead><tbody><tr><td>9200310000040<br>40MM 2K/BELLE PADLOCK ??</td><td>3</td><td>8.00</td><td>24.00</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004454808,
+        "latency_ms": 11375,
+        "tokens_in": 1866,
+        "tokens_out": 3434
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0013",
+  "at": "2026-09-17T01:00:16.805Z",
+  "latencyMs": 17706,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "A FUNG",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "BASO KUAH",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "43636.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "43636.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "A.MINERAL GELAS",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "3000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "3000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "46636.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "4664.00",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "51300.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>BASO KUAH</td><td>1</td><td>43,636</td><td>43,636</td></tr><tr><td>A.MINERAL GELAS</td><td>1</td><td>3,000</td><td>3,000</td></tr><tr><td colspan=\"3\">TOTAL</td><td>46,636</td></tr><tr><td colspan=\"3\">TAX 10.00 %</td><td>4,664</td></tr><tr><td colspan=\"3\">GRAND TOTAL</td><td>51,300</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>BASO KUAH</td><td>1</td><td>43,636</td><td>43,636</td></tr><tr><td>A.MINERAL GELAS</td><td>1</td><td>3,000</td><td>3,000</td></tr><tr><td colspan=\"3\">TOTAL</td><td>46,636</td></tr><tr><td colspan=\"3\">TAX 10.00 %</td><td>4,664</td></tr><tr><td colspan=\"3\">GRAND TOTAL</td><td>51,300</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.005406708,
+        "latency_ms": 10657,
+        "tokens_in": 1867,
+        "tokens_out": 4227
+      }
+    ]
+  }
+}

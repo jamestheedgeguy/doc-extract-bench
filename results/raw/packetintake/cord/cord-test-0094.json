@@ -1,0 +1,208 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0094",
+  "at": "2026-09-17T01:42:36.459Z",
+  "latencyMs": 37698,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "PHO 24",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "TAHU GORENG",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "28000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "28000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "CAKWE",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "17000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "17000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "PHO TAI CHIN (R)",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "63000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "63000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "TEA",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "11000.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "11000.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "119000.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "21063.00",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "140063.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><tr><td>1</td><td>TAHU GORENG</td><td>28,000</td></tr><tr><td>1</td><td>CAKWE</td><td>17,000</td></tr><tr><td>1</td><td>PHO TAI CHIN (R)</td><td>63,000</td></tr><tr><td>1</td><td>TEA</td><td>11,000</td></tr><tr><td></td><td>Sub Total</td><td>119,000</td></tr><tr><td></td><td>Serv. 7.0%</td><td>8,330</td></tr><tr><td></td><td>PB1 10.0%</td><td>12,733</td></tr><tr><td></td><td>Grand Total</td><td>140,063</td></tr><tr><td></td><td>CREDIT CAR:</td><td>140,063</td></tr></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><tr><td>1</td><td>TAHU GORENG</td><td>28,000</td></tr><tr><td>1</td><td>CAKWE</td><td>17,000</td></tr><tr><td>1</td><td>PHO TAI CHIN (R)</td><td>63,000</td></tr><tr><td>1</td><td>TEA</td><td>11,000</td></tr><tr><td></td><td>Sub Total</td><td>119,000</td></tr><tr><td></td><td>Serv. 7.0%</td><td>8,330</td></tr><tr><td></td><td>PB1 10.0%</td><td>12,733</td></tr><tr><td></td><td>Grand Total</td><td>140,063</td></tr><tr><td></td><td>CREDIT CAR:</td><td>140,063</td></tr></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.008192208,
+        "latency_ms": 28406,
+        "tokens_in": 1888,
+        "tokens_out": 6543
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006466055",
+  "at": "2026-09-16T23:21:30.921Z",
+  "latencyMs": 36390,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "222221980",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "2018-04-28",
+        "confidence": 0.45
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "CHECKERS HYPERMARKET SDN BHD (JALAN KLANG LAMA)",
+        "confidence": 0.45
+      },
+      "vendor_address": {
+        "value": "LOT 2942 & 2945, JLN SERI SENTOSA 8, SERI SENTOSA, OFF JLN KLANG LAMA, 58000 KUALA LUMPUR.",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "002013487104",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.45
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "SAJI MINYAK MASAK - 5KG(Z) (BTL)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "22.90",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "19.99",
+          "confidence": 0.35
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "19.99",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "2.91",
+        "confidence": 0.45
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "20.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Discount/GST</th><th>Amount</th></tr></thead><tbody><tr><td>SAJI MINYAK MASAK - 5KG(Z) (BTL)</td><td>1</td><td>22.90</td><td>-(13%= 2.91)</td><td>19.99</td></tr><tr><td colspan=\"4\">TOTAL</td><td>19.99</td></tr><tr><td colspan=\"4\">Rounding Adj</td><td>0.01</td></tr><tr><td colspan=\"4\">Rounding</td><td>20.00</td></tr><tr><td colspan=\"4\">GST INCLUDED</td><td>0.00</td></tr><tr><td colspan=\"4\">CASH</td><td>20.00</td></tr><tr><td colspan=\"4\">CHANGE</td><td>0.00</td></tr><tr><td colspan=\"4\">TOTAL LOADING CHARGES</td><td>0.00</td></tr></tbody></table>",
+      "confidence": 0.45
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Discount/GST</th><th>Amount</th></tr></thead><tbody><tr><td>SAJI MINYAK MASAK - 5KG(Z) (BTL)</td><td>1</td><td>22.90</td><td>-(13%= 2.91)</td><td>19.99</td></tr><tr><td colspan=\"4\">TOTAL</td><td>19.99</td></tr><tr><td colspan=\"4\">Rounding Adj</td><td>0.01</td></tr><tr><td colspan=\"4\">Rounding</td><td>20.00</td></tr><tr><td colspan=\"4\">GST INCLUDED</td><td>0.00</td></tr><tr><td colspan=\"4\">CASH</td><td>20.00</td></tr><tr><td colspan=\"4\">CHANGE</td><td>0.00</td></tr><tr><td colspan=\"4\">TOTAL LOADING CHARGES</td><td>0.00</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "qty_price_ne_amount",
+        "severity": "hard",
+        "message": "qty*unit_price 22.90 != amount 19.99",
+        "path": "line_items[0].amount"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.0017097,
+        "latency_ms": 19758,
+        "tokens_in": 1847,
+        "tokens_out": 963
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.0034281,
+        "latency_ms": 11780,
+        "tokens_in": 1847,
+        "tokens_out": 2395
+      }
+    ]
+  }
+}

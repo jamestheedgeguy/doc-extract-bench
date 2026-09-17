@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template36_Instance185",
+  "at": "2026-09-16T22:03:45.626Z",
+  "latencyMs": 8692,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV/39-98/152",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "08-Sep-1999",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": "047 Jackson Meadows Apt. 391, Pearsonmouth, OH 83042 US",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "24AADCP1453)AZZ",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Joel Jones",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "$",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "School relate role.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "58.06",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "174.18",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "$",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "With seem.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "54.61",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "54.61",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "$",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "228.79",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "239.04",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>School relate role.</td><td>58.06</td><td>3.00</td><td>174.18</td></tr><tr><td>With seem.</td><td>54.61</td><td>1.00</td><td>54.61</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>School relate role.</td><td>58.06</td><td>3.00</td><td>174.18</td></tr><tr><td>With seem.</td><td>54.61</td><td>1.00</td><td>54.61</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001282908,
+        "latency_ms": 2541,
+        "tokens_in": 1841,
+        "tokens_out": 797
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.000888252,
+        "latency_ms": 3363,
+        "tokens_in": 1841,
+        "tokens_out": 719
+      }
+    ]
+  }
+}

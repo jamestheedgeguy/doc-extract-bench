@@ -1,0 +1,137 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005676545",
+  "at": "2026-09-17T00:37:34.157Z",
+  "latencyMs": 15633,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "CS00012727",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "13/01/2018",
+        "confidence": 0.7
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "SYARIKAT PERNIAGAAN GIN KEE",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "NO 290, JALAN AIR PANAS, SETAPAK, 53200, KUALA LUMPUR.",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "000750673920",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "CASH",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "GLOVE 1200 (PER PAIR)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "1432",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "3",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "2.12",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "6.36",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "6.00",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "0.36",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": "0.00",
+        "confidence": 0.7
+      },
+      "total": {
+        "value": "6.36",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td>1432</td><td>3</td><td>2.12</td><td>6.36</td><td>SR</td></tr><tr><td colspan=\"5\">GLOVE 1200 (PER PAIR)</td></tr><tr><td colspan=\"2\">Total Qty</td><td>3</td><td>6.36</td><td></td></tr><tr><td colspan=\"3\">Total Sales (Excluding GST) :</td><td>6.00</td><td></td></tr><tr><td colspan=\"3\">Discount :</td><td>0.00</td><td></td></tr><tr><td colspan=\"3\">Total GST :</td><td>0.36</td><td></td></tr><tr><td colspan=\"3\">Rounding :</td><td>0.00</td><td></td></tr><tr><td colspan=\"3\">Total Sales (Inclusive of GST) :</td><td>6.36</td><td></td></tr><tr><td colspan=\"3\">CASH :</td><td>6.36</td><td></td></tr><tr><td colspan=\"3\">Change :</td><td>0.00</td><td></td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%;\"><thead><tr><th>Item</th><th>Qty</th><th>S/Price</th><th>Amount</th><th>Tax</th></tr></thead><tbody><tr><td>1432</td><td>3</td><td>2.12</td><td>6.36</td><td>SR</td></tr><tr><td colspan=\"5\">GLOVE 1200 (PER PAIR)</td></tr><tr><td colspan=\"2\" align=\"right\">Total Qty</td><td>3</td><td>6.36</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">Total Sales (Excluding GST) :</td><td>6.00</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">Discount :</td><td>0.00</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">Total GST :</td><td>0.36</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">Rounding :</td><td>0.00</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">Total Sales (Inclusive of GST) :</td><td>6.36</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">CASH :</td><td>6.36</td><td></td></tr><tr><td colspan=\"3\" align=\"right\">Change :</td><td>0.00</td><td></td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 6.36 != subtotal 6.00",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.004831908,
+        "latency_ms": 13085,
+        "tokens_in": 1891,
+        "tokens_out": 3742
+      }
+    ]
+  }
+}

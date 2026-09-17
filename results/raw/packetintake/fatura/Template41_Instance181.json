@@ -1,0 +1,197 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template41_Instance181",
+  "at": "2026-09-16T22:06:48.802Z",
+  "latencyMs": 18621,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "9525-747",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "03-May-2017",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "Buchanan and Sons",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "831 Harrison Manors Suite 420, New Pamela, MO 75723 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "34AABCBSS76GIZX",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Caitlin Clark",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "USD",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "Please send payment within 8 days of receiving this invoice. There will be a 2.5% interest charge per month on late invoices.",
+        "confidence": 0.45
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Your red imagine brother.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "22.58",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "135.48",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Property similar.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "90.84",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "454.20",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Central finally nothing.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "3.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "72.48",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "217.44",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "USD",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "807.12",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "821.03",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>6.00</td><td>Your red imagine brother.</td><td>22.58</td><td>135.48</td></tr><tr><td>5.00</td><td>Property similar.</td><td>90.84</td><td>454.20</td></tr><tr><td>3.00</td><td>Central finally nothing.</td><td>72.48</td><td>217.44</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>6.00</td><td>Your red imagine brother.</td><td>22.58</td><td>135.48</td></tr><tr><td>5.00</td><td>Property similar.</td><td>90.84</td><td>454.20</td></tr><tr><td>3.00</td><td>Central finally nothing.</td><td>72.48</td><td>217.44</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002810808,
+        "latency_ms": 6814,
+        "tokens_in": 1878,
+        "tokens_out": 2061
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.003941352,
+        "latency_ms": 8842,
+        "tokens_in": 1878,
+        "tokens_out": 3254
+      }
+    ]
+  }
+}

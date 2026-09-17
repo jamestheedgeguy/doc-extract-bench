@@ -1,0 +1,177 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template33_Instance185",
+  "at": "2026-09-16T22:02:05.785Z",
+  "latencyMs": 12701,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV/79-42/775",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "02-Mar-1994",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": "23-Mar-2015",
+        "confidence": 0.35
+      },
+      "vendor_name": {
+        "value": "Duran, Morgan and Lopez",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "4901 Long Wall Apt. 620, Joshuaville, CT 95783 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "GSTIN 336SPTNO37LG120",
+        "confidence": 0.45
+      },
+      "customer_name": {
+        "value": "Ryan Mcdonald",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Specific might professor.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      },
+      {
+        "description": {
+          "value": "Billion.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": null,
+          "confidence": null
+        },
+        "amount": {
+          "value": null,
+          "confidence": null
+        },
+        "currency": {
+          "value": null,
+          "confidence": null
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "424.68",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "76.44",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "440.58",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Specific might professor.</td><td>5.00</td><td>$12.84</td></tr><tr><td>Billion.</td><td>4.00</td><td>$90.12</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\"><thead><tr><th>ITEMS</th><th>QUANTITY</th><th>PRICE</th></tr></thead><tbody><tr><td>Specific might professor.</td><td>5.00</td><td>$12.84</td></tr><tr><td>Billion.</td><td>4.00</td><td>$90.12</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      },
+      {
+        "code": "due_date_unparseable",
+        "severity": "hard",
+        "message": "due_date is not a recognized date",
+        "path": "header.due_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001194708,
+        "latency_ms": 2701,
+        "tokens_in": 1859,
+        "tokens_out": 719
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002756052,
+        "latency_ms": 7198,
+        "tokens_in": 1859,
+        "tokens_out": 2271
+      }
+    ]
+  }
+}

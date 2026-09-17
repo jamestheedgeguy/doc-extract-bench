@@ -1,0 +1,130 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006466065",
+  "at": "2026-09-17T00:52:00.525Z",
+  "latencyMs": 8174,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "095_01/03124",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "13/04/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "GHEE HIANG",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "GH DISTRIBUTOR & MARKETING SDN BHD (1097826-H) 95, Beach Road, 10300 Penang. 10400 Penang.",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "001315377152",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "RM",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "TAU SAR PNEAN (S) 24PCS @12.50",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "12.50",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "25.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "RM",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "25.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "1.42",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "25.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>QTY</th><th>ITEM</th><th>RM</th></tr></thead><tbody><tr><td>2</td><td>TAU SAR PNEAN (S) 24PCS @12.50</td><td>25.00 SR</td></tr><tr><td>2</td><td>SubTotal</td><td>25.00</td></tr><tr><td></td><td>Net Total</td><td>25.00</td></tr><tr><td></td><td>C</td><td>50.00</td></tr><tr><td></td><td>C. GE</td><td>25.00</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>QTY</th><th>ITEM</th><th>RM</th></tr></thead><tbody><tr><td>2</td><td>TAU SAR PNEAN (S) 24PCS @12.50</td><td>25.00 SR</td></tr><tr><td>2</td><td>SubTotal</td><td>25.00</td></tr><tr><td></td><td>Net Total</td><td>25.00</td></tr><tr><td></td><td>C</td><td>50.00</td></tr><tr><td></td><td>C. GE</td><td>25.00</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003459108,
+        "latency_ms": 6397,
+        "tokens_in": 1887,
+        "tokens_out": 2599
+      }
+    ]
+  }
+}

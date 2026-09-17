@@ -1,0 +1,171 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template36_Instance194",
+  "at": "2026-09-16T22:04:05.582Z",
+  "latencyMs": 19620,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV53030141",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "08-Aug-2009",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": "047 Jackson Meadows Apt. 391\nPearsonmouth, OH 83042 US",
+        "confidence": 0.45
+      },
+      "vendor_tax_id": {
+        "value": "24AADCP1453JAZZ",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "Linda Johnson",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "EUR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": "All payments to be made in cash.",
+        "confidence": 0.7
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Beautiful customer even.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "62.50",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "312.50",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.45
+        }
+      },
+      {
+        "description": {
+          "value": "Whether hour.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "83.99",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "503.94",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "EUR",
+          "confidence": 0.45
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "816.44",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "834.40",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>Beautiful customer even.</td><td>62.50</td><td>5.00</td><td>312.50</td></tr><tr><td>Whether hour.</td><td>83.99</td><td>6.00</td><td>503.94</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>Beautiful customer even.</td><td>62.50</td><td>5.00</td><td>312.50</td></tr><tr><td>Whether hour.</td><td>83.99</td><td>6.00</td><td>503.94</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "low",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002950908,
+        "latency_ms": 8752,
+        "tokens_in": 1841,
+        "tokens_out": 2187
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002833452,
+        "latency_ms": 8041,
+        "tokens_in": 1841,
+        "tokens_out": 2340
+      }
+    ]
+  }
+}

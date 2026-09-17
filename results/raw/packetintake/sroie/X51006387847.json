@@ -1,0 +1,189 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51006387847",
+  "at": "2026-09-17T00:20:24.159Z",
+  "latencyMs": 28255,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "83079570470",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "15/Apr/2017 04:56:46",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "BEMED (SP) SDN. BHD.",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": "No.49, Jalan Olnar G U3/G, Subang Perdana, 40150 Shah Alam, Selangor D.E. 03-7845 8155",
+        "confidence": 0.7
+      },
+      "vendor_tax_id": {
+        "value": "001734164480",
+        "confidence": 0.7
+      },
+      "customer_name": {
+        "value": "ONG GUAT CHYE",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "PRISTIN OMEGA-3 FISH OIL 2X150'S(VIP)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "209250",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "300.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "300.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "ALPHA LIPID LIFE LINE 450MG 450G",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "184810",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "2",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "165.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "330.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "BO-(DERMAPRO OINT) 15G",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": "178104",
+          "confidence": 0.7
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "635.00",
+        "confidence": 0.7
+      },
+      "tax": {
+        "value": "35.66",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "635.00",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Code&amp;Desc</th><th>Price</th><th>Total</th></tr></thead><tbody><tr><td>1</td><td>209250 PRISTIN OMEGA-3 FISH OIL 2X150'S(VIP)</td><td>300.00</td><td>300 SR</td></tr><tr><td>2</td><td>184810 ALPHA LIPID LIFE LINE 450MG 450G</td><td>165.00</td><td>330 SR</td></tr><tr><td>1</td><td>178104 BO-(DERMAPRO OINT) 15G</td><td>5.00</td><td>5 ZRL</td></tr><tr><td colspan=\"4\">4 Type: 3</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Code&Desc</th><th>Price</th><th>Total</th></tr></thead><tbody><tr><td>1</td><td>209250 PRISTIN OMEGA-3 FISH OIL 2X150'S(VIP)</td><td>300.00</td><td>300 SR</td></tr><tr><td>2</td><td>184810 ALPHA LIPID LIFE LINE 450MG 450G</td><td>165.00</td><td>330 SR</td></tr><tr><td>1</td><td>178104 BO-(DERMAPRO OINT) 15G</td><td>5.00</td><td>5 ZRL</td></tr><tr><td colspan=\"4\">4 Type: 3</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.007823508,
+        "latency_ms": 26547,
+        "tokens_in": 1887,
+        "tokens_out": 6236
+      }
+    ]
+  }
+}

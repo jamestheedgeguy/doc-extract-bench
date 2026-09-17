@@ -1,0 +1,208 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51008164997",
+  "at": "2026-09-17T00:44:21.945Z",
+  "latencyMs": 19018,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "V001-540417",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "15-06-2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "ONE ONE THREE SEAFOOD RESTAURANT SDN BHD",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "NO.1, TAMAN SRI DENGKIL, JALAN AIR HITAM 43800 DENGKIL, SELANGOR.",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "000670224384",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "MYR",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Cat Fish Item",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "120.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "120.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Vege item",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "18.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "18.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "White Rice",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "5.50",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "5.50",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "Beverage",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "5.00",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "5.00",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "MYR",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "148.50",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "0.00",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "148.50",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Total</th><th>TAX</th></tr></thead><tbody><tr><td>1</td><td>Cat Fish Item</td><td>120.00</td><td>SR</td></tr><tr><td>1</td><td>Vege item</td><td>18.00</td><td>SR</td></tr><tr><td>1</td><td>White Rice</td><td>5.50</td><td>SR</td></tr><tr><td>1</td><td>Beverage</td><td>5.00</td><td>SR</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Qty</th><th>Description</th><th>Total</th><th>TAX</th></tr></thead><tbody><tr><td>1</td><td>Cat Fish Item</td><td>120.00</td><td>SR</td></tr><tr><td>1</td><td>Vege item</td><td>18.00</td><td>SR</td></tr><tr><td>1</td><td>White Rice</td><td>5.50</td><td>SR</td></tr><tr><td>1</td><td>Beverage</td><td>5.00</td><td>SR</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.009168252,
+        "latency_ms": 16191,
+        "tokens_in": 1869,
+        "tokens_out": 7612
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fatura",
+  "docId": "Template23_Instance181",
+  "at": "2026-09-16T21:39:58.111Z",
+  "latencyMs": 14013,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "INV/53-12/823",
+        "confidence": 0.7
+      },
+      "invoice_date": {
+        "value": "23-Feb-2003",
+        "confidence": 0.35
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "King, Richards and Roy",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": "James Rangel",
+        "confidence": 0.7
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "$",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "Prove modern plan.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "6.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "62.57",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "375.42",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "$",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Pm attorney job.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "5.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "36.63",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "183.15",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "$",
+          "confidence": 0.7
+        }
+      },
+      {
+        "description": {
+          "value": "Now large.",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "4.00",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "85.26",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "341.04",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "$",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "917.34",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>Prove modern plan.</td><td>62.57</td><td>6.00</td><td>375.42</td></tr><tr><td>Pm attorney job.</td><td>36.63</td><td>5.00</td><td>183.15</td></tr><tr><td>Now large.</td><td>85.26</td><td>4.00</td><td>341.04</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Item</th><th>Price</th><th>Quantity</th><th>Amount</th></tr></thead><tbody><tr><td>Prove modern plan.</td><td>62.57</td><td>6.00</td><td>375.42</td></tr><tr><td>Pm attorney job.</td><td>36.63</td><td>5.00</td><td>183.15</td></tr><tr><td>Now large.</td><td>85.26</td><td>4.00</td><td>341.04</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [
+      {
+        "code": "invoice_date_unparseable",
+        "severity": "hard",
+        "message": "invoice_date is not a recognized date",
+        "path": "header.invoice_date"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003268008,
+        "latency_ms": 6465,
+        "tokens_in": 1878,
+        "tokens_out": 2442
+      },
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "agree",
+        "cost_usd": 0.002054952,
+        "latency_ms": 4873,
+        "tokens_in": 1878,
+        "tokens_out": 1682
+      }
+    ]
+  }
+}

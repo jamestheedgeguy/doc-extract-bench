@@ -1,0 +1,156 @@
+{
+  "vendor": "packetintake",
+  "dataset": "sroie",
+  "docId": "X51005757235",
+  "at": "2026-09-17T00:09:02.777Z",
+  "latencyMs": 12917,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": "2018030910080010555",
+        "confidence": 0.92
+      },
+      "invoice_date": {
+        "value": "09/03/2018",
+        "confidence": 0.92
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "AEON CO. (M) BHD (126926-H)",
+        "confidence": 0.92
+      },
+      "vendor_address": {
+        "value": "3RD FLR, AEON TAMAN MALURI SC\nJLN JEJAKA, TAMAN MALURI\nCHERAS, 55100 KUALA LUMPUR",
+        "confidence": 0.92
+      },
+      "vendor_tax_id": {
+        "value": "002017394688",
+        "confidence": 0.92
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "SR",
+        "confidence": 0.92
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "BIO ZIP POWDER",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "000002781709",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "15.50",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "15.50",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "SR",
+          "confidence": 0.92
+        }
+      },
+      {
+        "description": {
+          "value": "BIO ZIP POWDER",
+          "confidence": 0.92
+        },
+        "sku": {
+          "value": "000002781709",
+          "confidence": 0.92
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.92
+        },
+        "unit_price": {
+          "value": "15.50",
+          "confidence": 0.92
+        },
+        "amount": {
+          "value": "15.50",
+          "confidence": 0.92
+        },
+        "currency": {
+          "value": "SR",
+          "confidence": 0.92
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "31.00",
+        "confidence": 0.92
+      },
+      "tax": {
+        "value": "1.76",
+        "confidence": 0.92
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "31.00",
+        "confidence": 0.92
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>BIO ZIP POWDER</td><td>000002781709</td><td>1</td><td>15.50</td><td>15.50</td><td>SR</td></tr><tr><td>BIO ZIP POWDER</td><td>000002781709</td><td>1</td><td>15.50</td><td>15.50</td><td>SR</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table><thead><tr><th>Description</th><th>SKU</th><th>Quantity</th><th>Unit Price</th><th>Amount</th><th>Currency</th></tr></thead><tbody><tr><td>BIO ZIP POWDER</td><td>000002781709</td><td>1</td><td>15.50</td><td>15.50</td><td>SR</td></tr><tr><td>BIO ZIP POWDER</td><td>000002781709</td><td>1</td><td>15.50</td><td>15.50</td><td>SR</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.003402408,
+        "latency_ms": 8149,
+        "tokens_in": 1866,
+        "tokens_out": 2557
+      }
+    ]
+  }
+}

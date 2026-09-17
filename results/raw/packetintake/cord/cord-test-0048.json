@@ -1,0 +1,137 @@
+{
+  "vendor": "packetintake",
+  "dataset": "cord",
+  "docId": "cord-test-0048",
+  "at": "2026-09-17T01:24:12.976Z",
+  "latencyMs": 17674,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": "KOI Cafe",
+        "confidence": 0.7
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": "IDR",
+        "confidence": 0.7
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [
+      {
+        "description": {
+          "value": "S-Hazelnut KOI Cafe (25%, Less Ice)",
+          "confidence": 0.7
+        },
+        "sku": {
+          "value": null,
+          "confidence": null
+        },
+        "quantity": {
+          "value": "1",
+          "confidence": 0.7
+        },
+        "unit_price": {
+          "value": "25000",
+          "confidence": 0.7
+        },
+        "amount": {
+          "value": "25000",
+          "confidence": 0.7
+        },
+        "currency": {
+          "value": "IDR",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "totals": {
+      "subtotal": {
+        "value": "22728",
+        "confidence": 0.35
+      },
+      "tax": {
+        "value": "2272",
+        "confidence": 0.7
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": "25000",
+        "confidence": 0.7
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1X S-Hazelnut KOI Cafe @25,00025%Less Ice</td><td>1</td><td>25,000</td><td>25,000</td></tr><tr><td colspan=\"3\">PB1</td><td>2,272</td></tr><tr><td colspan=\"3\">Subtotal</td><td>22,728</td></tr><tr><td colspan=\"3\">Total</td><td>25,000</td></tr><tr><td colspan=\"3\">Cash</td><td>100,000</td></tr><tr><td colspan=\"3\">CHANGE</td><td>75,000</td></tr></tbody></table>",
+      "confidence": 0.7
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><th>Description</th><th>Qty</th><th>Unit Price</th><th>Amount</th></tr></thead><tbody><tr><td>1X S-Hazelnut KOI Cafe @25,000<br/>25%<br/>Less Ice</td><td>1</td><td>25,000</td><td>25,000</td></tr><tr><td colspan=\"3\">PB1</td><td>2,272</td></tr><tr><td colspan=\"3\">Subtotal</td><td>22,728</td></tr><tr><td colspan=\"3\">Total</td><td>25,000</td></tr><tr><td colspan=\"3\">Cash</td><td>100,000</td></tr><tr><td colspan=\"3\">CHANGE</td><td>75,000</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "photo"
+    ],
+    "validator_flags": [
+      {
+        "code": "line_sum_ne_subtotal",
+        "severity": "hard",
+        "message": "line amounts 25000 != subtotal 22728",
+        "path": "totals.subtotal"
+      }
+    ],
+    "confidence_tier": "medium",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.001256208,
+        "latency_ms": 7996,
+        "tokens_in": 1888,
+        "tokens_out": 763
+      }
+    ]
+  }
+}

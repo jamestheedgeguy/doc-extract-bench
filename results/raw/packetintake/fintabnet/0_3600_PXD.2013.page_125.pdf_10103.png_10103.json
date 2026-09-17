@@ -1,0 +1,103 @@
+{
+  "vendor": "packetintake",
+  "dataset": "fintabnet",
+  "docId": "0:3600:PXD.2013.page_125.pdf_10103.png#10103",
+  "at": "2026-09-17T01:48:14.019Z",
+  "latencyMs": 8105,
+  "raw": {
+    "header": {
+      "invoice_number": {
+        "value": null,
+        "confidence": null
+      },
+      "invoice_date": {
+        "value": null,
+        "confidence": null
+      },
+      "due_date": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_name": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_address": {
+        "value": null,
+        "confidence": null
+      },
+      "vendor_tax_id": {
+        "value": null,
+        "confidence": null
+      },
+      "customer_name": {
+        "value": null,
+        "confidence": null
+      },
+      "po_number": {
+        "value": null,
+        "confidence": null
+      },
+      "currency": {
+        "value": null,
+        "confidence": null
+      },
+      "payment_terms": {
+        "value": null,
+        "confidence": null
+      },
+      "iban": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "line_items": [],
+    "totals": {
+      "subtotal": {
+        "value": null,
+        "confidence": null
+      },
+      "tax": {
+        "value": null,
+        "confidence": null
+      },
+      "freight": {
+        "value": null,
+        "confidence": null
+      },
+      "discount": {
+        "value": null,
+        "confidence": null
+      },
+      "total": {
+        "value": null,
+        "confidence": null
+      }
+    },
+    "table_html": {
+      "value": "<table><thead><tr><td></td><td colspan=\"3\">Year Ended December 31,</td></tr><tr><td></td><td>2013</td><td>2012</td><td>2011</td></tr><tr><td></td><td colspan=\"3\">(in thousands, except percentages)</td></tr></thead><tbody><tr><td>Income (loss) from continuing operations before income taxes</td><td>$ (561,719)</td><td>$ 837,520</td><td>$ 596,068</td></tr><tr><td>Less: Net income attributable to noncontrolling interests</td><td>(38,865)</td><td>(50,537)</td><td>(47,425)</td></tr><tr><td>Income (loss) from continuing operations attributable to common stockholders before income taxes</td><td>(600,584)</td><td>786,983</td><td>548,643</td></tr><tr><td>Federal statutory income tax rate</td><td>35%</td><td>35%</td><td>35%</td></tr><tr><td>(Provision) benefit for federal income taxes</td><td>210,204</td><td>(275,444)</td><td>(192,025)</td></tr><tr><td>State income tax (provision) benefit (net of federal tax)</td><td>13,883</td><td>(8,206)</td><td>(5,576)</td></tr><tr><td>Other</td><td>(12,312)</td><td>(6,838)</td><td>9,323</td></tr><tr><td>Income tax (provision) benefit from continuing operations</td><td>$ 211,775</td><td>$ (290,488)</td><td>$ (188,278)</td></tr><tr><td>Effective income tax rate, excluding income attributable to the noncontrolling interest</td><td>35%</td><td>37%</td><td>34%</td></tr></tbody></table>",
+      "confidence": 0.92
+    },
+    "table_html_raw": {
+      "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"4\"><thead><tr><td></td><td colspan=\"3\" align=\"center\">Year Ended December 31,</td></tr><tr><td></td><td align=\"center\">2013</td><td align=\"center\">2012</td><td align=\"center\">2011</td></tr><tr><td></td><td colspan=\"3\" align=\"center\">(in thousands, except percentages)</td></tr></thead><tbody><tr><td>Income (loss) from continuing operations before income taxes</td><td align=\"right\">$ (561,719)</td><td align=\"right\">$ 837,520</td><td align=\"right\">$ 596,068</td></tr><tr><td>Less: Net income attributable to noncontrolling interests</td><td align=\"right\">(38,865)</td><td align=\"right\">(50,537)</td><td align=\"right\">(47,425)</td></tr><tr><td>Income (loss) from continuing operations attributable to common stockholders before income taxes</td><td align=\"right\">(600,584)</td><td align=\"right\">786,983</td><td align=\"right\">548,643</td></tr><tr><td>Federal statutory income tax rate</td><td align=\"right\">35%</td><td align=\"right\">35%</td><td align=\"right\">35%</td></tr><tr><td>(Provision) benefit for federal income taxes</td><td align=\"right\">210,204</td><td align=\"right\">(275,444)</td><td align=\"right\">(192,025)</td></tr><tr><td>State income tax (provision) benefit (net of federal tax)</td><td align=\"right\">13,883</td><td align=\"right\">(8,206)</td><td align=\"right\">(5,576)</td></tr><tr><td>Other</td><td align=\"right\">(12,312)</td><td align=\"right\">(6,838)</td><td align=\"right\">9,323</td></tr><tr><td>Income tax (provision) benefit from continuing operations</td><td align=\"right\">$ 211,775</td><td align=\"right\">$ (290,488)</td><td align=\"right\">$ (188,278)</td></tr><tr><td>Effective income tax rate, excluding income attributable to the noncontrolling interest</td><td align=\"right\">35%</td><td align=\"right\">37%</td><td align=\"right\">34%</td></tr></tbody></table>",
+      "confidence": null
+    },
+    "page_types": [
+      "scan"
+    ],
+    "validator_flags": [],
+    "confidence_tier": "high",
+    "model_id": "~deepseek/deepseek-flash-latest",
+    "prompt_version": "packet-intake-extract/v1",
+    "model_runs": [
+      {
+        "model_id": "deepseek/deepseek-v4.1-flash",
+        "purpose": "extract",
+        "cost_usd": 0.002241408,
+        "latency_ms": 7657,
+        "tokens_in": 1092,
+        "tokens_out": 1783
+      }
+    ]
+  }
+}
